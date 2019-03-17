@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  17 MAR 2019 20:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  17 MAR 2019 23:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -13,11 +13,9 @@ LaTeX Warning: You have requested document class `Style/ucasthesis',
                but the document class provides `ucasthesis'.
 
 Document Class: ucasthesis 2014/10/01 v1.0 LaTeX document class
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexbook.cls
-(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexbook.cls (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018/03/05 L3 programming layer (loader) 
-
-(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+ (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/03/05 L3 programming layer (code)
 \c_max_int=\count80
 \l_tmpa_int=\count81
@@ -155,13 +153,11 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen130
 \l__coffin_scaled_total_height_dim=\dimen131
 \l__coffin_scaled_width_dim=\dimen132
-)
-(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+) (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
 \g__driver_image_int=\count158
 ))
-Document Class: ctexbook 2018/01/28 v2.4.12 Chinese adapter for class book (CTE
-X)
+Document Class: ctexbook 2018/01/28 v2.4.12 Chinese adapter for class book (CTEX)
 (c:/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018/02/21 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count159
@@ -169,36 +165,28 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 \l__xparse_m_args_int=\count161
 \l__xparse_mandatory_args_int=\count162
 \l__xparse_v_nesting_int=\count163
-)
-(c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
 \g__file_internal_ior=\read1
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2018/01/28 v2.4.12 Document and package hooks (CTEX)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2018/01/28 v2.4.12 Patching commands (CTEX)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-))
-(c:/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+)) (c:/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \l__ctex_tmp_int=\count164
 \l__ctex_tmp_box=\box41
 \l__ctex_tmp_dim=\dimen133
 \g__ctex_font_size_flag=\count165
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+ (c:/texlive/2018/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2018/01/28 v2.4.12 Option configuration file (CTEX)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/base/book.cls
+) (c:/texlive/2018/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2018/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -215,14 +203,11 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-)
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+) (c:/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2018/01/28 v2.4.12 XeLaTeX adapter (CTEX)
-
-(c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+ (c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2018/04/07 v3.7.0 Typesetting CJK scripts with XeLaTeX
-
-(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2018/02/21 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen135
 \l__xtemplate_tmp_int=\count175
@@ -449,13 +434,10 @@ Package: xtemplate 2018/02/21 L3 Experimental prototype document functions
 . Defining command \xeCJKOffVerbAddon with sig. '' on line 4121.
 .................................................
 \l__xeCJK_verb_exspace_skip=\skip55
-
-(c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
-
-(c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
-X
+ (c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count187
 \l__fontspec_language_int=\count188
 \l__fontspec_strnum_int=\count189
@@ -467,11 +449,9 @@ X
 \l__fontspec_tmpa_dim=\dimen164
 \l__fontspec_tmpb_dim=\dimen165
 \l__fontspec_tmpc_dim=\dimen166
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+ (c:/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 ))
@@ -645,8 +625,7 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 . 
 . Defining command \UndeclareComposite with sig. 'mm' on line 3706.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+ (c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
 LaTeX Info: Redefining \itshape on input line 3891.
 LaTeX Info: Redefining \slshape on input line 3896.
 LaTeX Info: Redefining \scshape on input line 3901.
@@ -735,14 +714,11 @@ LaTeX Info: Redefining \- on input line 4015.
 . 
 . Redefining command \fontfamily with sig. 'm' on line 4628.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+ (c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2018/04/07 v3.7.0 Configuration file for xeCJK package
-))
-(c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+)) (c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
 Package: xeCJKfntef 2018/04/07 v3.7.0 xeCJK font effect
-
-(c:/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
+ (c:/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box43
 \UL@hyphenbox=\box44
 \UL@skip=\skip56
@@ -753,16 +729,13 @@ Package: xeCJKfntef 2018/04/07 v3.7.0 xeCJK font effect
 \ULC@box=\box45
 Package: ulem 2012/05/18
 \ULdepth=\dimen169
-)
-(c:/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(c:/texlive/2018/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks15
-)
-(c:/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
 Package: CJKfntef 2015/04/18 4.8.4
 \CJK@fntefSkip=\skip57
 \CJK@nest=\count196
@@ -872,8 +845,7 @@ Package: CJKfntef 2015/04/18 4.8.4
 . 
 . Defining command \CTEXnoindent with sig. '' on line 537.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2018/01/28 v2.6 Typesetting numbers with Chinese glyphs
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -932,8 +904,7 @@ Package: zhnumber 2018/01/28 v2.6 Typesetting numbers with Chinese glyphs
 . 
 . Defining command \zhnumsetup with sig. '+m' on line 934.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+ (c:/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2018/01/28 v2.6 Chinese numerals with UTF8 encoding
 ))
 .................................................
@@ -963,12 +934,9 @@ File: zhnumber-utf8.cfg 2018/01/28 v2.6 Chinese numerals with UTF8 encoding
 . 
 . Redefining command \refstepcounter with sig. 'm' on line 1323.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
-File: ctex-scheme-chinese-book.def 2018/01/28 v2.4.12 Chinese scheme for book (
-CTEX)
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+ (c:/texlive/2018/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
+File: ctex-scheme-chinese-book.def 2018/01/28 v2.4.12 Chinese scheme for book (CTEX)
+ (c:/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2018/01/28 v2.4.12 Caption with encoding UTF8 (CTEX)
 ))
 .................................................
@@ -976,8 +944,7 @@ File: ctex-name-utf8.cfg 2018/01/28 v2.4.12 Caption with encoding UTF8 (CTEX)
 . 
 . Defining command \zihao with sig. 'm' on line 1326.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/ctex-cs4size.clo
+ (c:/texlive/2018/texmf-dist/tex/latex/ctex/ctex-cs4size.clo
 File: ctex-cs4size.clo 2018/01/28 v2.4.12 cs4size option (CTEX)
 )
 .................................................
@@ -985,14 +952,10 @@ File: ctex-cs4size.clo 2018/01/28 v2.4.12 cs4size option (CTEX)
 . 
 . Defining command \CTeX with sig. '' on line 1430.
 .................................................
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2018/01/28 v2.4.12 Windows fonts definition (CTE
-X)
-
-(c:/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
-File: ctex-fontset-windowsnew.def 2018/01/28 v2.4.12 Windows fonts definition f
-or Vista or later version (CTEX)
+ (c:/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2018/01/28 v2.4.12 Windows fonts definition (CTEX)
+ (c:/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+File: ctex-fontset-windowsnew.def 2018/01/28 v2.4.12 Windows fonts definition for Vista or later version (CTEX)
 \g__fontspec_family_SimSun_int=\count198
 .................................................
 . fontspec info: "no-font-shape"
@@ -1061,15 +1024,12 @@ or Vista or later version (CTEX)
 .................................................
 ))) (c:/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2018/01/28 v2.4.12 Configuration file (CTEX)
-)
-(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count199
-))
-(./Style/ucasthesis.cfg
+)) (./Style/ucasthesis.cfg
 File: ucasthesis.cfg 2014/10/01 v1.0 class configuration file
 ) (./Style/artratex.sty
 
@@ -1080,25 +1040,21 @@ Package: artratex 2014/10/01 v0.1 LaTeX macros package
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen175
-))
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen176
-)
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count266
@@ -1138,8 +1094,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(c:/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -1150,11 +1105,9 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip66
 \thm@headsep=\skip67
 \dth@everypar=\toks26
-)
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -1265,24 +1218,17 @@ LaTeX Info: Redefining \rmfamily on input line 277.
 LaTeX Info: Redefining \sffamily on input line 279.
 (c:/texlive/2018/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2017/12/14 v1.53
-
-`newtxmath' v1.53, 2017/12/14 Math macros based on txfonts (msharpe)
-(c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ `newtxmath' v1.53, 2017/12/14 Math macros based on txfonts (msharpe) (c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
-
-(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
+ (c:/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count281
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/centernot.sty
+)) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
-)
-(c:/texlive/2018/texmf-dist/tex/generic/kastrup/binhex.tex)
+) (c:/texlive/2018/texmf-dist/tex/generic/kastrup/binhex.tex)
 \tx@Isdigit=\count282
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 156.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1290,8 +1236,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/entextrm/m/n on input line 156.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/entextrm/m/n --> OT1/entextrm/b/n on input line 157
-.
+(Font)                  OT1/entextrm/m/n --> OT1/entextrm/b/n on input line 157.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/entextsf/m/n on input line 163.
@@ -1313,8 +1258,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/entextrm/b/n on input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/entextrm/m/it --> OT1/entextrm/b/it on input line 1
-68.
+(Font)                  OT1/entextrm/m/it --> OT1/entextrm/b/it on input line 168.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/entextsf/m/n --> TU/entextsf/b/n on input line 169.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
@@ -1349,20 +1293,17 @@ LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
 (Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 304.
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 317.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 3
-17.
+(Font)              `largesymbols' in the math version `normal' on input line 317.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 317.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 317
-.
+(Font)              `largesymbols' in the math version `bold' on input line 317.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 317.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 318.
 \symlargesymbolsTXA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
-
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 332.
 LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 503.
 LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 504.
@@ -1399,48 +1340,38 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/entextrm/b/n --> OT1/ntxtlf/m/n on input line 287.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/ntxtlf/m/n --> OT1/ntxtlf/b/n on input line 288.
-
-(c:/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup10
-)
-(c:/texlive/2018/texmf-dist/tex/latex/mathalfa/mathalfa.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/mathalfa/mathalfa.sty
 Package: mathalfa 2017/02/23 - 1.09mathalfa (License LPPL) Michael Sharpe
 LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 189.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
 (Font)                  U/cmsy/m/n --> U/cmsy/b/n on input line 190.
-)
-(c:/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip68
 \bibsep=\skip69
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count283
-)
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen184
 \Gin@req@width=\dimen185
-)
-(c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen186
@@ -1452,23 +1383,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@hangindent=\dimen192
 )
 \c@ContinuedFloat=\count284
-)
-(c:/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count285
 \c@subtable=\count286
-)
-(c:/texlive/2018/texmf-dist/tex/latex/caption/bicaption.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/caption/bicaption.sty
 Package: bicaption 2016/03/27 v1.1-158 Bilingual Captions (AR)
 \bicaption@lang=\count287
 Package bicaption Info: main language is not set.
-)
-(c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
-)
-(c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
+) (c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 \f@nch@headwidth=\skip70
 \f@nch@O@elh=\skip71
 \f@nch@O@erh=\skip72
@@ -1478,20 +1404,16 @@ s
 \f@nch@O@erf=\skip76
 \f@nch@O@olf=\skip77
 \f@nch@O@orf=\skip78
-)
-(c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: xetex.def on input line 225.
-
-(c:/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-
-(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \col@sep=\dimen193
 \ar@mcellbox=\box53
@@ -1513,17 +1435,14 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+ (c:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
-(c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+)) (c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks31
 \verbatim@line=\toks32
 \verbatim@in@stream=\read2
-)
-(c:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks33
 \labelindent=\skip82
@@ -1531,8 +1450,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks34
 \enit@inbox=\box55
 \enitdp@description=\count289
-)
-(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count290
 \lst@gtempboxa=\box56
 \lst@token=\toks35
@@ -1545,25 +1463,20 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \lst@newlines=\count294
 \lst@lineno=\count295
 \lst@maxwidth=\dimen199
-
-(c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count296
 \lst@skipnumbers=\count297
 \lst@framebox=\box57
-)
-(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+) (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-
-(c:/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -1581,10 +1494,8 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (c:/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-(c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count305
 \float@exts=\toks36
@@ -1594,15 +1505,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@algorithm=\toks38
 \c@algorithm=\count306
-)
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -1619,16 +1526,14 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -1640,28 +1545,23 @@ Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen256
 \Hy@linkcounter=\count307
 \Hy@pagecounter=\count308
-
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count309
-
-(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4383.
-
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4509.
@@ -1672,8 +1572,7 @@ Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count310
-
-(c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1696,33 +1595,26 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Hfootnote=\count314
 )
 Package hyperref Info: Driver (autodetected): hxetex.
-
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2018/02/06 v6.86b Hyperref driver for XeTeX
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
 )
 \pdfm@box=\box60
 \c@Hy@AnnotLevel=\count315
 \HyField@AnnotCount=\count316
 \Fld@listcount=\count317
 \c@bookmark@seq@number=\count318
-
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip86
 )
 Package hyperref Info: Option `pdffitwindow' set `false' on input line 460.
 Package hyperref Info: Option `colorlinks' set `true' on input line 460.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 460.
-
-)
-(./Style/artracom.sty
+) (./Style/artracom.sty
 
 LaTeX Warning: You have requested package `Style/artracom',
                but the package provides `artracom'.
@@ -1732,13 +1624,11 @@ Package: artracom 2014/10/01 v0.1 LaTeX macros package
 Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count319
 \l__xeCJK_listings_flag_int=\count320
-)
-(./Thesis.aux)
+) (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 50.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 50
-.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 50.
  (c:/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
@@ -1755,27 +1645,21 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 50.
 LaTeX Font Info:    Try loading font information for U+ntxexa on input line 50.
-
-
-(c:/texlive/2018/texmf-dist/tex/latex/newtx/untxexa.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 50
-.
-
-(c:/texlive/2018/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 50.
+ (c:/texlive/2018/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 5
-0.
-
-(c:/texlive/2018/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 50.
+ (c:/texlive/2018/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
 LaTeX Font Info:    ... okay on input line 50.
@@ -1783,8 +1667,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 50.
 .................................................
 . fontspec info: "setup-math"
@@ -1828,11 +1711,9 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/entextrm/m/n --> TU/entextrm/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/entextrm/m/it --> TU/entextrm/m/it on input line 50
-.
+(Font)                  OT1/entextrm/m/it --> TU/entextrm/m/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/entextrm/b/n --> TU/entextrm/bx/n on input line 50.
-
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  TU/entextsf/m/n --> TU/entextsf/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
@@ -1840,8 +1721,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/entextrm/m/n --> TU/entextrm/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/entextrm/b/it --> TU/entextrm/bx/it on input line 5
-0.
+(Font)                  OT1/entextrm/b/it --> TU/entextrm/bx/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/entextsf/b/n --> TU/entextsf/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
@@ -1854,11 +1734,9 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count321
 \AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring ON on input line 50.
-
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count322
@@ -1866,8 +1744,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
-
-(./Thesis.out) (./Thesis.out)
+ (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
 
@@ -1905,36 +1782,27 @@ File: Img/ucas_logo.pdf Graphic file (type pdf)
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Try loading font information for U+msa on input line 34.
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 34.
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+ntxmia on input line 34.
-
-
-(c:/texlive/2018/texmf-dist/tex/latex/newtx/untxmia.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsym on input line 34.
-
-
-(c:/texlive/2018/texmf-dist/tex/latex/newtx/untxsym.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 34.
-
-
-(c:/texlive/2018/texmf-dist/tex/latex/newtx/untxsyc.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 34.
-
-(c:/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
@@ -1947,13 +1815,11 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
 ) [1
 
 
 
-]
-[2
+] [2
 
 
 ]
@@ -1987,8 +1853,7 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [7]
-[8
+ [7] [8
 
 ] (./Thesis.lot)
 \tf@lot=\write6
@@ -1998,39 +1863,40 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]) [11] [12
 
-]
-(./Tex/Mainmatter.tex (./Tex/Chap_Computation_Offloading.tex
+] (./Tex/Mainmatter.tex (./Tex/Chap_Computation_Offloading.tex
 第1章
 [1
 
 ] [2] [3] [4]
 Overfull \hbox (1.26395pt too wide) in paragraph at lines 54--55
-\TU/SimSun(1)/m/n/12.045 过 程 中 实 现 的。|  这 些 通 信 标 志 可 以 让 服 务 端 区 分 该 信 息 是 控 制
- 类 型  |（\TU/entextsf/m/n/12.045 ESTABLISH\TU/SimSun(1)/m/n/12.045 、|
+\TU/SimSun(1)/m/n/12.045 过 程 中 实 现 的。|  这 些 通 信 标 志 可 以 让 服 务 端 区 分 该 信 息 是 控 制 类 型  |（\TU/entextsf/m/n/12.045 ESTABLISH\TU/SimSun(1)/m/n/12.045 、|
  []
 
-[5] [6] [7])) [8] (./Tex/Appendix.tex
+[5] [6] [7]) (./Tex/Chap_Task_Scheduling.tex [8]
+第2章
+)) [9
+
+] [10
+
+] (./Tex/Appendix.tex
 附录 A
-LaTeX Font Info:    Try loading font information for OT1+entextrm on input line
- 19.
+LaTeX Font Info:    Try loading font information for OT1+entextrm on input line 19.
 LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
 
 LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 19.
 
-) [9
+) [11
+
+] [12] (./Thesis.bbl) (./Tex/Backmatter.tex [13
 
 
-] [10] (./Thesis.bbl) (./Tex/Backmatter.tex [11
 
+] [14
 
+] [15] [16
 
-] [12
-
-] [13] [14
-
-] [15]
-[16
+] [17] [18
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
@@ -2039,7 +1905,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EAA656640BC16954FD3C0E23BCF68D99.
+(rerunfilecheck)             Checksum: 9EC69E98EA8CEFC0C08AC20380B4614B.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2050,12 +1916,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 29644 strings out of 492970
- 580804 string characters out of 6137299
- 662509 words of memory out of 5000000
- 33206 multiletter control sequences out of 15000+600000
+ 29669 strings out of 492970
+ 582203 string characters out of 6137299
+ 662546 words of memory out of 5000000
+ 33228 multiletter control sequences out of 15000+600000
  577416 words of font info for 194 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,13n,94p,10550b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (34 pages).
+Output written on Thesis.pdf (36 pages).
