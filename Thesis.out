@@ -13,16 +13,22 @@
 \BOOKMARK [2][-]{subsection.1.4.2}{1.4.2 实验结果}{section.1.4}% 13
 \BOOKMARK [1][-]{section.1.5}{1.5 本章小结}{chapter.1}% 14
 \BOOKMARK [0][-]{chapter.2}{第2章  资源受限终端任务调度策略}{}% 15
-\BOOKMARK [1][-]{section.2.1}{2.1 研究背景}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.1}{2.1 引言}{chapter.2}% 16
 \BOOKMARK [1][-]{section.2.2}{2.2 相关工作}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.3}{2.3 Dynamic Weight GOA with Random Jumping（DJGOA）}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.4}{2.4\040Improved\040GOA\(IGOA\)}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.5}{2.5 实验}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.6}{2.6 本章小结}{chapter.2}% 21
-\BOOKMARK [0][-]{appendix.A}{附录 A  中国科学院大学学位论文撰写要求}{}% 22
-\BOOKMARK [1][-]{section.A.1}{A.1 论文无附录者无需附录部分}{appendix.A}% 23
-\BOOKMARK [1][-]{section.A.2}{A.2 测试公式编号}{appendix.A}% 24
-\BOOKMARK [1][-]{section.A.3}{A.3 测试生僻字}{appendix.A}% 25
-\BOOKMARK [0][-]{section*.10}{参考文献}{}% 26
-\BOOKMARK [0][-]{appendix*.12}{作者简历及攻读学位期间发表的学术论文与研究成果}{}% 27
-\BOOKMARK [0][-]{appendix*.19}{致谢}{}% 28
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 传统任务调度问题求解方法}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 启发式算法求解方法}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{2.3 GOA算法}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.4}{2.4 Dynamic Weight GOA with Random Jumping（DJGOA）}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.5}{2.5\040Improved\040GOA\(IGOA\)}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.6}{2.6 任务调度问题}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.6.1}{2.6.1 问题描述}{section.2.6}% 24
+\BOOKMARK [2][-]{subsection.2.6.2}{2.6.2 任务调度模型}{section.2.6}% 25
+\BOOKMARK [2][-]{subsection.2.6.3}{2.6.3 实验结果}{section.2.6}% 26
+\BOOKMARK [1][-]{section.2.7}{2.7 本章小结}{chapter.2}% 27
+\BOOKMARK [0][-]{appendix.A}{附录 A  中国科学院大学学位论文撰写要求}{}% 28
+\BOOKMARK [1][-]{section.A.1}{A.1 论文无附录者无需附录部分}{appendix.A}% 29
+\BOOKMARK [1][-]{section.A.2}{A.2 测试公式编号}{appendix.A}% 30
+\BOOKMARK [1][-]{section.A.3}{A.3 测试生僻字}{appendix.A}% 31
+\BOOKMARK [0][-]{section*.10}{参考文献}{}% 32
+\BOOKMARK [0][-]{appendix*.12}{作者简历及攻读学位期间发表的学术论文与研究成果}{}% 33
+\BOOKMARK [0][-]{appendix*.19}{致谢}{}% 34

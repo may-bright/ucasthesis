@@ -13,16 +13,22 @@
 \contentsline {subsection}{\numberline {1.4.2}实验结果}{7}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}本章小结}{8}{section.1.5}
 \contentsline {chapter}{\numberline {第2章\hspace {.3em}}资源受限终端任务调度策略}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}研究背景}{9}{section.2.1}
+\contentsline {section}{\numberline {2.1}引言}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}相关工作}{9}{section.2.2}
-\contentsline {section}{\numberline {2.3}Dynamic Weight GOA with Random Jumping（DJGOA）}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Improved GOA(IGOA)}{9}{section.2.4}
-\contentsline {section}{\numberline {2.5}实验}{9}{section.2.5}
-\contentsline {section}{\numberline {2.6}本章小结}{9}{section.2.6}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{11}{appendix.A}
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{11}{section.A.1}
-\contentsline {section}{\numberline {A.2}测试公式编号}{11}{section.A.2}
-\contentsline {section}{\numberline {A.3}测试生僻字}{11}{section.A.3}
-\contentsline {chapter}{参考文献}{13}{section*.10}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{15}{appendix*.12}
-\contentsline {chapter}{致谢}{17}{appendix*.19}
+\contentsline {subsection}{\numberline {2.2.1}传统任务调度问题求解方法}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}启发式算法求解方法}{9}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}GOA算法}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Dynamic Weight GOA with Random Jumping（DJGOA）}{12}{section.2.4}
+\contentsline {section}{\numberline {2.5}Improved GOA(IGOA)}{12}{section.2.5}
+\contentsline {section}{\numberline {2.6}任务调度问题}{12}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}问题描述}{12}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}任务调度模型}{12}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}实验结果}{12}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}本章小结}{12}{section.2.7}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{13}{appendix.A}
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{13}{section.A.1}
+\contentsline {section}{\numberline {A.2}测试公式编号}{13}{section.A.2}
+\contentsline {section}{\numberline {A.3}测试生僻字}{13}{section.A.3}
+\contentsline {chapter}{参考文献}{15}{section*.10}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{17}{appendix*.12}
+\contentsline {chapter}{致谢}{19}{appendix*.19}
