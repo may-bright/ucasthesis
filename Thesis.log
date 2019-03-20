@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  20 MAR 2019 16:50
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  20 MAR 2019 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1620,11 +1620,21 @@ LaTeX Warning: You have requested package `Style/artracom',
                but the package provides `artracom'.
 
 Package: artracom 2014/10/01 v0.1 LaTeX macros package
-) (c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+(c:/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip87
+\multirow@cntb=\count319
+\multirow@dima=\skip88
+\bigstrutjot=\dimen260
+)) (c:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count319
-\l__xeCJK_listings_flag_int=\count320
-) (./Thesis.aux)
+\l__xeCJK_listings_max_char_int=\count320
+\l__xeCJK_listings_flag_int=\count321
+) (./Thesis.aux
+
+LaTeX Warning: Label `tab:DJGOA_computation_result' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 50.
@@ -1731,7 +1741,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count321
+\c@lstlisting=\count322
 \AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring ON on input line 50.
  (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1739,7 +1749,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count322
+\c@section@level=\count323
 )
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
@@ -1751,7 +1761,7 @@ LaTeX Info: Redefining \nameref on input line 50.
  (./Tex/Frontpages.tex
 File: Img/ucas_logo.pdf Graphic file (type pdf)
 <use Img/ucas_logo.pdf>
-\g__fontspec_family_SimHei_int=\count323
+\g__fontspec_family_SimHei_int=\count324
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1877,16 +1887,52 @@ Overfull \hbox (1.26395pt too wide) in paragraph at lines 54--55
 [9
 
 ] [10] [11]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 88.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 89.
  [12] [13] [14]
-Overfull \hbox (23.4957pt too wide) in paragraph at lines 230--252
+Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
  [][] 
  []
 
-[15] [16] [17] [18]
-File: Img/tc_q_criteria.jpg Graphic file (type bmp)
-<Img/tc_q_criteria.jpg>
-)) [19] [20
+
+LaTeX Warning: Float too large for page by 45.26646pt on input line 309.
+
+[15] [16]
+Overfull \hbox (49.05504pt too wide) in paragraph at lines 374--395
+ [][] 
+ []
+
+[17] [18] [19] [20]
+File: Img/oaspl_a.pdf Graphic file (type pdf)
+<use Img/oaspl_a.pdf>
+File: Img/oaspl_b.pdf Graphic file (type pdf)
+<use Img/oaspl_b.pdf>
+File: Img/oaspl_c.pdf Graphic file (type pdf)
+<use Img/oaspl_c.pdf>
+File: Img/oaspl_d.pdf Graphic file (type pdf)
+<use Img/oaspl_d.pdf>
+ [21] [22] [23]
+
+Package natbib Warning: Citation `mirjalili2016dragonfly' on page 24 undefined on input line 463.
+
+[24]
+File: Img/procedure_of_IGOA.eps Graphic file (type eps)
+<Img/procedure_of_IGOA.eps>
+
+Overfull \hbox (17.40828pt too wide) in paragraph at lines 552--555
+\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 kennedy1995particle\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016WOA\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016dragonfly\TU/SimSun(1)/m/n/12.045 ，|
+ []
+
+[25] [26] [27]
+Overfull \hbox (9.31065pt too wide) in paragraph at lines 556--558
+\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[][]\TU/entextsf/m/n/12.045 2.6[][]\TU/SimSun(1)/m/n/12.045 中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
+ []
+
+
+Overfull \hbox (29.17195pt too wide) in paragraph at lines 569--595
+ [][] 
+ []
+
+[28] [29] [30])) [31] [32
 
 ] (./Tex/Appendix.tex
 附录 A
@@ -1896,27 +1942,38 @@ LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
 LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 19.
 
-) [21
+) [33
 
-] [22
+] [34
 
-] (./Thesis.bbl) (./Tex/Backmatter.tex [23
+] (./Thesis.bbl) (./Tex/Backmatter.tex [35
 
 
-] [24
+] [36
 
-] [25] [26
+] [37] [38
 
-] [27] [28
+] [39] [40
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
+
+Package caption Warning: Unused \captionsetup[bi-first] on input line 544.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[bi-second] on input line 544.
+See the caption package documentation for explanation.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
- (./Thesis.aux)
+(./Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F58BBC8154D0CEEE5866D9575716C4BC.
+(rerunfilecheck)             Checksum: B9C0B29DD49B454415DBA7BF6D54F55B.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1925,14 +1982,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 29764 strings out of 492970
- 585627 string characters out of 6137299
- 663800 words of memory out of 5000000
- 33317 multiletter control sequences out of 15000+600000
+ 29896 strings out of 492970
+ 589890 string characters out of 6137299
+ 689074 words of memory out of 5000000
+ 33442 multiletter control sequences out of 15000+600000
  577440 words of font info for 197 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,26n,94p,10550b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,26n,94p,10550b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (46 pages).
+Output written on Thesis.pdf (58 pages).

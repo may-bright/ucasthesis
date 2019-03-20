@@ -18,26 +18,38 @@
 \contentsline {subsection}{\numberline {2.2.1}传统任务调度问题求解方法}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}启发式算法求解方法}{9}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}GOA算法}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}蝗虫算法优缺点分析}{12}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}带随机跳出机制的动态权重蝗虫优化算法}{13}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}动态权重}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.3.1}GOA算法背景}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}GOA算法数学模型}{11}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}蝗虫算法优缺点分析}{12}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}带随机跳出机制的动态权重蝗虫优化算法(DJGOA)}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}动态权重}{14}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}随机跳出机制}{14}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}DJGOA算法流程}{15}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}实验结果}{15}{subsection.2.4.4}
 \contentsline {subsubsection}{\numberline {2.4.4.1}实验设置}{15}{subsubsection.2.4.4.1}
-\contentsline {subsubsection}{\numberline {2.4.4.2}实验结果}{15}{subsubsection.2.4.4.2}
-\contentsline {subsubsection}{\numberline {2.4.4.3}Wilcoxon Signed Rank Test}{17}{subsubsection.2.4.4.3}
-\contentsline {subsubsection}{\numberline {2.4.4.4}Convergence Analysis}{17}{subsubsection.2.4.4.4}
-\contentsline {section}{\numberline {2.5}Improved GOA(IGOA)}{19}{section.2.5}
-\contentsline {section}{\numberline {2.6}任务调度问题}{19}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}问题描述}{19}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}任务调度模型}{19}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}实验结果}{19}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}本章小结}{19}{section.2.7}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{21}{appendix.A}
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{21}{section.A.1}
-\contentsline {section}{\numberline {A.2}测试公式编号}{21}{section.A.2}
-\contentsline {section}{\numberline {A.3}测试生僻字}{21}{section.A.3}
-\contentsline {chapter}{参考文献}{23}{section*.13}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{25}{appendix*.15}
-\contentsline {chapter}{致谢}{27}{appendix*.22}
+\contentsline {subsubsection}{\numberline {2.4.4.2}实验结果}{17}{subsubsection.2.4.4.2}
+\contentsline {subsubsection}{\numberline {2.4.4.3}威尔科克森符号秩和检验}{21}{subsubsection.2.4.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4.4}Convergence Analysis}{21}{subsubsection.2.4.4.4}
+\contentsline {section}{\numberline {2.5}改进蝗虫优化算法(IGOA)}{23}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}蝗虫算法不足之处}{23}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}非线性舒适区控制参数}{23}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}基于Levy飞行的局部搜索机制}{23}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}基于线性递减参数的随机跳出策略}{24}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}IGOA流程}{25}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}实验结果}{28}{subsection.2.5.6}
+\contentsline {subsubsection}{\numberline {2.5.6.1}实验设置}{28}{subsubsection.2.5.6.1}
+\contentsline {subsubsection}{\numberline {2.5.6.2}实验结果}{28}{subsubsection.2.5.6.2}
+\contentsline {subsubsection}{\numberline {2.5.6.3}wilcoxon符号秩检验}{28}{subsubsection.2.5.6.3}
+\contentsline {subsubsection}{\numberline {2.5.6.4}收敛图}{28}{subsubsection.2.5.6.4}
+\contentsline {section}{\numberline {2.6}任务调度问题}{31}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}问题描述}{31}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}任务调度模型}{31}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}实验结果}{31}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}本章小结}{31}{section.2.7}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{33}{appendix.A}
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{33}{section.A.1}
+\contentsline {section}{\numberline {A.2}测试公式编号}{33}{section.A.2}
+\contentsline {section}{\numberline {A.3}测试生僻字}{33}{section.A.3}
+\contentsline {chapter}{参考文献}{35}{section*.19}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{37}{appendix*.21}
+\contentsline {chapter}{致谢}{39}{appendix*.28}
