@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  20 MAR 2019 23:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  21 MAR 2019 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1634,6 +1634,12 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 
 LaTeX Warning: Label `tab:DJGOA_computation_result' multiply defined.
 
+
+LaTeX Warning: Label `tab:results_fixedmodal_IGOA' multiply defined.
+
+
+LaTeX Warning: Label `tab:results_wilcoxon_rank_sum_test_IGOA' multiply defined.
+
 )
 \openout1 = `Thesis.aux'.
 
@@ -1873,126 +1879,26 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]) [11] [12
 
-] (./Tex/Mainmatter.tex (./Tex/Chap_Computation_Offloading.tex
+] (./Tex/Mainmatter.tex (./Tex/Chap_Introduction.tex
 第1章
-[1
+) (./Tex/Chap_Service_System.tex [1
 
-] [2] [3] [4]
+] [2
+
+]
+第2章
+) (./Tex/Chap_Computation_Offloading.tex [3] [4
+
+]
+第3章
+[5] [6] [7] [8]
 Overfull \hbox (1.26395pt too wide) in paragraph at lines 54--55
 \TU/SimSun(1)/m/n/12.045 过 程 中 实 现 的。|  这 些 通 信 标 志 可 以 让 服 务 端 区 分 该 信 息 是 控 制 类 型  |（\TU/entextsf/m/n/12.045 ESTABLISH\TU/SimSun(1)/m/n/12.045 、|
  []
 
-[5] [6] [7]) (./Tex/Chap_Task_Scheduling.tex [8]
-第2章
-[9
+[9] [10] [11]) (./Tex/Chap_Task_Scheduling.tex [12]
+第4章
+[13
 
-] [10] [11]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 89.
- [12] [13] [14]
-Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 45.26646pt on input line 309.
-
-[15] [16]
-Overfull \hbox (49.05504pt too wide) in paragraph at lines 374--395
- [][] 
- []
-
-[17] [18] [19] [20]
-File: Img/oaspl_a.pdf Graphic file (type pdf)
-<use Img/oaspl_a.pdf>
-File: Img/oaspl_b.pdf Graphic file (type pdf)
-<use Img/oaspl_b.pdf>
-File: Img/oaspl_c.pdf Graphic file (type pdf)
-<use Img/oaspl_c.pdf>
-File: Img/oaspl_d.pdf Graphic file (type pdf)
-<use Img/oaspl_d.pdf>
- [21] [22] [23]
-
-Package natbib Warning: Citation `mirjalili2016dragonfly' on page 24 undefined on input line 463.
-
-[24]
-File: Img/procedure_of_IGOA.eps Graphic file (type eps)
-<Img/procedure_of_IGOA.eps>
-
-Overfull \hbox (17.40828pt too wide) in paragraph at lines 552--555
-\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 kennedy1995particle\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016WOA\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016dragonfly\TU/SimSun(1)/m/n/12.045 ，|
- []
-
-[25] [26] [27]
-Overfull \hbox (9.31065pt too wide) in paragraph at lines 556--558
-\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[][]\TU/entextsf/m/n/12.045 2.6[][]\TU/SimSun(1)/m/n/12.045 中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
- []
-
-
-Overfull \hbox (29.17195pt too wide) in paragraph at lines 569--595
- [][] 
- []
-
-[28] [29] [30])) [31] [32
-
-] (./Tex/Appendix.tex
-附录 A
-LaTeX Font Info:    Try loading font information for OT1+entextrm on input line 19.
-LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
-
-LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 19.
-
-) [33
-
-] [34
-
-] (./Thesis.bbl) (./Tex/Backmatter.tex [35
-
-
-] [36
-
-] [37] [38
-
-] [39] [40
-
-])
-
-Package natbib Warning: There were undefined citations.
-
-
-Package caption Warning: Unused \captionsetup[bi-first] on input line 544.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[bi-second] on input line 544.
-See the caption package documentation for explanation.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
-(./Thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B9C0B29DD49B454415DBA7BF6D54F55B.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.65625pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 29896 strings out of 492970
- 589890 string characters out of 6137299
- 689074 words of memory out of 5000000
- 33442 multiletter control sequences out of 15000+600000
- 577440 words of font info for 197 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 60i,26n,94p,10550b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on Thesis.pdf (58 pages).
+] [14] [15]
+Package hyperref Info: bookmark level for unknown algorithm de

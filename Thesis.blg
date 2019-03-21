@@ -5,10 +5,9 @@ The style file: Biblio/gbt7714-unsrt.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
-Warning--I didn't find a database entry for "mirjalili2016dragonfly"
 You've used 16 entries,
             4079 wiz_defined-function locations,
-            968 strings with 8868 characters,
+            967 strings with 8846 characters,
 and the built_in function-call counts, 51324 in all, are:
 = -- 1131
 > -- 5041
@@ -47,4 +46,3 @@ warning$ -- 0
 while$ -- 182
 width$ -- 0
 write$ -- 255
-(There was 1 warning)

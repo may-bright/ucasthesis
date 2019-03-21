@@ -362,13 +362,13 @@ where \emph{m} is the dynamic weight parameter to adjust the search process. To 
 
 % 附一组30次测试结果的排序图，更直观说明整体效果更优秀？这里是否放图再考虑吧
 
-\subsubsection{威尔科克森符号秩和检验}
+\subsubsection{威尔科克森秩和检验}
 % 然后是p值校验，得到的结果更加可信。
-进行了wilcoxon符号秩检验的实验，以验证PSO，GOA和DJGOA的置信水平。 根据表\ref{tab:wilcoxon_signed_rank_test_DJGOA}中显示的结果，13个测试函数中DJGOA的所有p值均小于0.05，这意味着得到的结论是显着的。
+进行了wilcoxon秩和检验的实验，以验证PSO，GOA和DJGOA的置信水平。 根据表\ref{tab:wilcoxon_rank_sum_test_DJGOA}中显示的结果，13个测试函数中DJGOA的所有p值均小于0.05，这意味着得到的结论是显着的。
 \begin{table}[!htbp]
     \centering
-    \caption{DJGOA、GOA与PSO的威尔科克森符号秩和检验结果}
-    \label{tab:wilcoxon_signed_rank_test_DJGOA}
+    \caption{DJGOA、GOA与PSO的威尔科克森秩和检验结果}
+    \label{tab:wilcoxon_rank_sum_test_DJGOA}
     % \small
     \renewcommand\arraystretch{1.5} 
 \begin{tabular}{c c c c || c c c c}
@@ -460,7 +460,7 @@ $ L \ acute {e} vy $ flight是由Paul $ L \ acute {e} vy $ \ cite {mirjalili2016
 \begin{eqnarray}
 	Levy(d)=0.01\times\frac{r_1\times\sigma}{|r_2|^{\frac{1}{\beta}}}
 \end{eqnarray}
-where \emph{d} is the dimension of the problem, $r_1$,$r_2$ are two random numbers in [0,1] and $\beta$ is a constant number which is set to 1.5 according to Seyedali in \cite{mirjalili2016dragonfly}. $\sigma$ is calculated as follows:
+where \emph{d} is the dimension of the problem, $r_1$,$r_2$ are two random numbers in [0,1] and $\beta$ is a constant number which is set to 1.5 according to Seyedali in \ cite{mirjalili2016dragonfly}. $\sigma$ is calculated as follows:
 \begin{eqnarray}
 	\sigma=(\frac{\Gamma(1+\beta)\times \sin(\frac{\pi\beta}{2})}{\Gamma(\frac{1+\beta}{2})\time\beta\times2^(\frac{\beta-1}{2})})^\frac{1}{\beta}
 \end{eqnarray}
@@ -561,11 +561,11 @@ where $X_i$ is the position of the \emph{i}-th search agent, and $X_i^{new}$ is 
 
 \begin{table}[!htbp]
     \centering
-    \caption{Multimodal functions-2}
+    \caption{fixedmodal functions}
     \label{tab:fixedmodal_function}
     \small
     \renewcommand\arraystretch{2.0} 
-\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+    \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
 \begin{tabular}{l c c c}
     \hline
     % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
@@ -591,7 +591,7 @@ where $X_i$ is the position of the \emph{i}-th search agent, and $X_i^{new}$ is 
     \hline
     $F_{23}(x)=-\sum_{i=1}^10[(X-a_i)(X-a_i)^T+c_i]^{-1}$& 4 & [0,10] & -10.5363\\
     \hline
-  \end{tabular}
+\end{tabular}
 \end{table}
 
 \begin{table}[!htbp]
@@ -599,6 +599,7 @@ where $X_i$ is the position of the \emph{i}-th search agent, and $X_i^{new}$ is 
     \caption{Composite functions}
     \label{tab:composite_function}
     \scriptsize
+    % \small
 
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
     \renewcommand\arraystretch{1.5} 
@@ -623,14 +624,482 @@ where $X_i$ is the position of the \emph{i}-th search agent, and $X_i^{new}$ is 
 
 \end{table}
 \subsubsection{实验结果}
+\ emph {F1-F7}是单峰函数，只有一个全局最优，可以测试算法的开发能力。 如果算法具有超强的利用能力，它可以更准确地搜索并找到更接近全局最优的解。\ emph {F1-F7}的结果显示在表\ref{tab:results_unimodal_IGOA}中。
+% \emph{F1-F7} are unimodal functions with only one global optimum, which can test the exploitation capability of the algorithms. If an algorithm has a superior ability of exploitation, it can search more accurately and find a solution closer to the global optimum. 
 
-\subsubsection{wilcoxon符号秩检验}
+
+\begin{table}[!htbp]
+    \centering
+    \caption{Results of unimodal functions}\label{tab:results_unimodal_IGOA}
+    \scriptsize
+    % \small
+    \renewcommand\arraystretch{1.3} 
+    \begin{tabular}{*{9}{c}}
+    % \toprule
+    \hline
+    function& type&IGOA&GOA&WOA&DA&ALO&PSO&OBLGOA\\
+    \hline
+\multirow{4}*{F1}& avg& 3.3538E-15& 0.8386& \textbf{1.0082E-71}& 0.0012& 17.1234&6.6310E-6&2.77E-05\\
+    & std&1.9129E-15&0.8473&\textbf{5.3671E-71}&0.0008&17.8648&2.1612E-05&1.57E-05    \\
+    & best&8.0120E-16&0.0683&\textbf{5.0175E-87}&0.00010&2.4120&1.5608E-07&7.75E-06    \\
+    & worst& 9.1885E-15&4.4591&\textbf{2.9415E-70}&0.0030&78.3488&0.0001&6.68E-05    \\
+    \hline
+\multirow{4}*{F2}& avg& 2.4358E-08& 10.2444&\textbf{ 1.5782E-51}& 47.0419& 4.9289&0.0953&0.0136\\
+    & std&1.0173E-08&22.2516&\textbf{4.8668E-51}&43.4815&3.7734&3.0196E-01&0.0377    \\
+    & best&9.0029E-09&0.0290&\textbf{2.5368E-57}&3.8197&1.4484&0.0003&0.0011    \\
+    & worst&5.7194E-08&79.1046&\textbf{2.1838E-50}&120.4026&21.3472&1.6419&0.1505    \\
+    \hline
+\multirow{4}*{F3}& avg&0.0121& 1789.3452&43942.9825&4632.0793&1154.2060&227.7776 &\textbf{0.0061}\\
+    & std&0.0211&	1030.4488&1.6119E+04&2008.3302&1332.5907&81.0377&\textbf{0.0021}    \\
+    & best&\textbf{8.6626E-12}&450.4535&17269.6957&1883.2010&249.1874&127.3043&0.0020    \\
+    & worst&0.0983&4603.9086&85296.2126&10156.9819&5729.0798&425.9704&\textbf{0.0103}    \\
+    \hline
+\multirow{4}*{F4}& avg&0.0257&9.7756&56.3543&16.9378&31.4847&3.2311&\textbf{0.0165}\\
+    & std&0.0182&3.5013&25.3903&4.3129&8.2314&1.1774&\textbf{0.0081}    \\
+    & best&\textbf{9.7116E-7}&3.0335&3.2199&6.5808&17.7108&1.4918&0.0010    \\
+    & worst&0.0694&19.5647&89.1869&57.2014&48.8229&5.5785&\textbf{0.0297}    \\
+    \hline
+\multirow{4}*{F5}& avg&\textbf{26.4488}&965.6578&28.1591&348.5174&1615.4578&61.9257&28.3790\\
+    & std&\textbf{0.3046}&1572.3600&0.4797&553.5976&2814.6516&64.9991&0.3087    \\
+    & best&25.8503&25.6988&27.2726&28.4537&143.9488&\textbf{1.7275}&27.6749    \\
+    & worst&\textbf{27.0365}&7522.9967&28.7708&2223.6927&14636.9499&268.0065&28.7678    \\
+    \hline
+\multirow{4}*{F6}& avg&\textbf{1.4451E-6}& 0.8997&0.3866&0.0023&20.5677&2.2973E-05&1.2542\\
+    & std&\textbf{4.8437E-7}&2.0343&0.2498&0.0055&29.2793&5.0099E-05&0.4237    \\
+    & best&\textbf{5.2803E-7}&0.0203&0.0856&0.0001&3.0268&1.5390E-07&0.6616    \\
+    & worst& \textbf{2.5210E-6}&11.0963&1.0626&0.0306&148.1366&0.0002&2.1687    \\
+    \hline
+\multirow{4}*{F7}& avg& \textbf{0.0010}&0.0234&0.0032&0.2504&0.1588&0.0274&0.0014\\
+    & std&\textbf{0.0014}&0.0106&0.0032&0.0768&0.0934&0.0113&0.0007    \\
+    & best&\textbf{1.0746E-5}&0.0090&5.1138E-5&0.1003&0.0467&0.0115&0.0006    \\
+    & worst&0.0072&0.0602&0.0118&0.4105&0.3750&0.0538&\textbf{0.0033}    \\
+    \hline
+    % \bottomrule
+    \end{tabular}
+    \end{table}
+
+从表\ref{tab:results_unimodal_IGOA}可以看出，IGOA可以在\ emph {F5-F7}中获得最佳平均结果，并且在\ emph {F1-F4}中，IGOA的表现仅比WOA差。 至于std和最差值，IGOA也可以比\ emph {F3-F7}中的其他算法表现更好，这表明所提出的算法可以降低获得可怕解的可能性并提高算法的稳定性。 与GOA和OBLGOA相比，提出的IGOA可以显着提高原算法的开发能力。
+% The results on \emph{F1-F7} are shown in \emph{Table 5}. It could be seen that IGOA could get the best average results in \emph{F5-F7}, and in \emph{F1-F4} IGOA behaved only worse than WOA. As for std and worst value, IGOA could also perform better than the other algorithms in \emph{F3-F7}, which indicates that the proposed algorithm can reduce the probability of getting terrible solutions and promote the stability of the algorithm. Compared with GOA and OBLGOA, the proposed IGOA can significantly improve the exploitation capability of the original algorithm.  
+
+\emph{F8-F23}是具有多个局部最优的多模函数，可以测试算法的探索能力。 如果算法在探索中不能很好地进行，那么在处理多模态函数时，搜索很可能会陷入局部最优，即使最佳的利用能力也无济于事。 错误的方向可能会导致错误的结果。\ emph {F8-F23}的结果显示在\ emph {表6}和\ emph {表7}中。
+% \emph{F8-F23} are multimodal functions with several local optimums, which can test the exploration capability of the algorithms. If an algorithm cannot do well in exploration, the search will most likely fall into local optimum when dealing with the multimodal functions and even the best ability of exploitation cannot help. A wrong direction can probably lead to a wrong result. 
+
+
+\begin{table}[!htbp]
+    \centering
+    \caption{Results of multimodal functions-1}\label{tab:results_multimodal_IGOA}
+    \scriptsize
+    % \small
+    \renewcommand\arraystretch{1.3} 
+    \begin{tabular}{*{9}{c}}
+        % \toprule
+    \hline
+    function& type&IGOA&GOA&WOA&DA&ALO&PSO&OBLGOA\\
+    \hline
+    \multirow{4}*{F8}&avg & -7594.1662 & -7728.4324 & \textbf{-9969.6875} & -6189.11 & -7320.0609 & -6688.3058&-7901.9216\\
+        & std & 767.0277 & \textbf{593.4825} & 1919.0327 & 1833.8338 & 886.1388 & 684.8647&591.8701    \\
+        & best & -9009.3177 & -8903.0523 & -12564.8051 & \textbf{-12568.5831} & -9628.8472 & -7869.7845&-9598.7278    \\
+        & worst& -5993.9317 & -6468.5651 & -5709.2023 & -5417.6748 & -6101.1009 & -5224.2865&\textbf{-6823.4703}    \\
+        \hline
+    \multirow{4}*{F9}& avg& \textbf{0.0000} & 9.4853 & 0.4119 & 8.8883 & 7.4670 & 4.5109&1.7919\\
+        & std& \textbf{0.0000} & 5.4604 & 1.6505 & 4.5100 & 4.1855 & 2.8231 &2.1937    \\
+        & best& \textbf{0.0000} & 1.9899 & 0.0000 & 0.9950 & 0.9959 & 0.9950 &4.42E-09    \\
+        & worst& \textbf{0.0000} & 27.8586 & 8.1471 & 16.9143 & 16.9159 & 10.9445&6.9648    \\
+        \hline
+    \multirow{4}*{F10}& avg& 1.30e-08 & 3.0892 & \textbf{4.56e-15} & 5.0040 & 9.9207 & 1.3594&0.0010\\
+        & std& 3.13e-09 & 0.8305 & \textbf{2.18e-15} & 3.1845 & 3.9783 & 0.8583&0.0002    \\
+        & best& 8.58e-09 & 1.5021 & \textbf{8.88e-16} & 1.1582 & 3.3950 & 0.0002&0.0005    \\
+        & worst& 1.97e-08 & 4.5855 & \textbf{7.99e-15} & 12.3302 & 16.3216 & 2.8857&0.0015    \\
+        \hline
+    \multirow{4}*{F11}& avg& \textbf{5.50e-15} & 0.6966 & 0.0069 & 0.0610 & 1.1803 & 0.0258&0.0002\\
+        & std& \textbf{5.71e-15} & 0.1924 & 0.0379 & 0.0268 & 0.1822 & 0.0354&8.83E-05    \\
+        & best& \textbf{6.66e-16} & 0.3226 & 0.0000 & 0.0068 & 1.041 & 9.58e-07&7.36E-05    \\
+        & worst& \textbf{2.52e-14} & 1.0411 & 0.2076 & 0.1151 & 1.9360 & 0.1590&0.0004    \\
+        \hline
+    \multirow{4}*{F12}& avg& \textbf{8.93e-08} & 5.6658 & 0.0242 & 14.9630 & 25.6688 & 0.5808&0.0347\\
+        & std& \textbf{3.28e-08} & 2.3767 & 0.0162 & 7.2414 & 14.1457 & 0.8898&0.0211    \\
+        & best& \textbf{4.62e-08} & 1.8994 & 0.004 & 6.9778 & 6.3337 & 1.89e-07&0.0051    \\
+        & worst& \textbf{1.85e-07} & 9.7664 & 0.0832 & 35.5319 & 55.4036 & 3.4350&0.1028    \\
+        \hline
+    \multirow{4}*{F13}& avg& \textbf{0.0138} & 8.7624 & 0.6039 & 24.9054 & 261.6986 & 0.2117&0.4087\\
+        & std& \textbf{0.0298} & 9.0372 & 0.2536 & 15.4205 & 1186.8265 & 0.5112&0.2177    \\
+        & best& \textbf{4.85e-07} & 0.3005 & 0.1459 & 0.3854 & 1.3788 & 9.86e-07&0.1211    \\
+        & worst& \textbf{0.0989} & 35.2838 & 1.2995 & 56.9980 & 6534.7729 & 2.0239&1.1019    \\
+        \hline
+        % \bottomrule
+    \end{tabular}
+\end{table}
+\begin{table}[!htbp]
+    \centering
+    \caption{Results of fixedmodal functions}\label{tab:results_fixedmodal_IGOA}
+    \scriptsize
+    % \small
+    \renewcommand\arraystretch{1.3} 
+    \begin{tabular}{*{9}{c}}
+        % \toprule
+    \hline
+    function& type&IGOA&GOA&WOA&DA&ALO&PSO&OBLGOA\\
+    \hline
+    \multirow{4}*{F14}&avg & 3.5566& \textbf{0.9980} & 2.7622 & 2.2142 & 1.7242 & 4.5076&3.0103\\
+        & std & 2.9933 & \textbf{6.4341e-16} & 3.3587 & 2.1646 & 1.2701 & 3.0100&1.5672    \\
+        & best & \textbf{0.9980} & 0.9980 & 0.9980 & 0.9980 & 0.9980 & 0.9980&0.9980    \\
+        & worst & 10.7632    & \textbf{0.9980} & 10.7632 & 10.7632 & 5.9288 & 12.6705&5.9288    \\
+        \hline
+    \multirow{4}*{F15}& avg& \textbf{0.0003}& 0.0071 & 0.0007 & 0.0032 & 0.0029 & 0.0038&0.0063\\
+        & std& \textbf{3.24E-05}    & 0.0089 & 0.0005 & 0.0062 & 0.0059 & 0.0076&0.0087    \\
+        & best& \textbf{0.0003} & 0.0007 & 0.0003 & 0.0006 & 0.0003 & 0.0003&0.0003    \\
+        & worst& \textbf{0.0004}    & 0.0204 & 0.0022 & 0.0206 & 0.0204 & 0.0204&0.0210    \\
+        \hline
+    \multirow{4}*{F16}& avg& \textbf{-1.0316} & -1.0316 & -1.03162 & -1.0316 & -1.0316 & -1.0316&-1.0316\\
+        & std& \textbf{4.44E-16}    & 8.1630e-13 & 1.6137e-09 & 1.0917e-13 & 5.1620e-07 & 6.5195e-16&4.63E-06    \\
+        & best & \textbf{-1.0316} & -1.0316 & -1.0316 & -1.0316 & -1.0316 & -1.0316&-1.0316    \\
+        & worst& \textbf{-1.0316} & -1.0316 & -1.0316 & -1.0316 & -1.0316 & -1.0316&-1.0316    \\
+        \hline
+    \multirow{4}*{F17}& avg& \textbf{0.3979} & 0.3979 & 0.3979 & 0.3979 & 0.3979 & 0.3979&0.3979\\
+        & std& \textbf{0}    & 7.3750e-13 & 8.4140e-06 & 2.1005e-14 & 1.0879e-06 & 0.0000 &1.82E-06    \\
+        & best& \textbf{0.3979} & 0.3979 & 0.3979 & 0.3979 & 0.3979 & 0.3979&0.3979    \\
+        & worst& \textbf{0.3979} & 0.3979 & 0.3979 & 0.3979 & 0.3979 & 0.3979&0.3979 \\
+        \hline
+    \multirow{4}*{F18}&avg & \textbf{3.0000} & 8.4000 & 3.0000 & 3.0000 & 3.0000 & 3.0000&3.0000\\
+        & std& 4.11E-08    & 20.5503 & 7.0794e-05 & 6.2232e-13 & 7.7233e-06 & \textbf{6.0036e-16}&3.07E-10    \\
+        & best& \textbf{3.0000} & 3.0000 & 3.0000 & 3.0000 & 3.0000 & 3.0000&3.0000\\
+        & worst& \textbf{3.0000} & 84.0000 & 3.0003 & 3.0000 & 3.0000 & 3.0000&3.0000 \\
+        \hline
+    \multirow{4}*{F19}& avg& \textbf{-3.8628}& -3.7288 & -3.8582 & -3.8628 & -3.8628 & -3.8628&-3.8628\\
+        & std& 1.67E-10    & 0.3062 & 0.0054 & 2.4040e-13 & 2.2464e-05 & \textbf{2.6402e-15}&2.95E-05    \\
+        & best& \textbf{-3.8628} & -3.8628 & -3.8628 & -3.8628 & -3.8628 & -3.8628&-3.8628  \\
+        & worst& \textbf{-3.8628}    & -2.7847 & -3.8408 & -3.8628 & -3.8627 & -3.8628&-3.8627 \\
+        \hline
+    \multirow{4}*{F20}& avg& -3.2863& \textbf{-3.2943} & -3.2364 & -3.2621 & -3.2819 & -3.2783&-3.2295\\
+        & std& 0.0554    & \textbf{0.0511} & 0.1007 & 0.0610 & 0.0577 & 0.0584&0.1062    \\
+        & best& \textbf{-3.3220} & -3.3220 & -3.3213 & -3.3220 & -3.3220 & -3.3220&-3.3220    \\
+        & worst& \textbf{-3.2031} & -3.2031 & -3.0184 & -3.1981 & -3.1974 & -3.1996&-3.0334    \\
+        \hline
+        \hline
+    \end{tabular}
+\end{table}
+\begin{table}[!htbp]
+    \ContinuedFloat% continue splited float
+    \centering
+    \caption{续表：Results of fixedmodal functions}\label{tab:results_fixedmodal_IGOA}
+    \small
+    \renewcommand\arraystretch{1.3} 
+    \begin{tabular}{*{9}{c}}
+    \multirow{4}*{F21}& avg& \textbf{-8.2870}& -6.0675 & -8.5287 & -5.8753 & -6.6400 & -5.9796&-7.2158\\
+        & std& \textbf{2.4947}    & 3.6827 & 2.7585 & 3.0237 & 3.2604 & 3.3646&3.3058    \\
+        & best& \textbf{-10.1532} & -10.1532 & -10.1498 & -10.1532 & -10.1532 & -10.1532&-10.1532    \\
+        & worst& \textbf{-5.0552} & -2.6305 & -2.6292 & -2.6305 & -2.6305 & -2.6305&-2.6303    \\
+        \hline
+    \multirow{4}*{F22}& avg& \textbf{-9.3413}& -7.1190 & -7.2448 & -7.1785 & -5.1249 & -5.5091&-8.0724\\
+        & std& \textbf{2.1597}    & 3.6556 & 3.0850 & 3.3668 & 2.5737 & 3.1769&3.1972    \\
+        & best& \textbf{-10.4029} & -10.4029 & -10.4020 & -10.4029 & -10.4029 & -10.4029&-10.4029    \\
+        & worst& \textbf{-5.0877}    & -1.8376 & -1.8352 & -1.8376 & -2.7517 & -1.8376&-2.7658    \\
+        \hline
+    \multirow{4}*{F23}& avg& -7.9281& -4.9279 & -6.5554 & -6.6569 & -5.4597 & -4.7287&\textbf{-8.0791}\\
+        & std& \textbf{2.8536}    & 3.2796 & 3.3755 & 3.7558 & 3.0183 & 3.2997&3.5845    \\
+        & best& \textbf{-10.5364} & -10.5364 & -10.5348 & -10.5364 & -10.5364 & -10.5364&-10.5364    \\
+        & worst& \textbf{-3.8354} & -2.4217 & -1.6721 & -2.4217 & -2.4217 & -2.4273&-2.4217    \\
+        \hline
+        % \bottomrule
+    \end{tabular}
+\end{table}
+从表\ref{tab:results_multimodal_IGOA}和表\ref{tab:results_fixedmodal_IGOA}中可以发现，提议的IGOA可以在16个基准测试中的11个中获得最佳平均适应度，并且在\ emph {F10}，\ emph {F20}和\ emph {23} IGOA可以获得第二好的结果。 关于标准偏差的结果表明，IGOA的稳定性可能不如平均适应度所表现的那么好，但在大多数测试中它仍然是所有7种算法中最好的。 关于最佳适应度和最差适应度的结果可以表明，所提出的IGOA具有在几乎所有基准测试中找到最佳解决方案的最可靠能力，并且获得找到最差解决方案的最小概率。 与原始的GOA和OBLGOA相比，提出的IGOA可以自然地提高算法的探索性能。
+% The results on \emph{F8-F23} are presented in \emph{Table 6} and \emph{Table 7}. It can be found that the proposed IGOA can get the best average fitness in 11 of 16 benchmark tests and in \emph{F10}, \emph{F20} and \emph{23} IGOA can get the second best result. The results about standard deviation show that the stability of IGOA might not be as excellent as it shows in average fitness, but it still is the best of all the 7 algorithms in most of the tests. The results on best fitness and worst fitness can show that the proposed IGOA has the most reliable ability to find the best solution in almost all the benchmark tests and get the minimum probability to find the worst solution. In comparison with the original GOA and OBLGOA, the proposed IGOA can naturally enhance the performance of exploration of the algorithm a lot.
+
+
+\emph{F24-F29}是复合测试函数，它结合了特定框架下的一些基本基准函数来构建新的可控测试函数。 复合基准函数比多模式测试函数更复杂，更具挑战性，并且在评估算法的搜索能力时更有说服力。复合测试函数的结果如表\ref{tab:results_composite_IGOA}所示：
+% \emph{F24-F29} are the composite test functions, which combine some basic benchmark functions under a particular framework to construct new controllable test functions. The composite benchmark functions are more complicated and more challenging than multimodal test functions, and they are more convincing when evaluating the search capability of an algorithm. 
+
+
+\begin{table}[!htbp]
+    \centering
+    \caption{Results of composite functions}\label{tab:results_composite_IGOA}
+    \scriptsize
+    % \small
+    \renewcommand\arraystretch{1.3} 
+\begin{tabular}{*{9}{c}}
+    % \toprule
+    \hline
+    function& type&IGOA&GOA&WOA&DA&ALO&PSO&OBLGOA\\
+    \hline
+\multirow{4}*{F24}& avg& \textbf{94.0428} & 135.9242 & 341.2250 & 1098.8600 & 189.5840 & 326.5899&189.6304\\
+    & std& 130.6690 & 127.0964 & 164.2449 & \textbf{99.4449} & 117.6155 & 149.6609&83.2598    \\
+    & best& \textbf{3.3965} & 29.6057 & 163.2687 & 796.3368 & 72.0563 & 118.9426&92.1210    \\
+    & worst& 504.8393 & 514.7878 & 844.9761 & 1261.1685 & 554.4573 & 717.0723&\textbf{411.3461}    \\
+    \hline
+\multirow{4}*{F25}& avg& 324.3197 & \textbf{284.6066} & 521.9304 & 1211.2487 & 413.5431 & 393.6293&472.0768\\
+    & std& 151.6351 & 163.1829 & 130.9867 & \textbf{94.2232} & 156.9269 & 126.4408&143.6411    \\
+    & best& \textbf{21.2736} & 28.9418 & 244.2571 & 1006.3367 & 72.6341 & 161.9665&66.0628    \\
+    & worst& \textbf{497.3555} & 510.3606 & 673.6729 & 1354.7747 & 662.1609 & 610.8645&606.4133    \\
+    \hline
+\multirow{4}*{F26}& avg& \textbf{525.7384} & 624.5092 & 1052.0733 & 1547.6195 & 884.9306 & 608.4939&875.4033\\
+    & std& 128.5247 & 176.1401 & 155.6153 & 155.8894 & 157.8576 & \textbf{103.4249}&151.2467    \\
+    & best& 317.4166 & \textbf{200.8044} & 849.0492 & 1064.4776 & 644.6867 & 326.5611&627.7263    \\
+    & worst & 900.011 & 1196.9114 & 1351.5909 & 1710.9641 & 1222.5593 & \textbf{828.4274}&1217.9587    \\
+    \hline
+\multirow{4}*{F27}& avg& 894.6861 & 945.6744 & 902.6182 & 1421.5043 & 929.5948 & \textbf{757.5836}&895.7587\\
+    & std& 29.1104 & 101.1013 & \textbf{15.0373} & 46.9584 & 128.2259 & 114.6504&34.7088    \\
+    & best& 740.5569 & 638.304 & 896.3862 & 1319.5644 & 650.1341 & \textbf{538.8135}&719.3590    \\
+    & worst& \textbf{900.0053} & 1030.5605 & 982.1588 & 1519.1409 & 1066.455 & 1012.7758 &953.3374    \\
+    \hline
+\multirow{4}*{F28}& avg & 304.9727 & \textbf{142.0615} & 456.9052 & 1354.378 & 194.2336 & 303.9595&497.1264\\
+    & std& 367.9136 & \textbf{102.2128} & 255.4945 & 127.0279 & 182.4486 & 143.7137&351.6947    \\
+    & best& \textbf{46.3796} & 54.2782 & 179.8317 & 992.2916 & 87.2393 & 113.7433&110.5681    \\
+    & worst& 900.0040 & \textbf{435.4893} & 900.0000 & 1505.6248 & 1025.2583 & 675.3012&900.0049    \\
+    \hline
+\multirow{4}*{F29}& avg& 900.0003 & 907.4664 & \textbf{900.0000} & 1371.4241 & 925.7089 & 931.1013&900.0004 \\
+    & std& 0.0001 & 5.1380 & \textbf{0.0000} & 56.4060 & 7.5901 & 19.0467&0.0002\\
+    & best& \textbf{900.0000} & 901.0860 & 900.0000 & 1254.6648 & 913.0986 & 910.3009&900.0001 \\
+    & worst& 900.0006 & 920.7888 & \textbf{900.0000} & 1000.7252 & 1000.7252 & 1000.7252&900.0009\\
+    \hline
+    % \bottomrule
+\end{tabular}
+\end{table}
+根据表\ref{tab:results_composite_IGOA}中列出的\emph{F24-F29}的结果，可以看出，与其他算法相比，所提出的IGOA可以非常有竞争力。 在\emph{F24}和\emph{F26}中，IGOA可以获得最佳的适应度，在\emph{F25}，\emph{F27}和\emph{F29} IGOA可以获得第二好的结果。 在所有基准测试的标准差方面，IGOA无法表现最佳或最差。 IGOA在最佳值和最差值上分别在4次测试和3次测试中表现最佳。 尽管IGOA通常可以在标准偏差方面发挥作用，但它在寻找更好的解决方案和控制风险方面可以胜过其他算法。 与原来的GOA和OBLGOA相比，IGOA的表现要好得多。 根据复合功能测试的结果，可以证明IGOA具有处理这种复杂和具有挑战性的问题的能力。
+
+% According to the results on \emph{F24-F29} listed in \emph{Table 8}, it can be seen that the proposed IGOA can be very competitive compared with the other algorithms. In \emph{F24} and \emph{F26} IGOA can get the best fitness and in \emph{F25}, \emph{F27} and \emph{F29} IGOA can get the second-best results. IGOA cannot perform best nor worst in the aspect of the standard deviation on all the benchmark tests. IGOA can perform best in 4 tests and 3 tests respectively on best value and worst value. Although IGOA can perform generally in terms of standard deviation, it can outperform other algorithms in the potency of finding a better solution and controlling risk. Compared with the original GOA and the OBLGOA, IGOA performs far better. According to the results on composite function tests, it can be demonstrated that IGOA has the ability to handle such complex and challenging problems.
+\subsubsection{wilcoxon秩和检验}
+
+基于30个独立操作的平均值和标准偏差的比较没有比较每个操作之间的差异。 实验结果仍有可能包含某些意外情况。 为了消除这种偶然性并证明实验结果的重要性，在这项工作中引入了Wilcoxon秩和检验。 Wilcoxon秩和检验是零假设的非参数检验，它用于确定两个独立的数据集是否来自相同的分布式群体。 在这项工作中，计算了关于IGOA与\emph{F1-F29}上的每个其他算法之间的统计数据的\emph{p-values}。 当\emph{p-value}小于0.05时，可以认为两个样本之间的差异是显着的。IGOA的威尔科克森秩和检验结果如表\ref{tab:results_wilcoxon_rank_sum_test_IGOA}所示。
+% The comparison based on average value and standard deviation for 30 independent operations did not compare the difference between each operation. It was still possible that the results of the experiment contained certain contingency. To dispel this contingency and demonstrate the significance of the results of the experiment, the Wilcoxon rank-sum test was introduced in this work. Wilcoxon rank-sum test is a nonparametric test of the null hypothesis, and it is used to determine whether two independent datasets were from the same distributed population. In this work, \emph{p-values} about the statistical data between IGOA and each of the other algorithms on \emph{F1-F29} were calculated. When \emph{p-value} is less than 0.05, it can be considered that the difference between the two samples is significant.
+
+
+\begin{table}%[!htbp]
+    \centering
+    \caption{Results of Wilcoxon rank-sum test}\label{tab:results_wilcoxon_rank_sum_test_IGOA}
+    \renewcommand\arraystretch{1.3} 
+
+	% \tiny
+
+    \begin{tabular}{*{7}{c}}
+    % \toprule
+    \hline
+    function&GOA&WOA&DA&ALO&PSO&OBLGOA\\
+    \hline
+ 
+    {F1}& 3.02E-11&3.02E-11&3.02E-11&3.02E-11&9.53E-07&2.03E-07\\\hline
+    {F2}& 3.02E-11&3.02E-11&3.02E-11&3.02E-11&7.12E-09&2.37E-10\\\hline
+    {F3}& 3.02E-11&3.02E-11&3.02E-11&3.02E-11&3.02E-11&5.57E-10\\\hline
+    {F4}& 3.02E-11&3.02E-11&3.02E-11&3.02E-11&3.02E-11&1.21E-10\\\hline
+    {F5}& 1.86E-09&1.60E-07&3.02E-11&3.02E-11&0.5201&5.07E-10\\\hline
+    {F6}& 3.02E-11&3.02E-11&3.02E-11&0.0099&3.02E-11&3.02E-11\\\hline
+    {F7}& 3.16E-10&0.7618&3.02E-11&3.02E-11&8.15E-11&0.0594\\\hline
+    {F8}& 0.0030&3.82E-09&0.7958&2.59E-06&0.0133&0.0002\\\hline
+    {F9}& 3.02E-11&1.24E-09&3.02E-11&3.02E-11&2.86E-11&4.98E-11\\\hline
+    {F10}& 3.02E-11&3.02E-11&3.02E-11&3.02E-11&1.43E-08&3.83E-05\\\hline
+    {F11}& 3.02E-11&4.56E-11&3.02E-11&3.02E-11&1.34E-05&3.02E-11\\\hline
+    {F12}& 3.02E-11&3.02E-11&3.02E-11&3.02E-11&0.0002&3.02E-11\\\hline
+    {F13}& 3.02E-11&3.02E-11&3.02E-11&3.02E-11&0.9117&3.02E-11\\\hline
+    {F14}& 1.67E-05&0.1578&0.0265&0.0082&0.7842&0.6951\\\hline
+    {F15}& 1.33E-10&1.07E-09&2.87E-10&2.87E-10&0.3328&2.15E-10\\\hline
+    {F16}& 0.0064&6.72E-10&3.02E-11&1.81E-05&4.08E-12&3.02E-11\\\hline
+    {F17}& 3.20E-06&3.01E-11&3.01E-11&6.78E-06&4.56E-12&3.01E-11\\\hline
+    {F18}& 1.73E-07&3.02E-11&3.02E-11&0.01911&1.55E-11&5.09E-08\\\hline
+    {F19}& 0.5997&0.002266&2.13E-05&3.33E-11&5.14E-12&0.0003\\\hline
+    {F20}& 0.5395&0.0003&0.00250&0.7958&0.0003&0.0001\\\hline
+    \end{tabular}
+\end{table}
+\begin{table}[!htbp]
+    \ContinuedFloat% continue splited float
+    \centering
+    \caption{续表：Results of Wilcoxon rank-sum test}\label{tab:results_wilcoxon_rank_sum_test_IGOA}
+    % \scriptsize
+    % \small
+    \renewcommand\arraystretch{1.3} 
+    \begin{tabular}{*{7}{c}}
+    {F21}& 0.0002&1.25E-05&6.74E-06&0.0850&0.2822&5.46E-06\\\hline
+    {F22}& 0.0005&5.27E-05&3.83E-06&0.5493&0.0627&0.0013\\\hline
+    {F23}& 6.05E-07&3.83E-06&1.73E-06&0.1858&0.0009&5.27E-05\\\hline
+    {F24}& 0.0016&6.01E-08&0.0001&3.02E-11&3.81E-07&0.0001\\\hline
+    {F25}& 0.7618&1.09E-05&0.0138&3.02E-11&0.1907&1.02E-05\\\hline
+    {F26}& 0.0046&5.49E-11&5.57E-10&3.02E-11&0.0038&4.20E-10\\\hline
+    {F27}& 7.74E-06&7.34E-09&0.0064&3.02E-11&3.08E-08&2.68E-06\\\hline
+    {F28}& 0.3711&0.0042&0.0083&3.02E-11&0.0073&0.0001\\\hline
+    {F29}& 3.02E-11&2.14E-11&3.02E-11&3.02E-11&3.02E-11&0.0024\\\hline
+    
+    % \bottomrule
+\end{tabular}
+\end{table}
+
+从\ref{tab:results_wilcoxon_rank_sum_test_IGOA}中可以看出，在大多数基准测试中，IGOA与另一个比较算法之间的\emph {p-values}小于0.05。 在某些测试函数中，某些\emph{p-values}超过0.05，这些函数通过不同的算法获得相同的最优解，例如\emph{F14，F19，F20，F21，F22}和\emph{F23}。 通过分析复合函数的结果，在\emph{F25}和\emph{F28}中，\emph{p-values}在IGOA和GOA之间超过0.05，其中GOA获得最佳适应度而IGOA没有。综合考虑，仍然可以证明提议的IGOA可以显着提高GOA的性能。
+% From \emph{Table 9} it can be seen that the \emph{p-values} between IGOA and another compared algorithm in most of the benchmark tests are less than 0.05. Some \emph{p-values} are more than 0.05 in some of the test functions which have a higher probability of achieving the same optimal solution by different algorithms, such as \emph{F14,F19,F20,F21,F22,} and \emph{F23}. By analyzing the results of the composite functions, \emph{p-values} are more than 0.05 between IGOA and GOA in \emph{F25} and \emph{F28} where GOA gets the best fitness and IGOA does not. Considering comprehensively, it can still be demonstrated that the proposed IGOA can significantly promote the performance of GOA.
 \subsubsection{收敛图}
 
+本部分讨论了算法的收敛速度。用于比较部分基准函数的IGOA和所有其他6种算法的收敛曲线显示在\ emph {图2}中。
+\pagestyle{empty}
+\graphicspath{{Img/}}
+\begin{figure}[htbp]
+    \centering
+    % \includegraphics[width=.25\linewidth]{function_F2.eps}\hfill
+    \includegraphics[width=.33\linewidth]{function_F3.eps}\hfill
+    \includegraphics[width=.33\linewidth]{function_F4.eps}\hfill
+    \includegraphics[width=.33\linewidth]{function_F7.eps}\hfill\\[0.5cm]
+    % \includegraphics[width=.25\linewidth]{function_F7.eps}\\[0.5cm]
+    \centering
+    % \includegraphics[width=.25\linewidth]{function_F12.eps}\hfill
+    \includegraphics[width=.33\linewidth]{function_F13.eps}\hfill
+    \includegraphics[width=.33\linewidth]{function_F24.eps}
+    \includegraphics[width=.33\linewidth]{function_F28.eps}\hfill\hfill\\[0.5cm]
+    % \includegraphics[width=.25\linewidth]{function_F15.eps}\hfill
+    % \includegraphics[width=.25\linewidth]{function_F24.eps}\\[0.5cm]
+    % \centering
+    % \includegraphics[width=.25\linewidth]{function_F25.eps}\hfill
+    % \includegraphics[width=.25\linewidth]{function_F26.eps}\hfill
+    % \includegraphics[width=.5\linewidth]{function_F24.eps}\hfill
+    % \includegraphics[width=.5\linewidth]{function_F28.eps}\hfill\\[0.5cm]
+    % \includegraphics[width=.25\linewidth]{function_F29.eps}\\[0.5cm]
+  \caption{Convergence curves for all the 7 algorithms over some benchmark functions }
+  \end{figure}
+
+
+水平轴是当前迭代的数量，垂直轴是迄今为止获得的最佳适应值。为了使曲线更加可区分，在垂直轴上使用对数。 \ emph {图2}中的曲线图像表明，在大多数搜索过程中，IGOA可以相对于整个搜索过程保持较大的斜率。这种现象可能意味着所提出的非线性舒适区参数可以有助于充分利用每次迭代。曲线跨度在大多数函数中都是充足的，这可以表明基于$ L \ acute {e} vy $ flight的局部搜索机制使算法更具创造性。曲线突然出现在\ emph {F3}，\ emph {F4}，\ emph {F7}中，\ emph {F28}表明随机跳跃策略可以帮助搜索跳出局部最优。收敛曲线表明，所提出的IGOA可以使搜索过程比其他人更快地收敛。
+
+% The convergences rate of the algorithms are discussed in this part. The convergence curves of IGOA and all the other 6 algorithms for comparison over part of the benchmark functions are shown in \emph{Figure 2}. The horizontal axis is the number of the current iteration, and the vertical axis is the best fitness value obtained so far. To make the curve more distinguishable, the logarithm is used in the vertical axis. The curve image in \emph{Figure 2} indicates that IGOA can keep a large slope relatively for the entire search process in most of the search processes. This phenomenon can mean that the proposed nonlinear comfort zone parameter can contribute to making full utilization of every iteration. The curve span is ample in most of the functions, which can suggest that the local search mechanism based on $L\acute{e}vy$ flight makes the algorithm more creative. Some sudden drops of the curve occurred frequently in \emph{F3}, \emph{F4},\emph{F7}, and \emph{F28} show that the random jumping strategy can help the search jump out of the local optimum. The convergence curves demonstrate that the proposed IGOA can make the search process converge more rapidly than others generally.
 \section{任务调度问题}
 \subsection{问题描述}
-\subsection{任务调度模型}
-\subsection{实验结果}
 
+任务调度问题是云计算领域中常见的问题\ cite {qiao2016an}，edge computing area \ cite {guo2017energy}和SEA Service System \ cite {wang2015research}。 大量用户会产生大量任务。 因此，当大量用户同时询问服务时，系统应该有效地处理任务，这可能是计算系统的基本问题，尤其是在资源受限的条件下。 在任务调度问题中，到达调度中心的一系列任务等待分配给特定的执行节点。
+% Task scheduling problem is a common problem in cloud computing area\cite{qiao2016an}, edge computing area\cite{guo2017energy} and SEA Service System\cite{wang2015research}. Massive users produce massive tasks. Thus the system should handle the tasks efficiently when a large number of users ask the service at the same time, which can be an essential problem of the computing system, especially in resources constrained conditions. In task scheduling problems, a series of tasks arriving at the scheduling center wait to be allocated to a particular execution node. 
+
+由于资源条件，工作负载，处理速度和任务类型的不同，执行节点在此问题中可能是异构的。 任务调度的不同解决方案可能导致不同的后果，并且优秀的解决方案可能会影响很多。 对于服务提供商，将任务分配给适当的节点可以节省能源并减少预算。 对于服务使用者，将任务调度到高效节点可以减少等待时间并改善用户体验。
+% The execution node might be heterogeneous in this problem because of the difference in the resource condition, workload, processing speed and the type of task. A different solution to task scheduling could lead to different consequence, and an excellent solution can affect a lot. For service providers, allocating a task to the proper node can save energy and reduce the budget. For service consumers, scheduling the task to the efficient node can decrease the waiting time and improve the user experience. 
+
+任务调度问题可能是一个优化问题，它是一个NP难问题\ cite{tawfeek2013cloud}。应用了许多算法来解决任务调度问题。一些基于最佳资源选择（BRS）的算法，如Max-Min，Min-Min和Sufferage，是解决任务调度问题的传统方法\ cite {qiao2016an}。当任务数量增加时，任务的维度也会增加，这会扩大搜索空间并使优化问题更加复杂。传统算法无法处理这种情况。近年来，许多元启发式算法被应用于解决任务调度问题。 Goldberg在1988年提出的遗传算法（GA）是一种着名的进化算法，它代表了一种解决任务调度问题的染色体调度方案。由于交叉和变异的操作，GA计算起来很复杂。粒子群算法（PSO）是Kennedy和Eberhard在1995年提出的经典元启发式算法.PSO将调度解决方案表示为离散粒子，并通过群体的个人最佳和全局最佳信息进行演化。 PSO很容易陷入局部最优，并且在处理多模态问题时表现不佳。
+% Task scheduling problem can be an optimization problem, and it is an NP-hard problem\cite{tawfeek2013cloud}. Many algorithms are applied to solve the task scheduling problem. Some algorithms based on best resource selection(BRS) such as Max-Min, Min-Min, and Sufferage are traditional methods to solve task scheduling problems\cite{qiao2016an}. The dimension of the tasks can also increase when the number of tasks increases, which can enlarge the search space and make the optimization problem more complicated. The traditional algorithms could not handle this situation. In recent years many meta-heuristic algorithms were applied to solve the task scheduling problem. Genetic algorithm(GA) proposed by Goldberg in 1988 is a famous evolutionary algorithm, and it represents a scheduling scheme as a chromosome to solve the task scheduling problem. GA is complicated to calculate because of its operations of crossover and mutation. Particle Swarm Algorithm (PSO) is a classical meta-heuristic algorithm proposed by Kennedy and Eberhard in 1995. PSO represents a scheduling solution as a discrete particle and evolves by the information of the personal best and the global best of the swarm. PSO is easy to fall into local optimum, and it does not perform well when dealing with multimodal problems. 
+
+最近提出了一些元启发式算法，如DA，WOA，GOA等。 在这项工作中，建议的IGOA用于任务调度问题。 将调度到M个节点的N个任务的解决方案抽象为表示搜索空间中的位置的N维离散矢量。 每个解决方案可以对应于系统的完工时间和预算，并且可以使用完工时间和预算来计算适合度值。 一些搜索代理通过IGOA的搜索策略在整个搜索空间中搜索最佳适应度。
+% Some recently proposed meta-heuristic algorithms are used such as DA, WOA, GOA and so on. In this work, the proposed IGOA is employed for task scheduling problems. A solution of N tasks scheduled to M nodes is abstracted as an N-dimension discrete vector which represents a position in the search space. Each solution can correspond to a makespan and a budget of the system, and a fitness value can be calculated with the makespan and budget. Several search agents search in the whole search space for the best fitness by the search strategy of IGOA.
+
+\subsection{任务调度模型}
+在本文中，我们假设用户启动\ emph {N}任务，这些任务是$ {T_1，T_2，... T_N} $和\ emph {M}个节点，$ \ {S_1，S_2，... S_M \ } $正在等待处理它们。 任务调度模型描述如下。
+% In this paper, we assume that users start \emph{N} tasks which are ${T_1,T_2,...T_N}$ and \emph{M} nodes which are $\{S_1,S_2,...S_M\}$ are waiting to handle them. The task scheduling model is described as follows.
+\begin{enumerate}[]
+    \item The set of \emph{N} tasks is $\{T_1,T_2,...T_N\}$, and $T_i$ represents the resource that the \emph{i-th} task consumes.
+    \item The set of \emph{M} nodes is $\{S_1,S_2,...S_M\}$ and $S_j$ represents the maximum amount of resources that the \emph{j-th} node can provide.
+    \item A task can be operated at any node as long as the node can provide enough resource, which means $T_i \leq S_j$.
+    \item Every node can handle only one task at the same time. Multiple tasks can be run sequentially on the same node. 
+    \item There are K types of all the tasks. The vector of types of tasks is $tot[N]$, and $tot_i$ which is an integral value in [1, K] represents the type of \emph{i-th} task.
+    \item The ability of every node to handle different type of task is different. The matrix of operating speed is $mips[M,K]$. $mips_{j}^{k}$ represents the resource that the type \emph{k} task can consume on the \emph{j-th} node in a unit time. The working time for the \emph{i-th} task running on the \emph{j-th} node which is $et_{ij}$ is calculated as follows.
+    \begin{eqnarray}
+        et_{ij}= \begin{cases}
+            \frac{T_i}{mips_{j}^{tot_i}} & task\  i\  runs\  on\  node\  j \\
+            0&task\  i\  does\  not\  runs\  on\  node\  j 
+            \end{cases} 
+    \end{eqnarray}
+    \item The makespan of the \emph{j-th} node which is $st_j$ is calculated by adding all the operating time of the tasks handled on the \emph{j-th} node. The equation is shown as follows.
+    \begin{eqnarray}
+        st_{j}=\sum_{i=1}^{N} et_{ij}
+    \end{eqnarray}
+    The total \emph{Makespan} is the longest time for all the nodes. \emph{Makespan} is calculated as follow.
+    \begin{eqnarray}
+        Makespan=\max\{st_j | j=1,2,3...M\}
+    \end{eqnarray}
+    \item The work node can produce the extra budget when it is working. The budget is only related to the time of working, regardless of the type of task running on it. The vector of the price of the nodes is $bps[M]$ which represents the budget that the \emph{j-th} node generate in a unit time.
+    \item  The total \emph{Budget} is calculated by adding all the budget of all the nodes. \emph{Budget} is calculated as follows.
+    \begin{eqnarray}
+        Budget=\sum_{j=1}^{M} (st_j \times bps_j)
+    \end{eqnarray}
+    \item Makespan and budget can describe the cost of the problems in two aspects. A unified evaluation fitness is required. In this module, the fitness of the problem is defined as the mixture of makespan and budget with weight parameters of $\alpha$ and $\beta$. The \emph{fitness} is calculated as follows.
+    \begin{eqnarray}
+        fitness=\alpha Makespan + \beta Budget
+    \end{eqnarray}
+    \item The search process is continuous, but the solution to the problem is discrete. When a step of search is finished, the search agent should adjust itself to the nearest integral location.
+    \item The switching time between two tasks on the same node is ignored in this module. The transmission time among the edge nodes is also ignored. 
+\end{enumerate}
+\subsection{实验结果}
+在此任务调度模块中，\emph{N}任务分为\emph{K}类型，\emph{M}工作节点正在准备处理它们。 任务调度模块的参数选择的细节取决于具体问题，这里不再讨论。 在这项工作中，不失一般性，\emph{K}，\emph{N}和\emph{M}分别设置为4,10和5。 为了平衡\emph{Makespan}和\emph{Budget}对\emph{fitness}的影响，系数$ \alpha $和$ \beta $设置为0.7和0.3。 上述参数设定如表\ref{tab:resource_and_type_tasks}所示。
+% In this task scheduling module, \emph{N} tasks are divided into \emph{K} types, and \emph{M} working nodes are preparing to handle them. The specifics of the parameter selection of the task scheduling module depend on the specific problem and will not be discussed here. In this work, without loss of generality, \emph{K}, \emph{N} and \emph{M} are set to 4,10 and 5 respectively. To balance the impact of \emph{Makespan} and \emph{Budget} on \emph{fitness}, the coefficients $\alpha$ and $\beta$ are set to 0.7 and 0.3. Those parameters mentioned above are set as follows.
+\begin{eqnarray}\label{eqn:K_N_M}
+    K=4;\ N=10;\ M=5;\ \alpha=0.7;\ \beta=0.3; 
+\end{eqnarray}
+The vector T, tot, S and bps, and the matrix mips are set as \emph{Table 10-12}.
+\begin{table}[!htbp]
+    \centering
+    \caption{Resources and types about tasks}\label{tab:resource_type_tasks}
+    \renewcommand\arraystretch{1.3} 
+    % \scriptsize
+\begin{tabular}{*{11}{c}}
+    \hline
+   task& 1& 2& 3& 4& 5& 6& 7& 8& 9& 10\\
+    \hline
+   T & 40& 20& 30& 40& 25& 35& 45& 10& 5& 10 \\
+    \hline
+   tot &1& 1& 1& 2& 2& 2& 3& 3& 4& 4 \\
+    \hline
+   
+   \end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+    \centering
+    \caption{Resource and bps about nodes}\label{tab:resource_bps_nodes_tasks}
+    \renewcommand\arraystretch{1.3} 
+    % \scriptsize
+\begin{tabular}{*{6}{c}}
+    \hline
+   node& 1& 2& 3& 4& 5\\
+    \hline
+   S & 100& 50& 150& 100& 80 \\
+    \hline
+   bps &0.5& 0.2& 0.8& 0.1& 0.5 \\
+    \hline
+   
+   \end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+    \centering
+    \caption{Mips about tasks and nodes}\label{tab:mips_tasks_nodes}
+    \renewcommand\arraystretch{1.3} 
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        
+        {{$mips_j^k$} }& \multicolumn{4}{|c|}{k:1-4} \\
+        
+        \hline
+        \multirow{5}*{j:1-5}&5& 2& 10& 8\\
+        \cline{2-5}
+        &2& 4& 2& 1\\
+        \cline{2-5}
+        &8& 10& 10& 5\\
+        \cline{2-5}
+        &2& 1& 3& 4\\
+        \cline{2-5}
+        &5& 5& 8& 8\\
+        \hline
+        \end{tabular}
+\end{table}   
+
+在这项工作中，6个算法与提议的IGOA进行了比较。 每种算法使用30个搜索代理。 为了减少意外因素的影响，对每种算法进行了30次测试，并计算并比较了平均值，标准差，最佳值和最差值等统计数据。 实验结果如表\ref{tab:results_task_scheduling}所示。
+% In this work, 6 algorithms were compared with the proposed IGOA. 30 search agents were employed in each algorithm. In order to reduce the impact of accidental factors, every algorithm was tested for 30 times and the statistical data such as average value, standard deviation, best value and worst value were calculated and compared. The result of the experiment is listed as \emph{Table 13}. 
+\begin{table}[!htbp]
+    \centering
+    \caption{Results about task scheduling}\label{tab:results_task_scheduling}
+    \renewcommand\arraystretch{1.3} 
+    % \scriptsize
+\begin{tabular}{*{6}{c}}
+    \hline
+    algorithm&average&std&best&worst&promotion\\
+    \hline
+    IGOA& 13.50&	0.62&	12.63&	14.62&	0    \\
+    \hline
+    GOA & 14.95&	0.82&	13.50&	16.67&	9.7\%    \\
+    \hline
+    WOA &14.08&	0.75&	13.02&	15.93&	4.1\%    \\
+    \hline
+    ALO &19.83&	2.89&	16.02&	26.76&	31.9\%    \\
+    \hline
+    DA &19.00&	2.49&	15.62&	26.81&	29.0\%    \\
+    \hline
+    PSO &17.93&	1.68&	13.96&	22.29&	24.7\%\\
+    \hline
+    OBLGOA &14.85&	0.74&	13.30&	16.27&	9.1\%\\
+    \hline
+   
+   \end{tabular}
+\end{table}
+
+实验结果表明，所提出的IGOA在所有领域都优于其他算法。 IGOA在平均值方面可以做得最好，对于最小的标准偏差它可以更稳定。 它可以找到所有算法的最佳解决方案，并且可以控制它可以找到的最差值。 与其他算法相比，IGOA可以将平均值分别提升9.7％，4.1％，31.9％，29.0％，24.7％和9.1％。
+% The result of the experiment demonstrated that the proposed IGOA outperformed the other algorithms in all field. IGOA can do best in average values, and it can be more stable for the smallest standard deviation. It can have the ability to find the best solution over all the algorithms, and it can control the worst value which it can find. Compared with the other algorithms, IGOA can promote the average values respectively by 9.7\%, 4.1\%, 31.9\%, 29.0\%, 24.7\%, and 9.1\%.
 
 \section{本章小结}
