@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  21 MAR 2019 23:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  22 MAR 2019 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1859,25 +1859,25 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]) [3] [4
 
-] (./Thesis.toc [5])
+] (./Thesis.toc [5] [6])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [6] (./Thesis.lof)
+ [7] [8
+
+] (./Thesis.lof)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [7
-
-] [8
+ [9] [10
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Tex/Prematter.tex [9] [10
+ (./Tex/Prematter.tex [11] [12
 
-]) [11] [12
+]) [13] [14
 
 ] (./Tex/Mainmatter.tex (./Tex/Chap_Introduction.tex
 第1章
@@ -1887,18 +1887,147 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]
 第2章
-) (./Tex/Chap_Computation_Offloading.tex [3] [4
+[3]) (./Tex/Chap_Computation_Offloading.tex [4] [5] [6
 
 ]
 第3章
-[5] [6] [7] [8]
-Overfull \hbox (1.26395pt too wide) in paragraph at lines 54--55
+[7] [8] [9] [10]
+Overfull \hbox (1.26395pt too wide) in paragraph at lines 55--56
 \TU/SimSun(1)/m/n/12.045 过 程 中 实 现 的。|  这 些 通 信 标 志 可 以 让 服 务 端 区 分 该 信 息 是 控 制 类 型  |（\TU/entextsf/m/n/12.045 ESTABLISH\TU/SimSun(1)/m/n/12.045 、|
  []
 
-[9] [10] [11]) (./Tex/Chap_Task_Scheduling.tex [12]
+[11] [12] [13]) (./Tex/Chap_Task_Scheduling.tex [14]
 第4章
-[13
+[15
 
-] [14] [15]
-Package hyperref Info: bookmark level for unknown algorithm de
+] [16] [17]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 89.
+ [18] [19] [20]
+Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 45.26646pt on input line 309.
+
+[21] [22]
+Overfull \hbox (49.05504pt too wide) in paragraph at lines 374--395
+ [][] 
+ []
+
+[23] [24] [25] [26]
+File: Img/oaspl_a.pdf Graphic file (type pdf)
+<use Img/oaspl_a.pdf>
+File: Img/oaspl_b.pdf Graphic file (type pdf)
+<use Img/oaspl_b.pdf>
+File: Img/oaspl_c.pdf Graphic file (type pdf)
+<use Img/oaspl_c.pdf>
+File: Img/oaspl_d.pdf Graphic file (type pdf)
+<use Img/oaspl_d.pdf>
+ [27] [28] [29] [30]
+File: Img/procedure_of_IGOA.eps Graphic file (type eps)
+<Img/procedure_of_IGOA.eps>
+
+Overfull \hbox (17.40828pt too wide) in paragraph at lines 552--555
+\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 kennedy1995particle\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016WOA\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016dragonfly\TU/SimSun(1)/m/n/12.045 ，|
+ []
+
+[31] [32] [33]
+Overfull \hbox (9.31065pt too wide) in paragraph at lines 556--558
+\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[][]\TU/entextsf/m/n/12.045 4.6[][]\TU/SimSun(1)/m/n/12.045 中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
+ []
+
+
+Overfull \hbox (29.17195pt too wide) in paragraph at lines 569--595
+ [][] 
+ []
+
+[34] [35] [36] [37] [38] [39] [40] [41]
+File: Img/function_F3.eps Graphic file (type eps)
+<Img/function_F3.eps>
+File: Img/function_F4.eps Graphic file (type eps)
+<Img/function_F4.eps>
+File: Img/function_F7.eps Graphic file (type eps)
+<Img/function_F7.eps>
+File: Img/function_F13.eps Graphic file (type eps)
+<Img/function_F13.eps>
+File: Img/function_F24.eps Graphic file (type eps)
+<Img/function_F24.eps>
+File: Img/function_F28.eps Graphic file (type eps)
+<Img/function_F28.eps>
+ [42] [43] [44]
+Overfull \hbox (8.81464pt too wide) in paragraph at lines 967--969
+[]\TU/SimSun(1)/m/n/12.045 任 务 调 度 问 题 可 能 是 一 个 优 化 问 题，|  它 是 一 个 \TU/entextsf/m/n/12.045 NP \TU/SimSun(1)/m/n/12.045 难 问 题 \TU/entextsf/m/n/12.045 citetawfeek2013cloud\TU/SimSun(1)/m/n/12.045 。|
+ []
+
+Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
+[45]
+
+LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 46 undefined on input line 1010.
+
+[46] [47])) [48] (./Tex/Appendix.tex
+附录 A
+LaTeX Font Info:    Try loading font information for OT1+entextrm on input line 19.
+LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
+
+LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 19.
+
+) [49
+
+
+] [50
+
+] (./Thesis.bbl) (./Tex/Backmatter.tex [51
+
+
+] [52
+
+] [53] [54
+
+] [55] [56
+
+])
+
+Package caption Warning: Unused \captionsetup[bi-first] on input line 544.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[bi-second] on input line 544.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+(./Thesis.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 3FE1336711D82529FB4A74922CF17E4E.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.65625pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 30018 strings out of 492970
+ 595772 string characters out of 6137299
+ 689900 words of memory out of 5000000
+ 33550 multiletter control sequences out of 15000+600000
+ 577456 words of font info for 199 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 60i,26n,94p,10550b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Thesis.pdf (76 pages).
