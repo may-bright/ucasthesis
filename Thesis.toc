@@ -3,73 +3,87 @@
 \contentsline {section}{\numberline {1.2}研究意义}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}研究内容}{1}{section.1.3}
 \contentsline {section}{\numberline {1.4}本文内容安排}{1}{section.1.4}
-\contentsline {chapter}{\numberline {第2章\hspace {.3em}}基于容器化多终端服务系统架构设计 }{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}引言}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}相关工作}{3}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}自治系统组网技术}{3}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}微服务架构}{3}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}终端服务系统架构设计}{3}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}微服务架构}{3}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}系统模块设计}{3}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}终端在系统中的角色}{3}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}多终端协同服务系统的构建方法}{4}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}自治系统的网络选择}{4}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}去中心化的自组织网络构建}{4}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}自治系统的管理节点选择}{4}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}本章小结}{5}{section.2.5}
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于容器化服务资源提供技术}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}引言}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}相关研究}{7}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}计算迁移技术}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Web Worker}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}虚拟化技术}{9}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}容器集群技术}{9}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}基于边缘容器的Web Worker透明计算迁移系统设计}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}系统设计，结构，模块，流程}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}透明迁移的客户端}{10}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}基于容器的服务端}{11}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}实验结果及分析}{12}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}实验配置}{12}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}实验结果}{13}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}本章小结}{14}{section.3.5}
-\contentsline {chapter}{\numberline {第4章\hspace {.3em}}资源受限终端任务调度策略}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}引言}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}相关工作}{15}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}传统任务调度问题求解方法}{15}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}启发式算法求解方法}{15}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}GOA算法}{17}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}GOA算法背景}{17}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}GOA算法数学模型}{17}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}蝗虫算法优缺点分析}{18}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}带随机跳出机制的动态权重蝗虫优化算法(DJGOA)}{20}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}动态权重}{20}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}随机跳出机制}{20}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}DJGOA算法流程}{21}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}实验结果}{21}{subsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.4.1}实验设置}{21}{subsubsection.4.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.4.2}实验结果}{23}{subsubsection.4.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.4.3}威尔科克森秩和检验}{27}{subsubsection.4.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4.4}Convergence Analysis}{27}{subsubsection.4.4.4.4}
-\contentsline {section}{\numberline {4.5}改进蝗虫优化算法(IGOA)}{29}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}蝗虫算法不足之处}{29}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}非线性舒适区控制参数}{29}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}基于Levy飞行的局部搜索机制}{29}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}基于线性递减参数的随机跳出策略}{30}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}IGOA流程}{31}{subsection.4.5.5}
-\contentsline {subsection}{\numberline {4.5.6}实验结果}{34}{subsection.4.5.6}
-\contentsline {subsubsection}{\numberline {4.5.6.1}实验设置}{34}{subsubsection.4.5.6.1}
-\contentsline {subsubsection}{\numberline {4.5.6.2}实验结果}{34}{subsubsection.4.5.6.2}
-\contentsline {subsubsection}{\numberline {4.5.6.3}wilcoxon秩和检验}{42}{subsubsection.4.5.6.3}
-\contentsline {subsubsection}{\numberline {4.5.6.4}收敛图}{42}{subsubsection.4.5.6.4}
-\contentsline {section}{\numberline {4.6}任务调度问题}{44}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}问题描述}{44}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}任务调度模型}{45}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}实验结果}{47}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}本章小结}{48}{section.4.7}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{49}{appendix.A}
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{49}{section.A.1}
-\contentsline {section}{\numberline {A.2}测试公式编号}{49}{section.A.2}
-\contentsline {section}{\numberline {A.3}测试生僻字}{49}{section.A.3}
-\contentsline {chapter}{参考文献}{51}{section*.31}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{53}{appendix*.33}
-\contentsline {chapter}{致谢}{55}{appendix*.40}
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}相关工作 }{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}边缘计算技术}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}docker容器技术}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}自组织网络技术}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}计算迁移}{3}{section.2.4}
+\contentsline {section}{\numberline {2.5}任务调度算法}{3}{section.2.5}
+\contentsline {section}{\numberline {2.6}预测算法}{3}{section.2.6}
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于容器化多终端服务系统架构设计 }{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}相关工作}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}自治系统组网技术}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}微服务架构}{5}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}多终端协同服务系统架构设计}{5}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}终端资源特点}{5}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}微服务架构}{5}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}系统模块设计}{7}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}终端在系统中的角色}{7}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}多终端协同服务系统的构建方法}{8}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}自治系统的网络选择}{8}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}去中心化的自组织网络构建}{8}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}自治系统的管理节点选择}{8}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}本章小结}{8}{section.3.5}
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}基于容器化服务资源提供技术}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}引言}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}相关研究}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}计算迁移技术}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Web Worker}{10}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}虚拟化技术}{11}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}容器集群技术}{11}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}基于边缘容器的Web Worker透明计算迁移系统设计}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}系统设计，结构，模块，流程}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}透明迁移的客户端}{12}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}基于容器的服务端}{13}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}实验结果及分析}{14}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}实验配置}{14}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}实验结果}{15}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}本章小结}{16}{section.4.5}
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}资源受限终端任务调度策略}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}引言}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}相关工作}{17}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}传统任务调度问题求解方法}{17}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}启发式算法求解方法}{17}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}GOA算法}{19}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}GOA算法背景}{19}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}GOA算法数学模型}{19}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}蝗虫算法优缺点分析}{20}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}带随机跳出机制的动态权重蝗虫优化算法(DJGOA)}{22}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}动态权重}{22}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}随机跳出机制}{22}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}DJGOA算法流程}{23}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}实验结果}{23}{subsection.5.4.4}
+\contentsline {subsubsection}{\numberline {5.4.4.1}实验设置}{23}{subsubsection.5.4.4.1}
+\contentsline {subsubsection}{\numberline {5.4.4.2}实验结果}{25}{subsubsection.5.4.4.2}
+\contentsline {subsubsection}{\numberline {5.4.4.3}威尔科克森秩和检验}{29}{subsubsection.5.4.4.3}
+\contentsline {subsubsection}{\numberline {5.4.4.4}Convergence Analysis}{29}{subsubsection.5.4.4.4}
+\contentsline {section}{\numberline {5.5}改进蝗虫优化算法(IGOA)}{31}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}蝗虫算法不足之处}{31}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}非线性舒适区控制参数}{31}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}基于Levy飞行的局部搜索机制}{31}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}基于线性递减参数的随机跳出策略}{32}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}IGOA流程}{33}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}实验结果}{36}{subsection.5.5.6}
+\contentsline {subsubsection}{\numberline {5.5.6.1}实验设置}{36}{subsubsection.5.5.6.1}
+\contentsline {subsubsection}{\numberline {5.5.6.2}实验结果}{36}{subsubsection.5.5.6.2}
+\contentsline {subsubsection}{\numberline {5.5.6.3}wilcoxon秩和检验}{44}{subsubsection.5.5.6.3}
+\contentsline {subsubsection}{\numberline {5.5.6.4}收敛图}{44}{subsubsection.5.5.6.4}
+\contentsline {section}{\numberline {5.6}任务调度问题}{46}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}问题描述}{46}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}任务调度模型}{47}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}实验结果}{49}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}本章小结}{50}{section.5.7}
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}基于预测的容器弹性服务策略 }{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}1引言}{51}{section.6.1}
+\contentsline {section}{\numberline {6.2}相关工作}{51}{section.6.2}
+\contentsline {section}{\numberline {6.3}基于预测的容器弹性服务系统设计}{51}{section.6.3}
+\contentsline {section}{\numberline {6.4}基于卡尔曼滤波的预测算法}{51}{section.6.4}
+\contentsline {section}{\numberline {6.5}实验结果}{51}{section.6.5}
+\contentsline {section}{\numberline {6.6}本章小结}{51}{section.6.6}
+\contentsline {chapter}{\numberline {第7章\hspace {.3em}}总结与展望 }{53}{chapter.7}
+\contentsline {section}{\numberline {7.1}工作总结}{53}{section.7.1}
+\contentsline {section}{\numberline {7.2}工作展望}{53}{section.7.2}
+\contentsline {chapter}{参考文献}{55}{section*.31}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{57}{appendix*.33}
+\contentsline {chapter}{致谢}{59}{appendix*.40}
