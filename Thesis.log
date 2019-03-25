@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  25 MAR 2019 14:39
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  25 MAR 2019 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1891,22 +1891,22 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]
 第3章
-[5] [6] [7]) (./Tex/Chap_Computation_Offloading.tex [8]
-第4章
-[9
+[5] [6] [7] [8] [9] [10]) (./Tex/Chap_Computation_Offloading.tex [11] [12
 
-] [10] [11] [12]
+]
+第4章
+[13] [14] [15] [16]
 Overfull \hbox (1.26395pt too wide) in paragraph at lines 55--56
 \TU/SimSun(1)/m/n/12.045 过 程 中 实 现 的。|  这 些 通 信 标 志 可 以 让 服 务 端 区 分 该 信 息 是 控 制 类 型  |（\TU/entextsf/m/n/12.045 ESTABLISH\TU/SimSun(1)/m/n/12.045 、|
  []
 
-[13] [14] [15]) (./Tex/Chap_Task_Scheduling.tex [16]
+[17] [18] [19]) (./Tex/Chap_Task_Scheduling.tex [20]
 第5章
-[17
+[21
 
-] [18] [19]
+] [22] [23]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 89.
- [20] [21] [22]
+ [24] [25] [26]
 Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
  [][] 
  []
@@ -1914,12 +1914,12 @@ Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
 
 LaTeX Warning: Float too large for page by 45.26646pt on input line 309.
 
-[23] [24]
+[27] [28]
 Overfull \hbox (49.05504pt too wide) in paragraph at lines 374--395
  [][] 
  []
 
-[25] [26] [27] [28]
+[29] [30] [31] [32]
 File: Img/oaspl_a.pdf Graphic file (type pdf)
 <use Img/oaspl_a.pdf>
 File: Img/oaspl_b.pdf Graphic file (type pdf)
@@ -1928,7 +1928,7 @@ File: Img/oaspl_c.pdf Graphic file (type pdf)
 <use Img/oaspl_c.pdf>
 File: Img/oaspl_d.pdf Graphic file (type pdf)
 <use Img/oaspl_d.pdf>
- [29] [30] [31] [32]
+ [33] [34] [35] [36]
 File: Img/procedure_of_IGOA.eps Graphic file (type eps)
 <Img/procedure_of_IGOA.eps>
 
@@ -1936,7 +1936,7 @@ Overfull \hbox (17.40828pt too wide) in paragraph at lines 552--555
 \TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 kennedy1995particle\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016WOA\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016dragonfly\TU/SimSun(1)/m/n/12.045 ，|
  []
 
-[33] [34] [35]
+[37] [38] [39]
 Overfull \hbox (9.31065pt too wide) in paragraph at lines 556--558
 \TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[][]\TU/entextsf/m/n/12.045 5.6[][]\TU/SimSun(1)/m/n/12.045 中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
  []
@@ -1946,7 +1946,7 @@ Overfull \hbox (29.17195pt too wide) in paragraph at lines 569--595
  [][] 
  []
 
-[36] [37] [38] [39] [40] [41] [42] [43]
+[40] [41] [42] [43] [44] [45] [46] [47]
 File: Img/function_F3.eps Graphic file (type eps)
 <Img/function_F3.eps>
 File: Img/function_F4.eps Graphic file (type eps)
@@ -1959,7 +1959,7 @@ File: Img/function_F24.eps Graphic file (type eps)
 <Img/function_F24.eps>
 File: Img/function_F28.eps Graphic file (type eps)
 <Img/function_F28.eps>
- [44] [45] [46]
+ [48] [49] [50]
 Overfull \hbox (8.81464pt too wide) in paragraph at lines 967--969
 []\TU/SimSun(1)/m/n/12.045 任 务 调 度 问 题 可 能 是 一 个 优 化 问 题，|  它 是 一 个 \TU/entextsf/m/n/12.045 NP \TU/SimSun(1)/m/n/12.045 难 问 题 \TU/entextsf/m/n/12.045 citetawfeek2013cloud\TU/SimSun(1)/m/n/12.045 。|
  []
@@ -1968,29 +1968,29 @@ Missing character: There is no ， in font Times New Roman/OT:script=latn;langua
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-[47]
+[51]
 
-LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 48 undefined on input line 1010.
+LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 52 undefined on input line 1010.
 
-[48] [49]) (./Tex/Chap_Elastic_Service.tex [50]
+[52] [53]) (./Tex/Chap_Elastic_Service.tex [54]
 第6章
-) (./Tex/Chap_Summary_and_Future_Work.tex [51
-
-] [52
-
-]
-第7章
-)) [53] [54
-
-] (./Thesis.bbl) (./Tex/Backmatter.tex [55
-
-
+) (./Tex/Chap_Summary_and_Future_Work.tex [55
 
 ] [56
 
-] [57] [58
+]
+第7章
+)) [57] [58
 
-] [59] [60
+] (./Thesis.bbl) (./Tex/Backmatter.tex [59
+
+
+
+] [60
+
+] [61] [62
+
+] [63] [64
 
 ])
 
@@ -2023,10 +2023,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  29886 strings out of 492970
  589219 string characters out of 6137299
- 689925 words of memory out of 5000000
+ 689928 words of memory out of 5000000
  33430 multiletter control sequences out of 15000+600000
  567909 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,26n,94p,10550b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (80 pages).
+Output written on Thesis.pdf (84 pages).

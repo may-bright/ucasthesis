@@ -3,24 +3,24 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {5.1}{\ignorespaces F1-F7单峰测试函数\relax }}{25}{table.caption.10}
-\contentsline {table}{\numberline {5.2}{\ignorespaces F8-F13多峰测试函数\relax }}{26}{table.caption.11}
-\contentsline {table}{\numberline {5.3}{\ignorespaces DJGOA算法在13个测试函数上的实验结果\relax }}{27}{table.caption.12}
-\contentsline {table}{\numberline {5.3}{\ignorespaces 续表：DJGOA算法在13个测试函数上的实验结果\relax }}{28}{table.caption.13}
-\contentsline {table}{\numberline {5.4}{\ignorespaces DJGOA、GOA与PSO的威尔科克森秩和检验结果\relax }}{29}{table.caption.14}
-\contentsline {table}{\numberline {5.5}{\ignorespaces fixedmodal functions\relax }}{37}{table.caption.17}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Composite functions\relax }}{38}{table.caption.18}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Results of unimodal functions\relax }}{39}{table.caption.19}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Results of multimodal functions-1\relax }}{40}{table.caption.20}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Results of fixedmodal functions\relax }}{41}{table.caption.21}
-\contentsline {table}{\numberline {5.9}{\ignorespaces 续表：Results of fixedmodal functions\relax }}{42}{table.caption.22}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Results of composite functions\relax }}{43}{table.caption.23}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Results of Wilcoxon rank-sum test\relax }}{45}{table.caption.24}
-\contentsline {table}{\numberline {5.11}{\ignorespaces 续表：Results of Wilcoxon rank-sum test\relax }}{46}{table.caption.25}
-\contentsline {table}{\numberline {5.12}{\ignorespaces Resources and types about tasks\relax }}{49}{table.caption.27}
-\contentsline {table}{\numberline {5.13}{\ignorespaces Resource and bps about nodes\relax }}{49}{table.caption.28}
-\contentsline {table}{\numberline {5.14}{\ignorespaces Mips about tasks and nodes\relax }}{49}{table.caption.29}
-\contentsline {table}{\numberline {5.15}{\ignorespaces Results about task scheduling\relax }}{50}{table.caption.30}
+\contentsline {table}{\numberline {5.1}{\ignorespaces F1-F7单峰测试函数\relax }}{29}{table.caption.10}
+\contentsline {table}{\numberline {5.2}{\ignorespaces F8-F13多峰测试函数\relax }}{30}{table.caption.11}
+\contentsline {table}{\numberline {5.3}{\ignorespaces DJGOA算法在13个测试函数上的实验结果\relax }}{31}{table.caption.12}
+\contentsline {table}{\numberline {5.3}{\ignorespaces 续表：DJGOA算法在13个测试函数上的实验结果\relax }}{32}{table.caption.13}
+\contentsline {table}{\numberline {5.4}{\ignorespaces DJGOA、GOA与PSO的威尔科克森秩和检验结果\relax }}{33}{table.caption.14}
+\contentsline {table}{\numberline {5.5}{\ignorespaces fixedmodal functions\relax }}{41}{table.caption.17}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Composite functions\relax }}{42}{table.caption.18}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Results of unimodal functions\relax }}{43}{table.caption.19}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Results of multimodal functions-1\relax }}{44}{table.caption.20}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Results of fixedmodal functions\relax }}{45}{table.caption.21}
+\contentsline {table}{\numberline {5.9}{\ignorespaces 续表：Results of fixedmodal functions\relax }}{46}{table.caption.22}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Results of composite functions\relax }}{47}{table.caption.23}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Results of Wilcoxon rank-sum test\relax }}{49}{table.caption.24}
+\contentsline {table}{\numberline {5.11}{\ignorespaces 续表：Results of Wilcoxon rank-sum test\relax }}{50}{table.caption.25}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Resources and types about tasks\relax }}{53}{table.caption.27}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Resource and bps about nodes\relax }}{53}{table.caption.28}
+\contentsline {table}{\numberline {5.14}{\ignorespaces Mips about tasks and nodes\relax }}{53}{table.caption.29}
+\contentsline {table}{\numberline {5.15}{\ignorespaces Results about task scheduling\relax }}{54}{table.caption.30}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
