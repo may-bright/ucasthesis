@@ -7,10 +7,14 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces 用户、服务、终端、容器概念之间的关系\relax }}{14}{figure.caption.13}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces 去中心化的自组织网络结构\relax }}{15}{figure.caption.14}
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Web Worker透明计算迁移\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 透明计算迁移系统服务端结构图\relax }}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 实验一：200*200图片渲染\relax }}{24}{figure.caption.17}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 实验二：400*400图片渲染\relax }}{25}{figure.caption.18}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。\relax }}{38}{figure.caption.20}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The figure framework of the procedure of IGOA\relax }}{43}{figure.caption.21}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Convergence curves for all the 7 algorithms over some benchmark functions \relax }}{52}{figure.caption.31}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。\relax }}{40}{figure.caption.24}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The figure framework of the procedure of IGOA\relax }}{45}{figure.caption.25}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Convergence curves for all the 7 algorithms over some benchmark functions \relax }}{54}{figure.caption.35}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
