@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  28 MAR 2019 00:37
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  30 MAR 2019 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1883,58 +1883,58 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 第1章
 [1
 
-] [2]
+] [2] [3] [4] [5]
 File: Img/Introduction_Framework_of_Organization_Temp.png Graphic file (type bmp)
 <Img/Introduction_Framework_of_Organization_Temp.png>
- [3]) (./Tex/Chap_Related_Work.tex [4]
+ [6] [7]) (./Tex/Chap_Related_Work.tex [8]
 第2章
-) (./Tex/Chap_Service_System.tex [5
+) (./Tex/Chap_Service_System.tex [9
 
-] [6
+] [10
 
 ]
 第3章
-[7] [8] [9] [10] [11]
+[11] [12] [13] [14] [15]
 File: Img/System_Hierarchy_Chart_Temp.png Graphic file (type bmp)
 <Img/System_Hierarchy_Chart_Temp.png>
 File: Img/Docker_Architecture_Temp.jpg Graphic file (type bmp)
 <Img/Docker_Architecture_Temp.jpg>
- [12] [13]
+ [16] [17]
 File: Img/System_Architecture_Temp.png Graphic file (type bmp)
 <Img/System_Architecture_Temp.png>
- [14]
+ [18]
 File: Img/System_Conception_Relationship_Temp.png Graphic file (type bmp)
 <Img/System_Conception_Relationship_Temp.png>
- [15]
+ [19]
 File: Img/System_CDC_Build_Temp.png Graphic file (type bmp)
 <Img/System_CDC_Build_Temp.png>
- [16]) (./Tex/Chap_Computation_Offloading.tex [17] [18
+ [20]) (./Tex/Chap_Computation_Offloading.tex [21] [22
 
 ]
 第4章
-[19] [20] [21]
+[23] [24] [25]
 File: Img/Computation_Offloading_Web_Worker_Trans_Temp.png Graphic file (type bmp)
 <Img/Computation_Offloading_Web_Worker_Trans_Temp.png>
- [22]
+ [26]
 Overfull \hbox (1.26395pt too wide) in paragraph at lines 62--63
 \TU/SimSun(1)/m/n/12.045 过 程 中 实 现 的。|  这 些 通 信 标 志 可 以 让 服 务 端 区 分 该 信 息 是 控 制 类 型  |（\TU/entextsf/m/n/12.045 ESTABLISH\TU/SimSun(1)/m/n/12.045 、|
  []
 
 File: Img/Computation_Offloading_System_Server_Temp.png Graphic file (type bmp)
 <Img/Computation_Offloading_System_Server_Temp.png>
-[23] [24] [25]
+[27] [28] [29]
 File: Img/offloading200.png Graphic file (type bmp)
 <Img/offloading200.png>
- [26]
+ [30]
 File: Img/offloading400.png Graphic file (type bmp)
 <Img/offloading400.png>
- [27]) (./Tex/Chap_Task_Scheduling.tex [28]
+ [31]) (./Tex/Chap_Task_Scheduling.tex [32]
 第5章
-[29
+[33
 
-] [30] [31]
+] [34] [35]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 89.
- [32] [33] [34]
+ [36] [37] [38]
 Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
  [][] 
  []
@@ -1942,12 +1942,12 @@ Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
 
 LaTeX Warning: Float too large for page by 45.26646pt on input line 309.
 
-[35] [36]
+[39] [40]
 Overfull \hbox (49.05504pt too wide) in paragraph at lines 374--395
  [][] 
  []
 
-[37] [38] [39] [40]
+[41] [42] [43] [44]
 File: Img/oaspl_a.pdf Graphic file (type pdf)
 <use Img/oaspl_a.pdf>
 File: Img/oaspl_b.pdf Graphic file (type pdf)
@@ -1956,7 +1956,7 @@ File: Img/oaspl_c.pdf Graphic file (type pdf)
 <use Img/oaspl_c.pdf>
 File: Img/oaspl_d.pdf Graphic file (type pdf)
 <use Img/oaspl_d.pdf>
- [41] [42] [43] [44]
+ [45] [46] [47] [48]
 File: Img/procedure_of_IGOA.eps Graphic file (type eps)
 <Img/procedure_of_IGOA.eps>
 
@@ -1964,7 +1964,7 @@ Overfull \hbox (17.40828pt too wide) in paragraph at lines 552--555
 \TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 kennedy1995particle\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016WOA\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016dragonfly\TU/SimSun(1)/m/n/12.045 ，|
  []
 
-[45] [46] [47]
+[49] [50] [51]
 Overfull \hbox (9.31065pt too wide) in paragraph at lines 556--558
 \TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[][]\TU/entextsf/m/n/12.045 5.6[][]\TU/SimSun(1)/m/n/12.045 中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
  []
@@ -1974,7 +1974,7 @@ Overfull \hbox (29.17195pt too wide) in paragraph at lines 569--595
  [][] 
  []
 
-[48] [49] [50] [51] [52] [53] [54] [55]
+[52] [53] [54] [55] [56] [57] [58] [59]
 File: Img/function_F3.eps Graphic file (type eps)
 <Img/function_F3.eps>
 File: Img/function_F4.eps Graphic file (type eps)
@@ -1987,7 +1987,7 @@ File: Img/function_F24.eps Graphic file (type eps)
 <Img/function_F24.eps>
 File: Img/function_F28.eps Graphic file (type eps)
 <Img/function_F28.eps>
- [56] [57] [58]
+ [60] [61] [62]
 Overfull \hbox (8.81464pt too wide) in paragraph at lines 967--969
 []\TU/SimSun(1)/m/n/12.045 任 务 调 度 问 题 可 能 是 一 个 优 化 问 题，|  它 是 一 个 \TU/entextsf/m/n/12.045 NP \TU/SimSun(1)/m/n/12.045 难 问 题 \TU/entextsf/m/n/12.045 citetawfeek2013cloud\TU/SimSun(1)/m/n/12.045 。|
  []
@@ -1996,29 +1996,29 @@ Missing character: There is no ， in font Times New Roman/OT:script=latn;langua
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-[59]
+[63]
 
-LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 60 undefined on input line 1010.
+LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 64 undefined on input line 1010.
 
-[60] [61]) (./Tex/Chap_Elastic_Service.tex [62]
+[64] [65]) (./Tex/Chap_Elastic_Service.tex [66]
 第6章
-) (./Tex/Chap_Summary_and_Future_Work.tex [63
-
-] [64
-
-]
-第7章
-)) [65] [66
-
-] (./Thesis.bbl) (./Tex/Backmatter.tex [67
-
-
+) (./Tex/Chap_Summary_and_Future_Work.tex [67
 
 ] [68
 
-] [69] [70
+]
+第7章
+)) [69] [70
 
-] [71] [72
+] (./Thesis.bbl) (./Tex/Backmatter.tex [71
+
+
+
+] [72
+
+] [73] [74
+
+] [75] [76
 
 ])
 
@@ -2049,12 +2049,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29970 strings out of 492970
- 593255 string characters out of 6137299
- 690418 words of memory out of 5000000
- 33502 multiletter control sequences out of 15000+600000
+ 30013 strings out of 492970
+ 596790 string characters out of 6137299
+ 690283 words of memory out of 5000000
+ 33545 multiletter control sequences out of 15000+600000
  567909 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,26n,94p,10550b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (92 pages).
+Output written on Thesis.pdf (96 pages).

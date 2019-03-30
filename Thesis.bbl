@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -6,112 +6,79 @@
 \providecommand{\href}[2]{\url{#2}}
 \providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
 
-\bibitem[{Wikibook(2014)}]{wikibook2014latex}
-WIKIBOOK.
-\newblock http://en.wikibooks.org/wiki/latex\allowbreak[M].
-\newblock On-line Resources, 2014.
+\bibitem[{史红周(2004)}]{2004支持普适计算的智能终端服务及设备管理技术研究}
+史红周.
+\newblock
+  支持普适计算的智能终端服务及设备管理技术研究\allowbreak[D].
+\newblock 中国科学院研究生院（计算技术研究所）, 2004.
 
-\bibitem[{Lamport(1986)}]{lamport1986document}
-LAMPORT~L.
-\newblock Document preparation system\allowbreak[M].
-\newblock Addison-Wesley Reading, MA, 1986.
+\bibitem[{施巍松\ 等(2017)施巍松, 孙辉, 曹杰, 张权, and
+  刘伟}]{施巍松2017边缘计算}
+施巍松, 孙辉, 曹杰, 等.
+\newblock 边缘计算: 万物互联时代新型计算模型\allowbreak[J].
+\newblock 计算机研究与发展, 2017:\penalty0 1.
 
-\bibitem[{陈浩元(2005)}]{chen2005zhulu}
-陈浩元.
-\newblock 著录文后参考文献的规则及注意事项\allowbreak[J].
-\newblock 编辑学报, 2005, 17\penalty0 (6):\penalty0 413-415.
+\bibitem[{中国信息通信研究院（工业和信息化部电信研究院）(2016)}]{物联网白皮书2016}
+中国信息通信研究院（工业和信息化部电信研究院）.
+\newblock 物联网白皮书\allowbreak[R].
+\newblock
+  中国信息通信研究院（工业和信息化部电信研究院）, 2016.
 
-\bibitem[{初景利(2004)}]{chu2004tushu}
-初景利.
-\newblock 图书馆数字参考咨询服务研究\allowbreak[M].
-\newblock 北京: 北京图书馆出版社, 2004.
+\bibitem[{V(2016)}]{Cisco2016}
+V~N~C.
+\newblock Cisco global cloud index: Forecast and methodology,
+  2016–2021\allowbreak[R].
+\newblock Cisco, 2016.
 
-\bibitem[{Stamerjohanns {\bibetal}(2009)Stamerjohanns, Ginev, David, Misev,
-  Zamdzhiev, and Kohlhase}]{stamerjohanns2009mathml}
-STAMERJOHANNS~H, GINEV~D, DAVID~C, et~al.
-\newblock {MathML}-aware article conversion from {LaTeX}\allowbreak[J].
-\newblock Towards a Digital Mathematics Library, 2009, 16\penalty0
-  (2):\penalty0 109-120.
+\bibitem[{Noor {\bibetal}(2018)Noor, Zeadally, Alfazi, and Sheng}]{Noor.2018}
+NOOR~T~H, ZEADALLY~S, ALFAZI~A, et~al.
+\newblock Mobile cloud computing: Challenges and future research
+  directions\allowbreak[J/OL].
+\newblock Journal of Network and Computer Applications, 2018, 115:\penalty0
+  70-85.
+\newblock DOI: \doi{10.1016/j.jnca.2018.04.018}.
 
-\bibitem[{Betts {\biband} Taylor(2005)Betts and Taylor}]{betts2005aging}
-BETTS~L~R, TAYLOR~C~P.
-\newblock Aging reduces center-surround antagonism in visual motion
-  processing\allowbreak[J].
-\newblock Neuron, 2005, 45\penalty0 (3):\penalty0 361-366.
+\bibitem[{江绵恒(2010)}]{江绵恒2010}
+江绵恒.
+\newblock 城市化与信息化——中国发展的时代机遇\allowbreak[J].
+\newblock 信息化建设, 2010\penalty0 (6):\penalty0 8-9.
 
-\bibitem[{Bravo {\biband} Olavarria(1990)Bravo and
-  Olavarria}]{bravo1990comparative}
-BRAVO~H, OLAVARRIA~J.
-\newblock Comparative study of visual inter and intrahemispheric
-  cortico-cortical connections in five native chilean rodents\allowbreak[J].
-\newblock Anatomy and embryology, 1990, 181\penalty0 (1):\penalty0 67-73.
+\bibitem[{Buyya {\bibetal}(2009)Buyya, Yeo, Venugopal, Broberg, and
+  Brandic}]{buyya2009cloud}
+BUYYA~R, YEO~C~S, VENUGOPAL~S, et~al.
+\newblock Cloud computing and emerging it platforms: Vision, hype, and reality
+  for delivering computing as the 5th utility\allowbreak[J].
+\newblock Future Generation computer systems, 2009, 25\penalty0 (6):\penalty0
+  599-616.
 
-\bibitem[{哈里森·沃尔德伦(2012)}]{hls2012jinji}
-哈里森·沃尔德伦.
-\newblock 经济数学与金融数学\allowbreak[M].
-\newblock 谢远涛, 译.
-\newblock 北京: 中国人民大学出版社, 2012: 235-236.
+\bibitem[{Ismail {\bibetal}(2016)Ismail, Goortani, Karim, Tat, Setapa, Jing,
+  and Hoe}]{Ismail2016Evaluation}
+ISMAIL~B~I, GOORTANI~E~M, KARIM~M~B~A, et~al.
+\newblock Evaluation of docker as edge computing
+  platform\allowbreak[C]//\allowbreak
+Open Systems.
+\newblock 2016.
 
-\bibitem[{牛志明\ 等(2013)牛志明, 斯温兰德, and
-  雷光春}]{niu2013zonghe}
-牛志明, 斯温兰德, 雷光春.
-\newblock 综合湿地管理国际研讨会论文集\allowbreak[C].
-\newblock 北京: 海洋出版社, 2013.
+\bibitem[{王劲林\ 等(2015)王劲林, 田静, 尤佳莉, 刘学, and
+  邓浩江}]{王劲林2015一种现场}
+王劲林, 田静, 尤佳莉, 等.
+\newblock 一种现场, 弹性,
+  自治的网络服务系统——海服务系统研究与设计\allowbreak[J].
+\newblock Chinese Science Bulletin, 2015, 45\penalty0 (10):\penalty0 1237-1248.
 
-\bibitem[{陈晋镳\ 等(1980)陈晋镳, 张惠民, 朱士兴, 赵震, and
-  王振刚}]{chen1980zhongguo}
-陈晋镳, 张惠民, 朱士兴, 等.
-\newblock 蓟县震旦亚界研究\allowbreak[M]//\allowbreak
-中国地质科学院天津地质矿产研究所.
-\newblock 中国震旦亚界.
-\newblock 天津: 天津科学技术出版社, 1980: 56-114.
+\bibitem[{Renner {\bibetal}(2016)Renner, Meldau, and Kliem}]{renner2016towards}
+RENNER~T, MELDAU~M, KLIEM~A.
+\newblock Towards container-based resource management for the internet of
+  things\allowbreak[C]//\allowbreak
+2016 International Conference on Software Networking (ICSN).
+\newblock IEEE, 2016: 1-5.
 
-\bibitem[{袁训来\ 等(2012{\natexlab{a}})袁训来, 陈哲, and
-  肖书海}]{yuan2012lana}
-袁训来, 陈哲, 肖书海.
-\newblock 蓝田生物群:
-  一个认识多细胞生物起源和早期演化的新窗口 --
-  篇一\allowbreak[J].
-\newblock 科学通报, 2012, 57\penalty0 (34):\penalty0 3219.
-
-\bibitem[{袁训来\ 等(2012{\natexlab{b}})袁训来, 陈哲, and
-  肖书海}]{yuan2012lanb}
-袁训来, 陈哲, 肖书海.
-\newblock 蓝田生物群:
-  一个认识多细胞生物起源和早期演化的新窗口 --
-  篇二\allowbreak[J].
-\newblock 科学通报, 2012, 57\penalty0 (34):\penalty0 3219.
-
-\bibitem[{袁训来\ 等(2012{\natexlab{c}})袁训来, 陈哲, and
-  肖书海}]{yuan2012lanc}
-袁训来, 陈哲, 肖书海.
-\newblock 蓝田生物群:
-  一个认识多细胞生物起源和早期演化的新窗口 --
-  篇三\allowbreak[J].
-\newblock 科学通报, 2012, 57\penalty0 (34):\penalty0 3219.
-
-\bibitem[{Walls {\bibetal}(2013)Walls, Barichivich, and
-  Brown}]{walls2013drought}
-WALLS~S~C, BARICHIVICH~W~J, BROWN~M~E.
-\newblock Drought, deluge and declines: the impact of precipitation extremes on
-  amphibians in a changing climate\allowbreak[J/OL].
-\newblock Biology, 2013, 2\penalty0 (1):\penalty0
-  399-418\allowbreak[2013-11-04].
-\newblock \url{http://www.mdpi.com/2079-7737/2/1/399}.
-\newblock DOI: \doi{10.3390/biology2010399}.
-
-\bibitem[{ボハンデ(1928)}]{Bohan1928}
-ボハンデ.
-\newblock 過去及び現在に於ける英国と会\allowbreak[J].
-\newblock 日本時報, 1928, 17:\penalty0 5-9.
-
-\bibitem[{Дубровин(1906)ДубровинА.~И}]{Dubrovin1906}
-ДубровинА.~И.
-\newblock Открытое письмо Председателя
-  Главного Совета Союза Русского Народа
-  Санкт-Петербургскому Антонию,
-  Первенствующему члену Священного
-  Синода\allowbreak[J].
-\newblock Вече, 1906:\penalty0 1-3.
+\bibitem[{Morabito {\bibetal}(2017)Morabito, Farris, Iera, and
+  Taleb}]{morabito2017evaluating}
+MORABITO~R, FARRIS~I, IERA~A, et~al.
+\newblock Evaluating performance of containerized iot services for clustered
+  devices at the network edge\allowbreak[J].
+\newblock IEEE Internet of Things Journal, 2017, 4\penalty0 (4):\penalty0
+  1019-1030.
 
 \end{thebibliography}
