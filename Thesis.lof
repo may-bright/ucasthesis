@@ -1,21 +1,24 @@
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces 论文组织结构\relax }}{7}{figure.caption.10}
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 应用了虚拟化技术的云计算模型\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 完全虚拟化技术架构\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 操作系统级虚拟化技术架构\relax }}{12}{figure.caption.13}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 基于容器化多终端协同服务系统层次图\relax }}{17}{figure.caption.11}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Docker容器架构图\relax }}{17}{figure.caption.12}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 基于容器化多终端协同服务系统架构图\relax }}{18}{figure.caption.13}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 用户、服务、终端、容器概念之间的关系\relax }}{20}{figure.caption.14}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 去中心化的自组织网络结构\relax }}{21}{figure.caption.15}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 基于容器化多终端协同服务系统层次图\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Docker容器架构图\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 基于容器化多终端协同服务系统架构图\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 用户、服务、终端、容器概念之间的关系\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 去中心化的自组织网络结构\relax }}{23}{figure.caption.18}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Web Worker透明计算迁移\relax }}{26}{figure.caption.16}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 透明计算迁移系统服务端结构图\relax }}{28}{figure.caption.17}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 实验一：200*200图片渲染\relax }}{30}{figure.caption.18}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 实验二：400*400图片渲染\relax }}{31}{figure.caption.19}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Web Worker透明计算迁移\relax }}{28}{figure.caption.19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 透明计算迁移系统服务端结构图\relax }}{30}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 实验一：200*200图片渲染\relax }}{32}{figure.caption.21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 实验二：400*400图片渲染\relax }}{33}{figure.caption.22}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。\relax }}{46}{figure.caption.25}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The figure framework of the procedure of IGOA\relax }}{51}{figure.caption.26}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Convergence curves for all the 7 algorithms over some benchmark functions \relax }}{60}{figure.caption.36}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。\relax }}{48}{figure.caption.28}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The figure framework of the procedure of IGOA\relax }}{53}{figure.caption.29}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Convergence curves for all the 7 algorithms over some benchmark functions \relax }}{62}{figure.caption.39}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
