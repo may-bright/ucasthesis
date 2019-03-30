@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  31 MAR 2019 02:55
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  31 MAR 2019 04:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1630,13 +1630,22 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count320
 \l__xeCJK_listings_flag_int=\count321
+) (./Thesis.aux
+
+LaTeX Warning: Label `tab:DJGOA_computation_result' multiply defined.
+
+
+LaTeX Warning: Label `tab:results_fixedmodal_IGOA' multiply defined.
+
+
+LaTeX Warning: Label `tab:results_wilcoxon_rank_sum_test_IGOA' multiply defined.
+
 )
-No file Thesis.aux.
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 50.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 50.
-(c:/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 50.
@@ -1751,14 +1760,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
+ (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-(./Tex/Frontpages.tex
+ (./Tex/Frontpages.tex
 File: Img/ucas_logo.pdf Graphic file (type pdf)
 <use Img/ucas_logo.pdf>
 \g__fontspec_family_SimHei_int=\count324
@@ -1853,288 +1859,102 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]) [3] [4
 
-]
+] (./Thesis.toc [5] [6])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [5] [6
+ [7] [8
 
-]
+] (./Thesis.lof)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [7] [8
+ [9] [10
 
-]
+] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Tex/Prematter.tex [9] [10
+ (./Tex/Prematter.tex [11] [12
 
-]) [11] [12
+]) [13] [14
 
 ] (./Tex/Mainmatter.tex (./Tex/Chap_Introduction.tex
 第1章
-./Tex/Chap_Introduction.tex:8: Undefined control sequence.
-l.8 ...l Device）通常是指网络中能够对进行信息输入输出以及信息处理的节点\citepp
-                                                  {2004支持普适计算的智能终端服务及设备管理技术研...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package natbib Warning: Citation `施巍松2017边缘计算' on page 1 undefined on input line 10.
-
-
-Package natbib Warning: Citation `物联网白皮书2016' on page 1 undefined on input line 10.
-
-
-Package natbib Warning: Citation `物联网白皮书2016' on page 1 undefined on input line 10.
-
 [1
 
-]
-
-Package natbib Warning: Citation `Cisco2016' on page 2 undefined on input line 12.
-
-
-Package natbib Warning: Citation `Noor.2018' on page 2 undefined on input line 12.
-
-
-Package natbib Warning: Citation `江绵恒2010' on page 2 undefined on input line 12.
-
-
-Package natbib Warning: Citation `buyya2009cloud' on page 2 undefined on input line 12.
-
-
-Package natbib Warning: Citation `Ismail2016Evaluation' on page 2 undefined on input line 14.
-
-
-Package natbib Warning: Citation `王劲林2015一种现场' on page 2 undefined on input line 16.
-
-
-Package natbib Warning: Citation `renner2016towards' on page 2 undefined on input line 16.
-
-[2]
-./Tex/Chap_Introduction.tex:20: Undefined control sequence.
-l.20 为了利用智能终端设备的潜力，还需要解决设备和应用的管理整合问题\citepp
-                                           {morabito2017evaluating}。本文研究了基于容...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[3] [4] [5]
-
-LaTeX Warning: Reference `fig:introduction_framework_of_organization' on page 6 undefined on input line 49.
-
+] [2] [3] [4] [5]
 File: Img/Introduction_Framework_of_Organization_Temp.png Graphic file (type bmp)
 <Img/Introduction_Framework_of_Organization_Temp.png>
-[6]) (./Tex/Chap_Related_Work.tex [7] [8
+ [6]) (./Tex/Chap_Related_Work.tex [7] [8
 
 ]
 第2章
-
-Package natbib Warning: Citation `文雨2013面向应用服务级目标的虚拟化资源管理' on page 9 undefined on input line 13.
-
-
-Package natbib Warning: Citation `本刊编辑部2017虚拟化概述' on page 9 undefined on input line 13.
-
-
-Package natbib Warning: Citation `pearce2013virtualization' on page 9 undefined on input line 13.
-
-
-LaTeX Warning: Reference `fig:cloud_computation_virtualization' on page 9 undefined on input line 13.
-
-
-Package natbib Warning: Citation `陈思锦2015云计算中的虚拟化技术与虚拟化安全' on page 9 undefined on input line 13.
-
 File: Img/Cloud_Computation_Virtualization_Temp.png Graphic file (type bmp)
 <Img/Cloud_Computation_Virtualization_Temp.png>
-
-Package natbib Warning: Citation `li2017performance' on page 9 undefined on input line 23.
-
-
-Package natbib Warning: Citation `kolhe2012comparative' on page 9 undefined on input line 23.
-
-
-Package natbib Warning: Citation `leite2012performance' on page 9 undefined on input line 23.
-
-
-LaTeX Warning: Reference `fig:full_virtualization' on page 9 undefined on input line 23.
-
-
-Package natbib Warning: Citation `oludele2014evolution' on page 9 undefined on input line 23.
-
 File: Img/Full_Virtualization_Temp.png Graphic file (type bmp)
 <Img/Full_Virtualization_Temp.png>
-
-Package natbib Warning: Citation `sahasrabudhe2014comparing' on page 9 undefined on input line 32.
-
-
-Package natbib Warning: Citation `li2010selecting' on page 9 undefined on input line 32.
-
-
-Package natbib Warning: Citation `liu2014research' on page 9 undefined on input line 32.
-
-
-Package natbib Warning: Citation `li2010selecting' on page 9 undefined on input line 32.
-
 [9] [10]
-
-Package natbib Warning: Citation `morabito2017virtualization' on page 11 undefined on input line 36.
-
-
-LaTeX Warning: Reference `fig:os_virtualization' on page 11 undefined on input line 36.
-
-
-Package natbib Warning: Citation `xavier2013performance' on page 11 undefined on input line 36.
-
-
-Package natbib Warning: Citation `babu2014system' on page 11 undefined on input line 36.
-
 File: Img/OS_Virtualization_Temp.png Graphic file (type bmp)
 <Img/OS_Virtualization_Temp.png>
-
-Package natbib Warning: Citation `vaughan2006new' on page 11 undefined on input line 47.
-
-
-Package natbib Warning: Citation `liu2014research' on page 11 undefined on input line 47.
-
-
-Package natbib Warning: Citation `bernstein2014containers' on page 11 undefined on input line 47.
-
-
-Package natbib Warning: Citation `马晓光2017一种适用于' on page 11 undefined on input line 47.
-
-[11]) (./Tex/Chap_Service_System.tex [12]
+ [11] [12] [13]) (./Tex/Chap_Service_System.tex [14]
 第3章
+[15
 
-LaTeX Warning: Reference `sec:service_system_related_work' on page 13 undefined on input line 10.
-
-
-LaTeX Warning: Reference `sec:service_system_design' on page 13 undefined on input line 10.
-
-
-LaTeX Warning: Reference `sec:service_system_decentralized_network' on page 13 undefined on input line 10.
-
-
-LaTeX Warning: Reference `sec:service_system_summary' on page 13 undefined on input line 10.
-
-[13
-
-] [14] [15] [16] [17]
-
-LaTeX Warning: Reference `fig:system_hierarchy' on page 18 undefined on input line 75.
-
+] [16] [17] [18] [19]
 File: Img/System_Hierarchy_Chart_Temp.png Graphic file (type bmp)
 <Img/System_Hierarchy_Chart_Temp.png>
-
-LaTeX Warning: Reference `fig:docker_architecture' on page 18 undefined on input line 85.
-
 File: Img/Docker_Architecture_Temp.jpg Graphic file (type bmp)
 <Img/Docker_Architecture_Temp.jpg>
-[18] [19]
-
-LaTeX Warning: Reference `fig:system_architecture' on page 20 undefined on input line 106.
-
+ [20] [21]
 File: Img/System_Architecture_Temp.png Graphic file (type bmp)
 <Img/System_Architecture_Temp.png>
-[20]
-
-LaTeX Warning: Reference `fig:system_conception_relationship' on page 21 undefined on input line 123.
-
+ [22]
 File: Img/System_Conception_Relationship_Temp.png Graphic file (type bmp)
 <Img/System_Conception_Relationship_Temp.png>
-[21]
-
-LaTeX Warning: Reference `fig:system_cdc_build' on page 22 undefined on input line 141.
-
+ [23]
 File: Img/System_CDC_Build_Temp.png Graphic file (type bmp)
 <Img/System_CDC_Build_Temp.png>
-[22]) (./Tex/Chap_Computation_Offloading.tex [23] [24
+ [24]) (./Tex/Chap_Computation_Offloading.tex [25] [26
 
 ]
 第4章
-[25] [26] [27]
-
-LaTeX Warning: Reference `fig:computation_offloading_web_worker_trans' on page 28 undefined on input line 42.
-
+[27] [28] [29]
 File: Img/Computation_Offloading_Web_Worker_Trans_Temp.png Graphic file (type bmp)
 <Img/Computation_Offloading_Web_Worker_Trans_Temp.png>
-[28]
+ [30]
 Overfull \hbox (1.26395pt too wide) in paragraph at lines 62--63
 \TU/SimSun(1)/m/n/12.045 过 程 中 实 现 的。|  这 些 通 信 标 志 可 以 让 服 务 端 区 分 该 信 息 是 控 制 类 型  |（\TU/entextsf/m/n/12.045 ESTABLISH\TU/SimSun(1)/m/n/12.045 、|
  []
 
-
-LaTeX Warning: Reference `fig:computation_offloading_web_worker_trans' on page 29 undefined on input line 67.
-
 File: Img/Computation_Offloading_System_Server_Temp.png Graphic file (type bmp)
 <Img/Computation_Offloading_System_Server_Temp.png>
-
-LaTeX Warning: Reference `fig:computation_offloading_system_server' on page 29 undefined on input line 76.
-
-[29] [30] [31]
+[31] [32] [33]
 File: Img/offloading200.png Graphic file (type bmp)
 <Img/offloading200.png>
-
-
-LaTeX Warning: Reference `fig:computation_offloading_result_picture_200' on page 32 undefined on input line 103.
-
-[32]
+ [34]
 File: Img/offloading400.png Graphic file (type bmp)
 <Img/offloading400.png>
-
-
-LaTeX Warning: Reference `fig:computation_offloading_result_picture_400' on page 33 undefined on input line 114.
-
-[33]) (./Tex/Chap_Task_Scheduling.tex [34]
+ [35]) (./Tex/Chap_Task_Scheduling.tex [36]
 第5章
-[35
+[37
 
-] [36] [37]
-
-LaTeX Warning: Reference `alg:GOA' on page 38 undefined on input line 85.
-
+] [38] [39]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 89.
-[38] [39] [40]
-
-LaTeX Warning: Reference `alg:DJGOA' on page 41 undefined on input line 152.
-
-
-LaTeX Warning: Reference `tab:unimodal_function' on page 41 undefined on input line 195.
-
-
-LaTeX Warning: Reference `tab:multimodal_function' on page 41 undefined on input line 195.
-
-
+ [40] [41] [42]
 Overfull \hbox (23.4957pt too wide) in paragraph at lines 231--253
  [][] 
  []
 
 
-LaTeX Warning: Reference `tab:DJGOA_computation_result' on page 41 undefined on input line 261.
-
-
 LaTeX Warning: Float too large for page by 45.26646pt on input line 309.
 
-
-LaTeX Warning: Reference `tab:DJGOA_computation_result' on page 41 undefined on input line 353.
-
-[41] [42]
-
-LaTeX Warning: Reference `tab:wilcoxon_rank_sum_test_DJGOA' on page 43 undefined on input line 367.
-
-
+[43] [44]
 Overfull \hbox (49.05504pt too wide) in paragraph at lines 374--395
  [][] 
  []
 
-[43] [44] [45] [46]
+[45] [46] [47] [48]
 File: Img/oaspl_a.pdf Graphic file (type pdf)
 <use Img/oaspl_a.pdf>
 File: Img/oaspl_b.pdf Graphic file (type pdf)
@@ -2143,13 +1963,7 @@ File: Img/oaspl_c.pdf Graphic file (type pdf)
 <use Img/oaspl_c.pdf>
 File: Img/oaspl_d.pdf Graphic file (type pdf)
 <use Img/oaspl_d.pdf>
- [47] [48] [49] [50]
-
-LaTeX Warning: Reference `alg:IGOA' on page 51 undefined on input line 508.
-
-
-LaTeX Warning: Reference `fig:procedure_IGOA' on page 51 undefined on input line 508.
-
+ [49] [50] [51] [52]
 File: Img/procedure_of_IGOA.eps Graphic file (type eps)
 <Img/procedure_of_IGOA.eps>
 
@@ -2157,22 +1971,9 @@ Overfull \hbox (17.40828pt too wide) in paragraph at lines 552--555
 \TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 kennedy1995particle\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016WOA\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016dragonfly\TU/SimSun(1)/m/n/12.045 ，|
  []
 
-[51] [52] [53]
-
-LaTeX Warning: Reference `tab:unimodal_function' on page 54 undefined on input line 556.
-
-
-LaTeX Warning: Reference `tab:multimodal_function' on page 54 undefined on input line 556.
-
-
-LaTeX Warning: Reference `tab:fixedmodal_function' on page 54 undefined on input line 556.
-
-
-LaTeX Warning: Reference `tab:composite_function' on page 54 undefined on input line 556.
-
-
-Overfull \hbox (6.29941pt too wide) in paragraph at lines 556--558
-\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[]中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
+[53] [54] [55]
+Overfull \hbox (9.31065pt too wide) in paragraph at lines 556--558
+\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[][]\TU/entextsf/m/n/12.045 5.6[][]\TU/SimSun(1)/m/n/12.045 中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
  []
 
 
@@ -2180,33 +1981,7 @@ Overfull \hbox (29.17195pt too wide) in paragraph at lines 569--595
  [][] 
  []
 
-
-LaTeX Warning: Reference `tab:results_unimodal_IGOA' on page 54 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:results_unimodal_IGOA' on page 54 undefined on input line 681.
-
-[54] [55] [56] [57]
-
-LaTeX Warning: Reference `tab:results_multimodal_IGOA' on page 58 undefined on input line 806.
-
-
-LaTeX Warning: Reference `tab:results_fixedmodal_IGOA' on page 58 undefined on input line 806.
-
-[58] [59]
-
-LaTeX Warning: Reference `tab:results_composite_IGOA' on page 60 undefined on input line 810.
-
-
-LaTeX Warning: Reference `tab:results_composite_IGOA' on page 60 undefined on input line 858.
-
-
-LaTeX Warning: Reference `tab:results_wilcoxon_rank_sum_test_IGOA' on page 60 undefined on input line 863.
-
-[60] [61]
-
-LaTeX Warning: Reference `tab:results_wilcoxon_rank_sum_test_IGOA' on page 62 undefined on input line 924.
-
+[56] [57] [58] [59] [60] [61] [62] [63]
 File: Img/function_F3.eps Graphic file (type eps)
 <Img/function_F3.eps>
 File: Img/function_F4.eps Graphic file (type eps)
@@ -2219,7 +1994,7 @@ File: Img/function_F24.eps Graphic file (type eps)
 <Img/function_F24.eps>
 File: Img/function_F28.eps Graphic file (type eps)
 <Img/function_F28.eps>
-[62] [63] [64]
+ [64] [65] [66]
 Overfull \hbox (8.81464pt too wide) in paragraph at lines 967--969
 []\TU/SimSun(1)/m/n/12.045 任 务 调 度 问 题 可 能 是 一 个 优 化 问 题，|  它 是 一 个 \TU/entextsf/m/n/12.045 NP \TU/SimSun(1)/m/n/12.045 难 问 题 \TU/entextsf/m/n/12.045 citetawfeek2013cloud\TU/SimSun(1)/m/n/12.045 。|
  []
@@ -2228,38 +2003,31 @@ Missing character: There is no ， in font Times New Roman/OT:script=latn;langua
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-[65]
+[67]
 
-LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 66 undefined on input line 1010.
+LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 68 undefined on input line 1010.
 
-[66]
-
-LaTeX Warning: Reference `tab:results_task_scheduling' on page 67 undefined on input line 1073.
-
-[67]) (./Tex/Chap_Elastic_Service.tex [68]
+[68] [69]) (./Tex/Chap_Elastic_Service.tex [70]
 第6章
-) (./Tex/Chap_Summary_and_Future_Work.tex [69
+) (./Tex/Chap_Summary_and_Future_Work.tex [71
 
-] [70
+] [72
 
 ]
 第7章
-)) [71] [72
+)) [73] [74
 
-]
-No file Thesis.bbl.
-(./Tex/Backmatter.tex [73
+] (./Thesis.bbl [75
 
 
 
-] [74
+]) (./Tex/Backmatter.tex [76] [77
 
-] [75] [76
+] [78
+
+] [79] [80
 
 ])
-
-Package natbib Warning: There were undefined citations.
-
 
 Package caption Warning: Unused \captionsetup[bi-first] on input line 544.
 See the caption package documentation for explanation.
@@ -2273,15 +2041,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 (./Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 91A52FFA7BF9A7053BD44B2D7CE36BA9.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: 
-(rerunfilecheck)             After:  F5C67586138A788C8D7DF9932CDD3FA0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.65625pt have occurred.
@@ -2290,16 +2052,16 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29878 strings out of 492970
- 590887 string characters out of 6137299
- 687173 words of memory out of 5000000
- 33422 multiletter control sequences out of 15000+600000
- 567901 words of font info for 172 fonts, out of 8000000 for 9000
+ 30088 strings out of 492970
+ 598939 string characters out of 6137299
+ 691310 words of memory out of 5000000
+ 33617 multiletter control sequences out of 15000+600000
+ 567909 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,26n,94p,10550b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (94 pages).
+Output written on Thesis.pdf (100 pages).
