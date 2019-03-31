@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -29,6 +29,27 @@ V~N~C.
 \newblock Cisco global cloud index: Forecast and methodology,
   2016–2021\allowbreak[R].
 \newblock Cisco, 2016.
+
+\bibitem[{Dinh {\bibetal}(2013)Dinh, Lee, Niyato, and Wang}]{dinh2013survey}
+DINH~H~T, LEE~C, NIYATO~D, et~al.
+\newblock A survey of mobile cloud computing: architecture, applications, and
+  approaches\allowbreak[J].
+\newblock Wireless communications and mobile computing, 2013, 13\penalty0
+  (18):\penalty0 1587-1611.
+
+\bibitem[{Othman {\bibetal}(2014)Othman, Madani, Khan,
+  et~al.}]{othman2014survey}
+OTHMAN~M, MADANI~S~A, KHAN~S~U, et~al.
+\newblock A survey of mobile cloud computing application models\allowbreak[J].
+\newblock IEEE Communications Surveys \& Tutorials, 2014, 16\penalty0
+  (1):\penalty0 393-413.
+
+\bibitem[{Wang {\bibetal}(2015)Wang, Chen, and Wang}]{wang2015survey}
+WANG~Y, CHEN~R, WANG~D~C.
+\newblock A survey of mobile cloud computing applications: perspectives and
+  challenges\allowbreak[J].
+\newblock Wireless Personal Communications, 2015, 80\penalty0 (4):\penalty0
+  1607-1623.
 
 \bibitem[{Noor {\bibetal}(2018)Noor, Zeadally, Alfazi, and Sheng}]{Noor.2018}
 NOOR~T~H, ZEADALLY~S, ALFAZI~A, et~al.
@@ -87,6 +108,12 @@ MORABITO~R, FARRIS~I, IERA~A, et~al.
 \newblock 面向应用服务级目标的虚拟化资源管理\allowbreak[J].
 \newblock 软件学报, 2013\penalty0 (2):\penalty0 358-377.
 
+\bibitem[{Goth(2007)}]{goth2007virtualization}
+GOTH~G.
+\newblock Virtualization: Old technology offers huge new
+  potential\allowbreak[J].
+\newblock IEEE Distributed Systems Online, 2007, 8\penalty0 (2):\penalty0 3-3.
+
 \bibitem[{本刊编辑部(2017)}]{本刊编辑部2017虚拟化概述}
 本刊编辑部.
 \newblock 虚拟化概述\allowbreak[J].
@@ -98,6 +125,19 @@ PEARCE~M, ZEADALLY~S, HUNT~R.
 \newblock Virtualization: Issues, security threats, and
   solutions\allowbreak[J].
 \newblock ACM Computing Surveys (CSUR), 2013, 45\penalty0 (2):\penalty0 17.
+
+\bibitem[{D.Kiran~Kumar {\biband} B.Rajasekhar(2014)D.Kiran~Kumar and
+  B.Rajasekhar}]{kumar2014review}
+D.KIRAN~KUMAR~T, B.RAJASEKHAR~P.
+\newblock Review on virtualization for cloud computing\allowbreak[J].
+\newblock International Journal of Advanced Research in Computer and
+  Communication Engineering, 2014, 3:\penalty0 7748-7752.
+
+\bibitem[{叶蔚\ 等(2019)叶蔚, 常青, and
+  杨芳}]{叶蔚2019基于虚拟化的}
+叶蔚, 常青, 杨芳.
+\newblock 基于虚拟化的移动应用架构研究和设计\allowbreak[J].
+\newblock 计算机工程与设计, 2019, 40\penalty0 (2):\penalty0 585-590.
 
 \bibitem[{陈思锦\ 等(2015)陈思锦, 吴韶波, and
   高雪莹}]{陈思锦2015云计算中的虚拟化技术与虚拟化安全}
@@ -188,6 +228,14 @@ VAUGHAN-NICHOLS~S~J.
 \newblock New approach to virtualization is a lightweight\allowbreak[J].
 \newblock Computer, 2006, 39\penalty0 (11):\penalty0 12-14.
 
+\bibitem[{Celesti {\bibetal}(2016)Celesti, Mulfari, Fazio, Villari, and
+  Puliafito}]{celesti2016exploring}
+CELESTI~A, MULFARI~D, FAZIO~M, et~al.
+\newblock Exploring container virtualization in iot
+  clouds\allowbreak[C]//\allowbreak
+2016 IEEE International Conference on Smart Computing (SMARTCOMP).
+\newblock IEEE, 2016: 1-6.
+
 \bibitem[{Liu {\biband} Zhao(2014)Liu and
   Zhao}]{liu2014researchandimplementation}
 LIU~D, ZHAO~L.
@@ -208,6 +256,144 @@ BERNSTEIN~D.
 \newblock 一种适用于Docker
   Swarm集群的调度策略和算法\allowbreak[J].
 \newblock 计算机应用与软件, 2017, 34\penalty0 (5):\penalty0 283-287.
+
+\bibitem[{张文丽\ 等(2016)张文丽, 郭兵, 沈艳, 王毅, 熊伟, and
+  段林涛}]{张文丽2016智能移动终端计算迁移研究}
+张文丽, 郭兵, 沈艳, 等.
+\newblock 智能移动终端计算迁移研究\allowbreak[J].
+\newblock 计算机学报, 2016, 39\penalty0 (5):\penalty0 1021-1038.
+
+\bibitem[{崔勇\ 等(2017)崔勇, 宋健, 缪葱葱, and
+  唐俊}]{崔勇2017移动云计算研究进展与趋势}
+崔勇, 宋健, 缪葱葱, 等.
+\newblock 移动云计算研究进展与趋势\allowbreak[J].
+\newblock 计算机学报, 2017, 40\penalty0 (2):\penalty0 273-295.
+
+\bibitem[{徐乃凡\ 等(2018)徐乃凡, 王俊芳, 郭建立, and
+  林荣恒}]{徐乃凡2018面向边缘云高效能的移动终端计算迁移方法}
+徐乃凡, 王俊芳, 郭建立, 等.
+\newblock
+  面向边缘云高效能的移动终端计算迁移方法\allowbreak[J].
+\newblock 电子测量技术, 2018, 41\penalty0 (20):\penalty0 1-6.
+
+\bibitem[{Barbarossa {\bibetal}(2014)Barbarossa, Sardellitti, and
+  Di~Lorenzo}]{barbarossa2014communicating}
+BARBAROSSA~S, SARDELLITTI~S, DI~LORENZO~P.
+\newblock Communicating while computing: Distributed mobile cloud computing
+  over 5g heterogeneous networks\allowbreak[J].
+\newblock IEEE Signal Processing Magazine, 2014, 31\penalty0 (6):\penalty0
+  45-55.
+
+\bibitem[{Shi {\bibetal}(2016)Shi, Cao, Zhang, Li, and Xu}]{shi2016edge}
+SHI~W, CAO~J, ZHANG~Q, et~al.
+\newblock Edge computing: Vision and challenges\allowbreak[J].
+\newblock IEEE Internet of Things Journal, 2016, 3\penalty0 (5):\penalty0
+  637-646.
+
+\bibitem[{董浩\ 等(2019)董浩, 张海平, 李忠金, and
+  刘辉}]{董浩2019移动边缘计算环境下服务工作流的计算卸载}
+董浩, 张海平, 李忠金, 等.
+\newblock
+  移动边缘计算环境下服务工作流的计算卸载\allowbreak[J].
+\newblock 计算机工程与应用, 2019\penalty0 (2):\penalty0 6.
+
+\bibitem[{谢人超\ 等(2018)谢人超, 廉晓飞, 贾庆民, 黄韬, and
+  刘韵洁}]{谢人超2018移动边缘计算卸载技术综述}
+谢人超, 廉晓飞, 贾庆民, 等.
+\newblock 移动边缘计算卸载技术综述\allowbreak[J].
+\newblock 通信学报, 2018, 39\penalty0 (11):\penalty0 138-155.
+
+\bibitem[{Satyanarayanan {\bibetal}(2009)Satyanarayanan, Bahl, Caceres, and
+  Davies}]{satyanarayanan2009case}
+SATYANARAYANAN~M, BAHL~P, CACERES~R, et~al.
+\newblock The case for vm-based cloudlets in mobile computing\allowbreak[J].
+\newblock IEEE pervasive Computing, 2009\penalty0 (4):\penalty0 14-23.
+
+\bibitem[{Verbelen {\bibetal}(2012)Verbelen, Simoens, De~Turck, and
+  Dhoedt}]{verbelen2012cloudlets}
+VERBELEN~T, SIMOENS~P, DE~TURCK~F, et~al.
+\newblock Cloudlets: Bringing the cloud to the mobile
+  user\allowbreak[C]//\allowbreak
+Proceedings of the third ACM workshop on Mobile cloud computing and services.
+\newblock ACM, 2012: 29-36.
+
+\bibitem[{Li {\biband} Wang(2014)Li and Wang}]{li2014can}
+LI~Y, WANG~W.
+\newblock Can mobile cloudlets support mobile
+  applications?\allowbreak[C]//\allowbreak
+IEEE INFOCOM 2014-IEEE Conference on Computer Communications.
+\newblock IEEE, 2014: 1060-1068.
+
+\bibitem[{Zhang {\bibetal}(2018)Zhang, Zhou, Li, Gan, Zhang, Qi, Xu, and
+  Dou}]{zhang2018hybrid}
+ZHANG~J, ZHOU~Z, LI~S, et~al.
+\newblock Hybrid computation offloading for smart home automation in mobile
+  cloud computing\allowbreak[J].
+\newblock Personal and Ubiquitous Computing, 2018, 22\penalty0 (1):\penalty0
+  121-134.
+
+\bibitem[{王硕\ 等(2016)王硕, 孙鹏, 郭志川, and
+  胡琳琳}]{王硕2016嵌入式}
+王硕, 孙鹏, 郭志川, 等.
+\newblock 嵌入式Web应用引擎的设计与实现\allowbreak[J].
+\newblock 网络新媒体技术, 2016, 5\penalty0 (1):\penalty0 38-44.
+
+\bibitem[{Wang {\bibetal}(2018)Wang, Deng, Hu, and Zhu}]{wang2018html5}
+WANG~Z, DENG~H, HU~L, et~al.
+\newblock Html5 web worker transparent offloading method for web
+  applications\allowbreak[C]//\allowbreak
+2018 IEEE 18th International Conference on Communication Technology (ICCT).
+\newblock IEEE, 2018: 1319-1323.
+
+\bibitem[{Hwang {\biband} Ham(2014{\natexlab{a}})Hwang and Ham}]{hwang2014wwf}
+HWANG~I, HAM~J.
+\newblock Wwf: web application workload balancing
+  framework\allowbreak[C]//\allowbreak
+2014 28th International Conference on Advanced Information Networking and
+  Applications Workshops.
+\newblock IEEE, 2014{\natexlab{a}}: 150-153.
+
+\bibitem[{Hwang {\biband} Ham(2014{\natexlab{b}})Hwang and
+  Ham}]{hwang2014cloud}
+HWANG~I, HAM~J.
+\newblock Cloud offloading method for web
+  applications\allowbreak[C]//\allowbreak
+2014 2nd IEEE International Conference on Mobile Cloud Computing, Services, and
+  Engineering.
+\newblock IEEE, 2014{\natexlab{b}}: 246-247.
+
+\bibitem[{Gong {\bibetal}(2016)Gong, Liu, Zhang, Xu, Zhao, and
+  Liu}]{gong2016wwof}
+GONG~X, LIU~W, ZHANG~J, et~al.
+\newblock Wwof: an energy efficient offloading framework for mobile
+  webpage\allowbreak[C]//\allowbreak
+Proceedings of the 13th International Conference on Mobile and Ubiquitous
+  Systems: Computing, Networking and Services.
+\newblock ACM, 2016: 160-169.
+
+\bibitem[{Kurumatani {\bibetal}(2012)Kurumatani, Toyama, and
+  Chen}]{kurumatani2012executing}
+KURUMATANI~S, TOYAMA~M, CHEN~E~Y.
+\newblock Executing client-side web workers in the
+  cloud\allowbreak[C]//\allowbreak
+2012 9th Asia-Pacific Symposium on Information and Telecommunication
+  Technologies (APSITT).
+\newblock IEEE, 2012: 1-6.
+
+\bibitem[{王昭\ 等(2018)王昭, 邓浩江, 胡琳琳, and
+  郭志川}]{王昭2018Web}
+王昭, 邓浩江, 胡琳琳, 等.
+\newblock 一种多服务端HTML5 Web
+  Worker迁移系统设计与实现\allowbreak[J].
+\newblock 计算机应用与软件, 2018, 35\penalty0 (9):\penalty0 27-31.
+
+\bibitem[{Zhang {\bibetal}(2010)Zhang, Jeon, Gibbs, and
+  Kunjithapatham}]{zhang2010elastic}
+ZHANG~X, JEON~W, GIBBS~S, et~al.
+\newblock Elastic html5: Workload offloading using cloud-based web workers and
+  storages for mobile devices\allowbreak[C]//\allowbreak
+International Conference on Mobile Computing, Applications, and Services.
+\newblock Springer, 2010: 373-381.
 
 \bibitem[{肖伟民孙鹏(2019)}]{肖伟民2019嵌入式虚拟化}
 肖伟民孙鹏.

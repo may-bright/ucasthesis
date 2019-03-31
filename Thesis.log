@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  31 MAR 2019 04:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  1 APR 2019 02:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2007,21 +2007,17 @@ Missing character: There is no ， in font Times New Roman/OT:script=latn;langua
 
 LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 68 undefined on input line 1010.
 
-[68] [69]) (./Tex/Chap_Elastic_Service.tex [70]
+[68] [69]) (./Tex/Chap_Summary_and_Future_Work.tex [70]
 第6章
-) (./Tex/Chap_Summary_and_Future_Work.tex [71
+)) [71
 
 ] [72
 
-]
-第7章
-)) [73] [74
-
-] (./Thesis.bbl [75
+] (./Thesis.bbl [73
 
 
 
-]) (./Tex/Backmatter.tex [76] [77
+] [74] [75]) (./Tex/Backmatter.tex [76] [77
 
 ] [78
 
@@ -2042,7 +2038,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 91A52FFA7BF9A7053BD44B2D7CE36BA9.
+(rerunfilecheck)             Checksum: F2DE34130170B71E3A2DCF53FE417408.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2056,10 +2052,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30088 strings out of 492970
- 598939 string characters out of 6137299
- 691310 words of memory out of 5000000
- 33617 multiletter control sequences out of 15000+600000
+ 30162 strings out of 492970
+ 600764 string characters out of 6137299
+ 692712 words of memory out of 5000000
+ 33694 multiletter control sequences out of 15000+600000
  567909 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,26n,94p,10550b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
