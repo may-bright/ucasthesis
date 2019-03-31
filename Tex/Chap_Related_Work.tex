@@ -63,7 +63,17 @@
 文献\cite{satyanarayanan2009case}中介绍了一种计算迁移系统，利用部署在用户身边的可信的、能连接网络的、计算资源丰富的计算设备或计算机集群（被称为cloudlet）为移动用户提供服务。当用户在终端设备上产生服务请求时，终端设备可以在cloudlet上快速建立定制化的虚拟机，将计算任务迁移到对应虚拟机中并利用其资源来运行，用户可以利用轻量级客户端通过无线网络进行访问\cite{verbelen2012cloudlets}。cloudlet模式是一种粗粒度的计算迁移技术\cite{谢人超2018移动边缘计算卸载技术综述}。cloudlet的实现过程需要迁移整个VM Overlay，迁移时间较长，需要60-90s，当终端附近的cloudlet资源不足以支撑起计算迁移服务的时候，终端会向远程的云端资源请求协助\cite{张文丽2016智能移动终端计算迁移研究}。cloudlet计算迁移模式相比MCC和MEC，与用户之间的距离更近，传输时延更小，非常适合图书馆、咖啡厅、办公室等聚集场所。但cloudlet的缺点是需要在区域内单独进行部署，需要额外的硬件、场地、服务器等成本，使用范围有局限性\cite{li2014can,zhang2018hybrid}。另外，对于cloudlet的计算迁移技术的研究也还存在着缺乏统一的部署和管理方法的不足\cite{张文丽2016智能移动终端计算迁移研究}。
 \subsection{基于Web的计算迁移技术}
 Web Worker是一种基于HTML5的多线程方法，本文的研究对象就是面向Web Worker的计算迁移系统。基于Web Worker的服务系统可以拥有更好的跨平台性，应用开发者在开发服务应用的过程中可以不必考虑底层的系统架构\cite{王硕2016嵌入式}。基于Web Worker的计算迁移方法分为透明迁移和非透明迁移两类\cite{wang2018html5}。基于Web Worker的非透明迁移通常采用的方法是重写标准的Web Worker的接口API，并在编写Web应用的时候以新的库的形式导入修改，使得Web应用在运行的时候通过WebSocket通知运行在云端的服务端程序生成相应的Web Worker来进行计算\cite{hwang2014wwf,hwang2014cloud,gong2016wwof,kurumatani2012executing}。文献\cite{王昭2018Web}中提出了一种基于Web Worker的非透明迁移方法，通过重写Web应用的库，将终端上HTML的Web Worker迁移到其他服务器或其他终端设备上进行计算。文献\cite{zhang2010elastic}中提出了一种基于Web Worker的透明迁移方法，通过修改Web Worker运行环境代码来实现计算迁移的过程，但是没有做具体实现。
+
 \section{任务调度算法}
-\subsection{传统任务调度}
-\subsection{启发式算法}
+\subsection{传统任务调度算法}
+
+任务调度问题是一种在云计算\cite{qiao2016efficient}、边缘计算\cite{guo2017energy}、海服务\cite{王劲林2015一种现场}等领域常见的问题。在基于容器化的多终端协同服务技术种，不同的终端所能够提供的资源类型和大小不同，不同的任务对于不同类型资源的消耗情况也不一样，当然不同任务在不同节点上执行的费用和时间也不同。智能终端的资源是受限的，合理规划任务在节点上的执行调度，能够减少资源碎片，提高终端资源利用率\cite{huang2013energy,tseng2014effective,马晓光2017一种适用于}。任务调度问题是一种NP-hard问题\cite{tawfeek2013cloud}。任务调度问题可以划归为一类优化问题（Optimization Problem），有很多传统的基于贪心策略的任务调度优化算法\cite{乔楠楠2017一种面向网络边缘任务调度问题的多方向粒子群优化算法}。先进先出算法（FIFO Scheduler）是按照任务到达的先后顺序进行调度\cite{zaharia2009job}，Max-Min算法是优先调度执行时间最长的任务，Min-Min算法是优先调度执行时间最短的任务，\cite{tabak2014improving,杜玉霞2010Min}。这些基于贪心策略的任务调度算法的优点是原理比较简单，方便实施，运行速度快。但同样是因为这些算法的原理过于简单，优先满足局部最优选择，导致其缺点是很容易陷入局部最优解，得不到效果更好的解决方案。尤其是当任务规模扩大的时候，任务的维度也会增加，这会扩大搜索空间并使优化问题更加复杂，基于贪心策略的传统任务调度算法无法处理这种情况。
+
+\subsection{元启发式算法}
+
+近年来，很多元启发式算法（meta-heuristic algorithm）被应用于解决任务调度问题\cite{al2015cloudlet,刘运2015基于高斯变异的人工萤火虫算法在云计算资源调度中的研究}。Goldberg在1988年提出的遗传算法（Genetic Algorithm，GA）是一种非常著名的进化算法，它将自然选择理论引入到优化过程中，使用一条染色体来代表任务调度问题的一种调度方案，使用包括变异，交叉和选择在内的几个自然算子来作为演进迭代的计算法则\cite{fonseca1995overview,whitley1994genetic}。由于交叉和变异的操作，GA计算起来非常复杂，实现起来也比较困难。
+
+一些元启发式算法的灵感来自昆虫，鱼类，鸟类和其他群体生物的自然行为。粒子群算法（Particle Swarm Optimization Algorithm，PSO）是Kennedy于1995年提出的经典元启发式算法，原理非常简单，容易实现，算法性能也非常好\cite{kennedy1995particle,liao2007discrete,krishnasamy2013task}。蚁群优化算法（Ant Colony Optimization Algorithm，ACO）的灵感来自蚂蚁在巢穴和食物来源之间搜索的自然觅食行为，蚁群优化算法利用化学信息素在蚁群搜索单位之间进行信息交流\cite{dorigo1997ant,dorigo1999ant,Hao2018Network}。人工鱼群算法通过模仿鱼类的随机游动的觅食行为来进行搜索\cite{桓自强2014aafsa}。
+
+近年来，一些较新的元启发式算法也被提出，而且以这些元启发式算法为基础的改进并不多。2015年提出的蚁狮算法（Ant Lion Optimizer，ALO）的灵感来自于蚁群的狩猎行为\cite{mirjalili2015ant}。鲸鱼优化算法（Whale Optimization Algorithm，WOA）于2016年提出，该算法模拟鲸鱼的自然狩猎行为\cite{mirjalili2016whale}。2016年提出的蜻蜓算法（Dragonfly Algorithm，DA）基于自然界中蜻蜓群的静态和动态行为进行搜索\cite{mirjalili2016dragonfly}。2017年，Shahrzad Saremi和Seyedali Mirjalili提出了一种名为蝗虫优化算法（Grasshopper Optimization Algorithm，GOA）的新型元启发式优化算法。 蝗虫优化算法利用群体内相互作用力的影响和群体外的风力及食物来源修正的影响来模拟蝗虫群的迁移及觅食行为，以求寻找到目标食物\cite{saremi2017grasshopper}。蝗虫优化算法利用群体智慧，通过共享蝗虫群体的经验来确定搜索方向并找到最佳或近似最佳位置。蝗虫优化算法还使用演进的方法进行多次迭代，以使群体智慧更加有效。
 % \section{预测算法}
