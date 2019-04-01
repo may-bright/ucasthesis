@@ -1,4 +1,4 @@
-\begin{thebibliography}{80}
+\begin{thebibliography}{91}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -101,6 +101,64 @@ MORABITO~R, FARRIS~I, IERA~A, et~al.
   devices at the network edge\allowbreak[J].
 \newblock IEEE Internet of Things Journal, 2017, 4\penalty0 (4):\penalty0
   1019-1030.
+
+\bibitem[{Zhang {\bibetal}(2010{\natexlab{a}})Zhang, Cheng, and
+  Boutaba}]{zhang2010cloud}
+ZHANG~Q, CHENG~L, BOUTABA~R.
+\newblock Cloud computing: state-of-the-art and research
+  challenges\allowbreak[J].
+\newblock Journal of internet services and applications, 2010, 1\penalty0
+  (1):\penalty0 7-18.
+
+\bibitem[{Parkhill(1966)}]{parkhill1966challenge}
+PARKHILL~D~F.
+\newblock Challenge of the computer utility\allowbreak[J].
+\newblock 1966.
+
+\bibitem[{Sonnek {\biband} Chandra(2009)Sonnek and Chandra}]{sonnek2009virtual}
+SONNEK~J, CHANDRA~A.
+\newblock Virtual putty: Reshaping the physical footprint of virtual
+  machines.\allowbreak[C]//\allowbreak
+HotCloud.
+\newblock 2009.
+
+\bibitem[{林伟伟\ 等(2012)林伟伟, 齐德昱,
+  et~al.}]{林伟伟2012云计算资源调度研究综述}
+林伟伟, 齐德昱, 等.
+\newblock 云计算资源调度研究综述\allowbreak[J].
+\newblock 计算机科学, 2012\penalty0 (2012 年 10):\penalty0 1-6.
+
+\bibitem[{刘英男(2011)}]{刘英男2011基于云计算框架的终端管理系统设计与实现}
+刘英男.
+\newblock
+  基于云计算框架的终端管理系统设计与实现\allowbreak[D].
+\newblock 西安电子科技大学, 2011.
+
+\bibitem[{Manvi {\biband} Shyam(2014)Manvi and Shyam}]{manvi2014resource}
+MANVI~S~S, SHYAM~G~K.
+\newblock Resource management for infrastructure as a service (iaas) in cloud
+  computing: A survey\allowbreak[J].
+\newblock Journal of network and computer applications, 2014, 41:\penalty0
+  424-440.
+
+\bibitem[{Fox {\bibetal}(2009)Fox, Griffith, Joseph, Katz, Konwinski, Lee,
+  Patterson, Rabkin, and Stoica}]{fox2009above}
+FOX~A, GRIFFITH~R, JOSEPH~A, et~al.
+\newblock Above the clouds: A berkeley view of cloud computing\allowbreak[J].
+\newblock Dept. Electrical Eng. and Comput. Sciences, University of California,
+  Berkeley, Rep. UCB/EECS, 2009, 28\penalty0 (13):\penalty0 2009.
+
+\bibitem[{Shi {\bibetal}(2016)Shi, Cao, Zhang, Li, and Xu}]{shi2016edge}
+SHI~W, CAO~J, ZHANG~Q, et~al.
+\newblock Edge computing: Vision and challenges\allowbreak[J].
+\newblock IEEE Internet of Things Journal, 2016, 3\penalty0 (5):\penalty0
+  637-646.
+
+\bibitem[{赵梓铭\ 等(2018)赵梓铭, 刘芳, 蔡志平, and
+  肖侬}]{赵梓铭2018边缘计算}
+赵梓铭, 刘芳, 蔡志平, 等.
+\newblock 边缘计算: 平台, 应用与挑战\allowbreak[J].
+\newblock 计算机研究与发展, 2018, 55\penalty0 (2):\penalty0 327-337.
 
 \bibitem[{文雨\ 等(2013)文雨, 孟丹, and
   詹剑锋}]{文雨2013面向应用服务级目标的虚拟化资源管理}
@@ -284,18 +342,19 @@ BARBAROSSA~S, SARDELLITTI~S, DI~LORENZO~P.
 \newblock IEEE Signal Processing Magazine, 2014, 31\penalty0 (6):\penalty0
   45-55.
 
-\bibitem[{Shi {\bibetal}(2016)Shi, Cao, Zhang, Li, and Xu}]{shi2016edge}
-SHI~W, CAO~J, ZHANG~Q, et~al.
-\newblock Edge computing: Vision and challenges\allowbreak[J].
-\newblock IEEE Internet of Things Journal, 2016, 3\penalty0 (5):\penalty0
-  637-646.
-
 \bibitem[{董浩\ 等(2019)董浩, 张海平, 李忠金, and
   刘辉}]{董浩2019移动边缘计算环境下服务工作流的计算卸载}
 董浩, 张海平, 李忠金, 等.
 \newblock
   移动边缘计算环境下服务工作流的计算卸载\allowbreak[J].
 \newblock 计算机工程与应用, 2019\penalty0 (2):\penalty0 6.
+
+\bibitem[{Mach {\biband} Becvar(2017)Mach and Becvar}]{mach2017mobile}
+MACH~P, BECVAR~Z.
+\newblock Mobile edge computing: A survey on architecture and computation
+  offloading\allowbreak[J].
+\newblock IEEE Communications Surveys \& Tutorials, 2017, 19\penalty0
+  (3):\penalty0 1628-1656.
 
 \bibitem[{谢人超\ 等(2018)谢人超, 廉晓飞, 贾庆民, 黄韬, and
   刘韵洁}]{谢人超2018移动边缘计算卸载技术综述}
@@ -345,6 +404,15 @@ WANG~Z, DENG~H, HU~L, et~al.
 2018 IEEE 18th International Conference on Communication Technology (ICCT).
 \newblock IEEE, 2018: 1319-1323.
 
+\bibitem[{Zbierski {\biband} Makosiej(2014)Zbierski and
+  Makosiej}]{zbierski2014bring}
+ZBIERSKI~M, MAKOSIEJ~P.
+\newblock Bring the cloud to your mobile: Transparent offloading of html5 web
+  workers\allowbreak[C]//\allowbreak
+2014 IEEE 6th International Conference on Cloud Computing Technology and
+  Science.
+\newblock IEEE, 2014: 198-203.
+
 \bibitem[{Hwang {\biband} Ham(2014{\natexlab{a}})Hwang and Ham}]{hwang2014wwf}
 HWANG~I, HAM~J.
 \newblock Wwf: web application workload balancing
@@ -387,13 +455,13 @@ KURUMATANI~S, TOYAMA~M, CHEN~E~Y.
   Worker迁移系统设计与实现\allowbreak[J].
 \newblock 计算机应用与软件, 2018, 35\penalty0 (9):\penalty0 27-31.
 
-\bibitem[{Zhang {\bibetal}(2010)Zhang, Jeon, Gibbs, and
+\bibitem[{Zhang {\bibetal}(2010{\natexlab{b}})Zhang, Jeon, Gibbs, and
   Kunjithapatham}]{zhang2010elastic}
 ZHANG~X, JEON~W, GIBBS~S, et~al.
 \newblock Elastic html5: Workload offloading using cloud-based web workers and
   storages for mobile devices\allowbreak[C]//\allowbreak
 International Conference on Mobile Computing, Applications, and Services.
-\newblock Springer, 2010: 373-381.
+\newblock Springer, 2010{\natexlab{b}}: 373-381.
 
 \bibitem[{Qiao {\bibetal}(2016)Qiao, You, Sheng, Wang, and
   Deng}]{qiao2016efficient}
@@ -569,5 +637,11 @@ SAREMI~S, MIRJALILI~S, LEWIS~A.
 肖伟民孙鹏.
 \newblock 嵌入式虚拟化技术研究综述\allowbreak[J].
 \newblock 网络新媒体技术, 2019\penalty0 (02):\penalty0 9-18.
+
+\bibitem[{JoSEP {\bibetal}(2010)JoSEP, KAtz, KonWinSKi, Gunho, PAttERSon, and
+  RABKin}]{josep2010view}
+JOSEP~A~D, KATZ~R, KONWINSKI~A, et~al.
+\newblock A view of cloud computing\allowbreak[J].
+\newblock Communications of the ACM, 2010, 53\penalty0 (4).
 
 \end{thebibliography}
