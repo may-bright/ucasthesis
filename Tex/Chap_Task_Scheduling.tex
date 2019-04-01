@@ -4,7 +4,9 @@
 
 任务调度问题是指系统在同时接收到多个服务请求任务的时候，将这些任务合理地分配给多个智能终端上的容器进行处理，由于不同的容器所在智能终端的处理能力不同，每个容器所占用的资源也不同，导致不同的调度方案结果会有差异，需要针对在容器化智能终端协同服务场景下的一些特点来进行取舍和进一步的优化，以追求对于终端资源利用的最大化。在该任务场景下，最常见的用户需求就是实时性需求，也即要求任务能够被快速响应、快速执行、且执行结果能够快速回传给用户，因此最小化任务完成时间是任务调度问题最主要的目标。除此之外，需要考虑的因素还涉及硬件设备功耗、分布式设备负载均衡度等。
 
-\section{相关工作}
+本章的内容组织结构如下：第\ref{sec:task_scheduling_related_work}节介绍了任务调度问题算法的相关研究工作，包括传统的基于局部贪心策略的任务调度算法以及基于元启发式算法的任务调度算法；第\ref{sec:task_scheduling_GOA}节介绍了蝗虫优化算法（GOA）的背景、原理、数学模型以及数学表达式；第\ref{sec:task_scheduling_DJGOA}节提出了一种带随机跳出机制的动态权重蝗虫优化算法（DJGOA），介绍了其随机跳出机制以及动态权重策略，列出了所提出的带随机跳出机制的动态权重蝗虫优化算法在测试函数上的测试结果，并根据测试结果对带随机跳出机制的动态权重蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_IGOA}节在第\ref{sec:task_scheduling_DJGOA}节提出的算法的基础上，进一步提出了一种改进蝗虫优化算法（IGOA），介绍了其非线性舒适区控制参数、基于Levy飞行的局部搜索机制以及基于线性递减参数的随机跳出策略，列出了所提出的改进蝗虫优化算法在测试函数上的测试结果，并根据测试结果对改进蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_problems}节介绍了任务调度问题，提出了多终端协同服务环境中的任务调度问题的数学模型，并将第\ref{sec:task_scheduling_IGOA}节所提出的改进蝗虫优化算法应用到该模型中来求最优解，进行了仿真实验并分析实验结果；第\ref{sec:task_scheduling_summary}节对本章内容进行了总结。
+
+\section{相关工作}\label{sec:task_scheduling_related_work}
 
 \subsection{传统任务调度问题求解方法}
 
@@ -27,7 +29,7 @@
 
 开发了一些基于 GOA 的改进算法。OBLGOA 是由艾哈迈德·埃维斯在2018年提出的 \ ceewees 2013 改进。根据目前的搜索位置, 引入了基于对立面的学习策略, 以生成相反的解作为候选方案。OBL 策略可以提高算法的收敛速度, 但由于缺乏随机性, 改进有限。桑卡拉阿罗拉提出了混沌蝗虫优化算法在 2018年 \ 柠檬酸乱糟糟。将混沌映射应用到算法中, 提高了 GOA 的性能。采用10幅混沌映射来评价混沌理论的影响。结果并不是特别理想, 因为混沌因素在处理许多基准函数时并不合适。提出了一种基于 GOA 的新算法来解决优化问题和任务调度问题。
 
-\section{GOA算法}
+\section{GOA算法}\label{sec:task_scheduling_GOA}
 \subsection{GOA算法背景}
 \subsection{GOA算法数学模型}
 蝗虫优化算法模拟蝗虫的昆虫群行为。蝗虫蜂拥而至, 远距离迁徙, 寻找一个有食物的新栖息地。在这个过程中, 蝗虫之间的互动在蜂群内部互相影响。风的力量和蜂群外的重力影响蝗虫的轨迹。食物的目标也是一个重要的影响因素。
@@ -120,7 +122,7 @@ GOA是最近受到蚱蜢自然迁移行为启发的元启发式算法。 虽然G
 首先，GOA使用线性递减参数使搜索过程收敛，这很难区分过程的两个阶段，即开发阶段和探索阶段。 其次，在搜索过程的早期阶段的每次迭代期间，最佳解决方案的位置急剧波动。 似乎最终的最佳解决方案只受搜索过程后期的影响，无论前一阶段的结果如何。 GOA理论无法充分利用所有搜索迭代。 当最大迭代次数增加时，GOA的最佳适应性不是很突出，例如，从实验结果中发现的500到1500。 最后，搜索过程很容易陷入局部最优。 GOA易于实现的优势无助于摆脱局部最优，这可能是GOA的劣势。
 
 
-\section{带随机跳出机制的动态权重蝗虫优化算法(DJGOA)}
+\section{带随机跳出机制的动态权重蝗虫优化算法(DJGOA)}\label{sec:task_scheduling_DJGOA}
 \subsection{动态权重}
 GOA使用线性递减参数来限制搜索空间并使所有搜索代理移动到目标位置。 线性递减参数不能增强搜索过程的两个阶段的影响，即开发阶段和探索阶段。 在探索阶段，GOA无法在目标搜索区域周围快速收敛，搜索代理只是在整个搜索空间中游荡，这无法为后期搜索阶段奠定坚实的基础。 在开发阶段，参数通常使搜索代理滑过局部最佳位置，就像搜索代理超速运动一样。
 
@@ -428,7 +430,7 @@ where \emph{m} is the dynamic weight parameter to adjust the search process. To 
     \bicaption{总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。}{OASPL.(a) This is the explanation of subfig, (b) This is the explanation of subfig, (c) This is the explanation of subfig, (d) This is the explanation of subfig.}
     \label{fig:oaspl}
 \end{figure}
-\section{改进蝗虫优化算法(IGOA)}
+\section{改进蝗虫优化算法(IGOA)}\label{sec:task_scheduling_IGOA}
 \subsection{蝗虫算法不足之处}
 GOA具有简单的理论基础，易于实施。 另一方面，它有一些阻碍算法获得更好解决方案的缺点。
 线性减小的舒适区无法帮助原始的GOA充分利用每次迭代。 由于缺乏随机因素，原始算法几乎没有变化。 该算法很容易陷入局部最优。为了解决这些不足，引入了三个改进：非线性舒适区参数，基于$ L \ acute {e} vy $ flight的局部搜索机制和随机跳跃策略。 本部分明确描述了这三项改进的细节。
@@ -955,7 +957,7 @@ where $X_i$ is the position of the \emph{i}-th search agent, and $X_i^{new}$ is 
 水平轴是当前迭代的数量，垂直轴是迄今为止获得的最佳适应值。为了使曲线更加可区分，在垂直轴上使用对数。 \ emph {图2}中的曲线图像表明，在大多数搜索过程中，IGOA可以相对于整个搜索过程保持较大的斜率。这种现象可能意味着所提出的非线性舒适区参数可以有助于充分利用每次迭代。曲线跨度在大多数函数中都是充足的，这可以表明基于$ L \ acute {e} vy $ flight的局部搜索机制使算法更具创造性。曲线突然出现在\ emph {F3}，\ emph {F4}，\ emph {F7}中，\ emph {F28}表明随机跳跃策略可以帮助搜索跳出局部最优。收敛曲线表明，所提出的IGOA可以使搜索过程比其他人更快地收敛。
 
 % The convergences rate of the algorithms are discussed in this part. The convergence curves of IGOA and all the other 6 algorithms for comparison over part of the benchmark functions are shown in \emph{Figure 2}. The horizontal axis is the number of the current iteration, and the vertical axis is the best fitness value obtained so far. To make the curve more distinguishable, the logarithm is used in the vertical axis. The curve image in \emph{Figure 2} indicates that IGOA can keep a large slope relatively for the entire search process in most of the search processes. This phenomenon can mean that the proposed nonlinear comfort zone parameter can contribute to making full utilization of every iteration. The curve span is ample in most of the functions, which can suggest that the local search mechanism based on $L\acute{e}vy$ flight makes the algorithm more creative. Some sudden drops of the curve occurred frequently in \emph{F3}, \emph{F4},\emph{F7}, and \emph{F28} show that the random jumping strategy can help the search jump out of the local optimum. The convergence curves demonstrate that the proposed IGOA can make the search process converge more rapidly than others generally.
-\section{任务调度问题}
+\section{任务调度问题}\label{sec:task_scheduling_problems}
 \subsection{问题描述}
 
 任务调度问题是云计算领域中常见的问题\ cite {qiao2016an}，edge computing area \ cite {guo2017energy}和SEA Service System \ cite {wang2015research}。 大量用户会产生大量任务。 因此，当大量用户同时询问服务时，系统应该有效地处理任务，这可能是计算系统的基本问题，尤其是在资源受限的条件下。 在任务调度问题中，到达调度中心的一系列任务等待分配给特定的执行节点。
@@ -1102,4 +1104,4 @@ The vector T, tot, S and bps, and the matrix mips are set as \emph{Table 10-12}.
 实验结果表明，所提出的IGOA在所有领域都优于其他算法。 IGOA在平均值方面可以做得最好，对于最小的标准偏差它可以更稳定。 它可以找到所有算法的最佳解决方案，并且可以控制它可以找到的最差值。 与其他算法相比，IGOA可以将平均值分别提升9.7％，4.1％，31.9％，29.0％，24.7％和9.1％。
 % The result of the experiment demonstrated that the proposed IGOA outperformed the other algorithms in all field. IGOA can do best in average values, and it can be more stable for the smallest standard deviation. It can have the ability to find the best solution over all the algorithms, and it can control the worst value which it can find. Compared with the other algorithms, IGOA can promote the average values respectively by 9.7\%, 4.1\%, 31.9\%, 29.0\%, 24.7\%, and 9.1\%.
 
-\section{本章小结}
+\section{本章小结}\label{sec:task_scheduling_summary}
