@@ -1,4 +1,4 @@
-\begin{thebibliography}{91}
+\begin{thebibliography}{100}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -632,6 +632,64 @@ SAREMI~S, MIRJALILI~S, LEWIS~A.
 \newblock Grasshopper optimisation algorithm: theory and
   application\allowbreak[J].
 \newblock Advances in Engineering Software, 2017, 105:\penalty0 30-47.
+
+\bibitem[{Kalman(1960)}]{kalman1960new}
+KALMAN~R~E.
+\newblock A new approach to linear filtering and prediction
+  problems\allowbreak[J].
+\newblock Journal of basic Engineering, 1960, 82\penalty0 (1):\penalty0 35-45.
+
+\bibitem[{彭丁聪(2009)}]{彭丁聪2009卡尔曼滤波的基本原理及应用}
+彭丁聪.
+\newblock 卡尔曼滤波的基本原理及应用\allowbreak[J].
+\newblock 软件导刊, 2009, 8\penalty0 (11):\penalty0 32-34.
+
+\bibitem[{Muruganantham {\bibetal}(2016)Muruganantham, Tan, and
+  Vadakkepat}]{muruganantham2016evolutionary}
+MURUGANANTHAM~A, TAN~K~C, VADAKKEPAT~P.
+\newblock Evolutionary dynamic multiobjective optimization via kalman filter
+  prediction\allowbreak[J].
+\newblock IEEE transactions on cybernetics, 2016, 46\penalty0 (12):\penalty0
+  2862-2873.
+
+\bibitem[{成光\ 等(2006)成光, 刘卫东, 魏尚俊, and
+  张蕊}]{成光2006基于卡尔曼滤波的目标估计和预测方法研究}
+成光, 刘卫东, 魏尚俊, 等.
+\newblock
+  基于卡尔曼滤波的目标估计和预测方法研究\allowbreak[J].
+\newblock 计算机仿真, 2006, 23\penalty0 (1):\penalty0 8-10.
+
+\bibitem[{刘鑫\ 等(2019)刘鑫, 滕欢, 宫毓斌, and
+  滕德云}]{刘鑫2019基于改进卡尔曼滤波算法的短期负荷预测}
+刘鑫, 滕欢, 宫毓斌, 等.
+\newblock 基于改进卡尔曼滤波算法的短期负荷预测\allowbreak[J].
+\newblock 电测与仪表, 2019, 56\penalty0 (03):\penalty0 42-46.
+
+\bibitem[{周艳青\ 等(2018)周艳青, 薛河儒, 姜新华, 王思宇, and
+  王静}]{周艳青2018基于改进的卡尔曼滤波算法的气象数据融合}
+周艳青, 薛河儒, 姜新华, 等.
+\newblock
+  基于改进的卡尔曼滤波算法的气象数据融合\allowbreak[J].
+\newblock 计算机系统应用, 2018, 27\penalty0 (4):\penalty0 184-189.
+
+\bibitem[{郝庭毅\ 等(2017)郝庭毅, 吴恒, 吴国全, and
+  张文博}]{郝庭毅2017面向微服务架构的容器级弹性资源供给方法}
+郝庭毅, 吴恒, 吴国全, 等.
+\newblock
+  面向微服务架构的容器级弹性资源供给方法\allowbreak[J].
+\newblock 计算机研究与发展, 2017, 54\penalty0 (3):\penalty0 597-608.
+
+\bibitem[{贾濡\ 等(2018)贾濡 and
+  潘沭铭}]{贾濡2018基于卡尔曼滤波的流量预测机制}
+贾濡, 潘沭铭.
+\newblock 基于卡尔曼滤波的流量预测机制\allowbreak[J].
+\newblock 中国电子科学研究院学报, 2018, 13\penalty0 (06):\penalty0
+  82-87.
+
+\bibitem[{Welch {\bibetal}(1995)Welch, Bishop, et~al.}]{welch1995introduction}
+WELCH~G, BISHOP~G, et~al.
+\newblock An introduction to the kalman filter\allowbreak[J].
+\newblock 1995.
 
 \bibitem[{肖伟民孙鹏(2019)}]{肖伟民2019嵌入式虚拟化}
 肖伟民孙鹏.
