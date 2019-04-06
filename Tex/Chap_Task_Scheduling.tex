@@ -1,31 +1,36 @@
-\chapter{资源受限终端任务调度策略}\label{chap:task_scheduling}
+\chapter{多终端协同服务任务调度算法}\label{chap:task_scheduling}
 
 \section{引言}
 
 任务调度问题是指系统在同时接收到多个服务请求任务的时候，将这些任务合理地分配给多个智能终端上的容器进行处理，由于不同的容器所在智能终端的处理能力不同，每个容器所占用的资源也不同，导致不同的调度方案结果会有差异，需要针对在容器化智能终端协同服务场景下的一些特点来进行取舍和进一步的优化，以追求对于终端资源利用的最大化。在该任务场景下，最常见的用户需求就是实时性需求，也即要求任务能够被快速响应、快速执行、且执行结果能够快速回传给用户，因此最小化任务完成时间是任务调度问题最主要的目标。除此之外，需要考虑的因素还涉及硬件设备功耗、分布式设备负载均衡度等。
 
-本章的内容组织结构如下：第\ref{sec:task_scheduling_related_work}节介绍了任务调度问题算法的相关研究工作，包括传统的基于局部贪心策略的任务调度算法以及基于元启发式算法的任务调度算法；第\ref{sec:task_scheduling_GOA}节介绍了蝗虫优化算法（GOA）的背景、原理、数学模型以及数学表达式；第\ref{sec:task_scheduling_DJGOA}节提出了一种带随机跳出机制的动态权重蝗虫优化算法（DJGOA），介绍了其随机跳出机制以及动态权重策略，列出了所提出的带随机跳出机制的动态权重蝗虫优化算法在测试函数上的测试结果，并根据测试结果对带随机跳出机制的动态权重蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_IGOA}节在第\ref{sec:task_scheduling_DJGOA}节提出的算法的基础上，进一步提出了一种改进蝗虫优化算法（IGOA），介绍了其非线性舒适区控制参数、基于Levy飞行的局部搜索机制以及基于线性递减参数的随机跳出策略，列出了所提出的改进蝗虫优化算法在测试函数上的测试结果，并根据测试结果对改进蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_problems}节介绍了任务调度问题，提出了多终端协同服务环境中的任务调度问题的数学模型，并将第\ref{sec:task_scheduling_IGOA}节所提出的改进蝗虫优化算法应用到该模型中来求最优解，进行了仿真实验并分析实验结果；第\ref{sec:task_scheduling_summary}节对本章内容进行了总结。
+本章的内容组织结构如下：第\ref{sec:task_scheduling_related_work}节介绍了任务调度问题算法的相关研究工作，包括传统的基于局部贪心策略的任务调度算法以及基于元启发式算法的任务调度算法；第\ref{sec:task_scheduling_GOA}节介绍了蝗虫优化算法（GOA）的背景、原理、数学模型以及数学表达式；第\ref{sec:task_scheduling_DJGOA}节提出了一种带随机跳出机制的动态权重蝗虫优化算法（DJGOA），介绍了其随机跳出机制以及动态权重策略，列出了所提出的带随机跳出机制的动态权重蝗虫优化算法在测试函数上的测试结果，并根据测试结果对带随机跳出机制的动态权重蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_IGOA}节在第\ref{sec:task_scheduling_DJGOA}节提出的算法的基础上，进一步提出了一种改进蝗虫优化算法（IGOA），介绍了其非线性舒适区控制参数、基于$L\acute{e}vy$飞行的局部搜索机制以及基于线性递减参数的随机跳出策略，列出了所提出的改进蝗虫优化算法在测试函数上的测试结果，并根据测试结果对改进蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_problems}节介绍了任务调度问题，提出了多终端协同服务环境中的任务调度问题的数学模型，并将第\ref{sec:task_scheduling_IGOA}节所提出的改进蝗虫优化算法应用到该模型中来求最优解，进行了仿真实验并分析实验结果；第\ref{sec:task_scheduling_summary}节对本章内容进行了总结。
 
 \section{相关工作}\label{sec:task_scheduling_related_work}
 
 \subsection{传统任务调度问题求解方法}
 
-任务调度问题是NP-hard问题，已有的任务调度算法主要分为两大类，一类是基于局部贪心策略的算法，另一类是启发式的智能搜索方法。贪心策略的算法，例如优先调度任务量最重的算法，或者优先调度计算时间最短的算法，其调度结果很容易陷入局部最优解，不能够合理利用所有资源。启发式算法则是确定搜索策略，通过迭代、评价等方式，逐步逼近全局最优解。
+任务调度问题是将多个任务计划到约束下的多个节点的问题。任务调度问题是一个优化问题，任务调度问题也是一个NP-hard问题\cite{tawfeek2013cloud}，已有的任务调度算法主要分为两大类，一类是基于局部贪心策略的算法，另一类是启发式的智能搜索方法。有很多传统的基于贪心策略的任务调度优化算法\cite{乔楠楠2017一种面向网络边缘任务调度问题的多方向粒子群优化算法}。先进先出算法（FIFO Scheduler）是按照任务到达的先后顺序进行调度\cite{zaharia2009job}，Max-Min算法是优先调度执行时间最长的任务，Min-Min算法是优先调度执行时间最短的任务，\cite{tabak2014improving,杜玉霞2010Min}。这些基于贪心策略的任务调度算法的优点是原理比较简单，方便实施，运行速度快。但同样是因为这些算法的原理过于简单，优先满足局部最优选择，导致其缺点是很容易陷入局部最优解，得不到效果更好的解决方案。尤其是当任务规模扩大的时候，任务的维度也会增加，这会扩大搜索空间并使优化问题更加复杂，基于贪心策略的传统任务调度算法无法处理这种情况。
 
-任务调度问题是将多个任务计划到约束下的多个节点的问题。任务调度问题是一个优化问题。应用多种算法来解决任务调度问题。基于最佳资源选择 (BRS) 的算法, 如最大最小、最小、苦难等, 是解决任务调度问题的传统方法。一些元启发式算法, 如 PSO 和基于 pso 的改进算法, 是处理任务调度问题的新方法。
+% 任务调度问题是将多个任务计划到约束下的多个节点的问题。任务调度问题是一个优化问题。应用多种算法来解决任务调度问题。基于最佳资源选择 (BRS) 的算法, 如最大最小、最小、苦难等, 是解决任务调度问题的传统方法。一些元启发式算法, 如 PSO 和基于 pso 的改进算法, 是处理任务调度问题的新方法。
 
 \subsection{启发式算法求解方法}
+% 启发式算法则是确定搜索策略，通过迭代、评价等方式，逐步逼近全局最优解。
 
-近年来, 对任务调度问题进行了大量的研究。随着研究的进行, 许多元启发式算法被用来处理复杂的优化问题。元启发式算法具有简单的操作和较少的开销, 能够找到全局最优。
+近年来, 学者们对任务调度问题进行了大量的研究。随着研究的进行, 许多元启发式算法（Meta-Heuristic Algorithm）被用来处理复杂的优化问题。元启发式算法具有操作简单和开销较少的优点, 能够在最优化问题（Optimization Problem）中找到全局最优解或近似全局最优解。
 
-启发式算法中，如遗传算法（Genetic Algorithm），是模拟达尔文生物进化论的自然选择和遗传学机理的生物进化过程的计算模型，通过模拟自然进化过程搜索最优解。遗传算法将一个调度方案表示为一个染色体，并利用交叉、变异等运算符实现调度方案的进化，最终得到的结果比较好，但是收敛速度较慢且运算量较大。模拟退火算法（Simulated Annealing Algorithm），仿照固体退火原理，是一种基于概率的算法，从某一较高初温出发，伴随温度参数的不断下降,结合概率突跳特性在解空间中随机寻找目标函数的全局最优解，即在局部最优解能概率性地跳出并最终趋于全局最优。Kennedy和Eberhart在1995年提出粒子群算法（Particle Swarm Optimization），该算法最初是受到飞鸟集群活动的规律性启发，进而利用群体智能建立的一个简化模型，通过追随当前搜索到的最优值来寻找全局最优。
+Goldberg于1988年提出了遗传算法(Genetic Algorithm, GA)\cite{fonseca1995overview,whitley1994genetic,tanese1989distributed,Nagham2018}。遗传算法是一种经典的元启发是算法，将自然选择理论引入到寻优的过程中，算法模拟了达尔文生物进化论中的包含自然选择和遗传机制的生物进化过程的计算模型，通过模拟自然进化的过程来搜索问题空间内的最优解。遗传算法用一个染色体来表示一种可行的解，并利用交叉、变异、选择等运算符实现可行解的进化，经过若干轮的不断迭代和演进，最终得到比较好的全局最优解或近似最优解。虽然遗传算法的性能非常好, 但是遗传算法的操作比较复杂,运算量较大，收敛速度较慢，不适合应用于多终端协同任务调度问题的求解。Kirkpatrick于1983年提出模拟退火算法(Simulated Annealing Algorithm,SA)，是一种基于概率的算法。模拟退火算法模拟固体退火过程，从某一较高初温出发，随着温度参数的不断下降,动态调整跳出的概率，在解空间中随机寻找目标函数的全局最优解，即在局部最优解中以一种动态的概率进行跳出并最终趋于全局最优\cite{kirkpatrick1983optimization,Hong1991A,rutenbar1989simulated}。但尽管如此，模拟退火算法还是很容易陷入局部最优。
 
-许多元启发式算法被引入到优化问题中。GA 是戈德伯格在1988年提出的经典元启发式算法, 它将自然选择理论引入到优化过程中, 包括突变、交叉和选择 \ citefonseca1995an,Whitley1994, Tanese1989DGA, Ng广州市2018。虽然 GA 的性能相当好, 但遗传算法的操作过于复杂, 无法实现, 不适合某些情况。一些元启发式算法的灵感来自昆虫、鱼类、鸟类和其他群体生物的自然行为。粒子群算法 (PSO) 是肯尼迪1995年提出的经典元启发式算法。PSO 的原理简单, 性能显著 \ 1995年的柠檬素颗粒, Liao2007, Gomathi2013。蚁群优化算法 (ACO) 是受蚂蚁在鸟巢和食物来源之间自然觅食行为的启发。ACO 利用化学信息素在中国的人群中进行交流。
+一些元启发式算法的灵感来自昆虫、鱼类、鸟类和其他群体生物的自然行为。Kennedy和Eberhart在1995年提出粒子群算法(Particle Swarm Optimization, PSO)，是一种非常经典的元启发式算法\cite{kennedy1995particle,liao2007discrete,krishnasamy2013task}。该算法最初是受到飞鸟集群活动的规律性启发，利用群体智慧建立的一个简化模型，通过追随当前搜索到的最优值来寻找全局最优。粒子群算法的原理简单，易于实现,而且性能非常好。蚁群优化算法(Ant Colony Optimization Algorithm, ACO)是受蚂蚁在蚁巢和食物来源之间自然觅食行为的启发而提出的一种算法\cite{dorigo1997ant,dorigo1999ant,郝航2018基于并行化蚁群算法的网络测量节点选取算法}。蚁群算法利用化学信息素在蚂蚁群之间进行通信和交换信息，以控制整个蚁群的搜索方向。布谷鸟算法(Cuckoo Search Algorithm, CS)是Yang在2009年提出的一种元启发式算法\cite{yang2009cuckoo}。布谷鸟算法的灵感来自布谷鸟的繁殖行为，该算法使用$L\acute{e}vy$飞行来跳出局部最优。
+
+Some novel meta-heuristic optimization algorithms are proposed recently. There are not many pieces of research on the improvement of those algorithms. The Ant Lion Optimizer proposed in 2015 is inspired by the hunting behavior of antlions \cite{mirjalili2015ant}. Whale Optimization Algorithm (WOA) was proposed in 2016. WOA simulates the natural hunting behavior of whales \cite{mirjalili2016WOA}. Dragonfly Algorithm (DA) proposed in 2016 is inspired by the static and dynamic behaviors of the dragonfly swarm in nature \cite{mirjalili2016dragonfly}. In 2017, Shahrzad Saremi and Seyedali Mirjalili proposed a novel meta-heuristic optimization algorithm called Grasshopper Optimization Algorithm (GOA). GOA simulates the migration behavior of the grasshopper swarm by utilizing the influence of the interaction within the swarm and the wind influence outside the swarm to find the target food \cite{saremi2017grasshopper}. 
 
 最近提出了一些新的元启发式优化算法。关于改进这些算法的研究并不多。蚂蚁狮子优化器提出 (ALO) 在2015年是受狮子 \ citemirjilili2013 蚂蚁的狩猎行为的启发。鲸鱼优化算法 (WOA) 于2016年提出。WA 模拟鲸鱼的自然狩猎行为。2016年提出的蜻蜓算法 (DA) 是受蜻蜓群在自然界中的静态和动态行为的启发。
 
 
 2017年, Shahrzad Saremi 和 Seyedali Mirjalili 提出了一种新的元启发式优化算法, 称为蝗虫优化算法 (GOA)。GOA 利用群体内部的相互作用和蜂群外的风的影响来模拟蝗虫群的迁徙行为, 寻找目标食物 \ citesare2013 2017 蝗虫。GOA 算法利用群智能, 通过在蝗虫群之间分享经验, 确定搜索方向, 找到最佳或近似的最佳位置。GOA 还使用了具有多个迭代的进化方法, 以提高群智能的效率。
+
+GOA has been widely used in many areas since it was proposed. S.~Łukasik used GOA to generate accurate data clusterings and compare the performance with the standard K-means algorithm \cite{Łukasik}. Neelam Rajput applied GOA to solve 3 types of economic dispatch problems in electrical power systems, and the results of the experiments showed that GOA is superior to other methods\cite{rajput}. Zahra Elmi employed GOA to search for a better path in robot navigation \cite{elmi}. Deepak Kumar Lal used GOA to tune controller gains in Fuzzy PID controller \cite{lal}. Some other literature can also show that GOA is competitive in many research and practice fields \cite{hamour,hekimoglu,ahanch,amaireh,barik}. 
 
 开发了一些基于 GOA 的改进算法。OBLGOA 是由艾哈迈德·埃维斯在2018年提出的 \ ceewees 2013 改进。根据目前的搜索位置, 引入了基于对立面的学习策略, 以生成相反的解作为候选方案。OBL 策略可以提高算法的收敛速度, 但由于缺乏随机性, 改进有限。桑卡拉阿罗拉提出了混沌蝗虫优化算法在 2018年 \ 柠檬酸乱糟糟。将混沌映射应用到算法中, 提高了 GOA 的性能。采用10幅混沌映射来评价混沌理论的影响。结果并不是特别理想, 因为混沌因素在处理许多基准函数时并不合适。提出了一种基于 GOA 的新算法来解决优化问题和任务调度问题。
 
@@ -453,7 +458,7 @@ GOA具有简单的理论基础，易于实施。 另一方面，它有一些阻�
 \end{eqnarray}
 这里参数\emph{v}是精度调节参数，取值范围应该在[1,10]。
 % where \emph{v} is the accuracy adjustment factor and its value should be in the interval [1,10].
-\subsection{基于Levy飞行的局部搜索机制}
+\subsection{基于$L\acute{e}vy$飞行的局部搜索机制}
 GOA的所有参数都是确定性的。 缺乏随机性可能导致搜索迭代期间缺乏创造力，并且每个搜索代理只能搜索确定的位置。 将随机因子引入确定性系统是提高其性能的常用方法。
 % All the parameters of GOA are deterministic. The lack of randomness might lead to the lack of creativity during the search iterations, and every search agent could only search the determinate position. Introducing random factor to a deterministic system is a commonly used method to improve its performance.
 

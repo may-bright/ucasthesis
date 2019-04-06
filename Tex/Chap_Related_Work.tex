@@ -10,7 +10,7 @@
 
 随着处理和存储技术的快速发展以及互联网的普及，计算资源变得比以往任何时候都更便宜，更强大，更普遍。这种技术趋势使得云计算的计算模型成为现实。云计算是一种通过互联网管理和提供服务的范例\cite{zhang2010cloud}。云计算的思想很早之前就存在，20世纪60年代，约翰·麦卡锡已经设想计算设施将像一种工具（Unity）一样提供给公众\cite{parkhill1966challenge}。但是直到2006年谷歌公司（Google）使用“云计算”一词来描述通过网络提供服务的商业模型，云计算的概念才开始流行起来。云计算的概念虽然已经发展了很多年，但是并没有一个标准的定义\cite{sonnek2009virtual}，这里我们采用美国国家标准技术研究院（The National Institute of Standards and Technology，NIST）给出的定义\cite{zhang2010cloud}：云计算是一种可以方便地通过网络来按需对可配置的共享计算资源池（如网络、服务器、存储、应用和服务等）进行访问的模型，可以以最少的管理工作或与服务提供商交互的方式来进行快速配置和发布。
 
-云计算可以根据服务模式不同，划分为基础设施即是服务（Infrastructure as a Service，IaaS），平台即是服务（Platform as a Service，PaaS），软件即是服务（Software as a Service，SaaS）\cite{林伟伟2012云计算资源调度研究综述}。云计算中的三种服务模式结构如图\ref{fig:cloud_computation_S_P_I}所示\cite{刘英男2011基于云计算框架的终端管理系统设计与实现}。
+云计算可以根据服务模式不同，划分为基础设施即是服务（Infrastructure as a Service，IaaS），平台即是服务（Platform as a Service，PaaS），软件即是服务（Software as a Service，SaaS）\cite{林伟伟2012云计算资源调度研究综述,roman2018mobile}。云计算中的三种服务模式结构如图\ref{fig:cloud_computation_S_P_I}所示\cite{刘英男2011基于云计算框架的终端管理系统设计与实现}。
 
 \begin{figure}[!htbp]
     \centering
@@ -74,7 +74,7 @@ IaaS是运行云所需的承载、硬件配置和基本服务的组合,使用虚
 
 \subsection{容器虚拟化技术}
 
-容器虚拟化技术（Container Virtualization Technology）属于操作系统级虚拟化技术的一种\citep{vaughan2006new}。容器虚拟化技术虚拟出来的“虚拟机”通常被称为容器（Container）。容器技术底层使用的是基于Linux内核的Linux Container（LXC）技术，而不需要进行额外的虚拟化操作\cite{celesti2016exploring}。LXC技术的核心技术包括Namespace技术和Cgroups技术。Namespace技术可以为容器提供一个独立的、隔离的命名空间，其中包含PID（进程）、UTS（host name）、MNT（文件）、NET（网络）、IPC（进程间交互）、USER（用户）等六个方面\cite{liu2014researchandimplementation}。不同命名空间的进程彼此之间看不到，Namespace单独隔离出来的命名空间中的容器与其宿主机之间也是彼此看不到，只能通过UTS将对方当作网络中的另一个主机节点，这样就保持了容器的独立性和隔离性。而通过Cgroups技术，可以对每个容器所拥有的CPU、内存、存储、输入输出等资源进行进程级别的管理和配置，这样就使得用户可以利用容器对终端资源进行按需分配管理。同时，利用Cgroups控制组，也能够对对容器内各种资源的消耗情况做监控。因为容器底层仍然是利用宿主机的操作系统，所以相比完全虚拟化技术，容器虚拟化技术基本没有太大的额外性能损耗，启动一个容器也相当于启动一个进程，启动时间基本为秒级时间。目前行业内最流行的基于容器虚拟化技术的产品是Docker\citep{bernstein2014containers,马晓光2017一种适用于}。本文中所涉及到的容器虚拟化技术均是使用Docker应用实现的。
+容器虚拟化技术（Container Virtualization Technology）属于操作系统级虚拟化技术的一种\citep{vaughan2006new}。容器虚拟化技术虚拟出来的“虚拟机”通常被称为容器（Container）。容器技术底层使用的是基于Linux内核的Linux Container（LXC）技术，而不需要进行额外的虚拟化操作\cite{celesti2016exploring}。LXC技术的核心技术包括Namespace技术和Cgroups技术\cite{肖伟民2019嵌入式虚拟化}。Namespace技术可以为容器提供一个独立的、隔离的命名空间，其中包含PID（进程）、UTS（host name）、MNT（文件）、NET（网络）、IPC（进程间交互）、USER（用户）等六个方面\cite{liu2014researchandimplementation}。不同命名空间的进程彼此之间看不到，Namespace单独隔离出来的命名空间中的容器与其宿主机之间也是彼此看不到，只能通过UTS将对方当作网络中的另一个主机节点，这样就保持了容器的独立性和隔离性。而通过Cgroups技术，可以对每个容器所拥有的CPU、内存、存储、输入输出等资源进行进程级别的管理和配置，这样就使得用户可以利用容器对终端资源进行按需分配管理。同时，利用Cgroups控制组，也能够对对容器内各种资源的消耗情况做监控。因为容器底层仍然是利用宿主机的操作系统，所以相比完全虚拟化技术，容器虚拟化技术基本没有太大的额外性能损耗，启动一个容器也相当于启动一个进程，启动时间基本为秒级时间。目前行业内最流行的基于容器虚拟化技术的产品是Docker\citep{bernstein2014containers,马晓光2017一种适用于}。本文中所涉及到的容器虚拟化技术均是使用Docker应用实现的。
 
 % \subsection{容器集群技术}
 
