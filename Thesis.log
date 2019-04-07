@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  7 APR 2019 03:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  8 APR 2019 03:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1804,37 +1804,37 @@ File: Img/ucas_logo.pdf Graphic file (type pdf)
 . <->"SimHei/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 35.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 36.
  (c:/texlive/2018/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 35.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 36.
  (c:/texlive/2018/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 35.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 36.
  (c:/texlive/2018/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 35.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 36.
  (c:/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 35.
+(Font)              size <10.95> substituted on input line 36.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 35.
+(Font)              size <8> substituted on input line 36.
 
 [3] [4
 
@@ -1942,90 +1942,68 @@ File: Img/offloading400.png Graphic file (type bmp)
 
 ]
 第5章
-[45] [46]
-
-Package natbib Warning: Citation `mirjalili2016WOA' on page 47 undefined on input line 26.
-
-
-Package natbib Warning: Citation `Łukasik' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `rajput' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `elmi' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `lal' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `hamour' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `hekimoglu' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `ahanch' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `amaireh' on page 47 undefined on input line 33.
-
-
-Package natbib Warning: Citation `barik' on page 47 undefined on input line 33.
-
-[47] [48]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 96.
- [49] [50] [51]
-Overfull \hbox (23.4957pt too wide) in paragraph at lines 238--260
+[45] [46] [47] [48] [49]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 94.
+ [50] [51] [52] [53]
+Overfull \hbox (23.4957pt too wide) in paragraph at lines 250--272
  [][] 
  []
 
-[52] [53]
 
-LaTeX Warning: Float too large for page by 45.26646pt on input line 316.
+LaTeX Warning: Float too large for page by 45.26646pt on input line 328.
 
-
-Overfull \hbox (49.05504pt too wide) in paragraph at lines 381--402
+[54] [55]
+Overfull \hbox (49.05504pt too wide) in paragraph at lines 389--410
  [][] 
  []
 
-[54] [55] [56] [57]
-File: Img/oaspl_a.pdf Graphic file (type pdf)
-<use Img/oaspl_a.pdf>
-File: Img/oaspl_b.pdf Graphic file (type pdf)
-<use Img/oaspl_b.pdf>
-File: Img/oaspl_c.pdf Graphic file (type pdf)
-<use Img/oaspl_c.pdf>
-File: Img/oaspl_d.pdf Graphic file (type pdf)
-<use Img/oaspl_d.pdf>
- [58] [59]
+File: Img/DJGOA_F1.png Graphic file (type bmp)
+<Img/DJGOA_F1.png>
+File: Img/DJGOA_F2.png Graphic file (type bmp)
+<Img/DJGOA_F2.png>
+File: Img/DJGOA_F3.png Graphic file (type bmp)
+<Img/DJGOA_F3.png>
+File: Img/DJGOA_F4.png Graphic file (type bmp)
+<Img/DJGOA_F4.png>
+File: Img/DJGOA_F5.png Graphic file (type bmp)
+<Img/DJGOA_F5.png>
+File: Img/DJGOA_F6.png Graphic file (type bmp)
+<Img/DJGOA_F6.png>
+File: Img/DJGOA_F7.png Graphic file (type bmp)
+<Img/DJGOA_F7.png>
+File: Img/DJGOA_F8.png Graphic file (type bmp)
+<Img/DJGOA_F8.png>
+File: Img/DJGOA_F9.png Graphic file (type bmp)
+<Img/DJGOA_F9.png>
+File: Img/DJGOA_F10.png Graphic file (type bmp)
+<Img/DJGOA_F10.png>
+File: Img/DJGOA_F11.png Graphic file (type bmp)
+<Img/DJGOA_F11.png>
+File: Img/DJGOA_F12.png Graphic file (type bmp)
+<Img/DJGOA_F12.png>
+File: Img/DJGOA_F13.png Graphic file (type bmp)
+<Img/DJGOA_F13.png>
+
+LaTeX Warning: Float too large for page by 11.80637pt on input line 445.
+
+[56] [57] [58] [59] [60] [61]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 461.
+(hyperref)                removing `math shift' on input line 474.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 461.
+(hyperref)                removing `math shift' on input line 474.
 
-[60] [61]
+[62] [63]
 File: Img/procedure_of_IGOA.eps Graphic file (type eps)
 <Img/procedure_of_IGOA.eps>
-
-Overfull \hbox (17.40828pt too wide) in paragraph at lines 559--562
-\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 kennedy1995particle\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016WOA\TU/SimSun(1)/m/n/12.045 ，| \TU/entextsf/m/n/12.045 mirjalili2016dragonfly\TU/SimSun(1)/m/n/12.045 ，|
- []
-
-[62] [63] [64]
-Overfull \hbox (9.31065pt too wide) in paragraph at lines 563--565
-\TU/entextsf/m/n/12.045 saremi2017grasshopper\TU/SimSun(1)/m/n/12.045 。|  在[][]\TU/entextsf/m/n/12.045 5.6[][]\TU/SimSun(1)/m/n/12.045 中 列 出 的 基 准 \TU/entextrm/m/it/12.045 F24-F29 \TU/SimSun(1)/m/n/12.045 是 复 合 函 数 \TU/entextsf/m/n/12.045 cite liang2005novel\TU/SimSun(1)/m/n/12.045 ，|
- []
-
-
-Overfull \hbox (29.17195pt too wide) in paragraph at lines 576--602
+ [64] [65] [66]
+Overfull \hbox (29.17195pt too wide) in paragraph at lines 605--631
  [][] 
  []
 
-[65] [66] [67] [68] [69] [70] [71] [72]
+[67] [68] [69] [70] [71] [72] [73] [74]
 File: Img/function_F3.eps Graphic file (type eps)
 <Img/function_F3.eps>
 File: Img/function_F4.eps Graphic file (type eps)
@@ -2038,49 +2016,38 @@ File: Img/function_F24.eps Graphic file (type eps)
 <Img/function_F24.eps>
 File: Img/function_F28.eps Graphic file (type eps)
 <Img/function_F28.eps>
- [73] [74] [75]
-Overfull \hbox (8.81464pt too wide) in paragraph at lines 974--976
-[]\TU/SimSun(1)/m/n/12.045 任 务 调 度 问 题 可 能 是 一 个 优 化 问 题，|  它 是 一 个 \TU/entextsf/m/n/12.045 NP \TU/SimSun(1)/m/n/12.045 难 问 题 \TU/entextsf/m/n/12.045 citetawfeek2013cloud\TU/SimSun(1)/m/n/12.045 。|
+ [75] [76] [77]
+Overfull \hbox (6.03201pt too wide) in paragraph at lines 1006--1008
+[]\TU/SimSun(1)/m/n/12.045 在 本 小 节 的 研 究 中，|  我 们 假 设 用 户 启 动 \TU/entextrm/m/it/12.045 N \TU/SimSun(1)/m/n/12.045 个 任 务，|  这 些 任 务 分 别 为 $[]$，|
  []
 
-Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ， in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-[76]
-
-LaTeX Warning: Reference `tab:resource_and_type_tasks' on page 77 undefined on input line 1017.
-
-[77] [78]) (./Tex/Chap_Elastic_Service.tex [79] [80
+[78] [79] [80] [81] [82]) (./Tex/Chap_Elastic_Service.tex [83] [84
 
 ]
 第6章
-[81] [82]) (./Tex/Chap_Summary_and_Future_Work.tex [83] [84
+[85] [86]) (./Tex/Chap_Summary_and_Future_Work.tex [87] [88
 
 ]
 第7章
-)) [85] [86
+)) [89] [90
 
-] (./Thesis.bbl [87
+] (./Thesis.bbl [91
 
 
 
-] [88] [89] [90] [91] [92] [93] [94] [95]) (./Tex/Backmatter.tex [96] [97
+] [92] [93] [94] [95] [96] [97] [98] [99]) (./Tex/Backmatter.tex [100] [101
 
-] [98
+] [102
 
-] [99] [100
+] [103] [104
 
 ])
 
-Package natbib Warning: There were undefined citations.
-
-
-Package caption Warning: Unused \captionsetup[bi-first] on input line 551.
+Package caption Warning: Unused \captionsetup[bi-first] on input line 53.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[bi-second] on input line 551.
+Package caption Warning: Unused \captionsetup[bi-second] on input line 53.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
@@ -2089,26 +2056,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 86DC6EE7AB3C240B19B549C8AC2F09BE.
+(rerunfilecheck)             Checksum: 9CECCF8535E27C5D1C1E2CF12C539535.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30451 strings out of 492970
- 609340 string characters out of 6137299
- 694178 words of memory out of 5000000
- 33980 multiletter control sequences out of 15000+600000
- 560417 words of font info for 151 fonts, out of 8000000 for 9000
+ 30486 strings out of 492970
+ 608583 string characters out of 6137299
+ 694254 words of memory out of 5000000
+ 34007 multiletter control sequences out of 15000+600000
+ 560409 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,26n,94p,10550b,851s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,26n,94p,10550b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (124 pages).
+Output written on Thesis.pdf (128 pages).

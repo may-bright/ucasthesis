@@ -1,4 +1,4 @@
-\begin{thebibliography}{145}
+\begin{thebibliography}{153}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -948,6 +948,57 @@ YANG~X~S, DEB~S.
 \newblock Cuckoo search via l{\'e}vy flights\allowbreak[C]//\allowbreak
 2009 World Congress on Nature \& Biologically Inspired Computing (NaBIC).
 \newblock IEEE, 2009: 210-214.
+
+\bibitem[{Hu {\bibetal}(2016)Hu, Bai, and Xu}]{hu2016whale}
+HU~H, BAI~Y, XU~T.
+\newblock A whale optimization algorithm with inertia weight\allowbreak[J].
+\newblock WSEAS Trans. Comput, 2016, 15:\penalty0 319-326.
+
+\bibitem[{Abdel-Basset {\bibetal}(2017)Abdel-Basset, Luo, Miao, and
+  Zhou}]{abdel2017solving}
+ABDEL-BASSET~M, LUO~Q, MIAO~F, et~al.
+\newblock Solving 0--1 knapsack problems by binary dragonfly
+  algorithm\allowbreak[C]//\allowbreak
+International Conference on Intelligent Computing.
+\newblock Springer, 2017: 491-502.
+
+\bibitem[{KS {\biband} Murugan(2017)KS and Murugan}]{ks2017memory}
+KS~S~R, MURUGAN~S.
+\newblock Memory based hybrid dragonfly algorithm for numerical optimization
+  problems\allowbreak[J].
+\newblock Expert Systems with Applications, 2017, 83:\penalty0 63-78.
+
+\bibitem[{Song {\biband} Li(2017)Song and Li}]{song2017elite}
+SONG~J, LI~S.
+\newblock Elite opposition learning and exponential function steps-based
+  dragonfly algorithm for global optimization\allowbreak[C]//\allowbreak
+2017 IEEE International Conference on Information and Automation (ICIA).
+\newblock IEEE, 2017: 1178-1183.
+
+\bibitem[{Ewees {\bibetal}(2018)Ewees, Elaziz, and
+  Houssein}]{ewees2018improved}
+EWEES~A~A, ELAZIZ~M~A, HOUSSEIN~E~H.
+\newblock Improved grasshopper optimization algorithm using opposition-based
+  learning\allowbreak[J].
+\newblock Expert Systems with Applications, 2018, 112:\penalty0 156-172.
+
+\bibitem[{Arora {\biband} Anand(2018)Arora and Anand}]{arora2018chaotic}
+ARORA~S, ANAND~P.
+\newblock Chaotic grasshopper optimization algorithm for global
+  optimization\allowbreak[J].
+\newblock Neural Computing and Applications, 2018:\penalty0 1-21.
+
+\bibitem[{Molga {\biband} Smutnicki(2005)Molga and Smutnicki}]{molga2005test}
+MOLGA~M, SMUTNICKI~C.
+\newblock Test functions for optimization needs\allowbreak[J].
+\newblock Test functions for optimization needs, 2005, 101.
+
+\bibitem[{Liang {\bibetal}(2005)Liang, Suganthan, and Deb}]{liang2005novel}
+LIANG~J~J, SUGANTHAN~P~N, DEB~K.
+\newblock Novel composition test functions for numerical global
+  optimization\allowbreak[C]//\allowbreak
+Proceedings 2005 IEEE Swarm Intelligence Symposium, 2005. SIS 2005.
+\newblock IEEE, 2005: 68-75.
 
 \bibitem[{Kalman(1960)}]{kalman1960new}
 KALMAN~R~E.
