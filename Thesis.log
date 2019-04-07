@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  8 APR 2019 03:34
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  8 APR 2019 07:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1853,27 +1853,27 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 
 ] [2] [3] [4
 
-]) [5] [6
+] [5] [6] [7]) [8] (./Thesis.toc [9
 
-] (./Thesis.toc [7] [8])
+] [10])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [9] [10
+ [11] [12
 
 ] (./Thesis.lof)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [11] [12
+ [13] [14
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Tex/Prematter.tex [13] [14
+ (./Tex/Prematter.tex [15] [16
 
-]) [15] [16
+]) [17] [18
 
 ] (./Tex/Mainmatter.tex (./Tex/Chap_Introduction.tex
 第1章
@@ -2025,23 +2025,34 @@ Overfull \hbox (6.03201pt too wide) in paragraph at lines 1006--1008
 
 ]
 第6章
-[85] [86]) (./Tex/Chap_Summary_and_Future_Work.tex [87] [88
+[85] [86] [87]
+File: Img/Elastic_Service_System_temp.png Graphic file (type bmp)
+<Img/Elastic_Service_System_temp.png>
+) (./Tex/Chap_Summary_and_Future_Work.tex [88] [89] [90
 
 ]
 第7章
-)) [89] [90
+[91] [92])) [93] [94
 
-] (./Thesis.bbl [91
+] (./Thesis.bbl [95
 
 
 
-] [92] [93] [94] [95] [96] [97] [98] [99]) (./Tex/Backmatter.tex [100] [101
+] [96] [97] [98] [99] [100] [101] [102] [103]) (./Tex/Backmatter.tex [104] [105
 
-] [102
+] [106
 
-] [103] [104
+]
+Overfull \hbox (13.713pt too wide) in paragraph at lines 24--25
+[]\TU/entextsf/m/n/12.045 [2] Ran Zhao, Hangwei Feng, Xiaoyong Zhu, Hong Ni. A Dynamic Weight Grasshop-
+ []
 
-])
+
+Overfull \hbox (14.48721pt too wide) in paragraph at lines 30--31
+[]\TU/entextsf/m/n/12.045 1. \TU/SimSun(1)/m/n/12.045 朱 小 勇，|  赵 然，|  一 种 微 服 务 故 障 检 测 处 理 方 法 及 装 置  |（申 请 号：| \TU/entextsf/m/n/12.045 201711368632.3\TU/SimSun(1)/m/n/12.045 ）| 
+ []
+
+[107] [108])
 
 Package caption Warning: Unused \captionsetup[bi-first] on input line 53.
 See the caption package documentation for explanation.
@@ -2056,7 +2067,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9CECCF8535E27C5D1C1E2CF12C539535.
+(rerunfilecheck)             Checksum: 66A89935C582C23FF8BDCB2704EA0DAA.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2067,12 +2078,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30486 strings out of 492970
- 608583 string characters out of 6137299
- 694254 words of memory out of 5000000
+ 30487 strings out of 492970
+ 608231 string characters out of 6137299
+ 694525 words of memory out of 5000000
  34007 multiletter control sequences out of 15000+600000
  560409 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,26n,94p,10550b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (128 pages).
+Output written on Thesis.pdf (134 pages).
