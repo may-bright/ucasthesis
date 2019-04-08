@@ -50,38 +50,4 @@
 \BOOKMARK [1][-]{section.5.2}{5.2 相关工作}{chapter.5}% 50
 \BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 传统任务调度问题求解方法}{section.5.2}% 51
 \BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 启发式算法求解方法}{section.5.2}% 52
-\BOOKMARK [1][-]{section.5.3}{5.3 蝗虫优化算法}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 蝗虫优化算法数学模型}{section.5.3}% 54
-\BOOKMARK [1][-]{section.5.4}{5.4 带随机跳出机制的动态权重蝗虫优化算法\(DJGOA\)}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 动态权重}{section.5.4}% 56
-\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 随机跳出机制}{section.5.4}% 57
-\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 带随机跳出机制的动态权重蝗虫优化算法流程}{section.5.4}% 58
-\BOOKMARK [2][-]{subsection.5.4.4}{5.4.4 实验结果}{section.5.4}% 59
-\BOOKMARK [1][-]{section.5.5}{5.5 改进蝗虫优化算法\(IGOA\)}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 非线性舒适区控制参数}{section.5.5}% 61
-\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 基于Lvy飞行的局部搜索机制}{section.5.5}% 62
-\BOOKMARK [2][-]{subsection.5.5.3}{5.5.3 基于线性递减参数的随机跳出策略}{section.5.5}% 63
-\BOOKMARK [2][-]{subsection.5.5.4}{5.5.4 改进蝗虫优化算法流程}{section.5.5}% 64
-\BOOKMARK [2][-]{subsection.5.5.5}{5.5.5 实验结果}{section.5.5}% 65
-\BOOKMARK [1][-]{section.5.6}{5.6 多终端协同服务的任务调度问题}{chapter.5}% 66
-\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 问题描述}{section.5.6}% 67
-\BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 任务调度模型}{section.5.6}% 68
-\BOOKMARK [2][-]{subsection.5.6.3}{5.6.3 实验结果}{section.5.6}% 69
-\BOOKMARK [1][-]{section.5.7}{5.7 本章小结}{chapter.5}% 70
-\BOOKMARK [0][-]{chapter.6}{第6章  基于预测的容器弹性服务策略 }{}% 71
-\BOOKMARK [1][-]{section.6.1}{6.1 引言}{chapter.6}% 72
-\BOOKMARK [1][-]{section.6.2}{6.2 相关工作}{chapter.6}% 73
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 基于统计学模型的预测算法}{section.6.2}% 74
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 基于卡尔曼滤波器的预测算法}{section.6.2}% 75
-\BOOKMARK [1][-]{section.6.3}{6.3 基于卡尔曼滤波的预测算法}{chapter.6}% 76
-\BOOKMARK [2][-]{subsection.6.3.1}{6.3.1 卡尔曼滤波器}{section.6.3}% 77
-\BOOKMARK [2][-]{subsection.6.3.2}{6.3.2 基于终端服务的改进卡尔曼滤波算法}{section.6.3}% 78
-\BOOKMARK [1][-]{section.6.4}{6.4 基于预测的容器弹性服务策略设计}{chapter.6}% 79
-\BOOKMARK [1][-]{section.6.5}{6.5 实验结果}{chapter.6}% 80
-\BOOKMARK [1][-]{section.6.6}{6.6 本章小结}{chapter.6}% 81
-\BOOKMARK [0][-]{chapter.7}{第7章  总结与展望 }{}% 82
-\BOOKMARK [1][-]{section.7.1}{7.1 工作总结}{chapter.7}% 83
-\BOOKMARK [1][-]{section.7.2}{7.2 工作展望}{chapter.7}% 84
-\BOOKMARK [0][-]{section*.48}{参考文献}{}% 85
-\BOOKMARK [0][-]{appendix*.50}{致谢}{}% 86
-\BOOKMARK [0][-]{appendix*.51}{作者简历及攻读学位期间发表的学术论文与研究成果}{}% 87
+\BOOKMARK [1][-]{section.5.3}{5.3 蝗虫优化�
