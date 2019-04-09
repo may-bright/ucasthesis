@@ -92,6 +92,17 @@
 
 \section{实验结果}\label{sec:elastic_service_experiment_results}
 
+使用卡尔曼滤波器对用户服务请求数量进行滤波和预测，得到结果如图\ref{fig:elastic_service_kalman_filter}所示。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{kalman_filter_temp}\hfill\\[0.5cm]
+  \caption{卡尔曼滤波器对用户服务请求数量预测}
+  \label{fig:elastic_service_kalman_filter}
+  \end{figure}
+
+  从图\ref{fig:elastic_service_kalman_filter}中可以看出，使用卡尔曼滤波器可以过滤掉观测值对真实值的影响，有效检测到用户流量请求数量突变的情况，使得系统可以弹性调整服务规模。
+
 \section{本章小结}\label{sec:elastic_service_summary}
 
 为了解决多终端协同服务技术中的预部署问题，促进提高终端资源利用率和降低用户服务请求响应等待时间之间的平衡，本章提出了基于预测的容器弹性服务策略。基于卡尔曼滤波器，结合多终端协同服务的特点，提出了一种改进卡尔曼滤波算法。根据预测结果提前弹性部署容器服务，动态调整多终端协同服务的规模，平衡提高终端资源利用率与降低用户服务请求响应等待时间之间的关系。

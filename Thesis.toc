@@ -92,6 +92,6 @@
 \contentsline {chapter}{\numberline {第7章\hspace {.3em}}总结与展望 }{91}{chapter.7}
 \contentsline {section}{\numberline {7.1}工作总结}{91}{section.7.1}
 \contentsline {section}{\numberline {7.2}工作展望}{93}{section.7.2}
-\contentsline {chapter}{参考文献}{95}{section*.46}
-\contentsline {chapter}{致谢}{105}{appendix*.48}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{107}{appendix*.49}
+\contentsline {chapter}{参考文献}{95}{section*.47}
+\contentsline {chapter}{致谢}{105}{appendix*.49}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{107}{appendix*.50}
