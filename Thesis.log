@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  9 APR 2019 15:29
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  14 APR 2019 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1764,14 +1764,7 @@ LaTeX Info: Redefining \nameref on input line 50.
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
 
- (./Tex/Frontpages.tex (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-) [1
-
-
-] [2
-
-]
+ (./Tex/Frontpages.tex
 File: Img/ucas_logo.pdf Graphic file (type pdf)
 <use Img/ucas_logo.pdf>
 \g__fontspec_family_SimHei_int=\count324
@@ -1836,17 +1829,23 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 (Font)              size <8> substituted on input line 36.
 
-[3] [4
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+) [1
+
+
+
+] [2
+
+
+] [3
+
+] [4
 
 
 ] [5
 
 ] [6
-
-
-] [7
-
-] [8
 
 
 ] [1
@@ -2025,21 +2024,21 @@ Overfull \hbox (6.03201pt too wide) in paragraph at lines 1006--1008
 
 ]
 第6章
-[85] [86] [87]
+[85] [86] [87] [88]
 File: Img/Elastic_Service_System_temp.png Graphic file (type bmp)
 <Img/Elastic_Service_System_temp.png>
 
-Overfull \hbox (0.22295pt too wide) in paragraph at lines 95--96
+Overfull \hbox (0.22295pt too wide) in paragraph at lines 115--116
 []\TU/SimSun(1)/m/n/12.045 使 用 卡 尔 曼 滤 波 器 对 用 户 服 务 请 求 数 量 进 行 滤 波 和 预 测，|  得 到 结 果 如 图[][]\TU/entextsf/m/n/12.045 6.2[][]\TU/SimSun(1)/m/n/12.045 所
  []
 
-File: Img/kalman_filter_temp.png Graphic file (type bmp)
-<Img/kalman_filter_temp.png>
-[88]) (./Tex/Chap_Summary_and_Future_Work.tex [89] [90
-
-]
+File: Img/kalman_filter.jpg Graphic file (type bmp)
+<Img/kalman_filter.jpg>
+[89]) (./Tex/Chap_Summary_and_Future_Work.tex [90]
 第7章
-[91] [92])) [93] [94
+[91
+
+] [92])) [93] [94
 
 ] (./Thesis.bbl [95
 
@@ -2085,12 +2084,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30492 strings out of 492970
- 608379 string characters out of 6137299
- 694575 words of memory out of 5000000
- 34011 multiletter control sequences out of 15000+600000
+ 30495 strings out of 492970
+ 608422 string characters out of 6137299
+ 694626 words of memory out of 5000000
+ 34014 multiletter control sequences out of 15000+600000
  560409 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,26n,94p,10550b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (134 pages).
+Output written on Thesis.pdf (132 pages).

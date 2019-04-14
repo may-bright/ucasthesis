@@ -1,4 +1,4 @@
-\begin{thebibliography}{153}
+\begin{thebibliography}{154}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -999,6 +999,14 @@ LIANG~J~J, SUGANTHAN~P~N, DEB~K.
   optimization\allowbreak[C]//\allowbreak
 Proceedings 2005 IEEE Swarm Intelligence Symposium, 2005. SIS 2005.
 \newblock IEEE, 2005: 68-75.
+
+\bibitem[{Feng {\biband} Shu(2005)Feng and Shu}]{feng2005study}
+FENG~H, SHU~Y.
+\newblock Study on network traffic prediction
+  techniques\allowbreak[C]//\allowbreak
+Proceedings. 2005 International Conference on Wireless Communications,
+  Networking and Mobile Computing, 2005.: volume~2.
+\newblock IEEE, 2005: 1041-1044.
 
 \bibitem[{Kalman(1960)}]{kalman1960new}
 KALMAN~R~E.
