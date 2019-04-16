@@ -24,7 +24,8 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces 7种算法在部分测试函数上搜索的收敛曲线图\relax }}{77}{figure.caption.40}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {6.1}{\ignorespaces 基于预测的容器弹性服务模块图\relax }}{89}{figure.caption.45}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 利用改进Kalman滤波器预测用户服务请求数量\relax }}{90}{figure.caption.46}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 改进Kalman滤波器预测用户服务请求趋势\relax }}{92}{figure.caption.46}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 基于预测的容器弹性服务负载变化\relax }}{92}{figure.caption.47}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
