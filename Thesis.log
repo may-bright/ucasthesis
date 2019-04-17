@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  17 APR 2019 01:29
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  17 APR 2019 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2028,15 +2028,11 @@ Overfull \hbox (6.03201pt too wide) in paragraph at lines 1006--1008
 File: Img/Elastic_Service_System_temp.png Graphic file (type bmp)
 <Img/Elastic_Service_System_temp.png>
  [89] [90]
-Overfull \hbox (0.22295pt too wide) in paragraph at lines 177--178
-[]\TU/SimSun(1)/m/n/12.045 使 用 卡 尔 曼 滤 波 器 对 用 户 服 务 请 求 数 量 进 行 滤 波 和 预 测，|  仿 真 结 果 如 图[][]\TU/entextsf/m/n/12.045 6.2[][]\TU/SimSun(1)/m/n/12.045 所
- []
-
 File: Img/kalman_filter.jpg Graphic file (type bmp)
 <Img/kalman_filter.jpg>
 File: Img/elastic_service_num.jpg Graphic file (type bmp)
 <Img/elastic_service_num.jpg>
-[91] [92]) (./Tex/Chap_Summary_and_Future_Work.tex [93] [94
+ [91] [92]) (./Tex/Chap_Summary_and_Future_Work.tex [93] [94
 
 ]
 第7章
@@ -2060,7 +2056,17 @@ Overfull \hbox (14.48721pt too wide) in paragraph at lines 44--45
 []\TU/entextsf/m/n/12.045 1. \TU/SimSun(1)/m/n/12.045 朱 小 勇，|  赵 然，|  一 种 微 服 务 故 障 检 测 处 理 方 法 及 装 置  |（申 请 号：| \TU/entextsf/m/n/12.045 201711368632.3\TU/SimSun(1)/m/n/12.045 ）| 
  []
 
-[111] [112])
+
+Overfull \hbox (11.55403pt too wide) in paragraph at lines 54--55
+[]\TU/entextsf/m/n/12.045 2. \TU/SimSun(1)/m/n/12.045 韩 锐、|  李 超、|  赵 然、|  朱 小 勇、|  郭 志 川，|  机 顶 盒 \TU/entextsf/m/n/12.045 IP \TU/SimSun(1)/m/n/12.045 升 级 软 件\TU/entextsf/m/n/12.045 . \TU/SimSun(1)/m/n/12.045 登 记 号：| \TU/entextsf/m/n/12.045 2017SRBJ0116 
+ []
+
+[111]
+Overfull \hbox (0.5837pt too wide) in paragraph at lines 60--61
+[]\TU/entextsf/m/n/12.045 2. \TU/SimSun(1)/m/n/12.045 中 国 科 学 院 声 学 研 究 所 青 年 英 才  |“嵌 入 式 容 器 文 件 系 统 关 键 技 术 研 究” （编
+ []
+
+[112])
 
 Package caption Warning: Unused \captionsetup[bi-first] on input line 53.
 See the caption package documentation for explanation.
@@ -2075,7 +2081,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 66A89935C582C23FF8BDCB2704EA0DAA.
+(rerunfilecheck)             Checksum: 8CD11A81E0207B6E090B79CA0CE2B2F1.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2086,10 +2092,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30503 strings out of 492970
- 608617 string characters out of 6137299
- 694809 words of memory out of 5000000
- 34021 multiletter control sequences out of 15000+600000
+ 30518 strings out of 492970
+ 608947 string characters out of 6137299
+ 695021 words of memory out of 5000000
+ 34036 multiletter control sequences out of 15000+600000
  560409 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,26n,94p,10550b,847s stack positions out of 5000i,500n,10000p,200000b,80000s

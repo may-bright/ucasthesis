@@ -81,7 +81,7 @@
 \contentsline {chapter}{\numberline {第6章\hspace {.3em}}基于预测的容器弹性服务策略 }{85}{chapter.6}
 \contentsline {section}{\numberline {6.1}引言}{85}{section.6.1}
 \contentsline {section}{\numberline {6.2}相关工作}{86}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}基于统计学模型的预测算法}{86}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}早期网络流量预测算法}{86}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}基于卡尔曼滤波器的预测算法}{86}{subsection.6.2.2}
 \contentsline {section}{\numberline {6.3}基于卡尔曼滤波的预测算法}{87}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}卡尔曼滤波器}{87}{subsection.6.3.1}

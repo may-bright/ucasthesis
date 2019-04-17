@@ -1,4 +1,4 @@
-\begin{thebibliography}{154}
+\begin{thebibliography}{159}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -1007,6 +1007,40 @@ FENG~H, SHU~Y.
 Proceedings. 2005 International Conference on Wireless Communications,
   Networking and Mobile Computing, 2005.: volume~2.
 \newblock IEEE, 2005: 1041-1044.
+
+\bibitem[{高波(2013)}]{2013基于时间相关的网络流量建模与预测研究}
+高波.
+\newblock 基于时间相关的网络流量建模与预测研究\allowbreak[D].
+\newblock 哈尔滨工业大学, 2013.
+
+\bibitem[{段智彬\ 等(2009)段智彬, 孙恩昌, 张延华, and
+  董燕}]{段智彬2009基于}
+段智彬, 孙恩昌, 张延华, 等.
+\newblock 基于ARMA模型的网络流量预测\allowbreak[J].
+\newblock 中国电子科学研究院学报, 2009, 4\penalty0 (4):\penalty0
+  352-356.
+
+\bibitem[{陈广居\ 等(2017)陈广居, 梁鹏, and
+  王坤}]{陈广居2017网络流量预测}
+陈广居, 梁鹏, 王坤.
+\newblock 网络流量预测模型研究\allowbreak[J].
+\newblock 信息通信, 2017\penalty0 (8):\penalty0 191-194.
+
+\bibitem[{林义勇\ 等(2017)林义勇, 鞠福昌, and
+  卢艳}]{林义勇2017ARMA}
+林义勇, 鞠福昌, 卢艳.
+\newblock
+  ARMA模型在局域网短期流量预测中的应用研究\allowbreak[C]//\allowbreak
+第十一届全国信号和智能信息处理与应用学术会议专刊.
+\newblock 2017.
+
+\bibitem[{Kayacan {\bibetal}(2010)Kayacan, Ulutas, and
+  Kaynak}]{kayacan2010grey}
+KAYACAN~E, ULUTAS~B, KAYNAK~O.
+\newblock Grey system theory-based models in time series
+  prediction\allowbreak[J].
+\newblock Expert systems with applications, 2010, 37\penalty0 (2):\penalty0
+  1784-1789.
 
 \bibitem[{Kalman(1960)}]{kalman1960new}
 KALMAN~R~E.
