@@ -4,7 +4,7 @@
 
 任务调度问题是指系统在同时接收到多个服务请求任务的时候，将这些任务合理地分配给多个智能终端上的容器进行处理，由于不同的容器所在智能终端的处理能力不同，每个容器所占用的资源也不同，导致不同的调度方案结果会有差异，需要针对在容器化智能终端协同服务场景下的一些特点来进行取舍和进一步的优化，以追求对于终端资源利用的最大化。在该任务场景下，最常见的用户需求就是实时性需求，也即要求任务能够被快速响应、快速执行、且执行结果能够快速回传给用户，因此最小化任务完成时间是任务调度问题最主要的目标。除此之外，需要考虑的因素还涉及硬件设备功耗、分布式设备负载均衡度等。
 
-本章的内容组织结构如下：第\ref{sec:task_scheduling_related_work}节介绍了任务调度问题算法的相关研究工作，包括传统的基于局部贪心策略的任务调度算法以及基于元启发式算法的任务调度算法；第\ref{sec:task_scheduling_GOA}节介绍了蝗虫优化算法（GOA）的背景、原理、数学模型以及数学表达式；第\ref{sec:task_scheduling_DJGOA}节提出了一种带随机跳出机制的动态权重蝗虫优化算法（DJGOA），介绍了其随机跳出机制以及动态权重策略，列出了所提出的带随机跳出机制的动态权重蝗虫优化算法在测试函数上的测试结果，并根据测试结果对带随机跳出机制的动态权重蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_IGOA}节在第\ref{sec:task_scheduling_DJGOA}节提出的算法的基础上，进一步提出了一种改进蝗虫优化算法（IGOA），介绍了其非线性舒适区控制参数、基于$L\acute{e}vy$飞行的局部搜索机制以及基于线性递减参数的随机跳出策略，列出了所提出的改进蝗虫优化算法在测试函数上的测试结果，并根据测试结果对改进蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_problems}节介绍了任务调度问题，提出了多终端协同服务环境中的任务调度问题的数学模型，并将第\ref{sec:task_scheduling_IGOA}节所提出的改进蝗虫优化算法应用到该模型中来求最优解，进行了仿真实验并分析实验结果；第\ref{sec:task_scheduling_summary}节对本章内容进行了总结。
+本章的内容组织结构如下：第\ref{sec:task_scheduling_related_work}节介绍了任务调度问题算法的相关研究工作，包括传统的基于局部贪心策略的任务调度算法以及基于元启发式算法的任务调度算法；第\ref{sec:task_scheduling_GOA}节介绍了蝗虫优化算法（GOA）的背景、原理、数学模型以及数学表达式；第\ref{sec:task_scheduling_DJGOA}节提出了一种带随机跳出机制的动态权重蝗虫优化算法（Dynamic Weight Grasshopper Optimization Algorithm with Random Jumping，DJGOA），介绍了其随机跳出机制以及动态权重策略，列出了所提出的带随机跳出机制的动态权重蝗虫优化算法在测试函数上的测试结果，并根据测试结果对带随机跳出机制的动态权重蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_IGOA}节在第\ref{sec:task_scheduling_DJGOA}节提出的算法的基础上，进一步提出了一种改进蝗虫优化算法（Improved Grasshopper Optimization Algorithm，IGOA），介绍了其非线性舒适区控制参数、基于$L\acute{e}vy$飞行的局部搜索机制以及基于线性递减参数的随机跳出策略，列出了所提出的改进蝗虫优化算法在测试函数上的测试结果，并根据测试结果对改进蝗虫优化算法的性能进行了分析；第\ref{sec:task_scheduling_problems}节介绍了任务调度问题，提出了多终端协同服务环境中的任务调度问题的数学模型，并将第\ref{sec:task_scheduling_IGOA}节所提出的改进蝗虫优化算法应用到该模型中来求最优解，进行了仿真实验并分析实验结果；第\ref{sec:task_scheduling_summary}节对本章内容进行了总结。
 
 \section{相关工作}\label{sec:task_scheduling_related_work}
 
@@ -410,7 +410,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
 \end{table}
 
 
-\subsubsection{Convergence Analysis}
+\subsubsection{收敛曲线分析}
 % 这里可以证明动态参数能够充分利用迭代，提高收敛速度
 DJGOA、GOA、DA与PSO算法在13个测试函数上的迭代收敛曲线结果如图\ref{fig:DJGOA_convergence_curve}所示。途中横坐标为迭代次数，纵坐标为算法在当前轮次种所能搜索到的最优适应度值，由于最优适应度值跨度较大，为了更明显地显示出算法效果，这里对纵坐标取对数。收敛曲线表明，相比另外3种算法，DJGOA可以使搜索过程更快速地收敛。这也说明所提出的动态权重参数机制可以帮助算法更充分地利用每一次迭代。
 
