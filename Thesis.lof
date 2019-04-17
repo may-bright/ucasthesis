@@ -1,27 +1,31 @@
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 论文组织结构\relax }}{7}{figure.caption.10}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 论文组织结构\relax }}{7}{figure.caption.8}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 云计算种三种服务模式结构图\relax }}{10}{figure.caption.11}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 边缘计算模式结构图\relax }}{11}{figure.caption.12}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 应用了虚拟化技术的云计算模型\relax }}{12}{figure.caption.13}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 完全虚拟化技术架构\relax }}{13}{figure.caption.14}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces 操作系统级虚拟化技术架构\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 云计算种三种服务模式结构图\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 边缘计算模式结构图\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 应用了虚拟化技术的云计算模型\relax }}{12}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 完全虚拟化技术架构\relax }}{13}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 操作系统级虚拟化技术架构\relax }}{15}{figure.caption.13}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 基于容器化多终端协同服务系统层次图\relax }}{25}{figure.caption.16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Docker容器架构图\relax }}{25}{figure.caption.17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 基于容器化多终端协同服务系统架构图\relax }}{26}{figure.caption.18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 用户、服务、终端、容器概念之间的关系\relax }}{28}{figure.caption.19}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 去中心化的自组织网络结构\relax }}{29}{figure.caption.20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 基于容器化多终端协同服务系统层次图\relax }}{26}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Docker容器架构图\relax }}{27}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 基于容器化多终端协同服务系统架构图\relax }}{28}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 用户、服务、终端、容器概念之间的关系\relax }}{29}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 去中心化的自组织网络结构\relax }}{31}{figure.caption.18}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Web Worker透明计算迁移\relax }}{34}{figure.caption.21}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 透明计算迁移系统服务端结构图\relax }}{36}{figure.caption.22}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 实验一：200*200图片渲染\relax }}{38}{figure.caption.23}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 实验二：400*400图片渲染\relax }}{39}{figure.caption.24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Web Worker透明计算迁移\relax }}{36}{figure.caption.19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 透明计算迁移系统服务端结构图\relax }}{38}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 实验一：200*200图片渲染\relax }}{40}{figure.caption.21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 实验二：400*400图片渲染\relax }}{41}{figure.caption.22}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。\relax }}{54}{figure.caption.30}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The figure framework of the procedure of IGOA\relax }}{59}{figure.caption.31}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Convergence curves for all the 7 algorithms over some benchmark functions \relax }}{68}{figure.caption.41}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces DJGOA、GOA、DA与PSO在13个测试函数上的收敛曲线\relax }}{59}{figure.caption.28}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces DJGOA、GOA、DA与PSO在13个测试函数上的收敛曲线(续)\relax }}{60}{figure.caption.29}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 改进蝗虫优化算法的算法流程框图\relax }}{66}{figure.caption.30}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 7种算法在部分测试函数上搜索的收敛曲线图\relax }}{77}{figure.caption.40}
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 基于预测的容器弹性服务模块图\relax }}{89}{figure.caption.45}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 改进Kalman滤波器预测用户服务请求趋势\relax }}{92}{figure.caption.46}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 基于预测的容器弹性服务负载变化\relax }}{92}{figure.caption.47}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

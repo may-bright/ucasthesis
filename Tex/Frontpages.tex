@@ -4,13 +4,13 @@
 %-
 %-> 中文封面信息
 %-
-　%这里加一个全角的空格，可以解决中文复制乱码问题
+% 　%这里加一个全角的空格，可以解决中文复制乱码问题，但是开头会增加两页空白最后可以去掉
 \confidential{}% 密级：只有涉密论文才填写
 \schoollogo{scale=0.095}{ucas_logo}% 校徽
 \title{基于容器化多终端协同服务技术研究}% 论文中文题目
 \author{赵然}% 论文作者
 \advisor{倪宏~研究员~中国科学院声学研究所}% 指导教师：姓名 专业技术职务 工作单位
-% \advisors{郭志川~研究员~中国科学院声学研究所}% 指导老师附加信息 或 第二指导老师信息
+\advisors{郭志川~研究员~中国科学院声学研究所}% 指导老师附加信息 或 第二指导老师信息
 \degree{博士}% 学位：学士、硕士、博士
 \degreetype{工学}% 学位类别：理学、工学、工程、医学等
 \major{信号与信息处理}% 二级学科专业名称
@@ -19,9 +19,10 @@
 %-
 %-> 英文封面信息
 %-
-\TITLE{\LaTeX{} Thesis Template\\ of \\ The University of Chinese Academy of Sciences {$~^{\pi}\pi^{\pi}$}}% 论文英文题目
+\TITLE{Research on Containerized Multi-terminal \\ Collaborative Service Technology}% 论文英文题目
 \AUTHOR{Zhao Ran}% 论文作者
 \ADVISOR{Supervisor: Professor Ni Hong}% 指导教师
+\ADVISOR{Supervisor: Professor Guo Zhichuan}% 指导教师
 \DEGREE{Doctor}% 学位：Bachelor, Master, Doctor。封面格式将根据英文学位名称自动切换，请确保拼写准确无误
 \DEGREETYPE{Engineering}% 学位类别：Philosophy, Natural Science, Engineering, Economics, Agriculture 等
 \THESISTYPE{thesis}% 论文类型：thesis, dissertation
@@ -44,15 +45,56 @@
 \setcounter{page}{1}% 开始页码
 \pagenumbering{Roman}% 页码符号
 
-本文是中国科学院大学学位论文模板ucasthesis的使用说明文档。主要内容为介绍\LaTeX{}文档类ucasthesis的用法，以及如何使用\LaTeX{}快速高效地撰写学位论文。
+随着计算机技术的快速发展以及边缘计算技术的逐渐成熟，位于网络边缘的用户终端设备在人们的数字化生活中正扮演着越来越重要的角色。用户终端需要承担越来越多的计算任务，这也对终端设备的计算能力提出了越来越高的要求。相比云计算技术可能会带来实时性差、部署成本高、带宽拥挤等问题，利用靠近用户的设备上空闲的计算资源协同为用户终端提供就近的计算服务成为一种可行的解决方案。
 
-\keywords{中国科学院大学，学位论文，\LaTeX{}模板}% 中文关键词
+基于终端设备资源的分散性、异构性等特点，如何将边缘终端设备的空闲资源管理起来并利用多终端设备协同提供服务以达到提高终端资源利用效率、提高终端用户体验的目的，成为本文需要重点解决的问题。为此本文开展基于容器化多终端协同服务技术研究。本文首先介绍了云计算技术、容器虚拟化技术、计算迁移技术、任务调度算法等相关技术和算法的研究现状，分析其目前还存在的问题。本文结合容器虚拟化技术和多终端协同服务技术，设计了基于容器化的多终端协同服务系统，并主要研究系统中的基于容器的多终端透明计算迁移技术、多终端协同服务任务调度算法优化以及基于预测的终端弹性服务技术。
+
+主要研究内容与成果如下： 
+
+（1）基于容器化多终端服务系统架构设计
+
+针对终端设备资源分布较为分散、资源异构性强、不容易管理和利用等问题，设计了基于容器化多终端协同服务系统。在所提出的基于容器化多终端协同服务系统中，设计了资源管理模块，引入Docker容器虚拟化技术对多终端资源进行虚拟化，克服终端资源异构性，形成资源池，可以被上层终端服务根据对资源的类型和数量按需使用。除了对终端资源以容器的形式进行管理和利用，资源管理模块还需要对容器的生命周期进行管理。参考微服务架构，设计了服务管理模块，包括服务之间通过REST的轻量级通信机制进行通信、服务注册、服务节点选择、服务生命周期管理等。设计了任务调度模块，根据不同任务请求对资源的消耗情况，调度合适的节点进行执行。设计了弹性服务模块，统计用户服务请求数量，预测服务请求变化趋势，适当调节终端服务规模。另外还提出了去中心化的自组织网络结构，对多终端节点进行管理。
+
+（2）基于容器的多终端透明计算迁移技术
+
+为了将用户周围终端设备的空闲资源利用起来，在对应用保持透明的情况下，为Web应用提供计算迁移服务，提高终端资源利用率，缩短Web应用计算时间，提高终端用户体验，提出一种基于容器的Web Worker透明计算迁移技术。通过对终端底层Web应用执行环境中的部分接口进行修改，将上层Web应用传来的Web Worker创建请求进行翻译并重新封装，通过WebSocket将封装后的请求发送到部署到边缘容器集群中的服务端进行处理。实验结果表明，相比Web应用本地执行，使用基于容器的多终端透明计算迁移技术能够在Web Worker数量较多的情况下，大大减少Web应用的总执行时间，对于提高终端用户体验有着明显的效果；相比非透明计算迁移技术，基于容器的多终端透明计算迁移技术减少Web应用执行时间的效果也更优。
+
+（3）多终端协同服务任务调度算法 
+
+为了解决多终端协同服务任务调度问题，选择更合适的终端执行终端服务任务，提高终端资源利用率，减少任务执行时间，提高用户体验，基于元启发式算法蝗虫优化算法，提出一种带有随机跳出机制的动态权重蝗虫优化算法。利用基于完全随机跳出因素的跳出机制，提高算法的跳出局部最优的能力；根据搜索阶段的不同，使用动态的权重参数来代替原算法中的线性递减搜索单元权重参数，帮助算法在不同的搜索阶段获得更大的迭代收益。通过一系列benchmark测试函数测试，表明所提出的带有随机跳出机制的动态权重蝗虫优化算法在寻找最优结果方面具有不错的效果。为了更进一步优化算法在寻优问题和任务调度问题上的性能，基于上述改进算法基础，提出了一种改进蝗虫优化算法。引入变型的sigmoid函数作为非线性舒适区调节参数，增强算法的搜索能力；提出基于$L\acute{e}vy$飞行的局部搜索机制，让搜索单元在局部拥有一定的“搜索视觉”，提高算法的局部搜索能力;使用基于线性递减参数的随机跳出策略，增强算法跳出局部最优能力，并将成功跳出的结果影响力维持若干次迭代。通过一系列benchmark测试函数测试，表明所提出的改进蝗虫优化算法，在寻找最优结果方面具有更好的效果。仿真实验结果表明，改进蝗虫优化算法在解决多终端协同服务任务调度问题上也能够取得较好的效果。
+
+（4）基于预测的容器弹性服务策略
+
+为了解决多终端协同服务技术中的预部署问题，促进提高终端资源利用率和降低用户服务请求响应等待时间之间的平衡，提出了基于预测的容器弹性服务策略。基于卡尔曼滤波器，结合多终端协同服务的特点，提出了一种改进卡尔曼滤波算法。根据预测结果提前弹性部署容器服务，动态调整多终端协同服务的规模，平衡提高终端资源利用率与降低用户服务请求响应等待时间之间的关系。
+
+\keywords{容器虚拟化，智能终端，协同服务，计算迁移，任务调度，弹性服务}% 中文关键词
 %-
 %-> 英文摘要
 %-
 \chapter*{Abstract}\chaptermark{Abstract}% 摘要标题
 
-This paper is a help documentation for the \LaTeX{} class ucasthesis, which is  a thesis template for the University of Chinese Academy of Sciences. The main content is about how to use the ucasthesis, as well as how to write thesis efficiently by using \LaTeX{}.
+With the rapid development of the computer technology and the maturity of edge computing technology, user terminal equipment at the edge of the network is playing an increasingly important role in people's digital life. User terminals need to undertake more and more computing tasks, which also puts higher and higher requirements on the computing power of terminal devices. Cloud computing technology may bring problems such as poor real-time performance, high deployment cost, and bandwidth congestion. It is a feasible solution to use the idle computing resources on the device close to the user to provide the nearest computing service to the user terminal.
 
-\KEYWORDS{University of Chinese Academy of Sciences (UCAS), Thesis, \LaTeX{} Template}% 英文关键词
+Based on the characteristics of the decentralization and heterogeneity of the terminal equipment resources, how to manage the idle resources of the edge terminal equipment and use the multi-terminal equipment to provide services to improve the utilization efficiency of the terminal resources and improve the experience of the terminal user Focus on solving problems. To this end, this paper carries out research on containerized multi-terminal collaborative service technology. This paper first introduces the research status of cloud computing technology, container virtualization technology, computational migration technology, task scheduling algorithm and other related technologies and algorithms, and analyzes its current problems. This paper combines container virtualization technology and multi-terminal collaborative service technology to design a container-based multi-terminal collaborative service system, and mainly studies container-based multi-terminal transparent computing migration technology, multi-terminal collaborative service task scheduling algorithm optimization and Predictive-based terminal elastic service technology.
+
+The main research contents and results are as follows:
+
+(1) Architecture design based on containerized multi-terminal service system
+
+A containerized multi-terminal collaborative service system is designed for the problem that the terminal equipment resources are distributed, the resources are heterogeneous, and it is not easy to manage and utilize. In the proposed container-based multi-terminal collaborative service system, the resource management module is designed, and the Docker container virtualization technology is introduced to virtualize the multi-terminal resources, overcome the heterogeneity of the terminal resources, form a resource pool, and can be served by the upper-layer terminal. Use as needed based on the type and amount of resources. In addition to managing and utilizing terminal resources in the form of containers, the resource management module also needs to manage the lifecycle of the container. Referring to the micro-service architecture, the service management module is designed, including communication between services through REST's lightweight communication mechanism, service registration, service node selection, and service lifecycle management. The task scheduling module is designed to request the appropriate node to perform the resource consumption according to different task requests. An elastic service module is designed to count the number of user service requests, predict the trend of service requests, and appropriately adjust the scale of terminal services. In addition, a decentralized self-organizing network structure is proposed to manage multi-terminal nodes.
+
+(2) Container-based multi-terminal transparent computing migration technology
+
+In order to utilize the idle resources of the terminal devices around the user, providing a computing migration service for the web application, improving the utilization of the terminal resources, shortening the computing time of the web application, and improving the end user experience, The container's Web Worker transparent computing migration technology. By modifying some interfaces in the underlying web application execution environment of the terminal, the Web Worker creation request transmitted from the upper web application is translated and re-encapsulated, and the encapsulated request is sent to the server deployed in the edge container cluster through WebSocket. Process it. The experimental results show that compared with the local execution of web applications, the container-based multi-terminal transparent computing migration technology can greatly reduce the total execution time of web applications in the case of a large number of web workers, which has obvious effects on improving the end user experience. Compared to non-transparent computing migration technology, container-based multi-terminal transparent computing migration technology is also more effective in reducing web application execution time.
+
+(3) Multi-terminal collaborative service task scheduling algorithm
+
+In order to solve the problem of multi-terminal collaborative service task scheduling, select a more suitable terminal to perform terminal service tasks, improve terminal resource utilization, reduce task execution time, and improve user experience. Based on the meta-heuristic algorithm, the locust optimization algorithm proposes a randomization The dynamic weight locust optimization algorithm of the bounce mechanism. The bounce mechanism based on the completely random bounce factor is used to improve the ability of the algorithm to jump out of the local optimum. According to different search stages, the dynamic weight parameter is used to replace the linear decrement search unit weight parameter in the original algorithm, which helps the algorithm to search differently. The stage gets a larger iterative benefit. Through a series of benchmark test function tests, it shows that the proposed dynamic weight locust optimization algorithm with random bounce mechanism has a good effect in finding the optimal result. In order to further optimize the performance of the algorithm on the optimization problem and task scheduling problem, based on the above improved algorithm, an improved locust optimization algorithm is proposed. The modified sigmoid function is introduced as the nonlinear comfort zone adjustment parameter to enhance the search ability of the algorithm. A local search mechanism based on $L\acute{e}vy$ flight is proposed, which allows the search unit to have a certain "search vision" in the local, improve The local search ability of the algorithm; using a random bounce strategy based on linear decrement parameters, the enhanced algorithm jumps out of the local optimal ability, and maintains the effect of the successful jump out of several iterations. Through a series of benchmark test function tests, it shows that the proposed improved locust optimization algorithm has a better effect in finding the optimal result. The simulation results show that the improved locust optimization algorithm can achieve better results in solving the multi-terminal collaborative service task scheduling problem.
+
+(4) Predictive container elastic service strategy
+
+In order to solve the pre-deployment problem in multi-terminal collaborative service technology, promote the balance between terminal resource utilization and reduce user service request response waiting time, a container-based elastic service strategy based on prediction is proposed. Based on the Kalman filter and the characteristics of multi-terminal cooperative services, an improved Kalman filter algorithm is proposed. According to the prediction result, the container service is flexibly deployed in advance, the scale of the multi-terminal collaborative service is dynamically adjusted, and the relationship between the utilization of the terminal resource and the waiting time of the user service request is balanced.
+
+
+\KEYWORDS{Container Virtualization, Intelligent Terminal, Collaborative Service, Task Scheduling, Elastic Service}% 英文关键词
 %---------------------------------------------------------------------------%
