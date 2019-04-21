@@ -125,6 +125,12 @@ ZHANG~Q, CHENG~L, BOUTABA~R.
 \newblock Journal of internet services and applications, 2010, 1\penalty0
   (1):\penalty0 7-18.
 
+\bibitem[{JoSEP {\bibetal}(2010)JoSEP, KAtz, KonWinSKi, Gunho, PAttERSon, and
+  RABKin}]{josep2010view}
+JOSEP~A~D, KATZ~R, KONWINSKI~A, et~al.
+\newblock A view of cloud computing\allowbreak[J].
+\newblock Communications of the ACM, 2010, 53\penalty0 (4).
+
 \bibitem[{Parkhill(1966)}]{parkhill1966challenge}
 PARKHILL~D~F.
 \newblock Challenge of the computer utility\allowbreak[J].
@@ -1099,11 +1105,5 @@ MURUGANANTHAM~A, TAN~K~C, VADAKKEPAT~P.
 WELCH~G, BISHOP~G, et~al.
 \newblock An introduction to the kalman filter\allowbreak[J].
 \newblock 1995.
-
-\bibitem[{JoSEP {\bibetal}(2010)JoSEP, KAtz, KonWinSKi, Gunho, PAttERSon, and
-  RABKin}]{josep2010view}
-JOSEP~A~D, KATZ~R, KONWINSKI~A, et~al.
-\newblock A view of cloud computing\allowbreak[J].
-\newblock Communications of the ACM, 2010, 53\penalty0 (4).
 
 \end{thebibliography}
