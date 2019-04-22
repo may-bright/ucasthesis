@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  22 APR 2019 20:03
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  22 APR 2019 22:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2074,13 +2074,18 @@ Overfull \hbox (11.55403pt too wide) in paragraph at lines 89--90
 []\TU/entextsf/m/n/12.045 2. \TU/SimSun(1)/m/n/12.045 韩 锐、|  李 超、|  赵 然、|  朱 小 勇、|  郭 志 川，|  机 顶 盒 \TU/entextsf/m/n/12.045 IP \TU/SimSun(1)/m/n/12.045 升 级 软 件\TU/entextsf/m/n/12.045 . \TU/SimSun(1)/m/n/12.045 登 记 号：| \TU/entextsf/m/n/12.045 2017SRBJ0116 
  []
 
+
+Overfull \hbox (31.02753pt too wide) in paragraph at lines 101--103
+[]\TU/entextsf/m/n/12.045 5. \TU/SimSun(1)/m/n/12.045 国 家 科 技 支 撑 计 划 课 题：|  电 视 商 务 综 合 体 新 业 态 应 用 示 范 \TU/entextsf/m/n/12.045 (\TU/SimSun(1)/m/n/12.045 编 号：| \TU/entextsf/m/n/12.045 2012BAH73F02) 
+ []
+
 [124])
 
-Package caption Warning: Unused \captionsetup[bi-first] on input line 54.
+Package caption Warning: Unused \captionsetup[bi-first] on input line 56.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[bi-second] on input line 54.
+Package caption Warning: Unused \captionsetup[bi-second] on input line 56.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
@@ -2102,7 +2107,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  30560 strings out of 492970
  610144 string characters out of 6137299
- 696734 words of memory out of 5000000
+ 697734 words of memory out of 5000000
  34074 multiletter control sequences out of 15000+600000
  560409 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
