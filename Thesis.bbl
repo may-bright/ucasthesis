@@ -1,4 +1,4 @@
-\begin{thebibliography}{163}
+\begin{thebibliography}{164}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -361,6 +361,12 @@ LIU~D, ZHAO~L.
 2014 11th International Computer Conference on Wavelet Actiev Media Technology
   and Information Processing (ICCWAMTIP).
 \newblock IEEE, 2014: 475-478.
+
+\bibitem[{吴松\ 等(2019)吴松, 王坤, and
+  金海}]{2019操作系统虚拟化的研究现状与展望}
+吴松, 王坤, 金海.
+\newblock 操作系统虚拟化的研究现状与展望\allowbreak[J].
+\newblock 计算机研究与发展, 2019, 56\penalty0 (1):\penalty0 58-68.
 
 \bibitem[{Bernstein(2014)}]{bernstein2014containers}
 BERNSTEIN~D.
