@@ -8,45 +8,45 @@ Database file #1: Biblio/ref.bib
 Warning--empty journal in parkhill1966challenge
 Warning--empty journal in tanese1989distributed
 Warning--empty journal in welch1995introduction
-You've used 159 entries,
+You've used 163 entries,
             4079 wiz_defined-function locations,
-            1699 strings with 35929 characters,
-and the built_in function-call counts, 761714 in all, are:
-= -- 11070
-> -- 85152
-< -- 116072
-+ -- 33576
-- -- 1210
-* -- 5759
-:= -- 107349
-add.period$ -- 478
-call.type$ -- 159
-change.case$ -- 548
-chr.to.int$ -- 30128
-cite$ -- 162
-duplicate$ -- 3566
-empty$ -- 8977
-format.name$ -- 2537
-if$ -- 196469
+            1720 strings with 36529 characters,
+and the built_in function-call counts, 780590 in all, are:
+= -- 11359
+> -- 87264
+< -- 118898
++ -- 34376
+- -- 1243
+* -- 5886
+:= -- 109959
+add.period$ -- 490
+call.type$ -- 163
+change.case$ -- 561
+chr.to.int$ -- 30846
+cite$ -- 166
+duplicate$ -- 3672
+empty$ -- 9245
+format.name$ -- 2594
+if$ -- 201405
 int.to.chr$ -- 3
-int.to.str$ -- 160
+int.to.str$ -- 164
 missing$ -- 0
-newline$ -- 855
-num.names$ -- 607
-pop$ -- 39001
+newline$ -- 878
+num.names$ -- 622
+pop$ -- 40014
 preamble$ -- 1
-purify$ -- 159
+purify$ -- 163
 quote$ -- 0
-skip$ -- 74815
+skip$ -- 76682
 stack$ -- 0
-substring$ -- 34504
-swap$ -- 473
-text.length$ -- 1493
+substring$ -- 35334
+swap$ -- 483
+text.length$ -- 1534
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1947
+type$ -- 1991
 warning$ -- 3
-while$ -- 2067
+while$ -- 2120
 width$ -- 0
-write$ -- 2414
+write$ -- 2471
 (There were 3 warnings)

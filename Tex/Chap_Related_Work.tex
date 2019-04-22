@@ -48,12 +48,33 @@ IaaS是运行云所需的承载、硬件配置和基本服务的组合,使用虚
 % 边缘计算的应用场景包括：。
 
 \section{虚拟化技术}\label{sec:related_work_virtualization}
-资源管理问题是协同服务技术中的一个重要的问题\citep{文雨2013面向应用服务级目标的虚拟化资源管理}。虚拟化技术是一种资源管理技术，利用底层虚拟、上层隔离等方法，将计算机中的物理资源，如计算、存储和网络等，进行抽象、切割，以更好的形式提供给用户使用\cite{goth2007virtualization}。虚拟化技术将计算机上原有的固定配额的物理资源按照用户需要很方便地进行分配、提取和利用，可以提高计算机和终端资源的利用率。1959年，克里斯托弗（Christopher Strachey）在他的学术报告《大型高速计算机中的时间共享》中提出了虚拟化的基本概念，成为了虚拟化技术的开端\citep{本刊编辑部2017虚拟化概述}。在IBM公司、HP公司、VMWare公司等企业的不断努力下，经过了60年的发展和成熟，虚拟化技术逐渐成为云计算与边缘计算中非常重要的一种资源管理技术\cite{pearce2013virtualization,kumar2014review}。用户根据自己的需求来租赁云计算或边缘计算的服务提供商所提供的对应资源配额的虚拟机，直接在虚拟化的操作系统中运行用户自己的应用而不需要考虑操作系统底层是如何实现的，就如同运行在一个真实而独立的实体物理机一样，非常透明\cite{叶蔚2019基于虚拟化的}。而虚拟化技术则被用来实现虚拟机的生命周期管理，包括创建、配置、关闭、监控、释放资源等等，维持这种对用户的透明性。应用了虚拟化技术的云计算模型如图\ref{fig:cloud_computation_virtualization}所示\citep{陈思锦2015云计算中的虚拟化技术与虚拟化安全}。
+资源管理问题是协同服务技术中的一个重要的问题\citep{文雨2013面向应用服务级目标的虚拟化资源管理}。而虚拟化技术是解决资源管理问题的一个重要的解决办法。虚拟化技术是一种资源管理技术，利用底层虚拟、上层隔离等方法，将计算机中的物理资源，如计算、存储和网络等，进行抽象、切割，以更好的形式提供给用户使用\cite{goth2007virtualization}。虚拟化技术将计算机上原有的固定配额的物理资源按照用户需要很方便地进行分配、提取和利用，可以提高计算机和终端资源的利用率。
+
+1959年，克里斯托弗（Christopher Strachey）在他的学术报告《大型高速计算机中的时间共享》中提出了虚拟化的基本概念，成为了虚拟化技术的开端\citep{本刊编辑部2017虚拟化概述}。虽然随着计算机技术的发展，硬件价格的下降与用户需求的变化使得虚拟化技术的研究与应用一度陷入低谷，但是随着云计算等概念的兴起以及互联网服务模式的革命性变化，虚拟化技术又重新成为学术界和工业界研究的热点\cite{menasce2005virtualization}。在IBM公司、HP公司、VMWare公司等企业的不断努力下，经过了60年的发展和成熟，虚拟化技术逐渐成为云计算与边缘计算中非常重要的一种资源管理技术\cite{pearce2013virtualization,kumar2014review}。
+
+用户根据自己的需求来租赁云计算或边缘计算的服务提供商所提供的对应资源配额的虚拟机，直接在虚拟化的操作系统中运行用户自己的应用而不需要考虑操作系统底层是如何实现的，就如同运行在一个真实而独立的实体物理机一样，非常透明\cite{叶蔚2019基于虚拟化的}。而虚拟化技术则被用来实现虚拟机的生命周期管理，包括创建、配置、关闭、监控、释放资源等等，维持这种对用户的透明性。服务提供商利用虚拟化技术，以虚拟机的形式为用户提供服务，可以让一台服务器同时支持多个用户独立访问，且每个用户之间是完全独立的，提高了服务提供商的资源利用率，降低了云服务提供的成本，同时虚拟机互相隔离的特性也提升了云服务的安全性。
+
+虚拟化技术为云计算技术打下了良好的基础。第\ref{sec:related_work_cloud_computing}节中提到，云计算中所能够提供的服务包括基础设施即是服务（IaaS）、平台即是服务（PaaS）和软件即是服务（SaaS），这三种服务模式都离不开虚拟化技术的支持。IaaS能够为用户提供计算、存储等资源，这些都需要利用虚拟化技术来进行资源的抽象、资源数量的划分，并且封装成虚拟机来提供给用户远程使用。在用户使用这些资源的过程中，也要受到虚拟化技术对资源使用数量和时间的监控和管理，以及对虚拟机生命周期的管理。PaaS能够为用户提供计算平台、相关软件应用程序集以及应用部署的平台。PaaS除了利用虚拟化技术对资源进行管理，还利用了虚拟化技术的封装的特性，将提前封装好的包含相关软件应用程序集的应用运行环境提供给用户，并且以虚拟机为单位进行部署和运维。SaaS在以上两种服务的基础上，利用了虚拟化技术的隔离和透明的特性，将应用程序封装在虚拟机中，通过网络向用户提供服务，用户不必关心应用本身是运行在虚拟机中还是独立的物理服务器中。这些虚拟机彼此之间是隔离的，一台服务器可以同时运行多个虚拟机独立为用户提供服务，同一台服务器上的不同虚拟机之间不会互通，保证了服务的安全性。另外，虚拟化技术在面对云计算中的分布式计算、权限管理、服务器灾难恢复等问题以及在为科学计算中的网络、安全等领域提供实验环境方面也能够提供比较合适的解决方案\cite{2008半虚拟化技术分析与研究}。
+
+应用了虚拟化技术的云计算模型如图\ref{fig:cloud_computation_virtualization}所示\citep{陈思锦2015云计算中的虚拟化技术与虚拟化安全}。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=1.0\textwidth]{Cloud_Computation_Virtualization_Temp}
     \caption{应用了虚拟化技术的云计算模型}
     \label{fig:cloud_computation_virtualization}
+\end{figure}
+
+虚拟化技术自1959年被提出，经历了硬件分区技术、完全虚拟化技术、半虚拟化技术和操作系统虚拟化技术等几个发展阶段\cite{肖伟民2019嵌入式虚拟化}，从底层硬件层逐渐向操作系统层过渡，逐渐成为一种成熟的资源管理技术。
+
+\subsection{硬件分区技术}
+
+硬件分区技术是早期的虚拟化技术。硬件资源被划分为互相独立的分区，每个分区的存储和计算资源是独立的，也会安装独立的操作系统\cite{plessl2004virtualization}。硬件分区技术可以做到对资源进行比较细粒度的划分，但这种划分比较简单，不够灵活，也不方便系统对资源进行管理。硬件分区技术的架构图如图\ref{fig:hardware_virtualization}所示\cite{肖伟民2019嵌入式虚拟化}。
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Hardware_Virtualization_Temp}
+    \caption{硬件分区技术架构}
+    \label{fig:hardware_virtualization}
 \end{figure}
 
 \subsection{完全虚拟化技术}
@@ -69,6 +90,19 @@ IaaS是运行云所需的承载、硬件配置和基本服务的组合,使用虚
 
 云计算行业内曾经非常流行的工具如VMware\citep{sahasrabudhe2014comparing,li2010selecting}、KVM\citep{liu2014research}、VirtualBox\citep{li2010selecting}等，都属于比较传统的完全虚拟化技术，这些完全虚拟化工具都拥有非常良好的对硬件资源的管理、隔离、虚拟、利用的功能。但是另一方面，完全虚拟化技术使用了虚拟机监控器VMM来虚拟硬件层，能够提供相对较完整独立、隔离性好的虚拟化环境，但是启动速度慢，需要消耗大量额外资源来维持虚拟化环境。
 
+\subsection{半虚拟化技术}
+
+半虚拟化技术（Para-Virtualization）是由完全虚拟化技术发展而来的。为了改善完全虚拟化技术的性能，半虚拟技术对客户操作系统内核做了一些优化，将一些底层CPU执行的任务转移到操作系统内核中完成。半虚拟化技术的架构图如图\ref{fig:para_virtualization}所示\cite{2008半虚拟化技术分析与研究}。
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Para_Virtualization_Temp}
+    \caption{半虚拟化技术架构}
+    \label{fig:para_virtualization}
+\end{figure}
+
+半虚拟化技术的代表是Xen\cite{barham2003xen}。半虚拟化技术比完全虚拟化技术性能好，但是需要对操作系统内核进行修改。
+
 \subsection{操作系统级虚拟化技术}
 
 操作系统级虚拟化技术（Operation System Virtualization Technology），是一种轻量级虚拟化技术\citep{morabito2017virtualization}。与传统的完全虚拟化技术相比，操作系统级虚拟化技术不需要对底层硬件进行虚拟化，而是直接在操作系统层上采用隔离的方法虚拟出与宿主机操作系统互相隔离的虚拟机。对此有一个生动形象的比喻，如果将物理实体宿主机比作一座房子，那么其底层硬件则是地基，操作系统是房子的支撑墙，系统中运行的应用则是房子内的具体房间。而传统的完全虚拟化技术可以比喻为在原有房子的地基之上另外实现一层新的地基（虚拟机监控器VMM），并在新地基上重新修建支撑墙（Guest OS）和房间（虚拟机）。相应地，操作系统级虚拟化技术则是直接借用了宿主机原有的地基（底层硬件）和支撑墙（操作系统），并在原来的房间里利用隔板隔离出来新的房间（虚拟机）。操作系统级虚拟化技术的架构如图\ref{fig:os_virtualization}所示\citep{xavier2013performance}。由于没有使用虚拟机监控器VMM来对硬件进行虚拟化，所以操作系统级虚拟化技术启动速度非常快，而且也不会消耗非常多的额外虚拟化开销，非常轻量级\citep{babu2014system}。
@@ -82,7 +116,75 @@ IaaS是运行云所需的承载、硬件配置和基本服务的组合,使用虚
 
 \subsection{容器虚拟化技术}
 
-容器虚拟化技术（Container Virtualization Technology）属于操作系统级虚拟化技术的一种\citep{vaughan2006new}。容器虚拟化技术虚拟出来的“虚拟机”通常被称为容器（Container）。容器技术底层使用的是基于Linux内核的Linux Container（LXC）技术，而不需要进行额外的虚拟化操作\cite{celesti2016exploring}。LXC技术的核心技术包括Namespace技术和Cgroups技术\cite{肖伟民2019嵌入式虚拟化}。Namespace技术可以为容器提供一个独立的、隔离的命名空间，其中包含PID（进程）、UTS（host name）、MNT（文件）、NET（网络）、IPC（进程间交互）、USER（用户）等六个方面\cite{liu2014researchandimplementation}。不同命名空间的进程彼此之间看不到，Namespace单独隔离出来的命名空间中的容器与其宿主机之间也是彼此看不到，只能通过UTS将对方当作网络中的另一个主机节点，这样就保持了容器的独立性和隔离性。而通过Cgroups技术，可以对每个容器所拥有的CPU、内存、存储、输入输出等资源进行进程级别的管理和配置，这样就使得用户可以利用容器对终端资源进行按需分配管理。同时，利用Cgroups控制组，也能够对对容器内各种资源的消耗情况做监控。因为容器底层仍然是利用宿主机的操作系统，所以相比完全虚拟化技术，容器虚拟化技术基本没有太大的额外性能损耗，启动一个容器也相当于启动一个进程，启动时间基本为秒级时间。目前行业内最流行的基于容器虚拟化技术的产品是Docker\citep{bernstein2014containers,马晓光2017一种适用于}。本文中所涉及到的容器虚拟化技术均是使用Docker应用实现的。
+容器虚拟化技术（Container Virtualization Technology）属于操作系统级虚拟化技术的一种\citep{vaughan2006new}。容器虚拟化技术虚拟出来的“虚拟机”通常被称为容器（Container）。容器技术底层使用的是基于Linux内核的Linux Container（LXC）技术，而不需要进行额外的虚拟化操作\cite{celesti2016exploring}。LXC技术的核心技术包括Namespace技术和Cgroups技术\cite{肖伟民2019嵌入式虚拟化}。Namespace技术可以为容器提供一个独立的、隔离的命名空间，其中包含PID（进程）、UTS（host name）、MNT（文件）、NET（网络）、IPC（进程间交互）、USER（用户）等六个方面\cite{liu2014researchandimplementation}。六种namespace隔离的系统调用如表\ref{tab:namespace_system}所示。
+
+\begin{table}[!htbp]
+    \centering
+    \caption{namespace隔离的六个方面}\label{tab:namespace_system}
+    \renewcommand\arraystretch{1.5} 
+    % \scriptsize
+\begin{tabular}{*{3}{c}}
+    \hline
+    Namespace & 系统调用参数& 隔离内容\\
+    \hline
+    UTS & CLONE\_NEWUTS & 主机名与域名 \\
+    IPC	& CLONE\_NEWIPC & 信号量、消息队列和共享内存\\
+    PID & CLONE\_NEWPID & 进程编号\\
+    Network & CLONE\_NEWNET & 网络设备、网络栈、端口等等 \\
+    Mount & CLONE\_NEWNS & 挂载点（文件系统）\\
+    User & CLONE\_NEWUSER & 用户和用户组\\
+    \hline
+   \end{tabular}
+\end{table}
+
+不同命名空间的进程彼此之间看不到，Namespace单独隔离出来的命名空间中的容器与其宿主机之间也是彼此看不到，只能通过UTS将对方当作网络中的另一个主机节点，这样就保持了容器的独立性和隔离性。而通过Cgroups技术，可以对每个容器所拥有的CPU、内存、存储、输入输出等资源进行进程级别的管理和配置，这样就使得用户可以利用容器对终端资源进行按需分配管理。同时，利用Cgroups控制组，也能够对对容器内各种资源的消耗情况做监控。因为容器底层仍然是利用宿主机的操作系统，所以相比完全虚拟化技术，容器虚拟化技术基本没有太大的额外性能损耗，启动一个容器也相当于启动一个进程，启动时间基本为秒级时间。
+
+由于不需要通过VMM对底层硬件进行虚拟化工作，因此相比完全虚拟化技术和半虚拟化技术等传统虚拟化技术，容器虚拟化技术拥有很多优点，包括启动时间短、资源利用率高、虚拟机性能好、部署密度大等等，但同时其利用Namespace命名空间进行隔离的方式也使得容器虚拟化技术的隔离性不如传统虚拟化技术。表\ref{tab:compare_container_virtualization}对容器虚拟化技术与传统虚拟化技术的特点进行了对比和总结。
+
+\begin{table}[!htbp]
+    \centering
+    \caption{容器虚拟化技术与传统虚拟化技术特点对比}\label{tab:compare_container_virtualization}
+    \renewcommand\arraystretch{1.5} 
+    % \scriptsize
+\begin{tabular}{*{3}{c}}
+    \hline
+    特点& 容器虚拟化技术& 传统虚拟化技术\\
+    \hline
+    启动时间& 秒级& 分钟级 \\
+    % \hline
+    资源利用率 &高& 低 \\
+    % \hline
+    占用空间 &小，甚至KB级别& 非常大，甚至达到GB级别 \\
+    % \hline
+    性能 &接近宿主机本地进程& 比宿主机差 \\
+    % \hline
+    部署密度 &几千& 几十 \\
+    % \hline
+    运行形态 &运行在宿主机内核上& 运行在VMM上 \\
+    \hline
+   
+   \end{tabular}
+\end{table}
+
+目前行业内最流行的基于容器虚拟化技术的产品是Docker\citep{bernstein2014containers,马晓光2017一种适用于}。本文中所涉及到的容器虚拟化技术均是使用Docker应用实现的。Docker的运行模块结构图如图\ref{fig:docker_module}所示。
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Docker_Module}
+    \caption{Docker运行模块结构图}
+    \label{fig:docker_module}
+\end{figure}
+
+Docker使用了传统的Client-Server架构模式（C-S）。Docker Client为客户端，Docker Daemon为常驻后台的服务端。用户通过Unix Domain Socket（UDS）在Docker Client与Docker Daemon之间建立HTTP通信，用户对于docker的操作请求会被Docker Client翻译成HTTP通信指令，并发送到Docker Daemon，通过提供的API接口进行执行。Docker Daemon是Docker架构中的主体部分，是松耦合结构，包括Dockerfile编译、Registry镜像仓库通信、Graphdriver镜像管理驱动、Driver文件系统驱动、Libcontainer容器管理等模块，不同模块各司其职并有机组合，完成用户的请求。当用户需要下载镜像Image创建Docker容器时，首先，通过Docker Client向Docker Daemon发出命令请求，Docker Daemon解析后，会从远程Registry中下载镜像。随后，Docker通过Driver中的镜像管理驱动Graphdriver将下载的镜像以Graph的形式存储在本地。接下来，镜像管理驱动Graphdriver从Graph本地镜像存储目录中获取指定的镜像，并按照指定的规则为容器准备rootfs，rootfs以readonly方式加载并检查，然后在其上挂载writeable 层形成一个容器的运行目录。常用的Docker镜像的文件结构图如图\ref{fig:docker_image}所示。
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Docker_Image}
+    \caption{Docker运行模块结构图}
+    \label{fig:docker_image}
+\end{figure}
+
+当需要为Docker容器创建网络环境时，则通过Driver中的网络管理驱动Libnetwork创建并配置Docker容器的网络环境；当需要限制Docker容器运行资源或执行用户指令等操作时，则通过Driver中的执行驱动Execdriver来完成。Libcontainer是一套实现容器管理的Go语言解决方案。这套解决方案实现过程中使用了Linux内核特性Namespace与Cgroups，同时还采用了Capability与文件权限控制等其他一系列技术。Libcontainer的设计初衷是希望该库可以不依靠任何依赖，直接访问内核中与容器相关的API。Docker可以直接调用Libcontainer，而最终操纵容器的Namespace、Cgroups、Apparmor、网络设备以及防火墙规则等，这一系列操作的完成都不需要依赖LXC或者其他包。基于这些特性，除了创建容器之外，Libcontainer还可以完成管理容器生命周期的任务。目前Libcontainer的目标是实现容器技术的统一API，即无论底层使用什么技术，只要实现了Libcontainer定义的一组接口，Docker都可以在上面运行。这也为Docker实现全面的跨平台带来了可能。为了实现这一目标，Libcontainer也逐渐从Docker Daemon中剥离出来，形成了Containerd。Containerd向Docker提供运行容器的API，二者通过grpc进行交互。Containerd最后会通过runc来实际运行容器。
 
 % \subsection{容器集群技术}
 
@@ -110,7 +212,7 @@ Web Worker是一种基于HTML5的多线程方法，本文的研究对象就是�
 
 \subsection{元启发式算法}
 
-近年来，很多元启发式算法（meta-heuristic algorithm）被应用于解决任务调度问题\cite{al2015cloudlet,刘运2015基于高斯变异的人工萤火虫算法在云计算资源调度中的研究}。Goldberg在1988年提出的遗传算法（Genetic Algorithm，GA）是一种非常著名的进化算法，它将自然选择理论引入到优化过程中，使用一条染色体来代表任务调度问题的一种调度方案，使用包括变异，交叉和选择在内的几个自然算子来作为演进迭代的计算法则\cite{fonseca1995overview,whitley1994genetic}。由于存在交叉和变异的操作，GA计算起来非常复杂，实现起来也比较困难。
+近年来，很多元启发式算法（meta-heuristic algorithm）被应用于解决任务调度问题\cite{al2015cloudlet,刘运2015基于高斯变异的人工萤火虫算法在云计算资源调度中的研究}。Goldberg在1988年提出的遗传算法（Genetic Algorithm，GA）是一种非常著名的进化算法，它将自然选择理论引入到优化过程中，使用一条染色体来代表任务调度问题的一种调度方案，使用包括变异、交叉和选择在内的几个自然算子来作为演进迭代的计算法则\cite{fonseca1995overview,whitley1994genetic}。由于存在交叉和变异的操作，GA计算起来非常复杂，实现起来也比较困难。
 
 一些元启发式算法的灵感来自昆虫，鱼类，鸟类和其他群体生物的自然行为。粒子群算法（Particle Swarm Optimization Algorithm，PSO）是Kennedy于1995年提出的经典元启发式算法，原理非常简单，容易实现\cite{kennedy1995particle,liao2007discrete,krishnasamy2013task}。蚁群优化算法（Ant Colony Optimization Algorithm，ACO）的灵感来自蚂蚁在巢穴和食物来源之间搜索的自然觅食行为，蚁群优化算法利用化学信息素在蚁群搜索单位之间进行信息交流\cite{dorigo1997ant,dorigo1999ant,Hao2018Network}。人工鱼群算法通过模仿鱼类的随机游动的觅食行为来进行搜索\cite{桓自强2014aafsa}。
 
