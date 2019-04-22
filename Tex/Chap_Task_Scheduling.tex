@@ -894,14 +894,12 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 
 根据表\ref{tab:results_composite_IGOA}中列出的$F_{24}-F_{29}$复合测试函数实验结果，可以看出，与其他6种算法相比，所提出的IGOA非常有竞争力。在测试函数$F_{24}$和$F_{26}$中，IGOA可以获得最优的平均适应度值，在测试函数$F_{25}$、$F_{27}$和$F_{29}$中IGOA可以获得次优的平均适应度值。在标准差方面，IGOA表现得不是最好的，也不是最差的。IGOA在最优值和最差值方面，分别在4个函数和3个函数中表现最佳。尽管IGOA在标准差方面表现得一般，但它在寻找更优解、避免更差解以及控制风险方面可以胜过其他算法。与原始GOA和OBLGOA相比，IGOA的性能能够提升很多。根据复合函数的测试的结果，可以证明所提出的IGOA算法具有处理这种复杂而具有挑战性的问题的能力。
 
-% According to the results on \emph{F24-F29} listed in \emph{Table 8}, it can be seen that the proposed IGOA can be very competitive compared with the other algorithms. In \emph{F24} and \emph{F26} IGOA can get the best fitness and in \emph{F25}, \emph{F27} and \emph{F29} IGOA can get the second-best results. IGOA cannot perform best nor worst in the aspect of the standard deviation on all the benchmark tests. IGOA can perform best in 4 tests and 3 tests respectively on best value and worst value. Although IGOA can perform generally in terms of standard deviation, it can outperform other algorithms in the potency of finding a better solution and controlling risk. Compared with the original GOA and the OBLGOA, IGOA performs far better. According to the results on composite function tests, it can be demonstrated that IGOA has the ability to handle such complex and challenging problems.
 \subsubsection{威尔科克森秩和检验}
 
 基于30次独立实验的平均值和标准差没有比较每次实验之间的差异。所得到的实验结果仍有可能包含某些意外情况。为了消除这种偶然性并证明实验结果的显著性，本小节引入了威尔科克森秩和检验。威尔科克森秩和检验是零假设的非参数检验，它用于确定两个独立的数据集是否来自相同的分布群体。本小节计算了关于IGOA与每个其他算法之间在测试函数$F_1-F_{29}$上的统计数据的\emph{p-values}。当\emph{p-value}小于0.05时，可以认为两个样本之间的差异是显着的。IGOA的威尔科克森秩和检验结果如表\ref{tab:results_wilcoxon_rank_sum_test_IGOA}所示。
 % The comparison based on average value and standard deviation for 30 independent operations did not compare the difference between each operation. It was still possible that the results of the experiment contained certain contingency. To dispel this contingency and demonstrate the significance of the results of the experiment, the Wilcoxon rank-sum test was introduced in this work. Wilcoxon rank-sum test is a nonparametric test of the null hypothesis, and it is used to determine whether two independent datasets were from the same distributed population. In this work, \emph{p-values} about the statistical data between IGOA and each of the other algorithms on \emph{F1-F29} were calculated. When \emph{p-value} is less than 0.05, it can be considered that the difference between the two samples is significant.
 
-
-\begin{table}[htbp]
+\begin{table}[ht]
     \centering
     \caption{测试函数$F_1-F_{29}$的威尔科克森秩和检验结果}\label{tab:results_wilcoxon_rank_sum_test_IGOA}
     \renewcommand\arraystretch{1.3} 
@@ -936,7 +934,7 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
     {F20}& 0.5395&0.0003&0.00250&0.7958&0.0003&0.0001\\\hline
     \end{tabular}
 \end{table}
-\begin{table}[htbp]
+\begin{table}[ht]
     \ContinuedFloat% continue splited float
     \centering
     \caption{续表：测试函数$F_1-F_{29}$的威尔科克森秩和检验结果}\label{tab:results_wilcoxon_rank_sum_test_IGOA}
@@ -963,9 +961,9 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 \subsubsection{算法测试收敛速度}
 
 本小节讨论了算法的收敛速度。IGOA和所有其他6种算法在部分测试函数上搜索的收敛曲线图如图\ref{fig:IGOA_convergence_curve}所示。
-\pagestyle{empty}
+% \pagestyle{empty}
 \graphicspath{{Img/}}
-\begin{figure}[htbp]
+\begin{figure}[ht]
     \centering
 
     \includegraphics[width=.5\linewidth]{function_F3.eps}\hfill
