@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  22 APR 2019 22:14
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  23 APR 2019 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2061,12 +2061,12 @@ File: Img/elastic_service_num.jpg Graphic file (type bmp)
 
 ]
 Overfull \hbox (13.713pt too wide) in paragraph at lines 69--70
-[]\TU/entextsf/m/n/12.045 [2] Ran Zhao, Hangwei Feng, Xiaoyong Zhu, Hong Ni. A Dynamic Weight Grasshop-
+[]\TU/entextsf/m/n/12.045 [2] Ran Zhao, Hong Ni, Hangwei Feng, Xiaoyong Zhu. A Dynamic Weight Grasshop-
  []
 
 
-Overfull \hbox (12.33072pt too wide) in paragraph at lines 79--80
-[]\TU/entextsf/m/n/12.045 1. \TU/SimSun(1)/m/n/12.045 朱 小 勇，|  赵 然，|  一 种 微 服 务 故 障 检 测 处 理 方 法 及 装 置 \TU/entextsf/m/n/12.045 (\TU/SimSun(1)/m/n/12.045 申 请 号：| \TU/entextsf/m/n/12.045 201711368632.3) 
+Overfull \hbox (8.9927pt too wide) in paragraph at lines 79--80
+[]\TU/entextsf/m/n/12.045 1. \TU/SimSun(1)/m/n/12.045 朱 小 勇，|  赵 然，|  一 种 微 服 务 故 障 检 测 处 理 方 法 及 装 置\TU/entextsf/m/n/12.045 . \TU/SimSun(1)/m/n/12.045 申 请 号：| \TU/entextsf/m/n/12.045 201711368632.3 
  []
 
 [123]
@@ -2075,8 +2075,8 @@ Overfull \hbox (11.55403pt too wide) in paragraph at lines 89--90
  []
 
 
-Overfull \hbox (31.02753pt too wide) in paragraph at lines 101--103
-[]\TU/entextsf/m/n/12.045 5. \TU/SimSun(1)/m/n/12.045 国 家 科 技 支 撑 计 划 课 题：|  电 视 商 务 综 合 体 新 业 态 应 用 示 范 \TU/entextsf/m/n/12.045 (\TU/SimSun(1)/m/n/12.045 编 号：| \TU/entextsf/m/n/12.045 2012BAH73F02) 
+Overfull \hbox (33.18402pt too wide) in paragraph at lines 101--102
+[]\TU/entextsf/m/n/12.045 5. \TU/SimSun(1)/m/n/12.045 国 家 科 技 支 撑 计 划 课 题：|  电 视 商 务 综 合 体 新 业 态 应 用 示 范  |（编 号：| \TU/entextsf/m/n/12.045 2012BAH73F02\TU/SimSun(1)/m/n/12.045 ）| 
  []
 
 [124])
