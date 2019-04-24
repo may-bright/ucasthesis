@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  23 APR 2019 16:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  24 APR 2019 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1890,7 +1890,7 @@ Overfull \hbox (5.1058pt too wide) in paragraph at lines 55--55
 ] [2] [3] [4] [5]
 File: Img/Introduction_Framework_of_Organization_Temp.png Graphic file (type bmp)
 <Img/Introduction_Framework_of_Organization_Temp.png>
- [6]) (./Tex/Chap_Related_Work.tex [7] [8]
+ [6] [7]) (./Tex/Chap_Related_Work.tex [8]
 第2章
 File: Img/Cloud_Computation_S_P_I_Temp.png Graphic file (type bmp)
 <Img/Cloud_Computation_S_P_I_Temp.png>
