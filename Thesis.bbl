@@ -231,16 +231,16 @@ D.KIRAN~KUMAR~T, B.RAJASEKHAR~P.
 \newblock 基于虚拟化的移动应用架构研究和设计\allowbreak[J].
 \newblock 计算机工程与设计, 2019, 40\penalty0 (2):\penalty0 585-590.
 
-\bibitem[{曹欣(2008)}]{2008半虚拟化技术分析与研究}
-曹欣.
-\newblock 半虚拟化技术分析与研究\allowbreak[D].
-\newblock 浙江大学, 2008.
-
 \bibitem[{陈思锦\ 等(2015)陈思锦, 吴韶波, and
   高雪莹}]{陈思锦2015云计算中的虚拟化技术与虚拟化安全}
 陈思锦, 吴韶波, 高雪莹.
 \newblock 云计算中的虚拟化技术与虚拟化安全\allowbreak[J].
 \newblock 物联网技术, 2015\penalty0 (3):\penalty0 52-53.
+
+\bibitem[{曹欣(2008)}]{2008半虚拟化技术分析与研究}
+曹欣.
+\newblock 半虚拟化技术分析与研究\allowbreak[D].
+\newblock 浙江大学, 2008.
 
 \bibitem[{肖伟民孙鹏(2019)}]{肖伟民2019嵌入式虚拟化}
 肖伟民孙鹏.

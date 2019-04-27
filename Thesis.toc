@@ -5,11 +5,16 @@
 \contentsline {section}{\numberline {1.4}本文内容安排}{6}{section.1.4}
 \contentsline {chapter}{\numberline {第2章\hspace {.3em}}相关工作 }{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}引言}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}云计算技术与边缘计算技术}{9}{section.2.2}
+\contentsline {section}{\numberline {2.2}终端协同服务技术}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}云计算技术}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}边缘计算技术}{10}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}雾计算}{12}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}移动云计算}{12}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}终端协同服务技术}{12}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}海服务}{12}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}cloudlets}{12}{subsection.2.2.7}
 \contentsline {section}{\numberline {2.3}虚拟化技术}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}硬件分区技术}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}硬件分区技术}{14}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}完全虚拟化技术}{15}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}半虚拟化技术}{16}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}操作系统级虚拟化技术}{17}{subsection.2.3.4}
@@ -24,9 +29,8 @@
 \contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于容器化多终端服务系统架构设计 }{27}{chapter.3}
 \contentsline {section}{\numberline {3.1}引言}{27}{section.3.1}
 \contentsline {section}{\numberline {3.2}相关研究}{28}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}微服务架构相关研究}{28}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}国内研究现状}{29}{subsubsection.3.2.1.1}
-\contentsline {subsubsection}{\numberline {3.2.1.2}国外研究现状}{29}{subsubsection.3.2.1.2}
+\contentsline {subsection}{\numberline {3.2.1}微服务架构国内研究现状}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}微服务架构国外研究现状}{29}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}多终端协同服务系统架构设计}{30}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}微服务架构特点}{30}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}容器虚拟化技术}{32}{subsection.3.3.2}

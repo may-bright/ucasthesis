@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  24 APR 2019 23:08
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  28 APR 2019 00:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1902,9 +1902,10 @@ File: Img/Edge_Computing_Paradigm_Temp.png Graphic file (type bmp)
  [10] [11] [12]
 File: Img/Cloud_Computation_Virtualization_Temp.png Graphic file (type bmp)
 <Img/Cloud_Computation_Virtualization_Temp.png>
+ [13]
 File: Img/Hardware_Virtualization_Temp.png Graphic file (type bmp)
 <Img/Hardware_Virtualization_Temp.png>
- [13] [14]
+ [14]
 File: Img/Full_Virtualization_Temp.png Graphic file (type bmp)
 <Img/Full_Virtualization_Temp.png>
  [15]
@@ -1928,10 +1929,10 @@ File: Img/System_Hierarchy_Chart_Temp.png Graphic file (type bmp)
 <Img/System_Hierarchy_Chart_Temp.png>
 File: Img/Docker_Architecture_Temp.jpg Graphic file (type bmp)
 <Img/Docker_Architecture_Temp.jpg>
- [33] [34] [35]
+ [33] [34]
 File: Img/System_Architecture_Temp.png Graphic file (type bmp)
 <Img/System_Architecture_Temp.png>
- [36]
+ [35] [36]
 File: Img/System_Conception_Relationship_Temp.png Graphic file (type bmp)
 <Img/System_Conception_Relationship_Temp.png>
  [37]
@@ -2094,7 +2095,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DAF203E70EC809FABA84F4CF647C443E.
+(rerunfilecheck)             Checksum: FAD11A2C6B672F0DCF5C5889F6ADFD96.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2107,7 +2108,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  30560 strings out of 492970
  610144 string characters out of 6137299
- 696734 words of memory out of 5000000
+ 697730 words of memory out of 5000000
  34074 multiletter control sequences out of 15000+600000
  560409 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
