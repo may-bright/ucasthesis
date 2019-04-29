@@ -1,4 +1,4 @@
-\begin{thebibliography}{168}
+\begin{thebibliography}{170}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -189,18 +189,33 @@ VAQUERO~L~M, RODERO-MERINO~L.
 \newblock ACM SIGCOMM Computer Communication Review, 2014, 44\penalty0
   (5):\penalty0 27-32.
 
-\bibitem[{Yi {\bibetal}(2015)Yi, Li, and Li}]{yi2015survey}
+\bibitem[{Yi {\bibetal}(2015{\natexlab{a}})Yi, Li, and Li}]{yi2015survey}
 YI~S, LI~C, LI~Q.
 \newblock A survey of fog computing: concepts, applications and
   issues\allowbreak[C]//\allowbreak
 Proceedings of the 2015 workshop on mobile big data.
-\newblock ACM, 2015: 37-42.
+\newblock ACM, 2015{\natexlab{a}}: 37-42.
 
 \bibitem[{李子姝\ 等(2018)李子姝, 谢人超, 孙礼, 黄韬,
   et~al.}]{李子姝2018移动边缘计算综述}
 李子姝, 谢人超, 孙礼, 等.
 \newblock 移动边缘计算综述\allowbreak[J].
 \newblock 电信科学, 2018, 34\penalty0 (1):\penalty0 87-101.
+
+\bibitem[{Bonomi {\bibetal}(2012)Bonomi, Milito, Zhu, and
+  Addepalli}]{bonomi2012fog}
+BONOMI~F, MILITO~R, ZHU~J, et~al.
+\newblock Fog computing and its role in the internet of
+  things\allowbreak[C]//\allowbreak
+Proceedings of the first edition of the MCC workshop on Mobile cloud computing.
+\newblock ACM, 2012: 13-16.
+
+\bibitem[{Yi {\bibetal}(2015{\natexlab{b}})Yi, Hao, Qin, and Li}]{yi2015fog}
+YI~S, HAO~Z, QIN~Z, et~al.
+\newblock Fog computing: Platform and applications\allowbreak[C]//\allowbreak
+2015 Third IEEE Workshop on Hot Topics in Web Systems and Technologies
+  (HotWeb).
+\newblock IEEE, 2015{\natexlab{b}}: 73-78.
 
 \bibitem[{Shi {\bibetal}(2016)Shi, Cao, Zhang, Li, and Xu}]{shi2016edge}
 SHI~W, CAO~J, ZHANG~Q, et~al.
