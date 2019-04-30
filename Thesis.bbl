@@ -1,4 +1,4 @@
-\begin{thebibliography}{172}
+\begin{thebibliography}{178}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -167,6 +167,43 @@ MANVI~S~S, SHYAM~G~K.
 \newblock Journal of network and computer applications, 2014, 41:\penalty0
   424-440.
 
+\bibitem[{Bhardwaj {\bibetal}(2010)Bhardwaj, Jain, and
+  Jain}]{bhardwaj2010cloud}
+BHARDWAJ~S, JAIN~L, JAIN~S.
+\newblock Cloud computing: A study of infrastructure as a service
+  (iaas)\allowbreak[J].
+\newblock International Journal of engineering and information Technology,
+  2010, 2\penalty0 (1):\penalty0 60-63.
+
+\bibitem[{Pahl(2015)}]{pahl2015containerization}
+PAHL~C.
+\newblock Containerization and the paas cloud\allowbreak[J].
+\newblock IEEE Cloud Computing, 2015, 2\penalty0 (3):\penalty0 24-31.
+
+\bibitem[{Hussain {\biband} Sharma(2018)Hussain and
+  Sharma}]{hussain2018architectural}
+HUSSAIN~A, SHARMA~M~P~K.
+\newblock An architectural framework of cloud computing behind platform layer
+  (paas)\allowbreak[J].
+\newblock International Journal of Scientific Research in Computer Science,
+  Engineering and Information Technology, 2018, 3\penalty0 (7):\penalty0
+  103-107.
+
+\bibitem[{Amiri(2016)}]{amiri2016application}
+AMIRI~A.
+\newblock Application placement and backup service in computer clustering in
+  software as a service (saas) networks\allowbreak[J].
+\newblock Computers \& operations research, 2016, 69:\penalty0 48-55.
+
+\bibitem[{Song {\bibetal}(2017)Song, Chauvel, Solberg, Foyn, and
+  Yates}]{song2017support}
+SONG~H, CHAUVEL~F, SOLBERG~A, et~al.
+\newblock How to support customisation on saas: a grounded theory from
+  customisation consultants\allowbreak[C]//\allowbreak
+2017 IEEE/ACM 39th International Conference on Software Engineering Companion
+  (ICSE-C).
+\newblock IEEE, 2017: 247-249.
+
 \bibitem[{Fox {\bibetal}(2009)Fox, Griffith, Joseph, Katz, Konwinski, Lee,
   Patterson, Rabkin, and Stoica}]{fox2009above}
 FOX~A, GRIFFITH~R, JOSEPH~A, et~al.
@@ -221,6 +258,11 @@ SHI~W, CAO~J, ZHANG~Q, et~al.
 \newblock Edge computing: Vision and challenges\allowbreak[J].
 \newblock IEEE Internet of Things Journal, 2016, 3\penalty0 (5):\penalty0
   637-646.
+
+\bibitem[{边缘计算产业联盟与工业互联网产业联盟(2018)}]{边缘计算架构2018}
+边缘计算产业联盟与工业互联网产业联盟.
+\newblock 边缘计算参考架构3.0\allowbreak[R].
+\newblock 边缘计算产业联盟与工业互联网产业联盟, 2018.
 
 \bibitem[{赵梓铭\ 等(2018)赵梓铭, 刘芳, 蔡志平, and
   肖侬}]{赵梓铭2018边缘计算}
