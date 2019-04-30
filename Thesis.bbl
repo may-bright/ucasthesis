@@ -1,4 +1,4 @@
-\begin{thebibliography}{171}
+\begin{thebibliography}{172}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -232,6 +232,13 @@ SHI~W, CAO~J, ZHANG~Q, et~al.
 张静乐.
 \newblock 网络环境下协同服务关键技术研究\allowbreak[D].
 \newblock 北京科技大学, 2011.
+
+\bibitem[{Laukkarinen {\bibetal}(2013)Laukkarinen, Suhonen, and
+  H{\"a}nnik{\"a}inen}]{laukkarinen2013embedded}
+LAUKKARINEN~T, SUHONEN~J, H{\"A}NNIK{\"A}INEN~M.
+\newblock An embedded cloud design for internet-of-things\allowbreak[J].
+\newblock International Journal of Distributed Sensor Networks, 2013,
+  9\penalty0 (11):\penalty0 790130.
 
 \bibitem[{文雨\ 等(2013)文雨, 孟丹, and
   詹剑锋}]{文雨2013面向应用服务级目标的虚拟化资源管理}
