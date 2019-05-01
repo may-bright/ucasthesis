@@ -87,7 +87,7 @@
 本研究设计了基于容器化多终端协同服务系统，其层次图如图\ref{fig:system_hierarchy}所示。
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=1.0\textwidth]{System_Hierarchy_Chart_Temp}
+    \includegraphics[width=0.8\textwidth]{System_Hierarchy_Chart}
     \caption{基于容器化多终端协同服务系统层次图}
     \label{fig:system_hierarchy}
 \end{figure}
@@ -136,7 +136,7 @@ Docker技术近几年发展迅速，成为容器虚拟化技术的代表，本�
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=1.0\textwidth]{System_Conception_Relationship_Temp}
+    \includegraphics[width=0.8\textwidth]{System_Conception_Relationship}
     \caption{用户、服务、终端、容器概念之间的关系}
     \label{fig:system_conception_relationship}
 \end{figure}
@@ -153,7 +153,7 @@ Docker技术近几年发展迅速，成为容器虚拟化技术的代表，本�
 对于整体而言，利用各个节点间的连接情况来构建一个Connectivity-based Decentralized Node Clustering（CDC）。首先选择若干初始种子节点，初始种子节点的选择算法可以进一步进行研究。每个种子向周围的邻居节点发送消息，消息中会携带ID、种子节点ID、权重、TTL、发送节点相关信息等信息，邻居节点在收到消息后会对该消息做一定处理，并加入节点自身相关的信息，再发送到它的邻居节点。节点消息不断传递下去，直到传递到某个已经确定属于其他集群的节点，或者权重信息消耗尽，或者TTL减小到0，则认为消息传递结束，消息传递过程中经过的节点形成一个集群，集群中的节点互相交换相关信息。在集群内部，可以通过考虑上线时间、稳定程度、负载情况、计算能力、邻居数量、网络状态等信息，选择一个超级节点作为集群的任务调度节点。而当有新的节点上线的时候，不需要重新进行集群的划分，而是应该让该节点向周围邻居节点广播消息，根据网络相关程度、上线时间、地理位置、特殊Tag等方法选择周围邻居节点中的一个加入其所在集群。但是这并不意味着一个自治域在最初创建以后就一直不会经历大的变动。由于终端设备具有较强的动态性，经常发生节点上下线的行为，随着时间的变化，会逐渐导致自治域结构落后或者出现一些节点不受自治域管理等意外情况。所以需要对自治域的网络结构进行周期性地重新划分\cite{刘福杰2004一种自组织网络管理实现方法的研究}。这样就形成了一个整体去中心化、终端节点自治的一个多终端协同服务系统的底层结构，如图\ref{fig:system_cdc_build}所示是一个简化的模型。
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=1.0\textwidth]{System_CDC_Build_Temp}
+    \includegraphics[width=0.8\textwidth]{System_CDC_Build_Temp}
     \caption{去中心化的自组织网络结构}
     \label{fig:system_cdc_build}
 \end{figure}
