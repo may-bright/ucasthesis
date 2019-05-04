@@ -10,7 +10,7 @@
 
 \subsection{传统任务调度问题求解方法}
 
-任务调度问题是将多个任务计划到约束下的多个节点的问题。任务调度问题是一个优化问题，任务调度问题也是一个NP-hard问题\cite{tawfeek2013cloud}，已有的任务调度算法主要分为两大类，一类是基于局部贪心策略的算法，另一类是启发式的智能搜索方法。有很多传统的基于贪心策略的任务调度优化算法\cite{乔楠楠2017一种面向网络边缘任务调度问题的多方向粒子群优化算法}。先进先出算法（FIFO Scheduler）是按照任务到达的先后顺序进行调度\cite{zaharia2009job}，Max-Min算法是优先调度执行时间最长的任务，Min-Min算法是优先调度执行时间最短的任务，\cite{tabak2014improving,杜玉霞2010Min}。这些基于贪心策略的任务调度算法的优点是原理比较简单，方便实施，运行速度快。但同样是因为这些算法的原理过于简单，优先满足局部最优选择，导致其缺点是很容易陷入局部最优解，得不到效果更好的解决方案。尤其是当任务规模扩大的时候，任务的维度也会增加，这会扩大搜索空间并使优化问题更加复杂，基于贪心策略的传统任务调度算法无法处理这种情况。
+任务调度问题是将多个任务调度到约束下的多个节点的优化问题。任务调度问题是一个NP-hard问题\cite{tawfeek2013cloud}，已有的任务调度算法主要分为两大类，一类是基于局部贪心策略的算法，另一类是启发式的智能搜索方法。有很多传统的基于贪心策略的任务调度优化算法\cite{乔楠楠2017一种面向网络边缘任务调度问题的多方向粒子群优化算法}。先进先出算法（FIFO Scheduler）是按照任务到达的先后顺序进行调度\cite{zaharia2009job}，Max-Min算法是优先调度执行时间最长的任务，Min-Min算法是优先调度执行时间最短的任务，\cite{tabak2014improving,杜玉霞2010Min}。这些基于贪心策略的任务调度算法的优点是原理比较简单，方便实施，运行速度快。但同样是因为这些算法的原理过于简单，优先满足局部最优选择，导致其缺点是很容易陷入局部最优解，得不到效果更好的解决方案。尤其是当任务规模扩大的时候，任务的维度也会增加，这会扩大搜索空间并使优化问题更加复杂，基于贪心策略的传统任务调度算法无法处理这种情况。
 
 % 任务调度问题是将多个任务计划到约束下的多个节点的问题。任务调度问题是一个优化问题。应用多种算法来解决任务调度问题。基于最佳资源选择 (BRS) 的算法, 如最大最小、最小、苦难等, 是解决任务调度问题的传统方法。一些元启发式算法, 如 PSO 和基于 pso 的改进算法, 是处理任务调度问题的新方法。
 
@@ -22,7 +22,7 @@ Goldberg于1988年提出了遗传算法(Genetic Algorithm, GA)\cite{fonseca1995o
 
 一些元启发式算法的灵感来自昆虫、鱼类、鸟类和其他群体生物的自然行为。Kennedy和Eberhart在1995年提出粒子群算法(Particle Swarm Optimization, PSO)，是一种非常经典的元启发式算法\cite{kennedy1995particle,liao2007discrete,krishnasamy2013task}。该算法最初是受到飞鸟集群活动的规律性启发，利用群体智慧建立的一个简化模型，通过追随当前搜索到的最优值来寻找全局最优。粒子群算法的原理简单，易于实现,而且性能非常好。蚁群优化算法(Ant Colony Optimization Algorithm, ACO)是受蚂蚁在蚁巢和食物来源之间自然觅食行为的启发而提出的一种算法\cite{dorigo1997ant,dorigo1999ant,郝航2018基于并行化蚁群算法的网络测量节点选取算法}。蚁群算法利用化学信息素在蚂蚁群之间进行通信和交换信息，以控制整个蚁群的搜索方向。布谷鸟算法(Cuckoo Search Algorithm, CS)是Yang在2009年提出的一种元启发式算法\cite{yang2009cuckoo}。布谷鸟算法的灵感来自布谷鸟的繁殖行为，该算法使用$L\acute{e}vy$飞行来跳出局部最优。
 
-近年来，研究人员提出了一些新的元启发式算法。2015年提出的蚁狮算法(Ant Lion Optimizer, ALO)是受到蚁狮的捕猎行为所启发\cite{mirjalili2015ant}。2016年，研究人员模仿鲸鱼捕猎的自然行为，提出了鲸鱼优化算法(Whale Optimization Algorithm, WOA)\cite{mirjalili2016whale,hu2016whale}。2016年受自然界中蜻蜓集群的一些静态和动态的行为，研究人员提出了蜻蜓优化算法\cite{mirjalili2016dragonfly,abdel2017solving,ks2017memory,song2017elite}。在2017年，Shahrzad Saremi和Seyedali Mirjalili提出了一种新的元启发式优化算法，蝗虫优化算法(Grasshopper Optimization Algorithm,GOA)\cite{saremi2017grasshopper}。蝗虫优化算法结合蝗虫群体内部的相互作用力和来自蝗虫群外的风力、重力以及食物吸引力的影响来模拟蝗虫群的迁徙、觅食行为，寻找目标食物。蝗虫优化算法能够比较好地运用群体智能的力量，通过在蝗虫集群内部分享经验，进行多轮迭代演进，不断修正搜索方向，最终找到最优位置或者近似最优位置。
+近年来，研究人员提出了一些新的元启发式算法。2015年提出的蚁狮算法(Ant Lion Optimizer, ALO)是受到蚁狮的捕猎行为所启发\cite{mirjalili2015ant}。2016年，研究人员模仿鲸鱼捕猎的自然行为，提出了鲸鱼优化算法(Whale Optimization Algorithm, WOA)\cite{mirjalili2016whale,hu2016whale}。2016年受自然界中蜻蜓集群的一些静态和动态的行为，研究人员提出了蜻蜓优化算法（Dragonfly Algorithm, DA）\cite{mirjalili2016dragonfly,abdel2017solving,ks2017memory,song2017elite}。在2017年，Shahrzad Saremi和Seyedali Mirjalili提出了一种新的元启发式优化算法，蝗虫优化算法(Grasshopper Optimization Algorithm,GOA)\cite{saremi2017grasshopper}。蝗虫优化算法结合蝗虫群体内部的相互作用力和来自蝗虫群外的风力、重力以及食物吸引力的影响来模拟蝗虫群的迁徙、觅食行为，寻找目标食物。蝗虫优化算法能够比较好地运用群体智能的力量，通过在蝗虫集群内部分享经验，进行多轮迭代演进，不断修正搜索方向，最终找到最优位置或者近似最优位置。
 
 % 蝗虫优化算法自从被提出以来，就被广泛应用在很多领域。S.~Łukasik使用蝗虫优化算法
 % GOA has been widely used in many areas since it was proposed. S.~Łukasik used GOA to generate accurate data clusterings and compare the performance with the standard K-means algorithm \cite{Łukasik}. Neelam Rajput applied GOA to solve 3 types of economic dispatch problems in electrical power systems, and the results of the experiments showed that GOA is superior to other methods\cite{rajput}. Zahra Elmi employed GOA to search for a better path in robot navigation \cite{elmi}. Deepak Kumar Lal used GOA to tune controller gains in Fuzzy PID controller \cite{lal}. Some other literature can also show that GOA is competitive in many research and practice fields \cite{hamour,hekimoglu,ahanch,amaireh,barik}. 
@@ -76,7 +76,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
     x^{iter+1}_i = c \Bigl(\sum_{j=1,j\neq{i}}^N c \frac{u-l}{2}s (\lvert x^iter_j-x^iter_i \rvert )\frac{x^iter_j-x^iter_i}{d_{ij}} \Bigr) + \widehat{T_d}
 \end{equation}
 
-在公式\ref{equ:x_t_i_evolution_func}中，$x^iter_i$代表第\emph{iter}次迭代过程中的第\emph{i}个搜索单元的位置。。参数\emph{u}和参数\emph{l}分别代表搜索空间的上界和下界。变量$\widehat{T_d}$是目标食物的位置，在优化问题的数学模型中代表所有搜索单位在整个搜索过程中所能找到的最优的解的位置。另外，参数\emph{c}是搜索单元的搜索舒适区控制参数，改变参数\emph{c}的大小可以平衡搜索过程中的探索阶段和开发阶段两个阶段的比例。参数\emph{c}的计算方式如公式\ref{equ:parameter_c}所示。
+在公式\ref{equ:x_t_i_evolution_func}中，$x^iter_i$代表第\emph{iter}次迭代过程中的第\emph{i}个搜索单元的位置。参数\emph{u}和参数\emph{l}分别代表搜索空间的上界和下界。变量$\widehat{T_d}$是目标食物的位置，在优化问题的数学模型中代表所有搜索单位在整个搜索过程中所能找到的最优的解的位置。另外，参数\emph{c}是搜索单元的搜索舒适区控制参数，改变参数\emph{c}的大小可以平衡搜索过程中的探索阶段和开发阶段两个阶段的比例。参数\emph{c}的计算方式如公式\ref{equ:parameter_c}所示。
 
 \begin{equation}\label{equ:parameter_c}
     c = cmax - iter \frac{cmax - cmin}{MaxIteration}
@@ -122,7 +122,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
 % \subsection{蝗虫优化算法的不足之处}
 
 % 蝗虫优化算法性能良好，具有理论基础简单和易于实现的优点。原始的蝗虫优化算法改变了蝗虫的舒适区域，可以使搜索单元通过迭代收敛到全局最优解。但是蝗虫算法仍然存在着一些不足之处。
-% % 与一些经典算法相比，蝗虫优化算法的收敛速度要快得多。 GOA可显着提高蝗虫的平均适应度，改善蝗虫的初始随机种群。虽然GOA具有这些优点，但它也存在一些阻碍算法获得更好解决方案的缺点。 在对GOA公式进行一些理论分析和用MATLAB代码进行的一些实验之后，给出了GOA的几个缺点。
+% % 与一些经典算法相比，蝗虫优化算法的收敛速度要快得多。 GOA可显著提高蝗虫的平均适应度，改善蝗虫的初始随机种群。虽然GOA具有这些优点，但它也存在一些阻碍算法获得更好解决方案的缺点。 在对GOA公式进行一些理论分析和用MATLAB代码进行的一些实验之后，给出了GOA的几个缺点。
 
 % 首先，蝗虫算法使用线性递减参数使搜索过程收敛，这很难区分过程的两个阶段，即开发阶段和探索阶段。 其次，在搜索过程的早期阶段的每次迭代期间，最佳解决方案的位置急剧波动。 似乎最终的最佳解决方案只受搜索过程后期的影响，无论前一阶段的结果如何。 GOA理论无法充分利用所有搜索迭代。 当最大迭代次数增加时，GOA的最佳适应性不是很突出，例如，从实验结果中发现的500到1500。 最后，搜索过程很容易陷入局部最优。 GOA易于实现的优势无助于摆脱局部最优，这可能是GOA的劣势。
 
@@ -140,7 +140,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
 
 蝗虫优化算法使用线性递减参数来控制蝗虫的舒适区并使所有搜索单元向目标位置靠拢。但是线性递减参数不能增强搜索过程中探索和开发这两个阶段的影响。在探索阶段，蝗虫优化算法不能向目标搜索区域周围快速收敛，搜索单元只是在整个搜索空间中游荡，这无法为后期开发阶段奠定坚实的基础。而在开发阶段，线性递减参数常常使得搜索单元移动速度过快，滑过局部最佳位置。
 
-线性递减参数机制不能使蝗虫优化算法充分利用整个迭代过程。本研究引入动态权重参数机制以提高算法对迭代过程的利用率。改进的搜索过程分为三个阶段，即前期阶段，中间阶段阶段和后期阶段。在前期阶段，迭代公式中目标位置的权重被设置的更高，以使搜索过程快速收敛。在中间阶段，控制参数是稳定的，以使算法探索搜索空间。在后期阶段，搜索单元中的目标位置权重应该相对更小，以使搜索单元深入搜索局部最优解位置。具有动态权重参数的蝗虫优化算法的迭代公式如公式\ref{equ:DJGOA_evolution_dynamic_parameter}所示。
+线性递减参数机制不能使蝗虫优化算法充分利用整个迭代过程。本研究引入动态权重参数机制以提高算法对迭代过程的利用率。改进的搜索过程分为三个阶段，即前期阶段，中间阶段和后期阶段。在前期阶段，迭代公式中目标位置的权重被设置的更高，以使搜索过程快速收敛。在中间阶段，控制参数是稳定的，以使算法探索搜索空间。在后期阶段，搜索单元中的目标位置权重应该相对更小，以使搜索单元深入搜索局部最优解位置。具有动态权重参数的蝗虫优化算法的迭代公式如公式\ref{equ:DJGOA_evolution_dynamic_parameter}所示。
 
 \begin{equation}\label{equ:DJGOA_evolution_dynamic_parameter}
     x^{iter}_i = m*c \Bigl(\sum_{j=1,j\neq{i}}^N c \frac{u-l}{2}s (\lvert x^{iter}_j-x^{iter}_i \rvert )\frac{x^{iter}_j-x^{iter}_i}{d_{ij}} \Bigr) + \widehat{T_d}
@@ -160,7 +160,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
 
 原始的蝗虫优化算法没有使用跳出机制，所有搜索单元仅仅根据蝗虫集群内部社会关系影响和外部目标食物吸引力的影响而进行移动。原始蝗虫优化算法的这种缺点会导致算法在搜索过程中比较容易陷入局部最优位置，这也大大影响了蝗虫优化算法的搜索精度。
 
-引入随机跳出策略可以帮助蝗虫优化算法提高跳出局部最优位置的能力。设置参数\emph{p}为跳出阈值。在每一轮迭代结束之前，将当前最佳适应度值与上一轮迭代得到的最佳适应度值进行比较。如果当前最佳适应度值与上一轮最佳适应度值的比值高于阈值\emph{p}，则可以人围算法没有在这一轮迭代中寻找到更优的解，所以启动随机跳出机制。在最优目标位置的周围利用随机初始化的方法生成新的搜索单元。随机初始化方法如公式\ref{equ:DJGOA_random_jumping}所示。
+引入随机跳出策略可以帮助蝗虫优化算法提高跳出局部最优位置的能力。设置参数\emph{p}为跳出阈值。在每一轮迭代结束之前，将当前最佳适应度值与上一轮迭代得到的最佳适应度值进行比较。如果当前最佳适应度值与上一轮最佳适应度值的比值高于阈值\emph{p}，则可以认为算法没有在这一轮迭代中寻找到更优的解，所以启动随机跳出机制。在最优目标位置的周围利用随机初始化的方法生成新的搜索单元。随机初始化方法如公式\ref{equ:DJGOA_random_jumping}所示。
 
 \begin{equation}\label{equ:DJGOA_random_jumping}
     tempPos=curPos*((0.5-rand)*iniRan+1);
@@ -271,7 +271,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
   \end{tabular}
 \end{table}
 
-在表格中，Dim代表解空间的维度，在本小节中的所有测试中，测试函数均取6。Range代表每个维度上解取值的上下界范围。$f_{min}$为预期的函数最优解的适应度值。为了解决测试对比几种算法的性能，本小节的实验使用了包含30个搜索单元的集群，最大迭代次数设置为500.每个算法的每个实验重复进行30次，以观察和比较其统计结果。几个对比算法中，粒子群算法的参数设置参考文献\cite{kennedy1995particle}，蜻蜓优化算法的参数设置参考文献\cite{mirjalili2016dragonfly}，蝗虫优化算法的参数设置参考文献\cite{saremi2017grasshopper}。而本小节所提出的带随机跳出机制的动态权重蝗虫优化算法，跳出阈值\emph{p}取0.95，管理随机跳跃边界的初始化范围参数\emph{iniRan}取2。
+在表格中，Dim代表解空间的维度，在本小节中的所有测试中，测试函数均取6。Range代表每个维度上解取值的上下界范围。$f_{min}$为预期的函数最优解的适应度值。为了解决测试对比几种算法的性能，本小节的实验使用了包含30个搜索单元的集群，最大迭代次数设置为500。每个算法的每个实验重复进行30次，以观察和比较其统计结果。几个对比算法中，粒子群算法的参数设置参考文献\cite{kennedy1995particle}，蜻蜓优化算法的参数设置参考文献\cite{mirjalili2016dragonfly}，蝗虫优化算法的参数设置参考文献\cite{saremi2017grasshopper}。而本小节所提出的带随机跳出机制的动态权重蝗虫优化算法，跳出阈值\emph{p}取0.95，管理随机跳跃边界的初始化范围参数\emph{iniRan}取2。
 
 % 这里可能要加一下测试参数，包括算法参数设置、agents数量和迭代次数等等
 
@@ -371,7 +371,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
     \end{tabular}
     \end{table}
 
-从表\ref{tab:DJGOA_computation_result}中可以看出，DJGOA的性能优于其他3种算法。在所有13个benchmark测试函数中，有10个函数的测试结果显示，DJGOA得到的平均值比其他几种算法得到的平均值要好上几个数量级。而对于另外3个benchmark测试函数得到的结果，DJGOA的表现略差于其他的几种算法，但仍然能够维持在同一数量级上。而且对于上面提到的这3个benchmark测试函数中的2个，DJGOA可以在获得最优值方面做得更好。实验结果表明，DJGOA在标准差和最差值方面表现也更好，这说明DJGOA在寻优的过程中中能够表现得更稳定，更不容易找到较差的解。DJGOA可以在13个测试函数中的12个中获得更好的最优值结果，这意味着DJGOA能够比其他3种算法更好地找到更优的解。
+从表\ref{tab:DJGOA_computation_result}中可以看出，DJGOA的性能优于其他3种算法。在所有13个benchmark测试函数中，有10个函数的测试结果显示，DJGOA得到的平均值比其他几种算法得到的平均值要好上几个数量级。而对于另外3个benchmark测试函数得到的结果，DJGOA的表现略差于其他的几种算法，但仍然能够维持在同一数量级上。而且对于上面提到的这3个benchmark测试函数中的2个，DJGOA可以在获得最优值方面做得更好。实验结果表明，DJGOA在标准差和最差值方面表现也更好，这说明DJGOA在寻优的过程中能够表现得更稳定，更不容易找到较差的解。DJGOA可以在13个测试函数中的12个中获得更好的最优值结果，这意味着DJGOA能够比其他3种算法更好地找到更优的解。
 
 对于单峰测试函数，GOA的性能比较好，而DJGOA可以在原来的基础上更进一步地提升GOA算法的性能，甚至可以将搜索结果的精度提高了几个或几十个数量级。对于多峰测试函数，DJGOA同样可以帮助提升算法性能，特别是在寻找更精确的最优值的时候。总之，使用了动态权重参数和随机跳出机制的DJGOA算法可以在全局搜索和局部搜索中拥有比GOA、DA和PSO更优秀的搜索能力。
 
@@ -379,7 +379,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
 
 \subsubsection{威尔科克森秩和检验}
 % 然后是p值校验，得到的结果更加可信。
-为了验证DJGOA、GOA和PSO种算法在13个benchmark测试函数上的实验结果的置信水平，本小节进行了威尔科克森秩和检验(Wilcoxon rank-sum test)。根据表\ref{tab:wilcoxon_rank_sum_test_DJGOA}中显示的结果，13个测试函数中DJGOA的所有p值均小于0.05，这意味着得到的结论是显着的。
+为了验证DJGOA、GOA和PSO种算法在13个benchmark测试函数上的实验结果的置信水平，本小节进行了威尔科克森秩和检验(Wilcoxon rank-sum test)。根据表\ref{tab:wilcoxon_rank_sum_test_DJGOA}中显示的结果，13个测试函数中DJGOA的所有p值均小于0.05，这意味着得到的结论是显著的。
 \begin{table}[!htbp]
     \centering
     \caption{DJGOA、GOA与PSO的威尔科克森秩和检验结果}
@@ -412,7 +412,7 @@ Seyedali Mirjalili在文献\cite{saremi2017grasshopper}中提出了蝗虫群体�
 
 \subsubsection{收敛曲线分析}
 % 这里可以证明动态参数能够充分利用迭代，提高收敛速度
-DJGOA、GOA、DA与PSO算法在13个测试函数上的迭代收敛曲线结果如图\ref{fig:DJGOA_convergence_curve}所示。途中横坐标为迭代次数，纵坐标为算法在当前轮次种所能搜索到的最优适应度值，由于最优适应度值跨度较大，为了更明显地显示出算法效果，这里对纵坐标取对数。收敛曲线表明，相比另外3种算法，DJGOA可以使搜索过程更快速地收敛。这也说明所提出的动态权重参数机制可以帮助算法更充分地利用每一次迭代。
+DJGOA、GOA、DA与PSO算法在13个测试函数上的迭代收敛曲线结果如图\ref{fig:DJGOA_convergence_curve}所示。途中横坐标为迭代次数，纵坐标为算法在当前轮次中所能搜索到的最优适应度值，由于最优适应度值跨度较大，为了更明显地显示出算法效果，这里对纵坐标取对数。收敛曲线表明，相比另外3种算法，DJGOA可以使搜索过程更快速地收敛。这也说明所提出的动态权重参数机制可以帮助算法更充分地利用每一次迭代。
 
 \begin{figure}[!htbp]
     \centering
@@ -518,7 +518,7 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 	X_i^{new}=((0.5-rand)\times 2+1)X_i 
 \end{eqnarray}
 
-在公式\ref{equ:IGOA_random_jumping}中，$X_i$使第\emph{i}个搜索单元的位置，$X_i^{new}$是第\emph{i}个搜索单元进行随机跳出以后得到的新位置。如果$X_i^{new}$拥有更优的适应度值，那么它将会取代$X_i$。这样一次成功的跳出行为就发生了。
+在公式\ref{equ:IGOA_random_jumping}中，$X_i$是第\emph{i}个搜索单元的位置，$X_i^{new}$是第\emph{i}个搜索单元进行随机跳出以后得到的新位置。如果$X_i^{new}$拥有更优的适应度值，那么它将会取代$X_i$。这样一次成功的跳出行为就发生了。
 % where $X_i$ is the position of the \emph{i}-th search agent, and $X_i^{new}$ is the new position after random jumping. If $X_i^{new}$ has better fitness, it will replace $X_i$. Thus action of jumping out occurs successfully. 
 
 原始蝗虫优化算法的演进公式仅仅将当前迭代获得的最佳位置作为搜索方向，但是忽略了一些其他可能有用信息。为了使新发生的成功跳出动作所能提供的信息的影响力持续下去，IGOA将搜索单元的位置迭代演进公式变成如公式\ref{equ:IGOA_evolution}所示。
@@ -542,7 +542,7 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 本小节中提出了一种改进的蝗虫优化算法。改进蝗虫优化算法的搜索过程分为初始化阶段，迭代演进阶段，适应度更新阶段和跳出阶段四个阶段。
 % This paper proposed an Improved Grasshopper Algorithm (IGOA). The procedure of the IGOA is divided into four stages which were the initialization stage, the evolution stage, the fitness updating stage and the jumping stage. 
 
-在初始化阶段，设置参数，并随机初始化所有搜索单元的初始位置。在这一阶段中，还计算了最优目标的位置和相应的最优适应度值。在迭代演进阶段，搜索循环开始进行。每个搜索单元都通过公式\ref{equ:IGOA_evolution}移动到新的位置。非线性舒适区参数\emph{m}根据公式\ref{equ:IGOA_sigmoid_comfort_parameter}进行设置。之后每个搜索单元根据公式\ref{equ:IGOA_levy_flight}以一定的概率进行$L\acute{e}vy$飞行调整，并生成新的搜索位置。在适应度值更新阶段，计算新位置的适应度值。如果新的适应度值优于当前的全局最优适应度值，则新的位置可以取代旧的全局最优目标的位置。如果新的适应度值没有比当前全局最优目标的适应度值更优，那么该搜索单元就会进入跳出阶段。在此阶段，搜索单元尝试根据公式\ref{equ:IGOA_random_jumping}跳出局部最优，并计算新的适应度值。如果新的适应度值优于当前搜索单元本身的适应度值，那么新的位置可以取代旧的搜索单元的位置，完成一次成功的跳出。此时参数\emph{p}也由根据公式\ref{equ:IGOA_p}进行更新。如果如果新的适应度值没有优于当前搜索单元本身的适应度值，那么搜索单元不会跳到新的位置上，会仍然停留在旧的位置上。到目前为止，循环求解过程中的一次迭代已经完成。在达到最大迭代次数之后，循环过程结束，此时的全局最优适应度值和全局最优目标位置就是最终的寻优求解的结果。改进蝗虫优化算法的伪代码算法图如算法\ref{alg:IGOA}所示。改进蝗虫优化算法的算法流程框图如图\ref{fig:procedure_IGOA}所示。
+在初始化阶段，设置参数，并随机初始化所有搜索单元的初始位置。在这一阶段中，还计算了最优目标的位置和相应的最优适应度值。在迭代演进阶段，搜索循环开始进行。每个搜索单元都通过公式\ref{equ:IGOA_evolution}移动到新的位置。非线性舒适区参数\emph{m}根据公式\ref{equ:IGOA_sigmoid_comfort_parameter}进行设置。之后每个搜索单元根据公式\ref{equ:IGOA_levy_flight}以一定的概率进行$L\acute{e}vy$飞行调整，并生成新的搜索位置。在适应度值更新阶段，计算新位置的适应度值。如果新的适应度值优于当前的全局最优适应度值，则新的位置可以取代旧的全局最优目标的位置。如果新的适应度值没有比当前全局最优目标的适应度值更优，那么该搜索单元就会进入跳出阶段。在此阶段，搜索单元尝试根据公式\ref{equ:IGOA_random_jumping}跳出局部最优，并计算新的适应度值。如果新的适应度值优于当前搜索单元本身的适应度值，那么新的位置可以取代旧的搜索单元的位置，完成一次成功的跳出。此时参数\emph{p}也由根据公式\ref{equ:IGOA_p}进行更新。如果新的适应度值没有优于当前搜索单元本身的适应度值，那么搜索单元不会跳到新的位置上，会仍然停留在旧的位置上。到目前为止，循环求解过程中的一次迭代已经完成。在达到最大迭代次数之后，循环过程结束，此时的全局最优适应度值和全局最优目标位置就是最终的寻优求解的结果。改进蝗虫优化算法的伪代码算法图如算法\ref{alg:IGOA}所示。改进蝗虫优化算法的算法流程框图如图\ref{fig:procedure_IGOA}所示。
 % In the initialization stage, the parameters are set, and the original positions of all the search agents are initialized randomly. The best target position and the corresponding fitness are also calculated in this part. The search loop starts to work in the evolution stage. Every search agent moves towards the target position by \emph{Equation 14}. The nonlinear comfort zone parameter \emph{m} is set by \emph{Equation 7}. After that, every search agent conducts $L\acute{e}vy$ flight in a particular probability by \emph{Equation 11} and a new position is generated. In the updating stage, the fitness of the new position is calculated. If the new fitness is better than the global fitness, the new position can replace the old global target. If the new fitness is not more optimal than the global target, it comes to the jumping stage. In this stage, the search agent tries to jump out of the local optimum by \emph{Equation 13} and a new fitness is calculated. If the new fitness is better than personal fitness, the new position can replace the old personal position. Parameter \emph{p} is updated by \emph{Equation 15} as well. So far, one iteration in the loop is finished. After the maximum number of iterations is reached, the loop ends, and the fitness and the target position are presented as the final result. The pseudo code of the IGOA is shown as \emph{Algorithm 1}. The figure framework of the procedure of IGOA is shown as \emph{Figure 1}.
 \begin{algorithm}
     % \setstretch{1.35}
@@ -896,7 +896,7 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 
 \subsubsection{威尔科克森秩和检验}
 
-基于30次独立实验的平均值和标准差没有比较每次实验之间的差异。所得到的实验结果仍有可能包含某些意外情况。为了消除这种偶然性并证明实验结果的显著性，本小节引入了威尔科克森秩和检验。威尔科克森秩和检验是零假设的非参数检验，它用于确定两个独立的数据集是否来自相同的分布群体。本小节计算了关于IGOA与每个其他算法之间在测试函数$F_1-F_{29}$上的统计数据的\emph{p-values}。当\emph{p-value}小于0.05时，可以认为两个样本之间的差异是显着的。IGOA的威尔科克森秩和检验结果如表\ref{tab:results_wilcoxon_rank_sum_test_IGOA}所示。
+基于30次独立实验的平均值和标准差没有比较每次实验之间的差异。所得到的实验结果仍有可能包含某些意外情况。为了消除这种偶然性并证明实验结果的显著性，本小节引入了威尔科克森秩和检验。威尔科克森秩和检验是零假设的非参数检验，它用于确定两个独立的数据集是否来自相同的分布群体。本小节计算了关于IGOA与每个其他算法之间在测试函数$F_1-F_{29}$上的统计数据的\emph{p-values}。当\emph{p-value}小于0.05时，可以认为两个样本之间的差异是显著的。IGOA的威尔科克森秩和检验结果如表\ref{tab:results_wilcoxon_rank_sum_test_IGOA}所示。
 % The comparison based on average value and standard deviation for 30 independent operations did not compare the difference between each operation. It was still possible that the results of the experiment contained certain contingency. To dispel this contingency and demonstrate the significance of the results of the experiment, the Wilcoxon rank-sum test was introduced in this work. Wilcoxon rank-sum test is a nonparametric test of the null hypothesis, and it is used to determine whether two independent datasets were from the same distributed population. In this work, \emph{p-values} about the statistical data between IGOA and each of the other algorithms on \emph{F1-F29} were calculated. When \emph{p-value} is less than 0.05, it can be considered that the difference between the two samples is significant.
 
 \begin{table}[ht]

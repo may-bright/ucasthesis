@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {2.4}计算迁移技术}{27}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}计算迁移技术}{27}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}基于Web的计算迁移技术}{28}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}任务调度算法}{29}{section.2.5}
+\contentsline {section}{\numberline {2.5}任务调度算法}{28}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}传统任务调度算法}{29}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}元启发式算法}{29}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}本章小结}{30}{section.2.6}
