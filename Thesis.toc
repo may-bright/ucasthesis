@@ -72,8 +72,8 @@
 \contentsline {subsection}{\numberline {5.5.2}基于$L\mathaccentV {acute}B13{e}vy$飞行的局部搜索机制}{74}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}基于线性递减参数的随机跳出策略}{75}{subsection.5.5.3}
 \contentsline {subsection}{\numberline {5.5.4}改进蝗虫优化算法流程}{76}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}实验结果}{79}{subsection.5.5.5}
-\contentsline {subsubsection}{\numberline {5.5.5.1}实验设置}{79}{subsubsection.5.5.5.1}
+\contentsline {subsection}{\numberline {5.5.5}实验结果}{77}{subsection.5.5.5}
+\contentsline {subsubsection}{\numberline {5.5.5.1}实验设置}{77}{subsubsection.5.5.5.1}
 \contentsline {subsubsection}{\numberline {5.5.5.2}实验结果}{79}{subsubsection.5.5.5.2}
 \contentsline {subsubsection}{\numberline {5.5.5.3}威尔科克森秩和检验}{87}{subsubsection.5.5.5.3}
 \contentsline {subsubsection}{\numberline {5.5.5.4}算法测试收敛速度}{87}{subsubsection.5.5.5.4}

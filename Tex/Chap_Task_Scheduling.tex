@@ -469,7 +469,10 @@ DJGOA、GOA、DA与PSO算法在13个测试函数上的迭代收敛曲线结果�
 	cx=\frac{v(iter+50)}{Maxiteration}
 \end{eqnarray}
 
-在公式\ref{equ:IGOA_cx}中，参数\emph{v}是精度调节参数，取值范围为[1,10]。
+在公式\ref{equ:IGOA_cx}中，参数\emph{v}是精度调节参数，取值范围为[1,10]。结合了基于sigmoid函数变形的非线性舒适区控制参数的蝗虫优化算法迭代公式如公式\ref{equ:IGOA_m_S}所示。
+\begin{eqnarray}\label{equ:IGOA_m_S}
+	X_i = m\times S_i + \widehat{T_d}
+\end{eqnarray}
 % where \emph{v} is the accuracy adjustment factor and its value should be in the interval [1,10].
 \subsection{基于$L\acute{e}vy$飞行的局部搜索机制}
 
@@ -512,10 +515,10 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 
 % The basic theory of GOA is elementary. The algorithm only focuses on the process of convergence to the global optimum and ignores the mechanism about jumping out of the local optimum. Hence the search process of GOA was easy to be trapped in local optimum, and the search could not go further. The advantage that GOA was simple to implement could not contribute to getting rid of the local optimum, which could be a disadvantage of GOA instead.
 
-为了提高蝗虫优化算法的跳出局部最优的能力，本小节提出了基于线性递减参数的随机跳出策略。当搜索单元搜索到当前最优解的位置的时候，新的目标位置可以替换旧的目标位置。如果没有，则可以开始启动基于线性递减参数的随机跳出机制。该机制的方法如公式\ref{equ:IGOA_random_jumping}所示。
+为了提高蝗虫优化算法的跳出局部最优的能力，本小节提出了基于线性递减参数的随机跳出策略。当搜索单元搜索到当前最优解的位置的时候，新的目标位置可以替换旧的目标位置。如果没有搜索到最优解，则可以开始启动基于线性递减参数的随机跳出机制。该机制的方法如公式\ref{equ:IGOA_random_jumping}所示。
 % To promote the capability to jump out of the local optimum, a random jumping strategy is introduced. When a search agent finds an optimal position, the new position can replace the old target position. When it does not, the random jumping equation is starting to work. It is described as follows:
 \begin{eqnarray}\label{equ:IGOA_random_jumping}
-	X_i^{new}=((0.5-rand)\times 2+1)X_i 
+	X_i^{new}=((0.5-rand(0,1))\times 2+1)X_i 
 \end{eqnarray}
 
 在公式\ref{equ:IGOA_random_jumping}中，$X_i$是第\emph{i}个搜索单元的位置，$X_i^{new}$是第\emph{i}个搜索单元进行随机跳出以后得到的新位置。如果$X_i^{new}$拥有更优的适应度值，那么它将会取代$X_i$。这样一次成功的跳出行为就发生了。
@@ -524,7 +527,7 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 原始蝗虫优化算法的演进公式仅仅将当前迭代获得的最佳位置作为搜索方向，但是忽略了一些其他可能有用信息。为了使新发生的成功跳出动作所能提供的信息的影响力持续下去，IGOA将搜索单元的位置迭代演进公式变成如公式\ref{equ:IGOA_evolution}所示。
 % The evolution formula of the original GOA only takes the best position obtained by the current iteration as the search direction, and it ignores some other useful information. To continue the influence of the newly obtained information of the jumping action, the evolution formula of the location is transformed as follows:
 \begin{eqnarray}\label{equ:IGOA_evolution}
-	X_i^{iter+1}=m\times c\times S_i+(1-p)\widehat{T_d}+p\times X_i^{iter}
+	X_i^{iter+1}=m\times S_i+(1-p)\widehat{T_d}+p\times X_i^{iter}
 \end{eqnarray}
 
 在公式\ref{equ:IGOA_evolution}中，\emph{p}是用于控制搜索单元位置影响的协调参数。\emph{p}在第一次迭代的时候初始化为0。 如果搜索单元没有进行跳出或者跳出局部最优失败，\emph{p}仍会被设置为0，以确保只有$S_i$和$T_d$才能影响下一次迭代演进。当搜索单元完成一次成功跳出时，\emph{p}被设置为在接下来的3次迭代中线性递减为0的变量，以使成功跳出的行为的影响持续到接下来的3次迭代演进过程中。经过一些试验，\emph{p}的递减间隔被设置为0.3478，并且本文并未对此取值进行详细的研究讨论。这样在本研究中，参数\emph{p}的计算方法如公式\ref{equ:IGOA_p}所示。
