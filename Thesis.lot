@@ -1,25 +1,25 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \contentsline {table}{\numberline {2.1}{\ignorespaces 雾计算和云计算的比较\relax }}{14}{table.caption.11}
-\contentsline {table}{\numberline {2.2}{\ignorespaces namespace隔离的六个方面\relax }}{23}{table.caption.19}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Namespace隔离的六个方面\relax }}{23}{table.caption.19}
 \contentsline {table}{\numberline {2.3}{\ignorespaces 容器虚拟化技术与传统虚拟化技术特点对比\relax }}{24}{table.caption.20}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \contentsline {table}{\numberline {5.1}{\ignorespaces $F_1$-$F_7$单峰测试函数\relax }}{66}{table.caption.32}
 \contentsline {table}{\numberline {5.2}{\ignorespaces $F_8$-$F_{13}$多峰测试函数\relax }}{67}{table.caption.33}
-\contentsline {table}{\numberline {5.3}{\ignorespaces DJGOA算法在13个测试函数上的实验结果\relax }}{69}{table.caption.34}
-\contentsline {table}{\numberline {5.3}{\ignorespaces 续表：DJGOA算法在13个测试函数上的实验结果\relax }}{70}{table.caption.35}
-\contentsline {table}{\numberline {5.4}{\ignorespaces DJGOA、GOA与PSO的威尔科克森秩和检验结果\relax }}{73}{table.caption.36}
-\contentsline {table}{\numberline {5.5}{\ignorespaces 多峰测试函数（续）\relax }}{80}{table.caption.40}
-\contentsline {table}{\numberline {5.6}{\ignorespaces 复合测试函数\relax }}{81}{table.caption.41}
+\contentsline {table}{\numberline {5.3}{\ignorespaces $F_{1}-F_{13}$测试函数实验结果\relax }}{69}{table.caption.34}
+\contentsline {table}{\numberline {5.3}{\ignorespaces 续表：$F_{1}-F_{13}$测试函数实验结果\relax }}{70}{table.caption.35}
+\contentsline {table}{\numberline {5.4}{\ignorespaces 3种算法在测试函数$F_1-F_{13}$上的威尔科克森秩和检验结果\relax }}{73}{table.caption.36}
+\contentsline {table}{\numberline {5.5}{\ignorespaces $F_{14}$-$F_{23}$多峰测试函数\relax }}{80}{table.caption.40}
+\contentsline {table}{\numberline {5.6}{\ignorespaces $F_{24}$-$F_{29}$复合测试函数\relax }}{81}{table.caption.41}
 \contentsline {table}{\numberline {5.7}{\ignorespaces $F_1-F_7$单峰测试函数实验结果\relax }}{82}{table.caption.42}
 \contentsline {table}{\numberline {5.8}{\ignorespaces $F_8-F_{13}$多峰测试函数实验结果\relax }}{83}{table.caption.43}
 \contentsline {table}{\numberline {5.9}{\ignorespaces $F_{14}-F_{23}$多峰测试函数实验结果\relax }}{84}{table.caption.44}
-\contentsline {table}{\numberline {5.9}{\ignorespaces 续表：$F_{14}-F_{23}$多峰测试函数实验结果\relax }}{85}{table.caption.45}
+\contentsline {table}{\numberline {5.9}{\ignorespaces $F_{14}-F_{23}$多峰测试函数实验结果（续）\relax }}{85}{table.caption.45}
 \contentsline {table}{\numberline {5.10}{\ignorespaces $F_{24}-F_{29}$复合测试函数实验结果\relax }}{86}{table.caption.46}
-\contentsline {table}{\numberline {5.11}{\ignorespaces 测试函数$F_1-F_{29}$的威尔科克森秩和检验结果\relax }}{88}{table.caption.47}
-\contentsline {table}{\numberline {5.11}{\ignorespaces 续表：测试函数$F_1-F_{29}$的威尔科克森秩和检验结果\relax }}{89}{table.caption.48}
+\contentsline {table}{\numberline {5.11}{\ignorespaces 7种算法在测试函数$F_1-F_{29}$上的威尔科克森秩和检验结果\relax }}{88}{table.caption.47}
+\contentsline {table}{\numberline {5.11}{\ignorespaces 7种算法在测试函数$F_1-F_{29}$上的威尔科克森秩和检验结果（续）\relax }}{89}{table.caption.48}
 \contentsline {table}{\numberline {5.12}{\ignorespaces 任务类型及任务消耗资源情况\relax }}{93}{table.caption.50}
 \contentsline {table}{\numberline {5.13}{\ignorespaces 节点拥有资源及bps\relax }}{93}{table.caption.51}
 \contentsline {table}{\numberline {5.14}{\ignorespaces 任务和节点的mips\relax }}{93}{table.caption.52}

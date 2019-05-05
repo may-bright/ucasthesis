@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  5 MAY 2019 15:49
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  5 MAY 2019 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2025,7 +2025,12 @@ Overfull \hbox (29.17195pt too wide) in paragraph at lines 605--631
  [][] 
  []
 
-[79] [80] [81] [82] [83] [84] [85] [86]
+[79] [80] [81] [82]
+Overfull \hbox (19.9136pt too wide) in paragraph at lines 823--844
+ [][] 
+ []
+
+[83] [84] [85] [86]
 File: Img/function_F3.eps Graphic file (type eps)
 <Img/function_F3.eps>
 File: Img/function_F4.eps Graphic file (type eps)
@@ -2114,7 +2119,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  30648 strings out of 492970
  613594 string characters out of 6137299
- 698589 words of memory out of 5000000
+ 698639 words of memory out of 5000000
  34159 multiletter control sequences out of 15000+600000
  560417 words of font info for 151 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

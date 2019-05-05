@@ -27,7 +27,7 @@
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=1.0\textwidth]{Cloud_Computation_S_P_I_Temp}
-    \caption{云计算种三种服务模式结构图}
+    \caption{云计算中三种服务模式结构图}
     \label{fig:cloud_computation_S_P_I}
 \end{figure}
 
@@ -187,13 +187,13 @@ SaaS\cite{amiri2016application, song2017support}是一种软件分发模型，�
 
 用户根据自己的需求来租赁云计算或边缘计算的服务提供商所提供的对应资源配额的虚拟机，直接在虚拟化的操作系统中运行用户自己的应用而不需要考虑操作系统底层是如何实现的，就如同运行在一个真实而独立的实体物理机一样，非常透明\cite{叶蔚2019基于虚拟化的}。而虚拟化技术则被用来实现虚拟机的生命周期管理，包括创建、配置、关闭、监控、释放资源等等，维持这种对用户的透明性。服务提供商利用虚拟化技术，以虚拟机的形式为用户提供服务，可以让一台服务器同时支持多个用户独立访问，且每个用户之间是完全独立的，提高了服务提供商的资源利用率，降低了云服务提供的成本，同时虚拟机互相隔离的特性也提升了云服务的安全性。
 
-虚拟化技术为云计算技术打下了良好的基础。应用了虚拟化技术的云计算模型如图\ref{fig:cloud_computation_virtualization}所示\citep{陈思锦2015云计算中的虚拟化技术与虚拟化安全}。第\ref{sec:related_work_cloud_computing}节中提到，云计算中所能够提供的服务包括基础设施即是服务（IaaS）、平台即是服务（PaaS）和软件即是服务（SaaS），这三种服务模式都离不开虚拟化技术的支持。IaaS能够为用户提供计算、存储等资源，这些都需要利用虚拟化技术来进行资源的抽象、资源数量的划分，并且封装成虚拟机来提供给用户远程使用。在用户使用这些资源的过程中，也要受到虚拟化技术对资源使用数量和时间的监控和管理，以及对虚拟机生命周期的管理。PaaS能够为用户提供计算平台、相关软件应用程序集以及应用部署的平台。PaaS除了利用虚拟化技术对资源进行管理，还利用了虚拟化技术的封装的特性，将提前封装好的包含相关软件应用程序集的应用运行环境提供给用户，并且以虚拟机为单位进行部署和运维。SaaS在以上两种服务的基础上，利用了虚拟化技术的隔离和透明的特性，将应用程序封装在虚拟机中，通过网络向用户提供服务，用户不必关心应用本身是运行在虚拟机中还是独立的物理服务器中。这些虚拟机彼此之间是隔离的，一台服务器可以同时运行多个虚拟机独立为用户提供服务，同一台服务器上的不同虚拟机之间不会互通，保证了服务的安全性。另外，虚拟化技术在面对云计算中的分布式计算、权限管理、服务器灾难恢复等问题以及在为科学计算中的网络、安全等领域提供实验环境方面也能够提供比较合适的解决方案\cite{2008半虚拟化技术分析与研究}。
+虚拟化技术为云计算技术打下了良好的基础。基于虚拟化技术的云计算模型如图\ref{fig:cloud_computation_virtualization}所示\citep{陈思锦2015云计算中的虚拟化技术与虚拟化安全}。第\ref{sec:related_work_cloud_computing}节中提到，云计算中所能够提供的服务包括基础设施即是服务（IaaS）、平台即是服务（PaaS）和软件即是服务（SaaS），这三种服务模式都离不开虚拟化技术的支持。IaaS能够为用户提供计算、存储等资源，这些都需要利用虚拟化技术来进行资源的抽象、资源数量的划分，并且封装成虚拟机来提供给用户远程使用。在用户使用这些资源的过程中，也要受到虚拟化技术对资源使用数量和时间的监控和管理，以及对虚拟机生命周期的管理。PaaS能够为用户提供计算平台、相关软件应用程序集以及应用部署的平台。PaaS除了利用虚拟化技术对资源进行管理，还利用了虚拟化技术的封装的特性，将提前封装好的包含相关软件应用程序集的应用运行环境提供给用户，并且以虚拟机为单位进行部署和运维。SaaS在以上两种服务的基础上，利用了虚拟化技术的隔离和透明的特性，将应用程序封装在虚拟机中，通过网络向用户提供服务，用户不必关心应用本身是运行在虚拟机中还是独立的物理服务器中。这些虚拟机彼此之间是隔离的，一台服务器可以同时运行多个虚拟机独立为用户提供服务，同一台服务器上的不同虚拟机之间不会互通，保证了服务的安全性。另外，虚拟化技术在面对云计算中的分布式计算、权限管理、服务器灾难恢复等问题以及在为科学计算中的网络、安全等领域提供实验环境方面也能够提供比较合适的解决方案\cite{2008半虚拟化技术分析与研究}。
 
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=1.0\textwidth]{Cloud_Computation_Virtualization_Temp}
-    \caption{应用了虚拟化技术的云计算模型}
+    \caption{基于虚拟化技术的云计算模型}
     \label{fig:cloud_computation_virtualization}
 \end{figure}
 
@@ -253,7 +253,7 @@ SaaS\cite{amiri2016application, song2017support}是一种软件分发模型，�
 
 \begin{table}[!htbp]
     \centering
-    \caption{namespace隔离的六个方面}\label{tab:namespace_system}
+    \caption{Namespace隔离的六个方面}\label{tab:namespace_system}
     \renewcommand\arraystretch{1.5} 
     % \scriptsize
 \begin{tabular}{*{3}{c}}
@@ -308,12 +308,12 @@ SaaS\cite{amiri2016application, song2017support}是一种软件分发模型，�
     \label{fig:docker_module}
 \end{figure}
 
-Docker使用了传统的Client-Server架构模式（C-S）。Docker Client为客户端，Docker Daemon为常驻后台的服务端。用户通过Unix Domain Socket（UDS）在Docker Client与Docker Daemon之间建立HTTP通信，用户对于docker的操作请求会被Docker Client翻译成HTTP通信指令，并发送到Docker Daemon，通过提供的API接口进行执行。Docker Daemon是Docker架构中的主体部分，是松耦合结构，包括Dockerfile编译、Registry镜像仓库通信、Graphdriver镜像管理驱动、Driver文件系统驱动、Libcontainer容器管理等模块，不同模块各司其职并有机组合，完成用户的请求。当用户需要下载镜像Image创建Docker容器时，首先，通过Docker Client向Docker Daemon发出命令请求，Docker Daemon解析后，会从远程Registry中下载镜像。随后，Docker通过Driver中的镜像管理驱动Graphdriver将下载的镜像以Graph的形式存储在本地。接下来，镜像管理驱动Graphdriver从Graph本地镜像存储目录中获取指定的镜像，并按照指定的规则为容器准备rootfs，rootfs以readonly方式加载并检查，然后在其上挂载writeable 层形成一个容器的运行目录。常用的Docker镜像的文件结构图如图\ref{fig:docker_image}所示。
+Docker使用了传统的Client-Server架构模式（C-S）。Docker Client为客户端，Docker Daemon为常驻后台的服务端。用户通过Unix Domain Socket（UDS）在Docker Client与Docker Daemon之间建立HTTP通信，用户对于docker的操作请求会被Docker Client翻译成HTTP通信指令，并发送到Docker Daemon，通过提供的API接口进行执行。Docker Daemon是Docker架构中的主体部分，是松耦合结构，包括Dockerfile编译、Registry镜像仓库通信、Graphdriver镜像管理驱动、Driver文件系统驱动、Libcontainer容器管理等模块，不同模块各司其职并有机组合，完成用户的请求。当用户需要下载镜像Image创建Docker容器时，首先，通过Docker Client向Docker Daemon发出命令请求，Docker Daemon解析后，会从远程Registry中下载镜像。随后，Docker通过Driver中的镜像管理驱动Graphdriver将下载的镜像以Graph的形式存储在本地。接下来，镜像管理驱动Graphdriver从Graph本地镜像存储目录中获取指定的镜像，并按照指定的规则为容器准备rootfs，rootfs以readonly方式加载并检查，然后在其上挂载writeable 层形成一个容器的运行目录。常见的Docker镜像的文件系统结构图如图\ref{fig:docker_image}所示。
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=1.0\textwidth]{Docker_Image}
-    \caption{Docker运行模块结构图}
+    \caption{常见Docker文件系统结构图}
     \label{fig:docker_image}
 \end{figure}
 
