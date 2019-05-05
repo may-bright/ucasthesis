@@ -16,11 +16,11 @@
 \contentsline {subsection}{\numberline {2.3.3}半虚拟化技术}{21}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}操作系统级虚拟化技术}{21}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}容器虚拟化技术}{22}{subsection.2.3.5}
-\contentsline {section}{\numberline {2.4}计算迁移技术}{27}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}计算迁移技术}{27}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.4}计算迁移技术}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}计算迁移技术}{26}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}基于Web的计算迁移技术}{28}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}任务调度算法}{28}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}传统任务调度算法}{29}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}传统任务调度算法}{28}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}元启发式算法}{29}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}本章小结}{30}{section.2.6}
 \contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于容器化多终端服务系统架构设计 }{31}{chapter.3}
@@ -58,7 +58,6 @@
 \contentsline {subsection}{\numberline {5.2.1}传统任务调度问题求解方法}{58}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}启发式算法求解方法}{58}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}蝗虫优化算法}{60}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}蝗虫优化算法数学模型}{60}{subsection.5.3.1}
 \contentsline {section}{\numberline {5.4}带随机跳出机制的动态权重蝗虫优化算法(DJGOA)}{63}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}动态权重}{63}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}随机跳出机制}{64}{subsection.5.4.2}
