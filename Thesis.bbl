@@ -1,4 +1,4 @@
-\begin{thebibliography}{172}
+\begin{thebibliography}{171}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -86,13 +86,13 @@ BUYYA~R, YEO~C~S, VENUGOPAL~S, et~al.
 \newblock Future Generation computer systems, 2009, 25\penalty0 (06):\penalty0
   599-616.
 
-\bibitem[{Ismail {\bibetal}(2016)Ismail, Goortani, Karim, Tat, Setapa, Jing,
-  and Hoe}]{Ismail2016Evaluation}
-ISMAIL~B~I, GOORTANI~E~M, KARIM~M~B~A, et~al.
+\bibitem[{Ismail {\bibetal}(2015)Ismail, Goortani, Ab~Karim, Tat, Setapa, Luke,
+  and Hoe}]{ismail2015evaluation}
+ISMAIL~B~I, GOORTANI~E~M, AB~KARIM~M~B, et~al.
 \newblock Evaluation of docker as edge computing
   platform\allowbreak[C]//\allowbreak
-Open Systems.
-\newblock 2016.
+2015 IEEE Conference on Open Systems (ICOS).
+\newblock IEEE, 2015: 130-135.
 
 \bibitem[{王劲林\ 等(2015)王劲林, 田静, 尤佳莉, 刘学, and
   邓浩江}]{王劲林2015一种现场}
@@ -363,7 +363,7 @@ LI~Z, KIHL~M, LU~Q, et~al.
 KOLHE~S, DHAGE~S.
 \newblock Comparative study on virtual machine monitors for
   cloud\allowbreak[C]//\allowbreak
-2012 World congress on information and communication technologies.
+2012 World Congress on Information and Communication Technologies.
 \newblock IEEE, 2012: 425-430.
 
 \bibitem[{Leite {\bibetal}(2012)Leite, Peixoto, Santana, and
@@ -371,7 +371,7 @@ KOLHE~S, DHAGE~S.
 LEITE~D, PEIXOTO~M, SANTANA~M, et~al.
 \newblock Performance evaluation of virtual machine monitors for cloud
   computing\allowbreak[C]//\allowbreak
-2012 13th symposium on computer systems.
+2012 13th Symposium on Computer Systems.
 \newblock IEEE, 2012: 65-71.
 
 \bibitem[{Oludele {\bibetal}(2014)Oludele, Ogu, Shade, and
@@ -556,7 +556,7 @@ ZHANG~J, ZHOU~Z, LI~S, et~al.
   胡琳琳}]{王硕2016嵌入式}
 王硕, 孙鹏, 郭志川, 等.
 \newblock 嵌入式Web应用引擎的设计与实现\allowbreak[J].
-\newblock 网络新媒体技术, 2016, 05\penalty0 (01):\penalty0 38-44.
+\newblock 网络新媒体技术, 2016, 5\penalty0 (1):\penalty0 38-44.
 
 \bibitem[{Wang {\bibetal}(2018)Wang, Deng, Hu, and Zhu}]{wang2018html5}
 WANG~Z, DENG~H, HU~L, et~al.
@@ -675,7 +675,7 @@ TAWFEEK~M~A, EL-SISI~A, KESHK~A~E, et~al.
 ZAHARIA~M, BORTHAKUR~D, SARMA~J~S, et~al.
 \newblock Job scheduling for multi-user mapreduce clusters\allowbreak[R].
 \newblock Technical Report UCB/EECS-2009-55, EECS Department, University of
-  California~…, 2009.
+  California at Berkeley, 2009.
 
 \bibitem[{Tabak {\bibetal}(2014)Tabak, Cambazoglu, and
   Aykanat}]{tabak2014improving}
@@ -707,20 +707,16 @@ AL-OLIMAT~H~S, ALAM~M, GREEN~R, et~al.
   基于高斯变异的人工萤火虫算法在云计算资源调度中的研究\allowbreak[J].
 \newblock 计算机应用研究, 2015, 32\penalty0 (3):\penalty0 834-837.
 
-\bibitem[{Nagham Azmi AL-Madi {\biband} AL-Madi(2018)Nagham Azmi AL-Madi and
-  AL-Madi}]{Nagham2018}
-NAGHAM AZMI AL-MADI~E~A~M, Khulood Abu~Maria, AL-MADI~M~A.
-\newblock A structured-population human community based genetic algorithm
-  (hcbga) in a comparison with both the standard genetic algorithm (sga) and
-  the cellular genetic algorithm (cga)\allowbreak[J].
-\newblock ICIC Express Letters, 2018, 12\penalty0 (12):\penalty0 1267-1275.
+\bibitem[{Whitley(1994)}]{whitley1994genetic}
+WHITLEY~D.
+\newblock A genetic algorithm tutorial\allowbreak[J].
+\newblock Statistics and computing, 1994, 4\penalty0 (2):\penalty0 65-85.
 
 \bibitem[{Kennedy {\biband} Eberhart(1995)Kennedy and
   Eberhart}]{kennedy1995particle}
 KENNEDY~J, EBERHART~R.
 \newblock Particle swarm optimization\allowbreak[C]//\allowbreak
-Neural Networks, 1995. Proceedings., IEEE International Conference on:
-  volume~4.
+Proceedings of 1995 IEEE International Conference on Neural Networks: volume~4.
 \newblock IEEE, 1995: 1942-1948.
 
 \bibitem[{Liao {\bibetal}(2007)Liao, Tseng, and Luarn}]{liao2007discrete}
@@ -741,7 +737,7 @@ KRISHNASAMY~K, et~al.
   Gambardella}]{dorigo1997ant}
 DORIGO~M, GAMBARDELLA~L~M.
 \newblock Ant colonies for the travelling salesman problem\allowbreak[J].
-\newblock biosystems, 1997, 43\penalty0 (02):\penalty0 73-81.
+\newblock Biosystems, 1997, 43\penalty0 (02):\penalty0 73-81.
 
 \bibitem[{Dorigo {\biband} Di~Caro(1999)Dorigo and Di~Caro}]{dorigo1999ant}
 DORIGO~M, DI~CARO~G.
@@ -872,18 +868,18 @@ LEWIS~J, FOWLER~M.
 谭一鸣.
 \newblock
   基于微服务架构的平台化服务框架的设计与实现\allowbreak[D].
-\newblock 北京: 北京交通大学, 2017.
+\newblock 北京交通大学, 2017.
 
 \bibitem[{唐文宇(2016)}]{唐文宇2016面向}
 唐文宇.
 \newblock
   面向SOA架构微服务的安全系统的设计与实现\allowbreak[D].
-\newblock 南京: 南京大学, 2016.
+\newblock 南京大学, 2016.
 
 \bibitem[{肖仲垚(2017)}]{肖仲垚2017微服务通信框架的设计与实现}
 肖仲垚.
 \newblock 微服务通信框架的设计与实现\allowbreak[D].
-\newblock 北京: 北京交通大学, 2017.
+\newblock 北京交通大学, 2017.
 
 \bibitem[{宋鹏威(2017)}]{宋鹏威2017开放式微服务框架的设计与应用}
 宋鹏威.
@@ -1018,14 +1014,6 @@ SHI~C, HABAK~K, PANDURANGAN~P, et~al.
 Proceedings of the 15th ACM international symposium on Mobile ad hoc networking
   and computing.
 \newblock ACM, 2014: 287-296.
-
-\bibitem[{Ismail {\bibetal}(2015)Ismail, Goortani, Ab~Karim, Tat, Setapa, Luke,
-  and Hoe}]{ismail2015evaluation}
-ISMAIL~B~I, GOORTANI~E~M, AB~KARIM~M~B, et~al.
-\newblock Evaluation of docker as edge computing
-  platform\allowbreak[C]//\allowbreak
-2015 IEEE Conference on Open Systems (ICOS).
-\newblock IEEE, 2015: 130-135.
 
 \bibitem[{Wu {\bibetal}(2017)Wu, Niu, Rao, Jin, and Dai}]{wu2017container}
 WU~S, NIU~C, RAO~J, et~al.
