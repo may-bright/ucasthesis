@@ -20,7 +20,7 @@
 
 \subsection{云计算技术}
 % //TODO:增加一个云计算的架构图,稍微说一下优缺点
-随着处理和存储技术的快速发展以及互联网的普及，计算资源变得比以往任何时候都更便宜，更强大，更普遍。这种技术趋势使得云计算的计算模型成为现实。云计算是一种通过互联网管理和提供服务的范例\cite{zhang2010cloud,josep2010view}。云计算的思想很早之前就存在，20世纪60年代，约翰·麦卡锡已经设想计算设施将像一种工具（Unity）一样提供给公众\cite{parkhill1966challenge}。但是直到2006年谷歌公司（Google）使用“云计算”一词来描述通过网络提供服务的商业模型，云计算的概念才开始流行起来。云计算的概念虽然已经发展了很多年，但是并没有一个标准的定义\cite{sonnek2009virtual}，这里采用美国国家标准技术研究院（The National Institute of Standards and Technology，NIST）给出的定义\cite{zhang2010cloud}：云计算是一种可以方便地通过网络来按需对可配置的共享计算资源池（如网络、服务器、存储、应用和服务等）进行访问的模型，可以以最少的管理工作或与服务提供商交互的方式来进行快速配置和发布。
+随着处理和存储技术的快速发展以及互联网的普及，计算资源变得比以往任何时候都更便宜，更强大，更普遍。这种技术趋势使得云计算的计算模型成为现实。云计算是一种通过互联网管理和提供服务的范例\cite{zhang2010cloud,josep2010view}。云计算的思想很早之前就存在，20世纪60年代，约翰·麦卡锡已经设想计算设施将像一种工具（Unity）一样提供给公众。但是直到2006年谷歌公司（Google）使用“云计算”一词来描述通过网络提供服务的商业模型，云计算的概念才开始流行起来。云计算的概念虽然已经发展了很多年，但是并没有一个标准的定义\cite{sonnek2009virtual}，这里采用美国国家标准技术研究院（The National Institute of Standards and Technology，NIST）给出的定义\cite{zhang2010cloud}：云计算是一种可以方便地通过网络来按需对可配置的共享计算资源池（如网络、服务器、存储、应用和服务等）进行访问的模型，可以以最少的管理工作或与服务提供商交互的方式来进行快速配置和发布。
 
 云计算可以根据服务模式不同，划分为基础设施即是服务（Infrastructure as a Service，IaaS），平台即是服务（Platform as a Service，PaaS），软件即是服务（Software as a Service，SaaS）\cite{林伟伟2012云计算资源调度研究综述,roman2018mobile}。云计算中的三种服务模式结构如图\ref{fig:cloud_computation_S_P_I}所示\cite{刘英男2011基于云计算框架的终端管理系统设计与实现}。
 
@@ -345,7 +345,7 @@ Web Worker是一种基于HTML5的多线程方法，本文的研究对象就是�
 
 \subsection{元启发式算法}
 
-近年来，很多元启发式算法（meta-heuristic algorithm）被应用于解决任务调度问题\cite{al2015cloudlet,刘运2015基于高斯变异的人工萤火虫算法在云计算资源调度中的研究}。Goldberg在1988年提出的遗传算法（Genetic Algorithm，GA）是一种非常著名的进化算法，它将自然选择理论引入到优化过程中，使用一条染色体来代表任务调度问题的一种调度方案，使用包括变异、交叉和选择在内的几个自然算子来作为演进迭代的计算法则\cite{fonseca1995overview,whitley1994genetic}。由于存在交叉和变异的操作，GA计算起来非常复杂，实现起来也比较困难。
+近年来，很多元启发式算法（meta-heuristic algorithm）被应用于解决任务调度问题\cite{al2015cloudlet,刘运2015基于高斯变异的人工萤火虫算法在云计算资源调度中的研究}。Goldberg在1988年提出的遗传算法（Genetic Algorithm，GA）是一种非常著名的进化算法，它将自然选择理论引入到优化过程中，使用一条染色体来代表任务调度问题的一种调度方案，使用包括变异、交叉和选择在内的几个自然算子来作为演进迭代的计算法则\cite{Nagham2018}。由于存在交叉和变异的操作，GA计算起来非常复杂，实现起来也比较困难。
 
 一些元启发式算法的灵感来自昆虫，鱼类，鸟类和其他群体生物的自然行为。粒子群算法（Particle Swarm Optimization Algorithm，PSO）是Kennedy于1995年提出的经典元启发式算法，原理非常简单，容易实现\cite{kennedy1995particle,liao2007discrete,krishnasamy2013task}。蚁群优化算法（Ant Colony Optimization Algorithm，ACO）的灵感来自蚂蚁在巢穴和食物来源之间搜索的自然觅食行为，蚁群优化算法利用化学信息素在蚁群搜索单位之间进行信息交流\cite{dorigo1997ant,dorigo1999ant,Hao2018Network}。人工鱼群算法通过模仿鱼类的随机游动的觅食行为来进行搜索\cite{桓自强2014aafsa}。
 

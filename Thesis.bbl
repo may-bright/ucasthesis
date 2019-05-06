@@ -1,4 +1,4 @@
-\begin{thebibliography}{179}
+\begin{thebibliography}{172}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -16,14 +16,14 @@
   刘伟}]{施巍松2017边缘计算}
 施巍松, 孙辉, 曹杰, 等.
 \newblock 边缘计算: 万物互联时代新型计算模型\allowbreak[J].
-\newblock 计算机研究与发展, 2017:\penalty0 1.
+\newblock 计算机研究与发展, 2017, 54\penalty0 (5):\penalty0 907-924.
 
 \bibitem[{Taleb {\bibetal}(2017)Taleb, Dutta, Ksentini, Iqbal, and
   Flinck}]{taleb2017mobile}
 TALEB~T, DUTTA~S, KSENTINI~A, et~al.
 \newblock Mobile edge computing potential in making cities
   smarter\allowbreak[J].
-\newblock IEEE Communications Magazine, 2017, 55\penalty0 (3).
+\newblock IEEE Communications Magazine, 2017, 55\penalty0 (3):\penalty0 38-43.
 
 \bibitem[{中国信息通信研究院（工业和信息化部电信研究院）(2016)}]{物联网白皮书2016}
 中国信息通信研究院（工业和信息化部电信研究院）.
@@ -76,14 +76,14 @@ NOOR~T~H, ZEADALLY~S, ALFAZI~A, et~al.
 \bibitem[{江绵恒(2010)}]{江绵恒2010}
 江绵恒.
 \newblock 城市化与信息化——中国发展的时代机遇\allowbreak[J].
-\newblock 信息化建设, 2010\penalty0 (6):\penalty0 8-9.
+\newblock 信息化建设, 2010\penalty0 (06):\penalty0 8-9.
 
 \bibitem[{Buyya {\bibetal}(2009)Buyya, Yeo, Venugopal, Broberg, and
   Brandic}]{buyya2009cloud}
 BUYYA~R, YEO~C~S, VENUGOPAL~S, et~al.
 \newblock Cloud computing and emerging it platforms: Vision, hype, and reality
   for delivering computing as the 5th utility\allowbreak[J].
-\newblock Future Generation computer systems, 2009, 25\penalty0 (6):\penalty0
+\newblock Future Generation computer systems, 2009, 25\penalty0 (06):\penalty0
   599-616.
 
 \bibitem[{Ismail {\bibetal}(2016)Ismail, Goortani, Karim, Tat, Setapa, Jing,
@@ -128,12 +128,7 @@ ZHANG~Q, CHENG~L, BOUTABA~R.
   RABKin}]{josep2010view}
 JOSEP~A~D, KATZ~R, KONWINSKI~A, et~al.
 \newblock A view of cloud computing\allowbreak[J].
-\newblock Communications of the ACM, 2010, 53\penalty0 (4).
-
-\bibitem[{Parkhill(1966)}]{parkhill1966challenge}
-PARKHILL~D~F.
-\newblock Challenge of the computer utility\allowbreak[J].
-\newblock 1966.
+\newblock Communications of the ACM, 2010, 53\penalty0 (4):\penalty0 50-58.
 
 \bibitem[{Sonnek {\biband} Chandra(2009)Sonnek and Chandra}]{sonnek2009virtual}
 SONNEK~J, CHANDRA~A.
@@ -142,11 +137,11 @@ SONNEK~J, CHANDRA~A.
 HotCloud.
 \newblock 2009.
 
-\bibitem[{林伟伟\ 等(2012)林伟伟, 齐德昱,
-  et~al.}]{林伟伟2012云计算资源调度研究综述}
-林伟伟, 齐德昱, 等.
+\bibitem[{林伟伟\ 等(2012)林伟伟 and
+  齐德昱}]{林伟伟2012云计算资源调度研究综述}
+林伟伟, 齐德昱.
 \newblock 云计算资源调度研究综述\allowbreak[J].
-\newblock 计算机科学, 2012\penalty0 (2012 年 10):\penalty0 1-6.
+\newblock 计算机科学, 2012, 39\penalty0 (10):\penalty0 1-6.
 
 \bibitem[{Roman {\bibetal}(2018)Roman, Lopez, and Mambo}]{roman2018mobile}
 ROMAN~R, LOPEZ~J, MAMBO~M.
@@ -209,7 +204,7 @@ SONG~H, CHAUVEL~F, SOLBERG~A, et~al.
 FOX~A, GRIFFITH~R, JOSEPH~A, et~al.
 \newblock Above the clouds: A berkeley view of cloud computing\allowbreak[J].
 \newblock Dept. Electrical Eng. and Comput. Sciences, University of California,
-  Berkeley, Rep. UCB/EECS, 2009, 28\penalty0 (13):\penalty0 2009.
+  Berkeley, Rep. UCB/EECS, 2009, 28\penalty0 (13).
 
 \bibitem[{贾维嘉\ 等(2018)贾维嘉 and
   周小杰}]{贾维嘉2018雾计算的概念}
@@ -274,7 +269,7 @@ REN~J, GUO~H, XU~C, et~al.
   肖侬}]{赵梓铭2018边缘计算}
 赵梓铭, 刘芳, 蔡志平, 等.
 \newblock 边缘计算: 平台, 应用与挑战\allowbreak[J].
-\newblock 计算机研究与发展, 2018, 55\penalty0 (2):\penalty0 327-337.
+\newblock 计算机研究与发展, 2018, 55\penalty0 (02):\penalty0 327-337.
 
 \bibitem[{张静乐(2011)}]{张静乐2011协同服务}
 张静乐.
@@ -292,7 +287,7 @@ LAUKKARINEN~T, SUHONEN~J, H{\"A}NNIK{\"A}INEN~M.
   詹剑锋}]{文雨2013面向应用服务级目标的虚拟化资源管理}
 文雨, 孟丹, 詹剑锋.
 \newblock 面向应用服务级目标的虚拟化资源管理\allowbreak[J].
-\newblock 软件学报, 2013\penalty0 (2):\penalty0 358-377.
+\newblock 软件学报, 2013, 24\penalty0 (2):\penalty0 358-377.
 
 \bibitem[{Goth(2007)}]{goth2007virtualization}
 GOTH~G.
@@ -324,7 +319,7 @@ PEARCE~M, ZEADALLY~S, HUNT~R.
 D.KIRAN~KUMAR~T, B.RAJASEKHAR~P.
 \newblock Review on virtualization for cloud computing\allowbreak[J].
 \newblock International Journal of Advanced Research in Computer and
-  Communication Engineering, 2014, 3:\penalty0 7748-7752.
+  Communication Engineering, 2014, 3\penalty0 (8):\penalty0 7748-7752.
 
 \bibitem[{叶蔚\ 等(2019)叶蔚, 常青, and
   杨芳}]{叶蔚2019基于虚拟化的}
@@ -513,7 +508,7 @@ BARBAROSSA~S, SARDELLITTI~S, DI~LORENZO~P.
 董浩, 张海平, 李忠金, 等.
 \newblock
   移动边缘计算环境下服务工作流的计算卸载\allowbreak[J].
-\newblock 计算机工程与应用, 2019\penalty0 (2):\penalty0 6.
+\newblock 计算机工程与应用, 2019, 55\penalty0 (02):\penalty0 36-43.
 
 \bibitem[{Mach {\biband} Becvar(2017)Mach and Becvar}]{mach2017mobile}
 MACH~P, BECVAR~Z.
@@ -561,7 +556,7 @@ ZHANG~J, ZHOU~Z, LI~S, et~al.
   胡琳琳}]{王硕2016嵌入式}
 王硕, 孙鹏, 郭志川, 等.
 \newblock 嵌入式Web应用引擎的设计与实现\allowbreak[J].
-\newblock 网络新媒体技术, 2016, 5\penalty0 (1):\penalty0 38-44.
+\newblock 网络新媒体技术, 2016, 05\penalty0 (01):\penalty0 38-44.
 
 \bibitem[{Wang {\bibetal}(2018)Wang, Deng, Hu, and Zhu}]{wang2018html5}
 WANG~Z, DENG~H, HU~L, et~al.
@@ -619,7 +614,7 @@ KURUMATANI~S, TOYAMA~M, CHEN~E~Y.
 王昭, 邓浩江, 胡琳琳, 等.
 \newblock 一种多服务端HTML5 Web
   Worker迁移系统设计与实现\allowbreak[J].
-\newblock 计算机应用与软件, 2018, 35\penalty0 (9):\penalty0 27-31.
+\newblock 计算机应用与软件, 2018, 35\penalty0 (09):\penalty0 27-31.
 
 \bibitem[{Zhang {\bibetal}(2010{\natexlab{b}})Zhang, Jeon, Gibbs, and
   Kunjithapatham}]{zhang2010elastic}
@@ -673,7 +668,7 @@ TAWFEEK~M~A, EL-SISI~A, KESHK~A~E, et~al.
 乔楠楠, 尤佳莉.
 \newblock
   一种面向网络边缘任务调度问题的多方向粒子群优化算法\allowbreak[J].
-\newblock 计算机应用与软件, 2017, 34\penalty0 (4):\penalty0 309-315.
+\newblock 计算机应用与软件, 2017, 34\penalty0 (04):\penalty0 309-315.
 
 \bibitem[{Zaharia {\bibetal}(2009)Zaharia, Borthakur, Sarma, Elmeleegy,
   Shenker, and Stoica}]{zaharia2009job}
@@ -710,19 +705,15 @@ AL-OLIMAT~H~S, ALAM~M, GREEN~R, et~al.
 刘运, 程家兴, 林京.
 \newblock
   基于高斯变异的人工萤火虫算法在云计算资源调度中的研究\allowbreak[J].
-\newblock 计算机应用研究, 2015\penalty0 (3):\penalty0 834-837.
+\newblock 计算机应用研究, 2015, 32\penalty0 (3):\penalty0 834-837.
 
-\bibitem[{Fonseca {\biband} Fleming(1995)Fonseca and
-  Fleming}]{fonseca1995overview}
-FONSECA~C~M, FLEMING~P~J.
-\newblock An overview of evolutionary algorithms in multiobjective
-  optimization\allowbreak[J].
-\newblock Evolutionary computation, 1995, 3\penalty0 (1):\penalty0 1-16.
-
-\bibitem[{D(1994)}]{whitley1994genetic}
-D~W.
-\newblock A genetic algorithm tutorial\allowbreak[J].
-\newblock Statistics and computing, 1994, 4\penalty0 (2):\penalty0 65-85.
+\bibitem[{Nagham Azmi AL-Madi {\biband} AL-Madi(2018)Nagham Azmi AL-Madi and
+  AL-Madi}]{Nagham2018}
+NAGHAM AZMI AL-MADI~E~A~M, Khulood Abu~Maria, AL-MADI~M~A.
+\newblock A structured-population human community based genetic algorithm
+  (hcbga) in a comparison with both the standard genetic algorithm (sga) and
+  the cellular genetic algorithm (cga)\allowbreak[J].
+\newblock ICIC Express Letters, 2018, 12\penalty0 (12):\penalty0 1267-1275.
 
 \bibitem[{Kennedy {\biband} Eberhart(1995)Kennedy and
   Eberhart}]{kennedy1995particle}
@@ -744,13 +735,13 @@ KRISHNASAMY~K, et~al.
 \newblock Task scheduling algorithm based on hybrid particle swarm optimization
   in cloud computing enviroment\allowbreak[J].
 \newblock Journal of Theoretical \& Applied Information Technology, 2013,
-  55\penalty0 (1).
+  55\penalty0 (01).
 
 \bibitem[{Dorigo {\biband} Gambardella(1997)Dorigo and
   Gambardella}]{dorigo1997ant}
 DORIGO~M, GAMBARDELLA~L~M.
 \newblock Ant colonies for the travelling salesman problem\allowbreak[J].
-\newblock biosystems, 1997, 43\penalty0 (2):\penalty0 73-81.
+\newblock biosystems, 1997, 43\penalty0 (02):\penalty0 73-81.
 
 \bibitem[{Dorigo {\biband} Di~Caro(1999)Dorigo and Di~Caro}]{dorigo1999ant}
 DORIGO~M, DI~CARO~G.
@@ -760,11 +751,12 @@ Proceedings of the 1999 congress on evolutionary computation-CEC99 (Cat. No.
   99TH8406): volume~2.
 \newblock IEEE, 1999: 1470-1477.
 
-\bibitem[{Hao {\bibetal}(2018)Hao, Jin, and Yang}]{Hao2018Network}
-HAO~H, JIN~Y, YANG~T.
-\newblock Network measurement node selection algorithm based on parallel aco
-  algorithm\allowbreak[J].
-\newblock Journal of Network New Media, 2018.
+\bibitem[{郝航\ 等(2018{\natexlab{a}})郝航, 金跃辉, and
+  杨谈}]{Hao2018Network}
+郝航, 金跃辉, 杨谈.
+\newblock
+  基于并行化蚁群算法的网络测量节点选取算法\allowbreak[J].
+\newblock 网络新媒体技术, 2018, 7\penalty0 (01):\penalty0 7-15+63.
 
 \bibitem[{桓自强\ 等(2014)桓自强, 倪宏, 胡琳琳, and
   郭志川}]{桓自强2014aafsa}
@@ -820,11 +812,12 @@ LIU~F, SHU~P, JIN~H, et~al.
   architectures, challenges, and applications\allowbreak[J].
 \newblock IEEE Wireless communications, 2013, 20\penalty0 (3):\penalty0 14-22.
 
-\bibitem[{Luan {\bibetal}(2015)Luan, Gao, Li, Xiang, Wei, and
-  Sun}]{luan2015fog}
-LUAN~T~H, GAO~L, LI~Z, et~al.
-\newblock Fog computing: Focusing on mobile users at the edge\allowbreak[J].
-\newblock arXiv preprint arXiv:1502.01815, 2015.
+\bibitem[{Towdium(2015)}]{luan2015fog}
+TOWDIUM.
+\newblock Fog computing: Focusing on mobile users at the
+  edge\allowbreak[EB/OL].
+\newblock 2015\allowbreak[2015-02-06].
+\newblock \url{https://arxiv.org/pdf/1502.01815}.
 
 \bibitem[{Mao {\bibetal}(2016)Mao, Zhang, and Letaief}]{mao2016dynamic}
 MAO~Y, ZHANG~J, LETAIEF~K~B.
@@ -858,14 +851,16 @@ MAO~Y, YOU~C, ZHANG~J, et~al.
   Fowler}]{lewis2014microservices}
 LEWIS~J, FOWLER~M.
 \newblock Microservices: a definition of this new architectural
-  term\allowbreak[J].
-\newblock MartinFowler.com, 2014, 25.
+  term\allowbreak[EB/OL].
+\newblock 2014.
+\newblock \url{https://martinfowler.com/articles/microservices.html}.
 
 \bibitem[{龙新征\ 等(2017)龙新征, 彭一明, 李若淼,
   et~al.}]{龙新征2017基于微服务框架的信息服务平台}
 龙新征, 彭一明, 李若淼, 等.
 \newblock 基于微服务框架的信息服务平台\allowbreak[J].
-\newblock 东南大学学报 (自然科学版), 2017, 1.
+\newblock 东南大学学报 (自然科学版), 2017, 47\penalty0
+  (S1):\penalty0 48-52.
 
 \bibitem[{郭栋\ 等(2015)郭栋, 王伟, and
   曾国荪}]{郭栋2015一种基于微服务架构的新型云件}
@@ -959,7 +954,7 @@ CONWAY~M~E.
   et~al.}]{牛力人2015互联网关键自治系统的地理分布特性分析}
 牛力人, 刘宇靖, 彭伟, 等.
 \newblock 互联网关键自治系统的地理分布特性分析\allowbreak[J].
-\newblock 信息安全与技术, 2015\penalty0 (2015 年 04):\penalty0 22-26.
+\newblock 信息安全与技术, 2015, 6\penalty0 (04):\penalty0 22-26.
 
 \bibitem[{寇明延\ 等(2010)寇明延, 熊华钢, 李峭, and
   何锋}]{寇明延2010面向任务能力的自组织网络体系结构}
@@ -987,7 +982,7 @@ KHAN~Z~H, CATALOT~D~G, THIRIET~J~M.
   李嵩泉}]{刘福杰2004一种自组织网络管理实现方法的研究}
 刘福杰, 常义林, 沈中, 等.
 \newblock 一种自组织网络管理实现方法的研究\allowbreak[J].
-\newblock 西安電子科技大學學報, 2004, 31\penalty0 (2):\penalty0
+\newblock 西安电子科技大学学报, 2004, 31\penalty0 (2):\penalty0
   182-185.
 
 \bibitem[{Chae {\bibetal}(2014)Chae, Kim, Kim, Kim, Yang, Cho, Kwon, and
@@ -1045,38 +1040,13 @@ WU~S, NIU~C, RAO~J, et~al.
 \newblock 基于Web浏览器的远程容器登录系统设计\allowbreak[J].
 \newblock 网络新媒体技术, 2017, 6\penalty0 (6):\penalty0 61-63.
 
-\bibitem[{Tanese(1989)}]{tanese1989distributed}
-TANESE~R.
-\newblock Distributed genetic algorithms for function
-  optimization\allowbreak[J].
-\newblock 1989.
-
-\bibitem[{Nagham Azmi AL-Madi {\biband} AL-Madi(2018)Nagham Azmi AL-Madi and
-  AL-Madi}]{Nagham2018}
-NAGHAM AZMI AL-MADI~E~A~M, Khulood Abu~Maria, AL-MADI~M~A.
-\newblock A structured-population human community based genetic algorithm
-  (hcbga) in a comparison with both the standard genetic algorithm (sga) and
-  the cellular genetic algorithm (cga)\allowbreak[J].
-\newblock ICIC Express Letters, 2018, 12\penalty0 (12):\penalty0 1267-1275.
-
-\bibitem[{Kirkpatrick {\bibetal}(1983)Kirkpatrick, Gelatt, and
-  Vecchi}]{kirkpatrick1983optimization}
-KIRKPATRICK~S, GELATT~C~D, VECCHI~M~P.
-\newblock Optimization by simulated annealing\allowbreak[J].
-\newblock science, 1983, 220\penalty0 (4598):\penalty0 671-680.
-
-\bibitem[{Hong {\bibetal}(1991)Hong, Zuckermann, Harris, and Grant}]{Hong1991A}
-HONG~G, ZUCKERMANN~M, HARRIS~R, et~al.
-\newblock A fast algorithm for simulated annealing\allowbreak[J].
-\newblock Physica Scripta, 1991, 1991\penalty0 (T38):\penalty0 40.
-
 \bibitem[{Rutenbar(1989)}]{rutenbar1989simulated}
 RUTENBAR~R~A.
 \newblock Simulated annealing algorithms: An overview\allowbreak[J].
 \newblock IEEE Circuits and Devices magazine, 1989, 5\penalty0 (1):\penalty0
   19-26.
 
-\bibitem[{郝航\ 等(2018)郝航, 金跃辉, 杨谈,
+\bibitem[{郝航\ 等(2018{\natexlab{b}})郝航, 金跃辉, 杨谈,
   et~al.}]{郝航2018基于并行化蚁群算法的网络测量节点选取算法}
 郝航, 金跃辉, 杨谈, 等.
 \newblock
@@ -1206,7 +1176,7 @@ MURUGANANTHAM~A, TAN~K~C, VADAKKEPAT~P.
 成光, 刘卫东, 魏尚俊, 等.
 \newblock
   基于卡尔曼滤波的目标估计和预测方法研究\allowbreak[J].
-\newblock 计算机仿真, 2006, 23\penalty0 (1):\penalty0 8-10.
+\newblock 计算机仿真, 2006, 23\penalty0 (01):\penalty0 8-10.
 
 \bibitem[{刘鑫\ 等(2019)刘鑫, 滕欢, 宫毓斌, and
   滕德云}]{刘鑫2019基于改进卡尔曼滤波算法的短期负荷预测}
@@ -1219,14 +1189,14 @@ MURUGANANTHAM~A, TAN~K~C, VADAKKEPAT~P.
 周艳青, 薛河儒, 姜新华, 等.
 \newblock
   基于改进的卡尔曼滤波算法的气象数据融合\allowbreak[J].
-\newblock 计算机系统应用, 2018, 27\penalty0 (4):\penalty0 184-189.
+\newblock 计算机系统应用, 2018, 27\penalty0 (04):\penalty0 184-189.
 
 \bibitem[{郝庭毅\ 等(2017)郝庭毅, 吴恒, 吴国全, and
   张文博}]{郝庭毅2017面向微服务架构的容器级弹性资源供给方法}
 郝庭毅, 吴恒, 吴国全, 等.
 \newblock
   面向微服务架构的容器级弹性资源供给方法\allowbreak[J].
-\newblock 计算机研究与发展, 2017, 54\penalty0 (3):\penalty0 597-608.
+\newblock 计算机研究与发展, 2017, 54\penalty0 (03):\penalty0 597-608.
 
 \bibitem[{贾濡\ 等(2018)贾濡 and
   潘沭铭}]{贾濡2018基于卡尔曼滤波的流量预测机制}
@@ -1234,10 +1204,5 @@ MURUGANANTHAM~A, TAN~K~C, VADAKKEPAT~P.
 \newblock 基于卡尔曼滤波的流量预测机制\allowbreak[J].
 \newblock 中国电子科学研究院学报, 2018, 13\penalty0 (06):\penalty0
   82-87.
-
-\bibitem[{Welch {\bibetal}(1995)Welch, Bishop, et~al.}]{welch1995introduction}
-WELCH~G, BISHOP~G, et~al.
-\newblock An introduction to the kalman filter\allowbreak[J].
-\newblock 1995.
 
 \end{thebibliography}

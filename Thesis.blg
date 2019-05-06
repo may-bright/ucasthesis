@@ -4,50 +4,45 @@ The top-level auxiliary file: Thesis.aux
 The style file: Biblio/gbt7714-unsrt.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 10012 items from 5000.
 Database file #1: Biblio/ref.bib
-Warning--empty journal in parkhill1966challenge
-Warning--empty journal in tanese1989distributed
-Warning--empty journal in welch1995introduction
-You've used 179 entries,
+You've used 172 entries,
             4079 wiz_defined-function locations,
-            1796 strings with 39199 characters,
-and the built_in function-call counts, 847322 in all, are:
-= -- 12379
-> -- 94608
-< -- 129018
-+ -- 37354
-- -- 1351
-* -- 6400
-:= -- 119381
-add.period$ -- 537
-call.type$ -- 179
-change.case$ -- 615
-chr.to.int$ -- 33496
-cite$ -- 182
-duplicate$ -- 4022
-empty$ -- 10076
-format.name$ -- 2824
-if$ -- 218633
-int.to.chr$ -- 4
-int.to.str$ -- 180
+            1767 strings with 38184 characters,
+and the built_in function-call counts, 812414 in all, are:
+= -- 12030
+> -- 90374
+< -- 123571
++ -- 35907
+- -- 1304
+* -- 6238
+:= -- 114595
+add.period$ -- 518
+call.type$ -- 172
+change.case$ -- 582
+chr.to.int$ -- 32180
+cite$ -- 172
+duplicate$ -- 3872
+empty$ -- 9806
+format.name$ -- 2714
+if$ -- 209592
+int.to.chr$ -- 5
+int.to.str$ -- 173
 missing$ -- 0
-newline$ -- 961
-num.names$ -- 684
-pop$ -- 43317
+newline$ -- 928
+num.names$ -- 657
+pop$ -- 41266
 preamble$ -- 1
-purify$ -- 179
+purify$ -- 172
 quote$ -- 0
-skip$ -- 83194
+skip$ -- 79484
 stack$ -- 0
-substring$ -- 38330
-swap$ -- 527
-text.length$ -- 1671
+substring$ -- 37007
+swap$ -- 510
+text.length$ -- 1613
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2187
-warning$ -- 3
-while$ -- 2315
+type$ -- 2096
+warning$ -- 0
+while$ -- 2245
 width$ -- 0
-write$ -- 2714
-(There were 3 warnings)
+write$ -- 2630
