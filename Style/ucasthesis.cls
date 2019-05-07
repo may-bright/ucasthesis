@@ -197,8 +197,8 @@
 
         \vspace*{\stretch{2}}
 
-        {\zihao{1}\bfseries\sffamily {\ucas@label@ch@thesis}}\\
-        {\zihao{3}\bfseries\sffamily {\ucas@label@ch@pingyue}}
+        {\zihao{1}\bfseries\sffamily {\ucas@label@ch@thesis}}
+        % \\{\zihao{3}\bfseries\sffamily {\ucas@label@ch@pingyue}}
 
         \vspace*{\stretch{3}}
 
