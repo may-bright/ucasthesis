@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  7 MAY 2019 16:03
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  7 MAY 2019 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1850,14 +1850,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ] [1
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 21.46785pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2] [3
+] [2] [3
 
 ]
 Overfull \hbox (3.27824pt too wide) in paragraph at lines 105--106
@@ -1933,11 +1926,11 @@ File: Img/Docker_Module.png Graphic file (type bmp)
  [24]
 File: Img/Docker_Image.png Graphic file (type bmp)
 <Img/Docker_Image.png>
- [25] [26] [27] [28]) (./Tex/Chap_Service_System.tex [29] [30]
-第3章
-[31
+ [25] [26] [27] [28]) (./Tex/Chap_Service_System.tex [29] [30
 
-] [32] [33] [34] [35] [36]
+]
+第3章
+[31] [32] [33] [34] [35] [36]
 File: Img/System_Hierarchy_Chart.jpg Graphic file (type bmp)
 <Img/System_Hierarchy_Chart.jpg>
 File: Img/Docker_Architecture_Temp.jpg Graphic file (type bmp)
@@ -2124,12 +2117,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30607 strings out of 492970
- 611705 string characters out of 6137299
- 698184 words of memory out of 5000000
- 34118 multiletter control sequences out of 15000+600000
- 560417 words of font info for 151 fonts, out of 8000000 for 9000
+ 30634 strings out of 492970
+ 613221 string characters out of 6137299
+ 698200 words of memory out of 5000000
+ 34143 multiletter control sequences out of 15000+600000
+ 560433 words of font info for 153 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,26n,94p,10550b,873s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,26n,94p,10548b,873s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Thesis.pdf (150 pages).
