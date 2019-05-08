@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  7 MAY 2019 23:51
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  8 MAY 2019 00:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2045,7 +2045,12 @@ File: Img/function_F28.eps Graphic file (type eps)
 <Img/function_F28.eps>
  [87] [88] [89] [90] [91
 
-] [92] [93] [94]) (./Tex/Chap_Elastic_Service.tex [95] [96
+]
+Overfull \hbox (0.66699pt too wide) in paragraph at lines 1030--1032
+\TU/SimSun(1)/m/n/12.045 总 的 执 行 时 间 \TU/entextrm/m/it/12.045 Makespan \TU/SimSun(1)/m/n/12.045 为 所 有 节 点 的 执 行 时 间 取 最 长 值。|  计 算 方 法 如 公 式[][]\TU/entextsf/m/n/12.045 5.24[][]\TU/SimSun(1)/m/n/12.045 所
+ []
+
+[92] [93] [94]) (./Tex/Chap_Elastic_Service.tex [95] [96
 
 ]
 第6章
