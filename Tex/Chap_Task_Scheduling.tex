@@ -1014,7 +1014,6 @@ $L\acute{e}vy$飞行是由Paul $L\acute{e}vy$ \cite {mirjalili2016dragonfly}提�
 \begin{enumerate}[]
     \item \emph{N}个任务的集合为$\{T_1,T_2,...T_N\}$，$T_i$代表第\emph{i}个任务所消耗的资源
     \item \emph{M}个节点的集合为$\{S_1,S_2,...S_M\}$，$S_j$代表第\emph{j}个节点所能提供的最大资源
-    \item 只要某个节点能够提供某个任务执行所需要的足够资源，也就是$T_i \leq S_j$，该任务就可以在该节点上执行，
     \item 每个节点在同一时间只能执行一个任务，多个任务可以在同一个节点上排队执行
     \item 所有任务被分为\emph{K}种类型。表示任务类型的向量为$tot[N]$，$tot_i$代表第\emph{i}个任务的类型，取值为[1, K]中的整数
     \item 每个节点处理不同类型任务的能力不同。$mips[M,K]$是执行速度矩阵$mips_{j}^{k}$ 代表类型\emph{k}的任务在第\emph{j}个节点上执行时单位时间内消耗的资源数量。$et_{ij}$代表第\emph{i}个任务在第\emph{j}个节点上执行所消耗的时间，计算方式如公式\ref{equ:task_scheduling_etij}所示。
