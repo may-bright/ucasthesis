@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}研究意义}{4}{section.1.2}
 \contentsline {section}{\numberline {1.3}研究内容}{4}{section.1.3}
-\contentsline {section}{\numberline {1.4}本文内容安排}{6}{section.1.4}
+\contentsline {section}{\numberline {1.4}本文内容安排}{7}{section.1.4}
 \contentsline {chapter}{\numberline {第2章\hspace {.3em}}相关工作 }{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}引言}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}终端协同服务技术}{9}{section.2.2}
@@ -75,7 +75,7 @@
 \contentsline {subsection}{\numberline {5.5.5}实验结果}{77}{subsection.5.5.5}
 \contentsline {subsubsection}{\numberline {5.5.5.1}实验设置}{77}{subsubsection.5.5.5.1}
 \contentsline {subsubsection}{\numberline {5.5.5.2}实验结果}{79}{subsubsection.5.5.5.2}
-\contentsline {subsubsection}{\numberline {5.5.5.3}威尔科克森秩和检验}{87}{subsubsection.5.5.5.3}
+\contentsline {subsubsection}{\numberline {5.5.5.3}威尔科克森秩和检验}{85}{subsubsection.5.5.5.3}
 \contentsline {subsubsection}{\numberline {5.5.5.4}算法测试收敛速度}{87}{subsubsection.5.5.5.4}
 \contentsline {section}{\numberline {5.6}多终端协同服务的任务调度问题}{91}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}问题描述}{91}{subsection.5.6.1}

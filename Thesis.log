@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  15 MAY 2019 07:46
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.2)  22 MAY 2019 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1887,10 +1887,10 @@ Overfull \hbox (5.1058pt too wide) in paragraph at lines 57--57
 [1
 
 
-] [2] [3] [4] [5]
+] [2] [3] [4] [5] [6]
 File: Img/Introduction_Framework_of_Organization.jpg Graphic file (type bmp)
 <Img/Introduction_Framework_of_Organization.jpg>
- [6]) (./Tex/Chap_Related_Work.tex [7] [8]
+ [7]) (./Tex/Chap_Related_Work.tex [8]
 第2章
 [9
 
@@ -2025,12 +2025,7 @@ Overfull \hbox (29.17195pt too wide) in paragraph at lines 608--634
  [][] 
  []
 
-[79] [80] [81] [82]
-Overfull \hbox (19.9136pt too wide) in paragraph at lines 825--846
- [][] 
- []
-
-[83] [84] [85] [86]
+[79] [80] [81] [82] [83] [84] [85] [86]
 File: Img/function_F3.eps Graphic file (type eps)
 <Img/function_F3.eps>
 File: Img/function_F4.eps Graphic file (type eps)
@@ -2046,7 +2041,7 @@ File: Img/function_F28.eps Graphic file (type eps)
  [87] [88] [89] [90] [91
 
 ]
-Overfull \hbox (0.66699pt too wide) in paragraph at lines 1030--1032
+Overfull \hbox (0.66699pt too wide) in paragraph at lines 1031--1033
 \TU/SimSun(1)/m/n/12.045 总 的 执 行 时 间 \TU/entextrm/m/it/12.045 Makespan \TU/SimSun(1)/m/n/12.045 为 所 有 节 点 的 执 行 时 间 取 最 长 值。|  计 算 方 法 如 公 式[][]\TU/entextsf/m/n/12.045 5.24[][]\TU/SimSun(1)/m/n/12.045 所
  []
 
@@ -2081,12 +2076,12 @@ Overfull \hbox (13.713pt too wide) in paragraph at lines 69--70
 []\TU/entextsf/m/n/12.045 [2] Ran Zhao, Hong Ni, Hangwei Feng, Xiaoyong Zhu. A Dynamic Weight Grasshop-
  []
 
-[127]
+
 Overfull \hbox (11.55403pt too wide) in paragraph at lines 91--92
 []\TU/entextsf/m/n/12.045 2. \TU/SimSun(1)/m/n/12.045 韩 锐、|  李 超、|  赵 然、|  朱 小 勇、|  郭 志 川，|  机 顶 盒 \TU/entextsf/m/n/12.045 IP \TU/SimSun(1)/m/n/12.045 升 级 软 件\TU/entextsf/m/n/12.045 . \TU/SimSun(1)/m/n/12.045 登 记 号：| \TU/entextsf/m/n/12.045 2017SRBJ0116 
  []
 
-
+[127]
 Overfull \hbox (33.18402pt too wide) in paragraph at lines 103--104
 []\TU/entextsf/m/n/12.045 5. \TU/SimSun(1)/m/n/12.045 国 家 科 技 支 撑 计 划 课 题：|  电 视 商 务 综 合 体 新 业 态 应 用 示 范  |（编 号：| \TU/entextsf/m/n/12.045 2012BAH73F02\TU/SimSun(1)/m/n/12.045 ）| 
  []
